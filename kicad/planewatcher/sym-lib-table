@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "planewatcher") (type "KiCad") (uri "${KIPRJMOD}/planewatcher.kicad_sym") (options "") (descr ""))
+	(lib (name "Tai-Saw") (type "KiCad") (uri "${KIPRJMOD}/Tai-Saw.kicad_sym") (options "") (descr ""))
+	(lib (name "Analog_Devices") (type "KiCad") (uri "${KIPRJMOD}/Analog_Devices.kicad_sym") (options "") (descr ""))
+)
