@@ -29048,7 +29048,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FPGA Connections"
+		(property "Value" "FPGA Connections to Zynq HR bank"
 			(at 196.85 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
