@@ -468,8 +468,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "planewatcher"
+    ],
+    "pinned_symbol_libs": [
+      "planewatcher"
+    ]
   },
   "meta": {
     "filename": "planewatcher.kicad_pro",
@@ -650,7 +654,7 @@
         "uuid": "7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
       }
     ],
-    "used_designators": "U10",
+    "used_designators": "#PWR3-4,#PWR9-14,FL1-2,C5-8,L2,TP3,TP13,U1-13",
     "variants": []
   },
   "sheets": [

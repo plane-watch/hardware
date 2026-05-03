@@ -8,7 +8,7 @@
 		(at 0 -1.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "a81ac1fc-7090-48b3-9dca-4f47c3eb19c6")
+		(uuid "8303859c-3f79-4cf8-a72b-80628c83f7e4")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "20dc9f30-786e-4919-acdb-841167247e60")
+		(uuid "d89a1e75-ca7b-408a-a9fc-579f100b8cfc")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a8034868-ef7a-4549-8873-d5dd9f45ee81")
+		(uuid "7c71687b-ef12-4399-8a39-b409a9187ad4")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e13fde1c-a229-40cf-8e70-3bfd3d84fcc4")
+		(uuid "594c5eb1-96ca-49b3-9ac2-1b95e32f5ffd")
 		(effects
 			(font
 				(size 1 1)
@@ -65,7 +65,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "5e824a81-6e55-4370-9fa6-8711f2366f0a")
+		(uuid "5dd15a92-0973-4aeb-acab-b224c98d747a")
 	)
 	(fp_rect
 		(start -0.555 -0.33)
@@ -76,13 +76,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "e4d88d2b-23fe-4add-884a-933a7974a567")
+		(uuid "c059102e-80a2-45d6-bfe7-ffca36cb32f8")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "57e4a48d-4a55-49fc-972d-2456762eba31")
+		(uuid "8fdac2ed-963c-4683-9834-24242551ca58")
 		(effects
 			(font
 				(size 1 1)
@@ -94,35 +94,13 @@
 		(at -0.485 0 90)
 		(size 0.66 0.36)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(teardrops
-			(best_length_ratio 0.5)
-			(max_length 1)
-			(best_width_ratio 1)
-			(max_width 2)
-			(curved_edges no)
-			(filter_ratio 0.9)
-			(enabled yes)
-			(allow_two_segments yes)
-			(prefer_zone_connections yes)
-		)
-		(uuid "21aeaff3-e1ad-49fb-a55e-b7d5800bc960")
+		(uuid "57f53919-f929-43f1-a309-cb585d2428d5")
 	)
 	(pad "2" smd rect
 		(at 0.485 0 90)
 		(size 0.66 0.36)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(teardrops
-			(best_length_ratio 0.5)
-			(max_length 1)
-			(best_width_ratio 1)
-			(max_width 2)
-			(curved_edges no)
-			(filter_ratio 0.9)
-			(enabled yes)
-			(allow_two_segments yes)
-			(prefer_zone_connections yes)
-		)
-		(uuid "cbce432a-301a-44b7-ac47-bc6ae48f2c9c")
+		(uuid "e094a3c4-1a87-4470-a582-5a14575af531")
 	)
 	(embedded_fonts no)
 )

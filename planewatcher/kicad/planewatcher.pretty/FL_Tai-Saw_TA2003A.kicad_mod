@@ -1,0 +1,234 @@
+(footprint "FL_Tai-Saw_TA2003A"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "eff9a93d-18a4-46ce-ae4a-446864e8540e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "FL_Tai-Saw_TA2003A"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "551dd46c-c3d4-4b82-8dcc-8dbdde03f72a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.taisaw.com/assets/PDF/TA2003A%20_Rev.1.0_.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58e070ba-675f-4cb8-8cbd-6ca515e0ecff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Footprint for Tai-Saw TA2003A SAW Filter"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5852b8dd-da97-458a-bfef-742669c05a69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2 -2)
+		(end -2 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0712ae78-b73b-4a5b-98a1-737c3ab15d28")
+	)
+	(fp_line
+		(start -2 1.5)
+		(end -2 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5c8ea5d4-2364-4f0a-81e9-ba25097cf256")
+	)
+	(fp_line
+		(start -2 2)
+		(end -1.5 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "47eeabd6-9181-485d-8860-0ef34fa6e311")
+	)
+	(fp_line
+		(start -1.5 -2)
+		(end -2 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bdbe8646-2a5e-4b63-a9c7-836e60017d4d")
+	)
+	(fp_line
+		(start 1.5 2)
+		(end 2 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ce9cc269-20df-418b-9358-47d4ee78758c")
+	)
+	(fp_line
+		(start 2 -2)
+		(end 1.5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e2e49595-6eae-400b-9c3f-96a8bbdcd644")
+	)
+	(fp_line
+		(start 2 -1.5)
+		(end 2 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3dde430f-17a9-4b54-8a70-ec965fc937d9")
+	)
+	(fp_line
+		(start 2 2)
+		(end 2 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "533a7026-141b-40ca-bf79-0015c741c9a9")
+	)
+	(fp_poly
+		(pts
+			(xy -2.008645 -1.219587) (xy -2.338645 -0.979587) (xy -2.338645 -1.459587)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c8167513-ab49-48d5-865a-2a53e1b8e153")
+	)
+	(fp_rect
+		(start -1.85 -1.85)
+		(end 1.85 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "96d7058a-f4b0-4369-8f55-f2a1da9222ba")
+	)
+	(fp_rect
+		(start -1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "97e3d958-334f-4288-bdad-2da4e392394b")
+	)
+	(fp_text user "A"
+		(at -1.364971 -0.600859 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "647d85e8-0d1d-4e58-9fdf-7f93ad8e8b6e")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c2bf3f7d-3b4c-454b-b50e-805ac3150d5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A" smd rect
+		(at -0.745 -1.19)
+		(size 1.7 0.81)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "65221a8e-167c-4f25-8dc9-35201dcb0b02")
+	)
+	(pad "B" smd rect
+		(at -1.07 0)
+		(size 1.05 0.81)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "38ab5ff6-61e1-4d37-afef-c41e4e98c6df")
+	)
+	(pad "C" smd rect
+		(at -1.07 1.19)
+		(size 1.05 0.81)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "386e8e8b-89f1-4980-87fe-998447a0566a")
+	)
+	(pad "D" smd rect
+		(at 1.07 1.19)
+		(size 1.05 0.81)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f1a05edd-23b3-47ef-9ccf-849891a45ee0")
+	)
+	(pad "E" smd rect
+		(at 1.07 0)
+		(size 1.05 0.81)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "32391c8f-3b24-49e5-bad2-fd85b5a3a3d9")
+	)
+	(pad "F" smd rect
+		(at 1.07 -1.19)
+		(size 1.05 0.81)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c05008ca-2ef8-43a1-a851-c0038ff6d615")
+	)
+	(embedded_fonts no)
+)
