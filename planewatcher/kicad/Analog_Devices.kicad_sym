@@ -2654,7 +2654,7 @@
 			)
 		)
 		(symbol "LT8640_1_1"
-			(text "LT8608"
+			(text "LT8640"
 				(at 0 -23.114 0)
 				(effects
 					(font
