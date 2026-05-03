@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Coilcraft") (type "KiCad") (uri "${KIPRJMOD}/Coilcraft.pretty") (options "") (descr ""))
+)
