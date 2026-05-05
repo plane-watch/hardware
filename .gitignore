@@ -345,3 +345,5 @@ $RECYCLE.BIN/
 
 .history
 
+*.kicad_*.lck
+
