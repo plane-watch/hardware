@@ -3,12 +3,12 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "TSLP-2-20 footprint for Infineon ESD112-B1-02EL")
+	(descr "Footprint for Infineon ESD112-B1-02EL, TSLP-2-20 package.")
 	(property "Reference" "REF**"
 		(at 0 -1.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "bd4bf419-ee77-40e7-94b2-d4c1ac80bbf5")
+		(uuid "7fc0e2a9-2237-412c-91cd-77e343604f90")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "9d18ff07-fef5-4c52-8fef-e22487604685")
+		(uuid "019159ad-da90-4258-9ce8-53c75a46461d")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "84ac2470-88b3-4f28-8cb6-94aa1309c19d")
+		(uuid "60ebbb68-877e-4259-b8c0-8b93785fd339")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "38795114-059e-4b10-a9da-a6a5a9f7187f")
+		(uuid "5546e29b-5ffa-4509-a0e7-69e724cc89ef")
 		(effects
 			(font
 				(size 1 1)
@@ -65,7 +65,7 @@
 		)
 		(fill yes)
 		(layer "F.Mask")
-		(uuid "036592a1-7032-46ce-becb-85e07d45531b")
+		(uuid "f21647a2-c61c-43ef-8871-fb2a75afd188")
 	)
 	(fp_rect
 		(start -0.47 -0.225)
@@ -76,7 +76,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "0b2bdfd7-1985-4ebd-a809-526d094b9563")
+		(uuid "db658e14-57d9-4030-9aab-5a145aac10d6")
 	)
 	(fp_rect
 		(start 0.19 -0.225)
@@ -87,7 +87,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "926ace26-4263-4ff6-99e1-e08e3c72b988")
+		(uuid "bfd561dc-ef3d-4d9e-9469-5424ee2a9198")
 	)
 	(fp_rect
 		(start -0.75 -0.55)
@@ -98,7 +98,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "b81e6d47-de55-4975-bac4-845f6cd864ab")
+		(uuid "d92683c7-b0bd-4350-b1b5-e84dd335f138")
 	)
 	(fp_rect
 		(start -0.5 -0.3)
@@ -109,13 +109,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "eaa2ecb2-9fb5-4e5f-b110-9a15f69c6bf1")
+		(uuid "571c929e-8adf-4dae-9093-7f17a56dcaa6")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "9a3a0da9-b576-4bdc-912c-0ec869b0408e")
+		(uuid "430c84d5-ac78-488d-ae3a-6a65a9d51ed6")
 		(effects
 			(font
 				(size 1 1)
@@ -127,13 +127,24 @@
 		(at -0.325 0 90)
 		(size 0.6 0.35)
 		(layers "F.Cu" "F.Mask")
-		(uuid "9f357cf0-c502-45a4-b8cc-ad04f1cd9694")
+		(uuid "e7a0f2ce-2f26-46e8-8716-92511ef62007")
 	)
 	(pad "2" smd rect
 		(at 0.325 0 90)
 		(size 0.6 0.35)
 		(layers "F.Cu" "F.Mask")
-		(uuid "bf09fecf-d4b6-41e0-bef1-ec5bd3e0bedf")
+		(uuid "9d2f2412-cca1-4c93-bde3-c08f16c98d9e")
 	)
 	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

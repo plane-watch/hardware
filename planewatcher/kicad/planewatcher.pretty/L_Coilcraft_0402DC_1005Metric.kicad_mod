@@ -3,12 +3,12 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "0402 (1005 Metric) chip inductor, Coilcraft 0402DC series, land pattern per datasheet (F=0.36mm, G=0.61mm, H=0.66mm)")
+	(descr "Footprint for Coilcraft 0402DC, 0402 (1005 Metric) chip inductor")
 	(property "Reference" "REF**"
 		(at 0 -1.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "8303859c-3f79-4cf8-a72b-80628c83f7e4")
+		(uuid "becab7e4-c506-4103-ab74-7b1bf8458764")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "d89a1e75-ca7b-408a-a9fc-579f100b8cfc")
+		(uuid "61695372-9c81-44c4-b7af-dd0f46455f08")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7c71687b-ef12-4399-8a39-b409a9187ad4")
+		(uuid "691dad4c-550c-4eeb-9b66-389397289f5f")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "594c5eb1-96ca-49b3-9ac2-1b95e32f5ffd")
+		(uuid "4f1dd89f-2375-4664-9b81-55b7b684c54d")
 		(effects
 			(font
 				(size 1 1)
@@ -65,7 +65,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "5dd15a92-0973-4aeb-acab-b224c98d747a")
+		(uuid "f779b8f2-725f-4ce2-a413-b9905d30a2f8")
 	)
 	(fp_rect
 		(start -0.555 -0.33)
@@ -76,13 +76,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "c059102e-80a2-45d6-bfe7-ffca36cb32f8")
+		(uuid "6ba46c3d-c97f-4716-b081-1e2b3a45e8ef")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "8fdac2ed-963c-4683-9834-24242551ca58")
+		(uuid "92d67f9c-f275-4668-9569-d9c5554ff262")
 		(effects
 			(font
 				(size 1 1)
@@ -94,13 +94,24 @@
 		(at -0.485 0 90)
 		(size 0.66 0.36)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "57f53919-f929-43f1-a309-cb585d2428d5")
+		(uuid "7414795f-7b28-4003-a147-4321ada8b0ab")
 	)
 	(pad "2" smd rect
 		(at 0.485 0 90)
 		(size 0.66 0.36)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "e094a3c4-1a87-4470-a582-5a14575af531")
+		(uuid "d3d810a4-99b9-41f4-965e-52ca08381fb0")
 	)
 	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
