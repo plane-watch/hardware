@@ -2752,6 +2752,777 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:RFShield_OnePiece"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RFShield_OnePiece"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "One-piece EMI RF shielding cabinet"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "RF EMI shielding cabinet"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RFShield_OnePiece_0_1"
+				(polyline
+					(pts
+						(xy -15.24 6.35) (xy -15.24 7.62) (xy -13.97 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 2.54) (xy -15.24 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 -1.27) (xy -15.24 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 -5.08) (xy -15.24 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -13.97 -7.62) (xy -15.24 -7.62) (xy -15.24 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 7.62) (xy -10.16 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -7.62) (xy -12.7 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 7.62) (xy -8.89 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -7.62) (xy -8.89 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 7.62) (xy -5.08 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -7.62) (xy -5.08 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy 1.27 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy -1.27 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 7.62) (xy 2.54 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -7.62) (xy 8.89 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 7.62) (xy 6.35 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 12.7 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 7.62) (xy 10.16 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 -7.62) (xy 15.24 -7.62) (xy 15.24 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 6.35) (xy 15.24 7.62) (xy 13.97 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 2.54) (xy 15.24 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -1.27) (xy 15.24 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -5.08) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RFShield_OnePiece_1_1"
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Pack04"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RN"
+				(at -7.62 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Pack04"
+				(at 5.08 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 6.985 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "4 resistor network, parallel topology"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R network parallel topology isolated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Pack04_0_1"
+				(rectangle
+					(start -6.35 -2.413)
+					(end 3.81 2.413)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -5.715 1.905)
+					(end -4.445 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.905) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.175 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.905) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.635 1.905)
+					(end 0.635 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.905 1.905)
+					(end 3.175 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Pack04_1_1"
+				(pin passive line
+					(at -5.08 -5.08 90)
+					(length 2.54)
+					(name "R1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "R2.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "R3.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "R4.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 270)
+					(length 2.54)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:SMAJ15A"
 			(pin_numbers
 				(hide yes)
@@ -9433,16 +10204,8 @@
 		(uuid "01587b0d-ba65-479a-8c40-8b236ce1f733")
 	)
 	(no_connect
-		(at 443.23 157.48)
-		(uuid "0222b0d5-c454-4786-a442-cc4d77e05546")
-	)
-	(no_connect
 		(at 177.8 223.52)
 		(uuid "13eda1a7-f5fd-4e85-8329-31fcc49bfcde")
-	)
-	(no_connect
-		(at 438.15 236.22)
-		(uuid "18a63391-52a6-4fac-b7cb-59406600ea4d")
 	)
 	(no_connect
 		(at 438.15 243.84)
@@ -9457,14 +10220,6 @@
 		(uuid "30c4c38d-b333-45a4-9f25-3353b53393d6")
 	)
 	(no_connect
-		(at 499.11 113.03)
-		(uuid "413b8d42-d479-4770-83db-2d27d9e72033")
-	)
-	(no_connect
-		(at 443.23 35.56)
-		(uuid "520a9fc1-e20f-457b-bede-9d274a886e0c")
-	)
-	(no_connect
 		(at 212.09 227.33)
 		(uuid "55cafc66-4192-4d85-ba24-c193e42f2b52")
 	)
@@ -9477,24 +10232,12 @@
 		(uuid "866cabc9-571e-4548-9d14-5c7cb210a815")
 	)
 	(no_connect
-		(at 417.83 161.29)
-		(uuid "8d329562-be2e-4b0d-9c01-cf27c893f8e2")
-	)
-	(no_connect
 		(at 177.8 200.66)
 		(uuid "abb123d2-d126-4239-8f8f-c78009c8152b")
 	)
 	(no_connect
-		(at 496.57 173.99)
-		(uuid "b2438576-598b-48dc-9305-06690a3b5b21")
-	)
-	(no_connect
 		(at 177.8 215.9)
 		(uuid "be87c47c-27eb-4e7c-8823-54e3d73c534a")
-	)
-	(no_connect
-		(at 417.83 39.37)
-		(uuid "c2fa786e-c30b-4f65-a1d5-a534f1f53b2c")
 	)
 	(no_connect
 		(at 177.8 231.14)
@@ -9505,16 +10248,8 @@
 		(uuid "ce0def2e-fbc1-4ed6-a93a-3356fd2eb9d4")
 	)
 	(no_connect
-		(at 443.23 96.52)
-		(uuid "d71d9bea-e855-4a8b-830a-1dac44e1e823")
-	)
-	(no_connect
 		(at 177.8 196.85)
 		(uuid "daae7aad-8d25-460f-88d9-bfb07b176a9e")
-	)
-	(no_connect
-		(at 417.83 100.33)
-		(uuid "e6b96ed7-d3e0-4473-8e2a-0d1df51b3978")
 	)
 	(no_connect
 		(at 337.82 78.74)
@@ -9523,10 +10258,6 @@
 	(no_connect
 		(at 212.09 231.14)
 		(uuid "e9b300e6-d599-4a85-9903-99f8fa143bc5")
-	)
-	(no_connect
-		(at 499.11 52.07)
-		(uuid "ff8cc957-02ed-4560-bc3a-b66e4c265b93")
 	)
 	(wire
 		(pts
@@ -9600,6 +10331,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 146.05) (xy 236.22 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02c97094-6aec-4384-8c90-239670c55feb")
+	)
+	(wire
+		(pts
 			(xy 156.21 52.07) (xy 158.75 52.07)
 		)
 		(stroke
@@ -9617,6 +10358,16 @@
 			(type default)
 		)
 		(uuid "040ec55f-a527-4176-bff5-1232a7298746")
+	)
+	(wire
+		(pts
+			(xy 212.09 180.34) (xy 229.87 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f2fc29-0d89-4725-b8c2-05776385aa5c")
 	)
 	(wire
 		(pts
@@ -9830,16 +10581,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 153.67) (xy 226.06 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0df3899f-6380-4558-b7ed-bea32ce664c4")
-	)
-	(wire
-		(pts
 			(xy 172.72 186.69) (xy 172.72 190.5)
 		)
 		(stroke
@@ -9887,6 +10628,16 @@
 			(type default)
 		)
 		(uuid "0f8e496d-e7c7-4e6f-9233-9d9070d92c66")
+	)
+	(wire
+		(pts
+			(xy 227.33 143.51) (xy 236.22 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fad8ca1-2237-41e7-a57a-4f77c4ff17a3")
 	)
 	(wire
 		(pts
@@ -9947,6 +10698,16 @@
 			(type default)
 		)
 		(uuid "12981012-6fb6-477c-b421-09155c23e54a")
+	)
+	(wire
+		(pts
+			(xy 212.09 161.29) (xy 227.33 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12cec8fd-ff86-4169-9cac-91c4829b9cf0")
 	)
 	(wire
 		(pts
@@ -10040,16 +10801,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 161.29) (xy 214.63 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19569f1c-83a0-41ee-afd3-c8e0254ea697")
-	)
-	(wire
-		(pts
 			(xy 472.44 149.86) (xy 472.44 153.67)
 		)
 		(stroke
@@ -10057,16 +10808,6 @@
 			(type default)
 		)
 		(uuid "1a9a3df4-dda6-4397-9f86-5d4f2280d929")
-	)
-	(wire
-		(pts
-			(xy 233.68 165.1) (xy 259.08 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aa184db-127d-4698-a430-7ddf152b18af")
 	)
 	(wire
 		(pts
@@ -10150,16 +10891,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 142.24) (xy 226.06 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ebff36b-96d4-4181-9122-dc35df9f9057")
-	)
-	(wire
-		(pts
 			(xy 417.83 43.18) (xy 403.86 43.18)
 		)
 		(stroke
@@ -10220,6 +10951,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 157.48) (xy 226.06 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216b318b-b73c-41ce-a194-83ce92929c7e")
+	)
+	(wire
+		(pts
 			(xy 459.74 27.94) (xy 474.98 27.94)
 		)
 		(stroke
@@ -10250,13 +10991,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 172.72) (xy 259.08 172.72)
+			(xy 227.33 172.72) (xy 227.33 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23b229cf-268e-4398-8e38-ab7466710e06")
+		(uuid "23246fa7-8820-4614-9071-b555267d0ec4")
 	)
 	(wire
 		(pts
@@ -10287,6 +11028,16 @@
 			(type default)
 		)
 		(uuid "258979b7-be2b-419c-a69b-daa05a96a04c")
+	)
+	(wire
+		(pts
+			(xy 246.38 156.21) (xy 259.08 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25d2ff65-7bcf-4cf7-a493-23b54e67d694")
 	)
 	(wire
 		(pts
@@ -10400,6 +11151,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 168.91) (xy 259.08 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a17d668-0f2f-4c8c-a331-67c21555cc90")
+	)
+	(wire
+		(pts
 			(xy 33.02 140.97) (xy 48.26 140.97)
 		)
 		(stroke
@@ -10460,13 +11221,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 165.1) (xy 226.06 165.1)
+			(xy 226.06 142.24) (xy 226.06 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f5f7446-7685-4d5f-87b9-e1a9eaa242d9")
+		(uuid "3012ca39-c365-42b4-9b3b-4c924799cce5")
 	)
 	(wire
 		(pts
@@ -10567,6 +11328,16 @@
 			(type default)
 		)
 		(uuid "341f56e4-ff7a-483d-9ff5-224abd3cf749")
+	)
+	(wire
+		(pts
+			(xy 212.09 138.43) (xy 236.22 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36867912-0c74-40a0-bdef-2132caba7508")
 	)
 	(wire
 		(pts
@@ -10750,13 +11521,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 180.34) (xy 237.49 180.34)
+			(xy 246.38 176.53) (xy 259.08 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f63ad41-e169-4327-965b-cdc173c52d1e")
+		(uuid "3eb1c897-37e9-42bb-86d8-7256cde975bd")
 	)
 	(wire
 		(pts
@@ -10880,16 +11651,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 138.43) (xy 214.63 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48733cf2-e85a-4247-b31c-a3d200e972f8")
-	)
-	(wire
-		(pts
 			(xy 469.9 165.1) (xy 472.44 165.1)
 		)
 		(stroke
@@ -10917,6 +11678,16 @@
 			(type default)
 		)
 		(uuid "497bae3e-3cb6-49ee-8add-69c33f09fd5a")
+	)
+	(wire
+		(pts
+			(xy 246.38 173.99) (xy 259.08 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a333bec-7cbc-4a5d-9c03-a02e7fd911ae")
 	)
 	(wire
 		(pts
@@ -11330,6 +12101,26 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 161.29) (xy 259.08 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cf46882-05cc-42b9-8f64-49c2875b00c1")
+	)
+	(wire
+		(pts
+			(xy 246.38 138.43) (xy 259.08 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d994d02-19ed-4ba4-a681-4f314fdf97fe")
+	)
+	(wire
+		(pts
 			(xy 212.09 219.71) (xy 214.63 219.71)
 		)
 		(stroke
@@ -11367,6 +12158,16 @@
 			(type default)
 		)
 		(uuid "5f0d079d-2598-41a2-929c-ba0443bf28c5")
+	)
+	(wire
+		(pts
+			(xy 212.09 153.67) (xy 236.22 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f3b2929-5ee0-4ddd-a779-1cbfdee0e297")
 	)
 	(wire
 		(pts
@@ -11540,6 +12341,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 171.45) (xy 236.22 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699beabc-c386-4003-b65a-1a1dea3d2e03")
+	)
+	(wire
+		(pts
 			(xy 212.09 106.68) (xy 212.09 96.52)
 		)
 		(stroke
@@ -11557,6 +12368,16 @@
 			(type default)
 		)
 		(uuid "6c57166e-0bce-4d25-8eb1-10298cc1b276")
+	)
+	(wire
+		(pts
+			(xy 212.09 149.86) (xy 228.6 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7584f8-5a43-4eb3-96ac-a3413482d069")
 	)
 	(wire
 		(pts
@@ -11630,6 +12451,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 156.21) (xy 236.22 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70996ff3-271a-4a31-8e73-3d9bc0a0bb27")
+	)
+	(wire
+		(pts
 			(xy 557.53 35.56) (xy 561.34 35.56)
 		)
 		(stroke
@@ -11660,13 +12491,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 176.53) (xy 226.06 176.53)
+			(xy 212.09 142.24) (xy 226.06 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72b30365-cf10-4452-9658-7a9c68d018cf")
+		(uuid "727437e6-0535-4c2b-bcbf-11a88a973623")
 	)
 	(wire
 		(pts
@@ -11677,6 +12508,16 @@
 			(type default)
 		)
 		(uuid "73915120-d672-4fd0-9c66-bd3c15202aff")
+	)
+	(wire
+		(pts
+			(xy 228.6 149.86) (xy 228.6 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "742aa625-0814-47c4-9668-c81ea3c9c06d")
 	)
 	(wire
 		(pts
@@ -11720,6 +12561,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 161.29) (xy 227.33 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757bc5ac-0d52-4e38-bcff-c5963eca7d35")
+	)
+	(wire
+		(pts
 			(xy 110.49 31.75) (xy 116.84 31.75)
 		)
 		(stroke
@@ -11737,26 +12588,6 @@
 			(type default)
 		)
 		(uuid "78878016-ed0d-4cfe-b740-821a17ad1236")
-	)
-	(wire
-		(pts
-			(xy 222.25 138.43) (xy 259.08 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7903cfc0-b7cb-4681-b66b-8df2d6f95485")
-	)
-	(wire
-		(pts
-			(xy 245.11 157.48) (xy 259.08 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79626019-0102-4c3b-a7d9-a92008e90b82")
 	)
 	(wire
 		(pts
@@ -11780,13 +12611,23 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 161.29) (xy 259.08 161.29)
+			(xy 212.09 172.72) (xy 227.33 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a9b816b-fb7f-4092-a7f3-9835d601487d")
+		(uuid "7a294f4f-3a16-4ddc-ae25-0748a5c446c1")
+	)
+	(wire
+		(pts
+			(xy 227.33 158.75) (xy 236.22 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a440482-957d-481b-9e47-8a66ee69ed6e")
 	)
 	(wire
 		(pts
@@ -11920,16 +12761,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 153.67) (xy 259.08 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80af584d-4cf8-4ea5-b0ed-ed20331c6559")
-	)
-	(wire
-		(pts
 			(xy 506.73 97.79) (xy 506.73 101.6)
 		)
 		(stroke
@@ -11937,6 +12768,16 @@
 			(type default)
 		)
 		(uuid "80d9c16c-19db-49a7-895b-c60f904aa289")
+	)
+	(wire
+		(pts
+			(xy 246.38 158.75) (xy 259.08 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817d4aee-49f2-43ca-b2df-736ad01b66c0")
 	)
 	(wire
 		(pts
@@ -11990,6 +12831,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 153.67) (xy 259.08 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8392611a-ad25-41d4-a077-477d5b1fdf30")
+	)
+	(wire
+		(pts
 			(xy 60.96 133.35) (xy 76.2 133.35)
 		)
 		(stroke
@@ -12010,16 +12861,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 172.72) (xy 214.63 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "877cfcb7-84af-4715-8439-fc714b9fbaaa")
-	)
-	(wire
-		(pts
 			(xy 474.98 25.4) (xy 474.98 27.94)
 		)
 		(stroke
@@ -12037,6 +12878,26 @@
 			(type default)
 		)
 		(uuid "890d8774-15bc-45bc-a6d9-ff6abd1f6ced")
+	)
+	(wire
+		(pts
+			(xy 212.09 168.91) (xy 236.22 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89444914-f882-43d8-b7cd-91505b9ac8e2")
+	)
+	(wire
+		(pts
+			(xy 212.09 176.53) (xy 228.6 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a24558-7184-4a7a-9473-a60cdc9e9ff4")
 	)
 	(wire
 		(pts
@@ -12160,6 +13021,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 180.34) (xy 229.87 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa581d9-cb88-448a-8c75-34296be5335d")
+	)
+	(wire
+		(pts
 			(xy 260.35 53.34) (xy 262.89 53.34)
 		)
 		(stroke
@@ -12197,6 +13068,16 @@
 			(type default)
 		)
 		(uuid "9289ee88-c09f-4cbc-ab7a-d3c004a66681")
+	)
+	(wire
+		(pts
+			(xy 229.87 176.53) (xy 236.22 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f1027b-ad59-4e3b-a4f0-cda3a45ebea1")
 	)
 	(wire
 		(pts
@@ -12300,6 +13181,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 165.1) (xy 228.6 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f1daa0-72c7-4619-b0ac-87c219b482d2")
+	)
+	(wire
+		(pts
 			(xy 486.41 52.07) (xy 488.95 52.07)
 		)
 		(stroke
@@ -12317,36 +13208,6 @@
 			(type default)
 		)
 		(uuid "9969ca12-b04e-4560-b1fb-e3b53098a6aa")
-	)
-	(wire
-		(pts
-			(xy 212.09 168.91) (xy 237.49 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "999aab76-2793-41e2-9d7d-0361769194a2")
-	)
-	(wire
-		(pts
-			(xy 212.09 149.86) (xy 214.63 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a9cd892-3ad5-4665-9411-17fa32515d1d")
-	)
-	(wire
-		(pts
-			(xy 212.09 146.05) (xy 237.49 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b79cc04-c698-43a3-922b-a3b5c92b2376")
 	)
 	(wire
 		(pts
@@ -12377,16 +13238,6 @@
 			(type default)
 		)
 		(uuid "9cbbf8bd-9527-4127-a237-fdb3fdbfd26c")
-	)
-	(wire
-		(pts
-			(xy 245.11 168.91) (xy 259.08 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d0010d5-4bb4-43a9-a45e-de076b9bebcf")
 	)
 	(wire
 		(pts
@@ -12670,6 +13521,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 143.51) (xy 259.08 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8e6d44e-7b65-4853-8532-d61bc03c3f80")
+	)
+	(wire
+		(pts
 			(xy 60.96 105.41) (xy 76.2 105.41)
 		)
 		(stroke
@@ -12840,6 +13701,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 176.53) (xy 228.6 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3664948-0997-456b-9069-d97c804a2acf")
+	)
+	(wire
+		(pts
 			(xy 363.22 50.8) (xy 363.22 29.21)
 		)
 		(stroke
@@ -12880,6 +13751,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 171.45) (xy 259.08 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b4036c-da61-4dbb-a890-6451fcdff182")
+	)
+	(wire
+		(pts
 			(xy 177.8 157.48) (xy 165.1 157.48)
 		)
 		(stroke
@@ -12907,6 +13788,16 @@
 			(type default)
 		)
 		(uuid "b6209b71-4430-4694-afd6-6f94cb984990")
+	)
+	(wire
+		(pts
+			(xy 228.6 161.29) (xy 236.22 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b747f672-0f56-4040-b558-5cabf80fe6d5")
 	)
 	(wire
 		(pts
@@ -12950,13 +13841,23 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 146.05) (xy 259.08 146.05)
+			(xy 227.33 146.05) (xy 227.33 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba347a1d-3705-4c0b-b663-ff678cd76441")
+		(uuid "bc2cbe93-6715-4b31-a0a3-fc3e27f253b8")
+	)
+	(wire
+		(pts
+			(xy 246.38 146.05) (xy 259.08 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd1aff04-a906-4a31-be0a-82971503ea99")
 	)
 	(wire
 		(pts
@@ -12980,6 +13881,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 173.99) (xy 236.22 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdead6cc-d259-4c69-a65a-b1cbe99b10ab")
+	)
+	(wire
+		(pts
 			(xy 60.96 176.53) (xy 76.2 176.53)
 		)
 		(stroke
@@ -12997,6 +13908,16 @@
 			(type default)
 		)
 		(uuid "bdef0d2d-ee83-4a25-b664-43ae287034d1")
+	)
+	(wire
+		(pts
+			(xy 228.6 165.1) (xy 228.6 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beaa8b9f-6ca2-49ca-bc3f-a3717b7dda90")
 	)
 	(wire
 		(pts
@@ -13037,6 +13958,16 @@
 			(type default)
 		)
 		(uuid "c14af06a-c0e9-43fe-bbce-a55308778108")
+	)
+	(wire
+		(pts
+			(xy 414.02 39.37) (xy 417.83 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1a8b4b6-debb-40a5-a377-8cce7e42b89b")
 	)
 	(wire
 		(pts
@@ -13230,16 +14161,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 180.34) (xy 259.08 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccff34e4-6f21-4f3e-88c2-564eeec5eb2b")
-	)
-	(wire
-		(pts
 			(xy 134.62 161.29) (xy 160.02 161.29)
 		)
 		(stroke
@@ -13247,6 +14168,16 @@
 			(type default)
 		)
 		(uuid "cd35cafc-91d3-46a8-b25d-93ffdaffb1e2")
+	)
+	(wire
+		(pts
+			(xy 226.06 140.97) (xy 236.22 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4d8b5d-9b93-4200-b1da-56f650075126")
 	)
 	(wire
 		(pts
@@ -13277,16 +14208,6 @@
 			(type default)
 		)
 		(uuid "cec21cb7-2470-4f5b-b737-2dcd9a58a65d")
-	)
-	(wire
-		(pts
-			(xy 233.68 176.53) (xy 259.08 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ced7aa76-b1b9-4cbf-95d5-d8b786ece227")
 	)
 	(wire
 		(pts
@@ -13327,6 +14248,16 @@
 			(type default)
 		)
 		(uuid "d1db8e95-cde0-479e-86cb-add14e7309e1")
+	)
+	(wire
+		(pts
+			(xy 212.09 157.48) (xy 226.06 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d21f8a88-c528-48d3-a01b-b0e9c76c9cf8")
 	)
 	(wire
 		(pts
@@ -13570,6 +14501,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 140.97) (xy 259.08 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc5baa9c-fe43-4466-bfe0-278125bb42aa")
+	)
+	(wire
+		(pts
 			(xy 506.73 34.29) (xy 506.73 36.83)
 		)
 		(stroke
@@ -13637,16 +14578,6 @@
 			(type default)
 		)
 		(uuid "de714348-65df-4d9d-8188-832e4d4e12cb")
-	)
-	(wire
-		(pts
-			(xy 233.68 142.24) (xy 259.08 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de7720a4-0963-4b14-b805-9727a71a7612")
 	)
 	(wire
 		(pts
@@ -13750,6 +14681,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 146.05) (xy 227.33 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea8aff31-4d72-4300-a110-ac8ba73b172d")
+	)
+	(wire
+		(pts
 			(xy 142.24 116.84) (xy 154.94 116.84)
 		)
 		(stroke
@@ -13777,16 +14718,6 @@
 			(type default)
 		)
 		(uuid "ebe3cbe3-b5b8-4536-be9d-e29d5ec83241")
-	)
-	(wire
-		(pts
-			(xy 212.09 157.48) (xy 237.49 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec522fc6-00c2-423b-94e3-9f1ce93f1424")
 	)
 	(wire
 		(pts
@@ -13907,16 +14838,6 @@
 			(type default)
 		)
 		(uuid "f36851b6-2cb5-404d-8bcf-35fed96257d0")
-	)
-	(wire
-		(pts
-			(xy 222.25 149.86) (xy 259.08 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3b1a17b-e498-463a-bb2d-88938c5ba52d")
 	)
 	(wire
 		(pts
@@ -14158,7 +15079,7 @@
 		)
 		(uuid "0123fa8e-01b5-4825-83b2-0859537c5fa8")
 	)
-	(label "FPGA_AA19"
+	(label "FPGA_Y21"
 		(at 259.08 184.15 180)
 		(effects
 			(font
@@ -14178,7 +15099,7 @@
 		)
 		(uuid "04d031f6-1b01-42d3-8b53-ed7df0a3fe34")
 	)
-	(label "FPGA_AA21"
+	(label "FPGA_AA19"
 		(at 259.08 168.91 180)
 		(effects
 			(font
@@ -14228,8 +15149,8 @@
 		)
 		(uuid "0d9d2693-e0ee-4998-b3c3-d8567ee13f43")
 	)
-	(label "FPGA_AB22"
-		(at 259.08 165.1 180)
+	(label "FPGA_AB16"
+		(at 259.08 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14338,8 +15259,8 @@
 		)
 		(uuid "27d41874-dd89-41d1-a586-64ebe9ab52bd")
 	)
-	(label "FPGA_W22"
-		(at 259.08 149.86 180)
+	(label "FPGA_V13"
+		(at 259.08 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14398,7 +15319,7 @@
 		)
 		(uuid "2cc48cd1-199d-4d74-b87b-9c6800a8e66a")
 	)
-	(label "FPGA_AB16"
+	(label "FPGA_U22"
 		(at 259.08 191.77 180)
 		(effects
 			(font
@@ -14408,7 +15329,7 @@
 		)
 		(uuid "310bb2dc-a92b-4eb8-b3d0-4af3110b95a2")
 	)
-	(label "FPGA_Y20"
+	(label "FPGA_Y13"
 		(at 259.08 153.67 180)
 		(effects
 			(font
@@ -14418,7 +15339,7 @@
 		)
 		(uuid "32912508-42b9-42b5-a472-3cb792033a34")
 	)
-	(label "FPGA_T22"
+	(label "FPGA_W16"
 		(at 259.08 138.43 180)
 		(effects
 			(font
@@ -14488,8 +15409,8 @@
 		)
 		(uuid "43d0fb29-47d8-41b3-9043-948bfd13988b")
 	)
-	(label "FPGA_V22"
-		(at 259.08 146.05 180)
+	(label "FPGA_W18"
+		(at 259.08 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14588,8 +15509,8 @@
 		)
 		(uuid "5ea36da2-6af9-4958-9bce-5938c13b1c46")
 	)
-	(label "FPGA_AB19"
-		(at 259.08 180.34 180)
+	(label "FPGA_AB22"
+		(at 259.08 176.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14638,8 +15559,8 @@
 		)
 		(uuid "6ac6b51f-7dee-4643-b3d6-00758316bb1e")
 	)
-	(label "FPGA_AB21"
-		(at 259.08 172.72 180)
+	(label "FPGA_AB19"
+		(at 259.08 171.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14828,8 +15749,8 @@
 		)
 		(uuid "8bb2f1f5-4c9b-4171-ba03-14f959aa1ab9")
 	)
-	(label "FPGA_U22"
-		(at 259.08 142.24 180)
+	(label "FPGA_AA17"
+		(at 259.08 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14938,8 +15859,8 @@
 		)
 		(uuid "a5230152-1dd5-4693-9b18-529d86bfc0be")
 	)
-	(label "FPGA_Y21"
-		(at 259.08 157.48 180)
+	(label "FPGA_AB14"
+		(at 259.08 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14968,7 +15889,7 @@
 		)
 		(uuid "a6f0badc-c1e0-4bde-a929-f314c86f8d2b")
 	)
-	(label "FPGA_AA16"
+	(label "FPGA_W22"
 		(at 259.08 187.96 180)
 		(effects
 			(font
@@ -14978,8 +15899,8 @@
 		)
 		(uuid "b1bbcb0a-fdf1-4552-8125-6333a3630c80")
 	)
-	(label "FPGA_AA22"
-		(at 259.08 161.29 180)
+	(label "FPGA_Y18"
+		(at 259.08 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14998,8 +15919,8 @@
 		)
 		(uuid "b70dc68b-b5c5-43ab-88e7-fa48bfd1402e")
 	)
-	(label "FPGA_AB20"
-		(at 259.08 176.53 180)
+	(label "FPGA_AB21"
+		(at 259.08 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15375,6 +16296,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 443.23 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1585b93f-eda8-494b-ac63-35ba9bd1a70a")
 		)
@@ -15458,6 +16390,17 @@
 			)
 		)
 		(property "Purpose" "Voltage divider for ADL5513 TADJ"
+			(at 364.49 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 364.49 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -15616,6 +16559,17 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 55.88 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 55.88 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -15911,6 +16865,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 297.18 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ae4944d9-8768-4730-9123-e3e636679c1e")
 		)
@@ -15921,85 +16886,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 241.3 146.05 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "05fc6e68-9e42-4a5a-9feb-67dbe0204eeb")
-		(property "Reference" "R23"
-			(at 239.014 143.764 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22Ω"
-			(at 243.586 143.764 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 241.3 147.828 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Yageo RC0402FR-0722RL"
-			(at 241.3 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7a67aaa3-d09c-43df-9ebd-7ec9d1046197")
-		)
-		(pin "2"
-			(uuid "54bea72c-ef67-4eb9-a807-7354d21487c7")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -16070,6 +16956,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 454.66 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cfe4e7a9-f68b-4db0-8273-321376d4f35b")
 		)
@@ -16086,8 +16983,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 218.44 172.72 90)
+		(lib_id "Connector:TestPoint")
+		(at 443.23 35.56 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16095,29 +16992,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "07faf1f2-022b-4986-9e82-89c79a37d803")
-		(property "Reference" "R39"
-			(at 216.154 170.434 90)
+		(fields_autoplaced yes)
+		(uuid "073a2eb6-e40b-49ae-ac25-edff1e60a7c2")
+		(property "Reference" "TP14"
+			(at 448.31 34.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "22Ω"
-			(at 220.726 170.434 90)
+		(property "Value" "U3_PG"
+			(at 448.31 36.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 218.44 174.498 90)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 443.23 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16128,7 +17028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 172.72 0)
+			(at 443.23 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16138,87 +17038,8 @@
 				)
 			)
 		)
-		(property "Description" "Yageo RC0402FR-0722RL"
-			(at 218.44 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "97c9841d-88c5-4a9d-b899-ffadd46d6578")
-		)
-		(pin "2"
-			(uuid "7ea6480e-9749-4fd9-ae10-ab5d2208de5f")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 229.87 142.24 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "082e3a05-5d85-4841-a7d4-b7d854adc0d0")
-		(property "Reference" "R22"
-			(at 227.584 139.954 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22Ω"
-			(at 232.156 139.954 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 229.87 144.018 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Yageo RC0402FR-0722RL"
-			(at 229.87 142.24 0)
+		(property "Description" "test point"
+			(at 443.23 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16229,15 +17050,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "56212f7b-8e35-4438-9196-d53d3562277f")
-		)
-		(pin "2"
-			(uuid "54de00fa-21e4-4539-886a-2bc1feb571df")
+			(uuid "a9c32aab-e268-4ff4-bcdd-d53b4ffd09c1")
 		)
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "R22")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -16300,6 +17118,17 @@
 			)
 		)
 		(property "Description" "Murata GRM1555C1H102JA01D"
+			(at 127 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 127 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -16470,6 +17299,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 142.24 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "821f5201-751f-4431-af56-21405c2d3ef2")
 		)
@@ -16541,6 +17381,17 @@
 		)
 		(property "Description" "Murata GRM1555C1H101JA01D"
 			(at 120.65 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 120.65 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16631,6 +17482,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 499.11 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a04173fb-1679-4d7c-a908-823a7d51e191")
 		)
@@ -16701,6 +17563,17 @@
 			)
 		)
 		(property "Description" "42V, 1.5A Synchronous Step-Down Regulator with 2.5μA Quiescent Current"
+			(at 430.53 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 430.53 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -16787,7 +17660,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 458.7748 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -16810,6 +17683,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 459.74 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 459.74 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -16892,6 +17776,17 @@
 			)
 		)
 		(property "Description" "Murata GRM155R71C104KA88D"
+			(at 154.94 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 154.94 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -17107,7 +18002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 464.82 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -17130,6 +18025,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 459.74 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 459.74 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -17208,6 +18114,17 @@
 		)
 		(property "Description" "Murata GRM1555C1H101JA01D"
 			(at 120.65 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 120.65 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17366,6 +18283,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 466.09 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 466.09 165.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17770,6 +18698,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 154.94 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3b39fab3-68bd-448f-9e5f-a0313df16920")
 		)
@@ -17850,6 +18789,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 466.09 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "acfcc0d6-27fc-41d3-a3ed-1db41635a662")
 		)
@@ -17920,6 +18870,17 @@
 			)
 		)
 		(property "Description" "42V, 1.5A Synchronous Step-Down Regulator with 2.5μA Quiescent Current"
+			(at 430.53 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 430.53 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -18039,6 +19000,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 459.74 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f87781f8-3b7c-4b08-9bcd-2e80e7cee516")
 		)
@@ -18109,6 +19081,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 434.34 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 434.34 255.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18479,7 +19462,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 511.5052 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -18502,6 +19485,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 510.54 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 510.54 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -18584,6 +19578,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 487.68 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 487.68 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -18688,6 +19693,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 417.83 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "268373b2-0829-4373-8325-bee8b2841d74")
+		(property "Reference" "#PWR027"
+			(at 417.83 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 414.02 102.108 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 417.83 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 417.83 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 417.83 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82de66bb-32d2-42b6-9bf2-e86dcd82d50b")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "planewatcher:LT8608")
 		(at 430.53 82.55 0)
 		(unit 1)
@@ -18752,6 +19834,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 430.53 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "c0ccfc0d-80d0-4c81-b26f-6612f824353e")
 		)
@@ -18789,6 +19882,84 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 438.15 236.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26dd5e3e-95c8-4342-bcb4-5f7b851d63db")
+		(property "Reference" "TP20"
+			(at 437.134 240.792 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "U10_PG"
+			(at 437.134 238.252 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 438.15 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 438.15 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 438.15 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2939c09b-5c6c-4794-ba68-fee8943e68a0")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -18852,6 +20023,17 @@
 			)
 		)
 		(property "Description" "Murata GRM155R71C104KA88D"
+			(at 254 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 254 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -19021,6 +20203,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 547.37 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "934dfd41-e8ca-4a3a-a8eb-4296250a95f6")
 		)
@@ -19070,7 +20263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 155.9052 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -19092,7 +20285,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Murata GRM155R71C104KA88D"
+			(at 154.94 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 154.94 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -19306,7 +20510,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XxL4020"
 			(at 454.66 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -19317,7 +20521,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3029cab51df3/xfl4020.pdf"
 			(at 454.66 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -19328,8 +20532,19 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "2.2µH Shld 8A 23.5mOhms AECQ2, Coilcraft XFL4020-222ME"
 			(at 454.66 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 454.66 27.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19388,7 +20603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 416.2552 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -19421,6 +20636,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 415.29 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0bd0cf9a-fb2d-41ef-8da5-8a1c25571d85")
 		)
@@ -19431,6 +20657,83 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 417.83 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33cfae80-1930-42b9-86d5-1754a3ccb298")
+		(property "Reference" "#PWR096"
+			(at 417.83 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 414.02 163.068 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 417.83 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 417.83 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 417.83 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5c876e2-5bae-4834-bee9-dc52961a0dbd")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -19492,6 +20795,17 @@
 		)
 		(property "Description" "Murata GRM155R71H473KE14D"
 			(at 304.8 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 304.8 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19573,6 +20887,17 @@
 			)
 		)
 		(property "Description" "Murata GRM155R61A106ME44D"
+			(at 140.97 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 140.97 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -19832,6 +21157,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 43.18 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b5a6be8c-ddc2-4594-8913-e73868ddf2c7")
 		)
@@ -19991,6 +21327,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 415.29 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "77486799-290b-40b8-b87d-420f52589def")
 		)
@@ -20062,6 +21409,17 @@
 		)
 		(property "Description" "Inductor"
 			(at 454.66 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 454.66 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20298,6 +21656,17 @@
 		)
 		(property "Description" "Murata GRM155R71C104KA88D"
 			(at 318.77 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 318.77 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20611,6 +21980,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 430.53 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 430.53 264.16 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20937,6 +22317,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 254 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f082d7c4-1194-4f2f-82de-b0639b055e67")
 		)
@@ -21009,6 +22400,17 @@
 			)
 		)
 		(property "Description" "Murata GRM155R71C104KA88D"
+			(at 114.3 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 114.3 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -21106,85 +22508,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "#PWR54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 218.44 138.43 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "42834c9c-60ed-4df4-b711-b0d2f894585f")
-		(property "Reference" "R21"
-			(at 216.154 136.144 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22Ω"
-			(at 220.726 136.144 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 218.44 140.208 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Yageo RC0402FR-0722RL"
-			(at 218.44 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "26f1a7eb-5f9c-492e-b7d8-a1ab52b91816")
-		)
-		(pin "2"
-			(uuid "30d74055-28df-478d-b1bf-96fd9ad8fb07")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -21414,6 +22737,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 226.06 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a242e8b9-36ca-4917-a769-4aa22857c893")
 		)
@@ -21574,6 +22908,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 534.67 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "84667c31-aa16-43ec-8717-f70b1c183060")
 		)
@@ -21646,6 +22991,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 403.86 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 403.86 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -21814,6 +23170,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 289.56 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dab29deb-da0c-4d1f-8e92-a4d71e7d3ea3")
 		)
@@ -21862,7 +23229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 509.27 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -21885,6 +23252,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 504.19 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 504.19 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -21972,6 +23350,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 487.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "96f8c8f1-2ee4-4076-b437-27403048b529")
 		)
@@ -22015,85 +23404,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 218.44 161.29 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "479685cf-1d41-4f10-916e-88f0fcb47e15")
-		(property "Reference" "R36"
-			(at 216.154 159.004 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22Ω"
-			(at 220.726 159.004 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 218.44 163.068 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Yageo RC0402FR-0722RL"
-			(at 218.44 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ee7e2506-be11-45cb-8413-0fbcca6d7663")
-		)
-		(pin "2"
-			(uuid "d91b674c-0a56-423a-a4a9-fe343f209b4a")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -22244,6 +23554,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 417.83 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6722d274-7092-4dba-bc36-fac0639c6f89")
 		)
@@ -22293,7 +23614,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 460.7052 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -22316,6 +23637,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 459.74 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 459.74 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -22396,6 +23728,17 @@
 			)
 		)
 		(property "Description" "Low Distortion, Differential ADC Driver"
+			(at 339.09 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 339.09 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -22785,7 +24128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 460.7052 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -22808,6 +24151,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 459.74 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 459.74 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -22889,6 +24243,17 @@
 		)
 		(property "Description" "Murata GRM155R71C104KA88D"
 			(at 132.08 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 132.08 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23103,7 +24468,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 397.8148 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -23126,6 +24491,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 398.78 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 398.78 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -23296,6 +24672,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 391.16 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f4edda7f-dc3d-49a9-9366-1fe38c2ca44b")
 		)
@@ -23446,6 +24833,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 491.49 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 491.49 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -23768,6 +25166,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 229.87 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2d7e83a3-b213-4447-80d2-d06e8d1ebb8a")
 		)
@@ -24006,6 +25415,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 134.62 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "40c4a757-e82f-44b6-999f-960ec1433e0a")
 		)
@@ -24016,85 +25436,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "C46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 229.87 176.53 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5f90f334-5161-4c7d-8d1c-bc3521db10df")
-		(property "Reference" "R40"
-			(at 227.584 174.244 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22Ω"
-			(at 232.156 174.244 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 229.87 178.308 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Yageo RC0402FR-0722RL"
-			(at 229.87 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "da623558-de2f-40e3-8c5f-97d2862d3158")
-		)
-		(pin "2"
-			(uuid "35cd8aba-9c70-443f-b739-d475a252640b")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -24242,6 +25583,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 318.77 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "62dab0af-26fa-4400-bb22-05a189526345")
 		)
@@ -24313,6 +25665,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 468.63 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 468.63 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -24471,6 +25834,17 @@
 		)
 		(property "Description" "Murata GRM155R71C104KA88D"
 			(at 318.77 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 318.77 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24640,6 +26014,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 487.68 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b2a8e6ea-0413-4ec3-975e-44e937d6dd54")
 		)
@@ -24767,7 +26152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 492.252 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -24790,6 +26175,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 494.03 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 494.03 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -25034,6 +26430,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 241.3 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d71135d2-54e9-4cff-b890-cda1c9d35459")
 		)
@@ -25106,6 +26513,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 415.29 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 415.29 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -25321,7 +26739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 511.81 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -25344,6 +26762,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 506.73 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 506.73 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -25445,6 +26874,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Pack04")
+		(at 241.3 173.99 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "73ea5416-d8c6-4752-a08b-208bd8c49525")
+		(property "Reference" "RN3"
+			(at 240.792 164.592 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4x 22Ω 1%"
+			(at 241.046 166.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
+			(at 241.3 180.975 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/datasheet/3/40/1/CATCAY.pdf"
+			(at 241.3 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22Ω, 1% Concave, 4 resistors, CAT16-22R0F4LF"
+			(at 241.3 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "8ce4a650-5afd-4112-ac4f-0d8d6180c89d")
+		)
+		(pin "7"
+			(uuid "9aa556e6-028d-4976-b525-b7dfbb080326")
+		)
+		(pin "6"
+			(uuid "d8f59d00-d236-430d-874a-70a8cb9c0f9f")
+		)
+		(pin "2"
+			(uuid "5f50cc01-9ac6-4d4f-ade2-c7809f097bf2")
+		)
+		(pin "1"
+			(uuid "91ab4671-3f01-45a7-9d5c-738276dfcd30")
+		)
+		(pin "5"
+			(uuid "dffe09e2-6f7c-4932-aa68-5cb168ad5225")
+		)
+		(pin "4"
+			(uuid "ccc53dbe-57af-4ce5-88c2-47b2db59439e")
+		)
+		(pin "3"
+			(uuid "5e3d5d7c-7fc8-4486-a5b8-b4a683d52f7b")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(reference "RN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 508 162.56 0)
 		(unit 1)
@@ -25478,7 +27005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 508.9652 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -25501,6 +27028,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 508 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 508 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -25581,6 +27119,17 @@
 			)
 		)
 		(property "Description" "SAW Filter 1090 MHz SMD 3.0×3.0 mm (BW=6 MHz)"
+			(at 157.48 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 157.48 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -25675,6 +27224,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 403.86 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 403.86 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -26090,6 +27650,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 34.29 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a654b0e3-37b9-430b-ac32-b042771c979d")
 		)
@@ -26163,6 +27734,17 @@
 			)
 		)
 		(property "Description" "Murata GRM155R71C104KA88D"
+			(at 238.76 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 238.76 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -26456,7 +28038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 441.452 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -26479,6 +28061,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 443.23 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 443.23 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -26571,6 +28164,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 217.17 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "04a2e79a-925f-4bf8-a1a7-f9dbd3ef6093")
 		)
@@ -26643,6 +28247,17 @@
 			)
 		)
 		(property "Description" "Murata GRM155R61A106ME44D"
+			(at 101.6 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 101.6 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -26735,6 +28350,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 468.63 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8437e771-406b-4186-bdaa-7d1777da660c")
 		)
@@ -26745,85 +28371,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "C71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 229.87 165.1 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "840a39c8-70cf-4361-bd97-17e695af9ed3")
-		(property "Reference" "R37"
-			(at 227.584 162.814 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22Ω"
-			(at 232.156 162.814 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 229.87 166.878 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Yageo RC0402FR-0722RL"
-			(at 229.87 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2a0cf12b-37c4-424f-9af8-3c77c7f53166")
-		)
-		(pin "2"
-			(uuid "bda0bc2c-17bb-481b-b8b2-446d576a07d6")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -26862,7 +28409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 492.76 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -26885,6 +28432,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 487.68 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 487.68 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -26939,7 +28497,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 450.85 26.9748 0)
 			(hide yes)
 			(show_name no)
@@ -26963,6 +28521,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 447.04 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 447.04 27.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27066,6 +28635,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:RFShield_OnePiece")
+		(at 328.93 201.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b4fdae1-eef0-4560-b981-4dca53b94b1b")
+		(property "Reference" "J5"
+			(at 345.44 200.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RFShield_OnePiece"
+			(at 345.44 203.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RF_Shielding:Laird_Technologies_BMI-S-209-F_29.36x18.50mm"
+			(at 328.93 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "One-piece EMI RF shielding cabinet"
+			(at 328.93 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "824e92fc-f4b0-47b8-8bbe-b3a024d5236d")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 114.3 113.03 0)
 		(unit 1)
@@ -27122,6 +28770,17 @@
 			)
 		)
 		(property "Description" "Murata GRM155R71C104KA88D"
+			(at 114.3 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 114.3 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -27202,6 +28861,17 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 55.88 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 55.88 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -27531,7 +29201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 402.082 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -27554,6 +29224,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 403.86 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 403.86 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -27644,6 +29325,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 447.04 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6b23cc9c-5e63-4bc0-a2c5-ec7d378df53f")
 		)
@@ -27654,6 +29346,104 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04")
+		(at 241.3 158.75 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8f7acd02-b9e4-4cda-9243-8352d8f3d035")
+		(property "Reference" "RN2"
+			(at 241.046 149.098 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4x 22Ω 1%"
+			(at 241.554 150.876 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
+			(at 241.3 165.735 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/datasheet/3/40/1/CATCAY.pdf"
+			(at 241.3 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22Ω, 1% Concave, 4 resistors, CAT16-22R0F4LF"
+			(at 241.3 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "19bf7c19-c080-4224-9c99-229775da0c89")
+		)
+		(pin "7"
+			(uuid "a98a325a-5bc1-4edb-8727-87b10d1d97f3")
+		)
+		(pin "6"
+			(uuid "6b37c468-3ca9-4734-9305-94e6b9c746b4")
+		)
+		(pin "2"
+			(uuid "22494f13-d090-496a-ace6-b059673752ce")
+		)
+		(pin "1"
+			(uuid "de42c2d0-e5ee-4612-bc82-09736f0397fb")
+		)
+		(pin "5"
+			(uuid "2673a5da-665e-425f-80b8-444250d78ae0")
+		)
+		(pin "4"
+			(uuid "70f855ac-2557-4a8d-a767-a29895db5354")
+		)
+		(pin "3"
+			(uuid "f0b1d698-4f66-4e92-8c26-96ece3134429")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(reference "RN2")
 					(unit 1)
 				)
 			)
@@ -27804,6 +29594,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 304.8 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d3dd7581-ca72-4a49-9db7-d1b2340afb54")
 		)
@@ -27875,6 +29676,17 @@
 			)
 		)
 		(property "Description" "20V, 500mA, Ultralow Noise, Ultrahigh PSRR Linear Regulator with VIOC Control"
+			(at 490.22 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 490.22 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -28078,6 +29890,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 140.97 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e92a4ade-272f-4cf4-b16b-c32d4a813fb2")
 		)
@@ -28238,6 +30061,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 403.86 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "70d4264d-519f-498e-9f45-fcd633579f12")
 		)
@@ -28320,6 +30154,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 535.94 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "426a2d0e-6f6f-4e0b-ba35-7c252a27445c")
 		)
@@ -28391,6 +30236,17 @@
 			)
 		)
 		(property "Description" "SAW Filter 1090 MHz SMD 3.0×3.0 mm (BW=6 MHz)"
+			(at 264.16 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 264.16 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -28495,6 +30351,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 349.25 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ced5699b-5470-425f-96bb-02414598d508")
 		)
@@ -28562,6 +30429,17 @@
 		)
 		(property "Description" "Murata GRM155R60J106ME44D"
 			(at 289.56 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 289.56 125.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28653,6 +30531,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 557.53 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bedf3b48-a862-4ba8-a241-02dae28fdbfe")
 		)
@@ -28702,7 +30591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 460.7052 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -28725,6 +30614,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 459.74 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 459.74 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -28907,6 +30807,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 328.93 212.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9aca6e5a-0bfd-4fc2-bcd8-cfe13d9ae907")
+		(property "Reference" "#PWR0101"
+			(at 328.93 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 328.93 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 328.93 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61e2b369-d508-4c7a-ae0e-5d6e270340ec")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 494.03 116.84 0)
 		(unit 1)
@@ -28963,6 +30941,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 494.03 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 494.03 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -29045,6 +31034,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 459.74 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 459.74 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -29143,6 +31143,84 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "#PWR78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 443.23 157.48 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9be20d30-31de-4dbc-89d0-bee69a1d1a01")
+		(property "Reference" "TP19"
+			(at 448.056 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "U7_PG"
+			(at 448.056 160.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 443.23 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 443.23 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 443.23 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "793941c8-ef0d-43ce-aca4-0f2c8b669b83")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -29257,7 +31335,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 468.63 44.958 90)
 			(hide yes)
 			(show_name no)
@@ -29281,6 +31359,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 468.63 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 468.63 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29360,6 +31449,17 @@
 			)
 		)
 		(property "Description" "12-Bit, 20 MSPS/40 MSPS/65 MSPS, Dual A/D Converter"
+			(at 194.31 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 194.31 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -29635,6 +31735,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 218.44 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e3dde543-0a60-43ef-a437-b63534123049")
 		)
@@ -29645,6 +31756,104 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04")
+		(at 241.3 143.51 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a4732585-b14e-46f8-86af-c56d265b8cb2")
+		(property "Reference" "RN1"
+			(at 241.3 136.144 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4x 22Ω 1%"
+			(at 241.3 134.366 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
+			(at 241.3 150.495 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/datasheet/3/40/1/CATCAY.pdf"
+			(at 241.3 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22Ω, 1% Concave, 4 resistors, CAT16-22R0F4LF"
+			(at 241.3 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "1a75628b-fbb9-4d4c-acde-bb6cfe778a49")
+		)
+		(pin "7"
+			(uuid "e3b9cf63-1715-40a7-aa72-704c0a717f57")
+		)
+		(pin "6"
+			(uuid "237b8b50-0184-4bc1-a7a3-cb8d98289b88")
+		)
+		(pin "2"
+			(uuid "162a2946-0c48-4508-9df0-6c584c1bbba5")
+		)
+		(pin "1"
+			(uuid "9351ea31-870a-457f-a4d2-1ef9868d4e09")
+		)
+		(pin "5"
+			(uuid "7b217741-ddcb-484b-b72d-36c90c2f958b")
+		)
+		(pin "4"
+			(uuid "312a5c4a-6b2e-4bce-acba-4a819f6b1ecf")
+		)
+		(pin "3"
+			(uuid "0736a6a4-66dc-4e4f-ac3b-77fab689ac61")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(reference "RN1")
 					(unit 1)
 				)
 			)
@@ -29705,6 +31914,17 @@
 		)
 		(property "Description" "Murata GRM155R71C104KA88D"
 			(at 132.08 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 132.08 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29796,6 +32016,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 142.24 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b5fbe04a-bfe7-4fa8-8d1b-496aa6410962")
 		)
@@ -29868,6 +32099,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 501.65 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 501.65 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -30036,6 +32278,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 364.49 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6c5f0a77-2426-47d2-a1b6-fd80bbb3ebe5")
 		)
@@ -30118,6 +32371,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 468.63 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8b115306-2b12-4fbe-8a29-2e63b536cfee")
 		)
@@ -30128,85 +32392,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "C67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 241.3 180.34 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aa8ceaa6-b2ed-4aa3-b15e-439e12ea4dc7")
-		(property "Reference" "R41"
-			(at 239.014 178.054 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22Ω"
-			(at 243.586 178.054 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 241.3 182.118 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Yageo RC0402FR-0722RL"
-			(at 241.3 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "39cf34bc-0ee0-453b-aece-da3096b7957b")
-		)
-		(pin "2"
-			(uuid "cfbebdd4-ec46-4075-8f9d-ff65284fa11f")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -30269,6 +32454,17 @@
 			)
 		)
 		(property "Description" "Yageo RC0402FR-0710KL, 1%, thick-film"
+			(at 535.94 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 535.94 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -30359,6 +32555,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 132.08 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e7b03720-6869-4ab1-9fc1-eafd0845a9c8")
 		)
@@ -30430,6 +32637,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 363.22 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 363.22 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -30675,6 +32893,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 472.44 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c4ce66e6-1a0f-4afd-9938-44f3c5b4cc1f")
 		)
@@ -30745,6 +32974,17 @@
 			)
 		)
 		(property "Description" "50 - 2000 MHz Ultra Low Noise, High Linearity Low Noise Amplifier"
+			(at 201.93 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 201.93 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -30849,6 +33089,17 @@
 			)
 		)
 		(property "Description" "Murata GRM1555C1H102JA01D"
+			(at 226.06 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 226.06 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -31017,6 +33268,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 77.47 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "180f31b1-d78e-47cd-a88b-73590cc65739")
 		)
@@ -31110,6 +33372,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 364.49 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "11b02059-fe6e-40c8-ad63-e43d71ef027c")
 		)
@@ -31156,7 +33429,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 299.72 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -31179,6 +33452,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 304.8 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 304.8 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -31280,85 +33564,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 229.87 153.67 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bb5b26a8-0bd3-4477-a867-e341325e63ee")
-		(property "Reference" "R25"
-			(at 227.584 151.384 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22Ω"
-			(at 232.156 151.384 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 229.87 155.448 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Yageo RC0402FR-0722RL"
-			(at 229.87 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a1c8bf3-8ffa-40a5-9b76-8d116c9ac5f8")
-		)
-		(pin "2"
-			(uuid "5baab65a-d28c-4cc4-ac3b-16e6738c2fb0")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 398.78 161.29 180)
 		(unit 1)
@@ -31392,7 +33597,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 397.8148 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -31415,6 +33620,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 398.78 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 398.78 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -31497,6 +33713,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 472.44 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 472.44 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -31712,7 +33939,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 397.8148 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -31735,6 +33962,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 398.78 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 398.78 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -31825,6 +34063,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 318.77 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "36eb14a1-6d96-4b1f-89b2-2f6c5f6532cf")
 		)
@@ -31897,6 +34146,17 @@
 			)
 		)
 		(property "Description" "Murata GRM155R61A106ME44D"
+			(at 120.65 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 120.65 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -32064,6 +34324,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 477.52 243.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1e72d849-cfab-4dd7-abb5-f0a24187cfa0")
 		)
@@ -32145,6 +34416,17 @@
 			)
 		)
 		(property "Purpose" "Accepts the external 1090 MHz antenna input"
+			(at 22.86 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 22.86 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -32237,6 +34519,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 360.68 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f808898d-b3a2-47ef-bb44-3724809b12d8")
 		)
@@ -32317,6 +34610,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 227.33 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c69ee1ce-52ac-47c8-8981-67a2dc374abc")
 		)
@@ -32327,85 +34631,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 241.3 168.91 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c73cb10f-2b65-4c2f-8bb6-8d8bcbd1503f")
-		(property "Reference" "R38"
-			(at 239.014 166.624 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22Ω"
-			(at 243.586 166.624 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 241.3 170.688 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Yageo RC0402FR-0722RL"
-			(at 241.3 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "25ac8028-9bf4-480e-842e-c4ecdc9056db")
-		)
-		(pin "2"
-			(uuid "5e94454a-541f-4d65-aa17-e3574c3026aa")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -32466,6 +34691,17 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
+			(at 488.95 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 488.95 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -32558,6 +34794,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 154.94 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a5ef3b0b-5472-43e8-ae7c-76cba43fc253")
 		)
@@ -32630,6 +34877,17 @@
 			)
 		)
 		(property "Description" "Panasonic ERA-2AEB4990X"
+			(at 360.68 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 360.68 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -32801,6 +35059,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 110.49 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "27cd862b-5782-4d8c-aaeb-e9c437df312a")
 		)
@@ -32850,7 +35119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 464.82 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -32873,6 +35142,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 459.74 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 459.74 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -32950,6 +35230,17 @@
 			)
 		)
 		(property "Description" "5.5-V, 3-A, 13-mΩ On-Resistance Load Switch With Reverse Current Protection and Controlled Turn-On"
+			(at 494.03 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 494.03 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -33045,6 +35336,17 @@
 			)
 		)
 		(property "Description" "Murata GRM155R61A106ME44D"
+			(at 266.7 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 266.7 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -33260,7 +35562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 511.5052 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -33293,6 +35595,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 510.54 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "72e40ad7-2967-4a55-8ab8-65a863c35ec4")
 		)
@@ -33309,8 +35622,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 241.3 157.48 90)
+		(lib_id "Connector:TestPoint")
+		(at 496.57 173.99 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33318,29 +35631,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d1a6c6c1-631e-4c76-b197-5d66e2e8088e")
-		(property "Reference" "R26"
-			(at 239.014 155.194 90)
+		(uuid "d15cd30d-7a3c-4de3-a385-ea89bbad3c48")
+		(property "Reference" "TP18"
+			(at 501.396 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "22Ω"
-			(at 243.586 155.194 90)
+		(property "Value" "U8_PG"
+			(at 501.396 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 241.3 159.258 90)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 496.57 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33351,7 +35666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 157.48 0)
+			(at 496.57 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33361,8 +35676,8 @@
 				)
 			)
 		)
-		(property "Description" "Yageo RC0402FR-0722RL"
-			(at 241.3 157.48 0)
+		(property "Description" "test point"
+			(at 496.57 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33373,15 +35688,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "680e8b99-ddd6-4c02-aada-557047a1c406")
-		)
-		(pin "2"
-			(uuid "197884a7-2976-4550-87c3-25489e8e81e0")
+			(uuid "f2b3e8a1-c81e-42ff-838a-6124b944b391")
 		)
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "R26")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -33443,6 +35755,17 @@
 		)
 		(property "Description" "Murata GRM155R71H473KE14D"
 			(at 304.8 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 304.8 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33609,6 +35932,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 227.33 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "613dd4c0-8e11-4aa7-b2ac-233f5c74fb78")
 		)
@@ -33689,6 +36023,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 120.65 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4d1e23a6-fbc9-4361-984e-0f00aa68c928")
 		)
@@ -33760,6 +36105,17 @@
 			)
 		)
 		(property "Description" "20V, 500mA, Ultralow Noise, Ultrahigh PSRR Linear Regulator with VIOC Control"
+			(at 490.22 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 490.22 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -33953,6 +36309,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 429.26 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 429.26 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -34167,7 +36534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 511.81 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -34200,6 +36567,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 506.73 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "592c6f2b-1ceb-4f5d-bda1-e070a2e39c3e")
 		)
@@ -34207,6 +36585,162 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 414.02 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e0f09ccb-dc29-4190-8764-03b41ce62955")
+		(property "Reference" "#PWR026"
+			(at 414.02 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 410.718 41.402 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 414.02 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 414.02 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 414.02 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e62c41e-8bb9-42c5-9c87-16a32f5627d8")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 443.23 96.52 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e11dfbf2-0bb4-4bc6-ae56-74e8573277c5")
+		(property "Reference" "TP16"
+			(at 448.31 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "U5_PG"
+			(at 448.31 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 443.23 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 443.23 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 443.23 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "86fce4b8-9d61-4eed-b3ce-27ab728e1849")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -34270,6 +36804,17 @@
 			)
 		)
 		(property "Description" "Murata GRM1555C1H102JA01D"
+			(at 241.3 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 241.3 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -34429,6 +36974,17 @@
 			)
 		)
 		(property "Description" "42V, 5A Synchronous Step-Down Silent Switcher with 2.5μA Quiescent Current"
+			(at 450.85 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 450.85 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -34617,7 +37173,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 429.26 246.6848 0)
 			(hide yes)
 			(show_name no)
@@ -34641,6 +37197,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 425.45 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 425.45 247.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34723,6 +37290,17 @@
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 534.67 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 534.67 21.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34890,6 +37468,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 227.33 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5af1e64c-c095-49d8-b54f-ccda669ae4ee")
 		)
@@ -34970,6 +37559,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 184.15 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2b75e402-b74e-4beb-80ca-0c30e42795e5")
 		)
@@ -34980,6 +37580,84 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 499.11 113.03 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ecac5d9b-03bb-4e5f-90c4-2c0f1ee833e3")
+		(property "Reference" "TP17"
+			(at 503.936 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "U6_PG"
+			(at 503.936 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 499.11 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 499.11 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 499.11 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e0f97ec-b997-44e4-ad02-87794736ee85")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -35040,6 +37718,17 @@
 			)
 		)
 		(property "Description" "50 - 2000 MHz Ultra Low Noise, High Linearity Low Noise Amplifier"
+			(at 95.25 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 95.25 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -35153,6 +37842,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 304.8 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8a9159d9-1aa6-43ca-9920-56bbd30b7c91")
 		)
@@ -35235,6 +37935,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 443.23 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "16beea50-eb3a-4533-aad6-c83c8013b5d2")
 		)
@@ -35307,6 +38018,17 @@
 			)
 		)
 		(property "Description" "Murata GRM155R71C104KA88D, X7R, 16 V, ±10%"
+			(at 548.64 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 548.64 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -35522,7 +38244,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 474.218 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -35545,6 +38267,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 472.44 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 472.44 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -35637,6 +38370,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 127 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f1a1a807-8379-4def-a2bf-b134eadecea1")
 		)
@@ -35708,6 +38452,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 447.04 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 447.04 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35968,85 +38723,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 218.44 149.86 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f4da7121-ef49-4f8c-9e55-ed49d544954a")
-		(property "Reference" "R24"
-			(at 216.154 147.574 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22Ω"
-			(at 220.726 147.574 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 218.44 151.638 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Yageo RC0402FR-0722RL"
-			(at 218.44 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b56ae830-b303-4b33-a8da-625f4ec77cb9")
-		)
-		(pin "2"
-			(uuid "aa5dd764-a9a3-4e45-8524-7310d3900944")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 304.8 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -36099,6 +38775,17 @@
 			)
 		)
 		(property "Description" "Panasonic ERA-2AEB4990X"
+			(at 304.8 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 304.8 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -36189,6 +38876,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 397.51 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "702e5b00-0baf-4195-bf58-e4e2bac8fd47")
 		)
@@ -36268,6 +38966,17 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 132.08 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6116ee5d-421b-4df7-8c37-5e20a97ef1f0")
 		)
@@ -36278,6 +38987,84 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 499.11 52.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fa246b82-be3f-458d-a946-1d3d78950930")
+		(property "Reference" "TP15"
+			(at 503.936 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "U4_PG"
+			(at 503.936 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 499.11 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 499.11 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 499.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab2c38bc-0aef-443b-a7b4-eb43a52df4b7")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -36317,7 +39104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 464.82 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -36340,6 +39127,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 459.74 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 459.74 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -36395,7 +39193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 513.08 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -36418,6 +39216,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 508 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 508 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -36473,7 +39282,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 355.6 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -36496,6 +39305,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 360.68 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 360.68 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -36573,6 +39393,17 @@
 			)
 		)
 		(property "Description" "1 MHz TO 4 GHz, 80 dB Logarithmic Detector / Controller"
+			(at 337.82 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 337.82 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -36700,6 +39531,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 548.64 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 548.64 86.36 0)
 			(hide yes)
 			(show_name no)
