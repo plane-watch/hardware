@@ -5223,7 +5223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0471bc32-9f7f-4f95-b9c3-dbe90ea8fe70")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 105.41 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5410,7 +5410,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5427,7 +5427,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "127b3a81-5b53-443d-8986-9aa28d90e1c7")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR03"
 			(at 146.05 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5487,7 +5487,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR011")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5584,7 +5584,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39416c02-4bf4-4c8c-8ff6-9aa6dee79108")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR04"
 			(at 185.42 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5644,7 +5644,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR021")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5661,7 +5661,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40e9affe-53ec-4aeb-a5e5-0ce9edd82fe8")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR08"
 			(at 55.88 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5721,7 +5721,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR0146")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5738,7 +5738,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57842160-2918-42f6-bcb3-ff9e8a382b3f")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR013"
 			(at 100.33 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5798,7 +5798,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR019")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5816,7 +5816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e28003d-2b6a-4ee1-9c86-f534267b46d6")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR019"
 			(at 132.08 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -5876,7 +5876,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR078")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5893,7 +5893,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6aa8da7c-c490-40f9-870c-911b1a72cd9f")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR02"
 			(at 99.06 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5953,7 +5953,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR04")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5970,7 +5970,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73edcbfc-afbe-461b-b497-ed93adf3980f")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR07"
 			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6031,7 +6031,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR039")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6152,7 +6152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80ce4eeb-fc6c-4b21-929f-176e07ac7afa")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR018"
 			(at 78.74 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -6212,7 +6212,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR077")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6229,7 +6229,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88f3a5fc-96f8-4177-abe2-b667ae8b0e72")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR06"
 			(at 236.22 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6290,7 +6290,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR036")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6308,7 +6308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b4fdae1-eef0-4560-b981-4dca53b94b1b")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 195.58 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6369,7 +6369,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6387,7 +6387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bf3fc60-6a23-4635-89d8-675e527dd459")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 44.45 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6574,7 +6574,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6592,7 +6592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90c862e9-628f-4166-8b88-88c85e6373a9")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR016"
 			(at 17.78 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6652,7 +6652,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR037")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6670,7 +6670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a6d6fa4-ffad-46cd-8e12-4f753651b578")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR017"
 			(at 71.12 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6730,7 +6730,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR038")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6748,7 +6748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aca6e5a-0bfd-4fc2-bcd8-cfe13d9ae907")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR015"
 			(at 179.07 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6808,7 +6808,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR082")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6826,7 +6826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aefc10a1-0aa4-452c-9c26-8fb7e0fa0dd0")
-		(property "Reference" "FL3"
+		(property "Reference" "FL2"
 			(at 149.86 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6911,7 +6911,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "FL3")
+					(reference "FL2")
 					(unit 1)
 				)
 			)
@@ -6928,7 +6928,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3ff6785-7e22-4c86-89e1-0185cee302c0")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR014"
 			(at 153.67 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6988,7 +6988,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR0134")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7006,7 +7006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b510c503-5274-4589-97df-5cc5881f3ea2")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR01"
 			(at 34.29 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7066,7 +7066,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR010")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7083,7 +7083,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "badf2f39-ec14-465d-81c5-87e6aff5d09d")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR010"
 			(at 162.56 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7143,7 +7143,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR0145")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7340,7 +7340,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d931be70-7893-42f4-9683-8a644d6d41d7")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR05"
 			(at 228.6 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7400,7 +7400,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR042")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7417,7 +7417,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de95e14e-c997-4533-ad1e-61bb8f3fc3a4")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR09"
 			(at 109.22 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7477,7 +7477,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR0133")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7494,7 +7494,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb7d4544-8f34-499e-8b8e-a7518ef276ba")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR011"
 			(at 201.93 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7555,7 +7555,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR015")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)

@@ -428,258 +428,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Pack04_Split"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "RN"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Pack04_Split"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "4 resistor network, parallel topology, split"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R network parallel topology isolated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_Pack04_Split_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Pack04_Split_1_1"
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R1.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "R1.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack04_Split_2_1"
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R2.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "R2.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack04_Split_3_1"
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R3.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "R3.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack04_Split_4_1"
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R4.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "R4.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "planewatcher:AD8138"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1548,7 +1296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00c285e2-2176-450e-aa62-5e3813bf4ac6")
-		(property "Reference" "R18"
+		(property "Reference" "R30"
 			(at 82.55 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1623,7 +1371,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "R18")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -1640,7 +1388,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ad488fd-9fd9-4528-9bd2-44a375c76339")
-		(property "Reference" "TP12"
+		(property "Reference" "TP17"
 			(at 124.46 109.474 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1710,7 +1458,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "TP12")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -1728,7 +1476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13a5f4cc-80d7-44aa-9fca-32316f258b38")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR081"
 			(at 59.69 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -1788,16 +1536,16 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "#PWR026")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04_Split")
+		(lib_id "Device:R")
 		(at 80.01 86.36 180)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1805,8 +1553,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "180adb32-5984-450c-8bfd-afb5a51ac99c")
-		(property "Reference" "RN4"
+		(uuid "29772c60-9160-47c7-9909-508628181cc1")
+		(property "Reference" "R39"
 			(at 82.55 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1828,8 +1576,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
-			(at 82.042 86.36 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 81.788 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1850,7 +1598,7 @@
 				)
 			)
 		)
-		(property "Description" "4 resistor network, parallel topology, split"
+		(property "Description" "Resistor"
 			(at 80.01 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -1862,34 +1610,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "9ab04d60-434d-4837-a587-870d03bca2e3")
-		)
-		(pin "3"
-			(uuid "864b5c13-e908-4921-ac1f-5accd144d83a")
+			(uuid "57051a33-ef48-41e7-86a8-6ab16afd709a")
 		)
 		(pin "1"
-			(uuid "c07086d6-31cb-4a28-83b5-2d0d9afa6c33")
-		)
-		(pin "5"
-			(uuid "e2fbfaad-3f13-4cd0-af78-1868092ba53a")
-		)
-		(pin "6"
-			(uuid "3e527407-a17b-4a03-8bfd-ee0f40b21d9f")
-		)
-		(pin "4"
-			(uuid "64db23cc-cf1e-4dc9-b626-11b70c7e01d4")
-		)
-		(pin "7"
-			(uuid "910fa1a1-69c9-4860-a22e-5c0b56b39189")
-		)
-		(pin "8"
-			(uuid "786b6b0d-5a85-406a-91f7-1a265fdec226")
+			(uuid "643a7dc4-6d78-45f4-a8ea-9ddfd5c43764")
 		)
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "RN4")
-					(unit 2)
+					(reference "R39")
+					(unit 1)
 				)
 			)
 		)
@@ -1906,7 +1636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31a2c345-94f8-483f-a4ad-fe883e128464")
-		(property "Reference" "R16"
+		(property "Reference" "R31"
 			(at 142.24 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1981,7 +1711,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "R16")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -1999,7 +1729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39451569-74c1-4a2e-abd6-ec2e6cbcfada")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR085"
 			(at 49.53 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2059,7 +1789,87 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "#PWR05")
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f26c28d-ac48-40ae-a7aa-e7d735c7b722")
+		(property "Reference" "R38"
+			(at 73.66 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1kΩ"
+			(at 73.66 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 73.66 81.788 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0ec425b9-4175-4b8a-8ffc-c78b9ac6a3f5")
+		)
+		(pin "1"
+			(uuid "d04161d9-1d76-4bdc-a2dc-e1f4e08ffc6c")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -2076,7 +1886,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57169444-8b15-4309-b5e2-4e1cf14e9e61")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR083"
 			(at 59.69 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2136,108 +1946,8 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "#PWR057")
+					(reference "#PWR083")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 139.7 86.36 180)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e8da483-b6b7-4dc5-af89-6a924c80478a")
-		(property "Reference" "RN4"
-			(at 142.24 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 142.24 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
-			(at 141.732 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 139.7 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9ab04d60-434d-4837-a587-870d03bca2e4")
-		)
-		(pin "3"
-			(uuid "864b5c13-e908-4921-ac1f-5accd144d83b")
-		)
-		(pin "1"
-			(uuid "c07086d6-31cb-4a28-83b5-2d0d9afa6c34")
-		)
-		(pin "5"
-			(uuid "e2fbfaad-3f13-4cd0-af78-1868092ba53b")
-		)
-		(pin "6"
-			(uuid "3e527407-a17b-4a03-8bfd-ee0f40b21da0")
-		)
-		(pin "4"
-			(uuid "64db23cc-cf1e-4dc9-b626-11b70c7e01d5")
-		)
-		(pin "7"
-			(uuid "910fa1a1-69c9-4860-a22e-5c0b56b3918a")
-		)
-		(pin "8"
-			(uuid "786b6b0d-5a85-406a-91f7-1a265fdec227")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "RN4")
-					(unit 3)
 				)
 			)
 		)
@@ -2254,7 +1964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6143a258-44ef-4c89-801c-c9c0a19b538a")
-		(property "Reference" "C3"
+		(property "Reference" "C46"
 			(at 63.5 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2318,16 +2028,16 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "C3")
+					(reference "C46")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 146.05 80.01 270)
-		(unit 4)
+		(lib_id "Device:R")
+		(at 146.05 80.01 90)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2335,8 +2045,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6a05609d-38a1-43d6-a7a2-0332d396e98b")
-		(property "Reference" "RN4"
+		(uuid "64821802-5d8b-4779-961f-7b066652a459")
+		(property "Reference" "R37"
 			(at 146.05 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2356,8 +2066,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
-			(at 146.05 77.978 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 146.05 81.788 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2378,7 +2088,7 @@
 				)
 			)
 		)
-		(property "Description" "4 resistor network, parallel topology, split"
+		(property "Description" "Resistor"
 			(at 146.05 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2390,34 +2100,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "9ab04d60-434d-4837-a587-870d03bca2e5")
-		)
-		(pin "3"
-			(uuid "864b5c13-e908-4921-ac1f-5accd144d83c")
+			(uuid "60f9b620-10ca-481e-937f-d1bbcb8040a9")
 		)
 		(pin "1"
-			(uuid "c07086d6-31cb-4a28-83b5-2d0d9afa6c35")
-		)
-		(pin "5"
-			(uuid "e2fbfaad-3f13-4cd0-af78-1868092ba53c")
-		)
-		(pin "6"
-			(uuid "3e527407-a17b-4a03-8bfd-ee0f40b21da1")
-		)
-		(pin "4"
-			(uuid "64db23cc-cf1e-4dc9-b626-11b70c7e01d6")
-		)
-		(pin "7"
-			(uuid "910fa1a1-69c9-4860-a22e-5c0b56b3918b")
-		)
-		(pin "8"
-			(uuid "786b6b0d-5a85-406a-91f7-1a265fdec228")
+			(uuid "57715172-9367-47c1-87bf-1635eb143323")
 		)
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "RN4")
-					(unit 4)
+					(reference "R37")
+					(unit 1)
 				)
 			)
 		)
@@ -2433,7 +2125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6bd418de-2d11-4fc2-abf7-441fc2336a3d")
-		(property "Reference" "TP11"
+		(property "Reference" "TP16"
 			(at 95.504 109.474 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2503,7 +2195,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "TP11")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -2521,7 +2213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cf29e90-2e82-4544-b86c-16b528e21c54")
-		(property "Reference" "U7"
+		(property "Reference" "U10"
 			(at 109.855 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2612,7 +2304,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "U7")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -2630,7 +2322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "828bca6a-a4eb-4b9d-8622-55428f113dd8")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR082"
 			(at 45.72 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2690,105 +2382,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 73.66 80.01 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87eb49b4-5403-43a6-9aa8-9aa2a36db12e")
-		(property "Reference" "RN4"
-			(at 73.66 73.66 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 73.66 76.2 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
-			(at 73.66 82.042 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 73.66 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9ab04d60-434d-4837-a587-870d03bca2e6")
-		)
-		(pin "3"
-			(uuid "864b5c13-e908-4921-ac1f-5accd144d83d")
-		)
-		(pin "1"
-			(uuid "c07086d6-31cb-4a28-83b5-2d0d9afa6c36")
-		)
-		(pin "5"
-			(uuid "e2fbfaad-3f13-4cd0-af78-1868092ba53d")
-		)
-		(pin "6"
-			(uuid "3e527407-a17b-4a03-8bfd-ee0f40b21da2")
-		)
-		(pin "4"
-			(uuid "64db23cc-cf1e-4dc9-b626-11b70c7e01d7")
-		)
-		(pin "7"
-			(uuid "910fa1a1-69c9-4860-a22e-5c0b56b3918c")
-		)
-		(pin "8"
-			(uuid "786b6b0d-5a85-406a-91f7-1a265fdec229")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "RN4")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -2806,7 +2400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8b23842-5c73-470b-9887-9b79dea1d36d")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR086"
 			(at 63.5 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2866,7 +2460,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "#PWR09")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -2884,7 +2478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab17c3cc-42f9-4e0f-ad9b-8ddc2eac804a")
-		(property "Reference" "TP1"
+		(property "Reference" "TP15"
 			(at 76.2 53.8479 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2945,7 +2539,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "TP1")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -2963,7 +2557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac7b0994-3b13-47e9-ac83-2b02d0ac1ab7")
-		(property "Reference" "R2"
+		(property "Reference" "R29"
 			(at 48.26 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3027,7 +2621,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "R2")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -3045,7 +2639,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2c0af24-f065-48fb-83f3-a285b298bcda")
-		(property "Reference" "C43"
+		(property "Reference" "C48"
 			(at 57.658 98.044 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3118,7 +2712,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "C43")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -3136,7 +2730,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b839d58a-6eec-4262-8317-438b04f892a9")
-		(property "Reference" "C39"
+		(property "Reference" "C47"
 			(at 43.434 98.044 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3209,7 +2803,89 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "C39")
+					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 86.36 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c396dd7c-3dd3-46b8-9e1d-57b05202a5f0")
+		(property "Reference" "R40"
+			(at 142.24 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1kΩ"
+			(at 142.24 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 141.478 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b4bf7f0a-6c8f-4f2a-a105-a51ca05bdf8b")
+		)
+		(pin "1"
+			(uuid "f8e0b539-72b5-4db1-87e1-0f7d0c7d072f")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -3226,7 +2902,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7a0ab05-9de3-41a1-914f-1f8811acad25")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR084"
 			(at 124.46 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3286,7 +2962,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "#PWR061")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -3304,7 +2980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e20fbc68-f73a-4f95-b85a-52efd3188828")
-		(property "Reference" "R1"
+		(property "Reference" "R28"
 			(at 48.26 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3368,7 +3044,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "R1")
+					(reference "R28")
 					(unit 1)
 				)
 			)

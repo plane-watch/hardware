@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.45,
-          "width": 1.0
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -199,7 +199,8 @@
         0.15,
         0.2,
         0.305,
-        0.309617
+        0.309617,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -239,6 +240,10 @@
         {
           "diameter": 0.45,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -527,19 +532,38 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.1,
-        "name": "LT8608_PWR",
+        "clearance": 0.2,
+        "diff_pair_width": 0.1,
+        "name": "ADC_DIFF_PAIR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.1,
+        "name": "LT8608_PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.305,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.2,
+        "name": "RF_50Ω",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.309617,
         "tuning_profile": ""
       },
       {
         "clearance": 0.15,
         "name": "U2 Conns",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "tuning_profile": ""
@@ -570,6 +594,18 @@
       {
         "netclass": "Default",
         "pattern": ""
+      },
+      {
+        "netclass": "RF_50Ω",
+        "pattern": "/LNA_Stage_1/RF_IN"
+      },
+      {
+        "netclass": "ADC_DIFF_PAIR",
+        "pattern": "/ADC/AINN"
+      },
+      {
+        "netclass": "ADC_DIFF_PAIR",
+        "pattern": "/ADC/AINP"
       }
     ]
   },
@@ -725,7 +761,7 @@
         "uuid": "7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TP1-19,D1-3,#PWR1-109,RN1-4,L1-12,R1-40,JP1,J1-5,RV1,Q1,U1-12,C1-70,FL1-2,F1",
     "variants": []
   },
   "sheets": [

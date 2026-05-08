@@ -1075,7 +1075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3860340f-9e1e-4ae2-afb5-c31babdf5d44")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR059"
 			(at 173.99 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -1135,11 +1135,11 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
-					(reference "#PWR07")
+					(reference "#PWR059")
 					(unit 1)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "#PWR08")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -1157,7 +1157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39bf5ac9-4c3a-4f74-afcf-c1d76ed8256f")
-		(property "Reference" "C1"
+		(property "Reference" "C28"
 			(at 167.64 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1230,11 +1230,11 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
-					(reference "C1")
+					(reference "C28")
 					(unit 1)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "C2")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -1252,7 +1252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ad360d5-5f75-435b-a838-be24500b624a")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR065"
 			(at 132.08 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -1312,11 +1312,11 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
-					(reference "#PWR0135")
+					(reference "#PWR065")
 					(unit 1)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "#PWR0136")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -1334,7 +1334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49c057a4-ed4b-4833-a68b-adb720de2ff8")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR064"
 			(at 153.67 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -1394,11 +1394,11 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
-					(reference "#PWR023")
+					(reference "#PWR064")
 					(unit 1)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "#PWR025")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -1416,7 +1416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60d56b03-e6d8-4bea-8b53-ea28f2349fb3")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR061"
 			(at 173.99 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -1476,11 +1476,11 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
-					(reference "#PWR0138")
+					(reference "#PWR061")
 					(unit 1)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "#PWR0139")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -1498,7 +1498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60e822d7-ece9-4dd1-bc02-628bfa154ff7")
-		(property "Reference" "C8"
+		(property "Reference" "C32"
 			(at 120.65 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1571,11 +1571,11 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
-					(reference "C8")
+					(reference "C32")
 					(unit 1)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "C10")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -1593,7 +1593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b426216-7f10-4afa-a3fd-7f133d39bb81")
-		(property "Reference" "C9"
+		(property "Reference" "C33"
 			(at 167.64 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1666,11 +1666,11 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
-					(reference "C9")
+					(reference "C33")
 					(unit 1)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "C11")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -1688,7 +1688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9312f183-ac73-4d2e-80c3-a98b22078428")
-		(property "Reference" "C96"
+		(property "Reference" "C29"
 			(at 167.64 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1708,7 +1708,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 171.45 57.4548 0)
 			(hide yes)
 			(show_name no)
@@ -1750,11 +1750,11 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
-					(reference "C96")
+					(reference "C29")
 					(unit 1)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "C97")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -1772,7 +1772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4519b88-be4b-4fb2-85d1-5e93c55130a0")
-		(property "Reference" "C94"
+		(property "Reference" "C30"
 			(at 167.64 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1792,7 +1792,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 171.45 70.1548 0)
 			(hide yes)
 			(show_name no)
@@ -1834,11 +1834,11 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
-					(reference "C94")
+					(reference "C30")
 					(unit 1)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "C95")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -1856,7 +1856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbafbcc0-c444-4f39-9f49-bea54835fc61")
-		(property "Reference" "U2"
+		(property "Reference" "U7"
 			(at 139.065 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1950,11 +1950,11 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
-					(reference "U2")
+					(reference "U7")
 					(unit 1)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "U3")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -1972,7 +1972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbfdd4b3-f904-4ff5-b66e-549d7b08f56a")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR060"
 			(at 173.99 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2032,11 +2032,11 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
-					(reference "#PWR020")
+					(reference "#PWR060")
 					(unit 1)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "#PWR0137")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -2054,7 +2054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbd21805-fa60-4664-b965-628eae480fd8")
-		(property "Reference" "C5"
+		(property "Reference" "C31"
 			(at 167.64 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2127,11 +2127,11 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
-					(reference "C5")
+					(reference "C31")
 					(unit 1)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "C6")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -2149,7 +2149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e66feffe-e9dc-49a8-a281-553b305bf2d1")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR062"
 			(at 173.99 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2209,11 +2209,11 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
-					(reference "#PWR013")
+					(reference "#PWR062")
 					(unit 1)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "#PWR014")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -2231,7 +2231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efe35ba9-fd04-44fd-9ed8-29b176900d1a")
-		(property "Reference" "L2"
+		(property "Reference" "L7"
 			(at 154.94 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2306,11 +2306,11 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
-					(reference "L2")
+					(reference "L7")
 					(unit 1)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "L3")
+					(reference "L8")
 					(unit 1)
 				)
 			)
@@ -2328,7 +2328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "feedbbc1-c5b2-4095-94cd-7d2dba06646f")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR063"
 			(at 124.46 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2388,11 +2388,11 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
-					(reference "#PWR022")
+					(reference "#PWR063")
 					(unit 1)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "#PWR024")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
