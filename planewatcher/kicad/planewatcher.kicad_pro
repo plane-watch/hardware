@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.42,
-          "width": 0.889
+          "height": 1.45,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -725,13 +725,57 @@
         "uuid": "7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
       }
     ],
-    "used_designators": "RN1-3,TP14-20,J5,#PWR26-27,#PWR96,#PWR101",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "7a4a4324-e8b8-4d06-b75a-28095d4e9f10",
       "Root"
+    ],
+    [
+      "7535f1c6-2dba-45f2-85ce-bd33ccc49d1a",
+      "Power_5V_RF"
+    ],
+    [
+      "06efddeb-af3c-41f7-82c5-125e2fa87253",
+      "Power_3V_Analog"
+    ],
+    [
+      "524be695-6a59-49a2-8dca-c59940e9e883",
+      "Power_3V_Digital"
+    ],
+    [
+      "be54cab6-561b-439c-9db3-5433a1e68d46",
+      "LNA_Stage_1"
+    ],
+    [
+      "ddba7db9-116b-4903-8726-853149ab65d1",
+      "LNA_Stage_2"
+    ],
+    [
+      "2b870c27-11be-4d09-9c58-83e75b33e075",
+      "Log_Detector"
+    ],
+    [
+      "cbd39e42-d959-46e0-ad78-463479feebd1",
+      "ADC_Driver"
+    ],
+    [
+      "f77ae351-26f3-42d4-beb0-b884b17c3798",
+      "ADC"
+    ],
+    [
+      "3f548880-1f88-4cb2-a308-e70fd70c9481",
+      "Power_5V_FPGA"
+    ],
+    [
+      "5ac3603d-bbeb-44f4-b422-6252fe26d95e",
+      "Power_Input"
+    ],
+    [
+      "688449b3-e085-4d3d-9010-5bd7bcac8461",
+      "RF_Input_Protection"
     ]
   ],
   "text_variables": {},
