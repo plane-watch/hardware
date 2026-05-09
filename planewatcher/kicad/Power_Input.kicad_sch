@@ -2646,7 +2646,7 @@
 				)
 			)
 		)
-		(property "Value" "Polyfuse"
+		(property "Value" "Bourns MF-MSMF200/24X 2.0A"
 			(at 100.33 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2656,7 +2656,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
 			(at 105.41 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2679,7 +2679,7 @@
 				)
 			)
 		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+		(property "Description" "2.0A hold resettable PPTC polyfuse, 24V max, 1812, board input overcurrent protection, Bourns MF-MSMF200/24X"
 			(at 100.33 88.9 0)
 			(hide yes)
 			(show_name no)

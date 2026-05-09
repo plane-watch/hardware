@@ -2891,6 +2891,38 @@
 		(color 0 0 0 0)
 		(uuid "fc7de7ff-38de-4f2d-92d1-172f5a551087")
 	)
+	(no_connect
+		(at 99.06 189.23)
+		(uuid "103ed21c-3483-4791-83ba-f06241c717de")
+	)
+	(no_connect
+		(at 127 189.23)
+		(uuid "12e460a6-3f0e-4bbf-847b-d2713972d89d")
+	)
+	(no_connect
+		(at 66.04 146.05)
+		(uuid "9137e030-900f-469e-abeb-467b3362203b")
+	)
+	(no_connect
+		(at 83.82 189.23)
+		(uuid "db9bd178-8c4e-4aae-b7f9-8b1b6ec104aa")
+	)
+	(no_connect
+		(at 110.49 189.23)
+		(uuid "efe8cc3c-6e68-48a3-9ff7-eb6d9c68d29b")
+	)
+	(no_connect
+		(at 22.86 146.05)
+		(uuid "f48c9acb-a913-4347-8596-bc2addfcc55e")
+	)
+	(no_connect
+		(at 50.8 146.05)
+		(uuid "f6ed2d90-6e0c-4a2a-9811-4bd39bf09d13")
+	)
+	(no_connect
+		(at 38.1 146.05)
+		(uuid "f9dd0776-d1c5-4628-9dab-cb431a32d65f")
+	)
 	(wire
 		(pts
 			(xy 111.76 151.13) (xy 127 151.13)
@@ -2940,16 +2972,6 @@
 			(type default)
 		)
 		(uuid "0aab979e-3cc9-4344-9d1e-1b14ecef7df0")
-	)
-	(wire
-		(pts
-			(xy 50.8 146.05) (xy 66.04 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c0beedc-437f-438d-b549-0d156c7e3b1a")
 	)
 	(wire
 		(pts
@@ -3673,16 +3695,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 146.05) (xy 38.1 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79c8653b-fef0-4df6-8b4e-f279a3bdd185")
-	)
-	(wire
-		(pts
 			(xy 254 88.9) (xy 270.51 88.9)
 		)
 		(stroke
@@ -3950,16 +3962,6 @@
 			(type default)
 		)
 		(uuid "b2ab6d53-d14b-4dfe-8df8-2d7f891529b5")
-	)
-	(wire
-		(pts
-			(xy 111.76 189.23) (xy 127 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2d8902c-589f-4a82-9676-83b68e56c693")
 	)
 	(wire
 		(pts
@@ -4250,16 +4252,6 @@
 			(type default)
 		)
 		(uuid "f9b2d4e6-d769-4017-868e-6597753b9a58")
-	)
-	(wire
-		(pts
-			(xy 83.82 189.23) (xy 99.06 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa8cfb32-b081-4843-ab9c-f1960c10d2f1")
 	)
 	(wire
 		(pts
@@ -5525,7 +5517,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 21.59 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7351,7 +7343,7 @@
 				)
 			)
 		)
-		(property "Value" "FPGA_PWR"
+		(property "Value" "FPGA_VCC"
 			(at 228.6 40.386 0)
 			(show_name no)
 			(do_not_autoplace no)
