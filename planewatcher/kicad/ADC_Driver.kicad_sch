@@ -866,6 +866,18 @@
 		(uuid "1f8413d6-abe3-424c-af0a-3d6ff08a945d")
 	)
 	(junction
+		(at 80.01 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35ae6e1d-78cd-4808-8ddf-c0420afc80f8")
+	)
+	(junction
+		(at 139.7 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bbea5e6-65b9-4a0e-83dc-a488e1c0e8a5")
+	)
+	(junction
 		(at 63.5 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -882,6 +894,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa53f6c6-ce65-47c5-8573-1bec2bd3f13f")
+	)
+	(junction
+		(at 55.88 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0617909-7304-40be-b03f-4889b37a13b6")
 	)
 	(junction
 		(at 80.01 80.01)
@@ -981,13 +999,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 115.57) (xy 139.7 119.38)
+			(xy 80.01 130.81) (xy 81.28 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37f6bd38-118c-4c38-a1c8-363a658ec10d")
+		(uuid "331e73f8-3627-466c-95c5-609c37be6891")
 	)
 	(wire
 		(pts
@@ -1051,6 +1069,36 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 80.01) (xy 40.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "687ee20a-8371-4776-b39b-8c7a8d35e826")
+	)
+	(wire
+		(pts
+			(xy 138.43 130.81) (xy 139.7 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ceb2a54-2101-4a9b-bc0e-a69affd42fc0")
+	)
+	(wire
+		(pts
+			(xy 139.7 130.81) (xy 139.7 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7397f83c-b617-43ac-aefe-eae81d3bf1f8")
+	)
+	(wire
+		(pts
 			(xy 80.01 102.87) (xy 80.01 107.95)
 		)
 		(stroke
@@ -1058,16 +1106,6 @@
 			(type default)
 		)
 		(uuid "76b6d03f-049e-44b7-9c4b-3107a88d13f6")
-	)
-	(wire
-		(pts
-			(xy 80.01 115.57) (xy 80.01 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77b4779f-47c0-4dad-846d-19d7ea8b2e78")
 	)
 	(wire
 		(pts
@@ -1101,6 +1139,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 130.81) (xy 95.25 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98a7f155-8c31-4314-9134-b0dde51723de")
+	)
+	(wire
+		(pts
 			(xy 80.01 82.55) (xy 80.01 80.01)
 		)
 		(stroke
@@ -1118,6 +1166,16 @@
 			(type default)
 		)
 		(uuid "9fcc665e-ee1a-4797-b324-5d84de3ca421")
+	)
+	(wire
+		(pts
+			(xy 55.88 80.01) (xy 69.85 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad8628c3-108e-490a-a1b7-2d27f8f107d9")
 	)
 	(wire
 		(pts
@@ -1161,6 +1219,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 130.81) (xy 130.81 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbab10ba-8a95-414f-abdd-d14ad1dbf2ad")
+	)
+	(wire
+		(pts
 			(xy 40.64 95.25) (xy 49.53 95.25)
 		)
 		(stroke
@@ -1181,23 +1249,23 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 80.01) (xy 59.69 80.01)
+			(xy 80.01 115.57) (xy 80.01 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da61a929-795c-44fb-98fd-e01df7afdde5")
+		(uuid "dfbc4cb5-b3f3-4691-b4bd-42871930492a")
 	)
 	(wire
 		(pts
-			(xy 59.69 81.28) (xy 59.69 80.01)
+			(xy 80.01 130.81) (xy 80.01 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0417418-11f7-4132-8bba-6a86e81a00f8")
+		(uuid "e0f7d7cb-de29-4328-8bfb-e4e88c8797a7")
 	)
 	(wire
 		(pts
@@ -1229,6 +1297,16 @@
 		)
 		(uuid "f74d6326-56a3-4d9f-b844-6f259048ca13")
 	)
+	(wire
+		(pts
+			(xy 139.7 115.57) (xy 139.7 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe56216f-ea02-40b9-ad50-13e2dbb86b52")
+	)
 	(hierarchical_label "AVDD"
 		(shape input)
 		(at 40.64 95.25 180)
@@ -1242,7 +1320,7 @@
 	)
 	(hierarchical_label "-OUT"
 		(shape output)
-		(at 139.7 119.38 270)
+		(at 139.7 139.7 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1273,9 +1351,20 @@
 		)
 		(uuid "8a34d7d8-5900-4b0c-9d93-1f1b099f1bec")
 	)
+	(hierarchical_label "ADC_OFFSET"
+		(shape input)
+		(at 40.64 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fab4f30-160b-4333-a5e4-9cebd7ae6030")
+	)
 	(hierarchical_label "+OUT"
 		(shape output)
-		(at 80.01 119.38 270)
+		(at 80.01 139.7 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1543,6 +1632,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 55.88 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f25ce3c-745e-4453-b74e-ae699855aded")
+		(property "Reference" "C73"
+			(at 59.69 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 59.69 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 56.8452 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 55.88 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c751a3d-5057-46a1-b31d-10af4af3c789")
+		)
+		(pin "2"
+			(uuid "20e4186c-a90b-412a-bd90-608e5a308bd5")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
+					(reference "C73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 80.01 86.36 180)
 		(unit 1)
@@ -1565,7 +1736,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "4.99kΩ"
 			(at 82.55 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1817,7 +1988,7 @@
 				)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "4.99kΩ"
 			(at 73.66 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1877,7 +2048,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 81.28 0)
+		(at 124.46 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1885,9 +2056,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "57169444-8b15-4309-b5e2-4e1cf14e9e61")
-		(property "Reference" "#PWR083"
-			(at 59.69 87.63 0)
+		(fields_autoplaced yes)
+		(uuid "55b030ea-2fc3-4930-9848-40e9f3c2d792")
+		(property "Reference" "#PWR010"
+			(at 124.46 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1898,7 +2070,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 85.344 0)
+			(at 124.46 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1908,7 +2080,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 81.28 0)
+			(at 124.46 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1919,7 +2091,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 81.28 0)
+			(at 124.46 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1930,7 +2102,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 81.28 0)
+			(at 124.46 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1941,12 +2113,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f69d0670-8ea2-420c-8bfd-87cf3a5a57a4")
+			(uuid "e02c49fa-abb2-4972-9265-5f977557baba")
 		)
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "#PWR083")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2056,7 +2228,7 @@
 				)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "4.99kΩ"
 			(at 146.05 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2383,6 +2555,164 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 134.62 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "95dce030-4b0d-40fe-86b3-4a4498985ce4")
+		(property "Reference" "C71"
+			(at 134.62 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20pF"
+			(at 134.62 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 138.43 129.8448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Shunt cap (if needed)"
+			(at 134.62 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88afe3e7-cff3-457d-8b3e-e92c673be148")
+		)
+		(pin "2"
+			(uuid "548478e1-2828-412a-85fe-fae0ae8ec65d")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
+					(reference "C71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a66327c3-c1b6-4f95-9e0b-de99fb10dac0")
+		(property "Reference" "#PWR083"
+			(at 55.88 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba7485de-7a88-4d7d-aec7-6398c5765182")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -2832,7 +3162,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "4.99kΩ"
 			(at 142.24 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2886,6 +3216,86 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
 					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "cf98bac5-5d06-4809-bc7e-01b37a34ade9")
+		(property "Reference" "C72"
+			(at 85.09 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20pF"
+			(at 85.09 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 88.9 129.8448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Shunt cap (if needed)"
+			(at 85.09 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a37ff23-fae8-4970-82d8-a98f093c0cd7")
+		)
+		(pin "2"
+			(uuid "136fc49f-bbfb-4aa4-8b26-75e92b8599bb")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -3045,6 +3455,84 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb0e007f-6732-4d49-b12c-72537c545171")
+		(property "Reference" "#PWR09"
+			(at 95.25 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c83a40c-c927-409a-bb3a-3e43b669227c")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)

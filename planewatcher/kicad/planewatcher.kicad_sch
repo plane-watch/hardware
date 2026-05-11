@@ -3346,7 +3346,7 @@
 		(at 109.22 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "78ca4e8e-6d7e-48be-a350-7d4cb284cabf")
+		(uuid "7597d662-bfdf-4bef-9bdf-aba5c68475b9")
 	)
 	(junction
 		(at 153.67 105.41)
@@ -3776,16 +3776,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 92.71) (xy 233.68 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17188821-28e8-4b96-a9ed-426b48b19595")
-	)
-	(wire
-		(pts
 			(xy 156.21 33.02) (xy 199.39 33.02)
 		)
 		(stroke
@@ -3893,6 +3883,16 @@
 			(type default)
 		)
 		(uuid "26fc6879-d44f-4398-ac9a-2da49338bd34")
+	)
+	(wire
+		(pts
+			(xy 227.33 97.79) (xy 233.68 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "295be79f-83fd-4843-b0e9-d213eef232b8")
 	)
 	(wire
 		(pts
@@ -4046,6 +4046,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 92.71) (xy 233.68 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4389dd8e-6a1e-45df-94fd-59b019aaab5a")
+	)
+	(wire
+		(pts
 			(xy 146.05 105.41) (xy 148.59 105.41)
 		)
 		(stroke
@@ -4096,7 +4106,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 78.74) (xy 162.56 87.63)
+			(xy 161.29 78.74) (xy 161.29 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4276,7 +4286,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 87.63) (xy 163.83 87.63)
+			(xy 161.29 90.17) (xy 163.83 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4376,7 +4386,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 78.74) (xy 109.22 78.74)
+			(xy 161.29 78.74) (xy 109.22 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4486,6 +4496,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 87.63) (xy 162.56 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8530b374-23e3-42fb-83a8-a56a454feda6")
+	)
+	(wire
+		(pts
 			(xy 43.18 68.58) (xy 50.8 68.58)
 		)
 		(stroke
@@ -4503,6 +4523,16 @@
 			(type default)
 		)
 		(uuid "8ae032f4-c15c-4f41-b312-3ca9129e9cd0")
+	)
+	(wire
+		(pts
+			(xy 227.33 87.63) (xy 233.68 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b039a84-9173-4b09-97c4-34d4d78ef340")
 	)
 	(wire
 		(pts
@@ -4533,6 +4563,16 @@
 			(type default)
 		)
 		(uuid "92785284-bbcf-4365-adcd-b1fdc1d1db49")
+	)
+	(wire
+		(pts
+			(xy 162.56 71.12) (xy 162.56 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93235d84-d515-4280-ba4b-42dc4a200add")
 	)
 	(wire
 		(pts
@@ -4683,16 +4723,6 @@
 			(type default)
 		)
 		(uuid "b1a0e521-c33f-4c4b-b5b1-b62a4c26c5bc")
-	)
-	(wire
-		(pts
-			(xy 227.33 87.63) (xy 233.68 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2ab6d53-d14b-4dfe-8df8-2d7f891529b5")
 	)
 	(wire
 		(pts
@@ -6288,7 +6318,7 @@
 				)
 			)
 		)
-		(property "Value" "RF Power Select"
+		(property "Value" "ADC Digital Power Select"
 			(at 255.27 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7601,6 +7631,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 162.56 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9680287d-ad5b-4a1d-aaad-dc466c9f65e8")
+		(property "Reference" "#PWR0112"
+			(at 162.56 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V_RF"
+			(at 162.56 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 162.56 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "818b86b5-da3e-4bf8-9d5f-b3c3e385da54")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 71.12 148.59 0)
 		(unit 1)
@@ -8756,7 +8863,7 @@
 			)
 		)
 		(pin "VPOS" input
-			(at 163.83 87.63 180)
+			(at 163.83 90.17 180)
 			(uuid "6c46f34e-8a96-4ea2-8cf0-7e4d58d8aae8")
 			(effects
 				(font
@@ -8773,6 +8880,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "+5V" input
+			(at 163.83 87.63 180)
+			(uuid "52d81823-2d54-4c38-9c60-a617ad155203")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -9220,7 +9337,7 @@
 	)
 	(sheet
 		(at 199.39 85.09)
-		(size 27.94 10.16)
+		(size 27.94 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9246,7 +9363,7 @@
 			)
 		)
 		(property "Sheetfile" "ADC_Driver.kicad_sch"
-			(at 199.39 95.8346 0)
+			(at 199.39 100.9146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9294,6 +9411,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "ADC_OFFSET" input
+			(at 227.33 97.79 0)
+			(uuid "eb1e5d56-1883-4413-b78c-f35be79e880f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -9419,7 +9546,7 @@
 			)
 		)
 		(pin "AINN" input
-			(at 233.68 87.63 180)
+			(at 233.68 92.71 180)
 			(uuid "af8d2fb1-8090-4dfe-83f5-3ac29b406082")
 			(effects
 				(font
@@ -9429,7 +9556,7 @@
 			)
 		)
 		(pin "AINP" input
-			(at 233.68 92.71 180)
+			(at 233.68 87.63 180)
 			(uuid "9f3faa9e-9b41-416e-959a-238f55e6be0f")
 			(effects
 				(font
@@ -9576,6 +9703,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "VREF" output
+			(at 233.68 97.79 180)
+			(uuid "88fd9b28-f664-41c2-9a53-8eba3ed15536")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
