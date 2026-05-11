@@ -1990,6 +1990,210 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_3_Bridged12"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_3_Bridged12"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPDT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_0_1"
+				(arc
+					(start -2.032 0.508)
+					(mid -1.143 0.8155)
+					(end -0.254 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "planewatcher:TA2003A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2837,6 +3041,56 @@
 		)
 		(uuid "73eb71f2-90b5-4f71-b7cc-ccd820855619")
 	)
+	(text_box "Prototype: Allow changing power rails for digital side of ADC"
+		(exclude_from_sim no)
+		(at 238.76 50.8 0)
+		(size 34.29 19.05)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "7b32f577-c461-44fa-8ebc-fd966661196e")
+	)
+	(text_box "Prototype: Allow changing power rails for RF stage"
+		(exclude_from_sim no)
+		(at 38.1 54.61 0)
+		(size 34.29 19.05)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "81a4f4f9-3ff4-4c97-b560-cce61700fc7a")
+	)
+	(junction
+		(at 55.88 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08a54a90-28f9-43ec-9a51-3068f6a7c99a")
+	)
 	(junction
 		(at 156.21 33.02)
 		(diameter 0)
@@ -2860,6 +3114,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "703b0fb5-9cd4-4e42-b4bc-13aae19a60cf")
+	)
+	(junction
+		(at 109.22 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78ca4e8e-6d7e-48be-a350-7d4cb284cabf")
 	)
 	(junction
 		(at 153.67 105.41)
@@ -2985,7 +3245,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 81.28) (xy 55.88 87.63)
+			(xy 55.88 72.39) (xy 55.88 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3325,7 +3585,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 76.2) (xy 255.27 82.55)
+			(xy 255.27 68.58) (xy 255.27 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3405,6 +3665,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 78.74) (xy 162.56 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7a384f-7ea0-49b6-aa83-a2d201729a1b")
+	)
+	(wire
+		(pts
 			(xy 111.76 158.75) (xy 127 158.75)
 		)
 		(stroke
@@ -3472,6 +3742,16 @@
 			(type default)
 		)
 		(uuid "56d906f8-88c1-4a6d-a21b-30e0e3b93843")
+	)
+	(wire
+		(pts
+			(xy 55.88 78.74) (xy 109.22 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ef87bc-895c-4aed-a3bd-e65de74625ea")
 	)
 	(wire
 		(pts
@@ -3665,6 +3945,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 78.74) (xy 109.22 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "729b06c3-ed8f-4bf7-a54d-a55c19970ec6")
+	)
+	(wire
+		(pts
 			(xy 58.42 33.02) (xy 69.85 33.02)
 		)
 		(stroke
@@ -3762,6 +4052,26 @@
 			(type default)
 		)
 		(uuid "850372ac-9b32-46b4-970d-b6105165ceb4")
+	)
+	(wire
+		(pts
+			(xy 43.18 68.58) (xy 50.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85d81fc5-c406-40bd-b411-45f72e737b47")
+	)
+	(wire
+		(pts
+			(xy 68.58 68.58) (xy 60.96 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae032f4-c15c-4f41-b312-3ca9129e9cd0")
 	)
 	(wire
 		(pts
@@ -3895,16 +4205,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 81.28) (xy 162.56 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7783d60-904f-401a-a7f5-cb631e0f167e")
-	)
-	(wire
-		(pts
 			(xy 50.8 156.21) (xy 66.04 156.21)
 		)
 		(stroke
@@ -3915,7 +4215,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 81.28) (xy 109.22 87.63)
+			(xy 109.22 78.74) (xy 109.22 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4105,6 +4405,26 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 78.74) (xy 55.88 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfeecad4-5732-48c5-a3a6-2a4469bee87f")
+	)
+	(wire
+		(pts
+			(xy 267.97 64.77) (xy 260.35 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2db86be-2690-45fb-91e5-e64096936f92")
+	)
+	(wire
+		(pts
 			(xy 83.82 166.37) (xy 99.06 166.37)
 		)
 		(stroke
@@ -4252,6 +4572,16 @@
 			(type default)
 		)
 		(uuid "f9b2d4e6-d769-4017-868e-6597753b9a58")
+	)
+	(wire
+		(pts
+			(xy 242.57 64.77) (xy 250.19 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb1e6fda-ed36-411f-acbf-6281a683dee0")
 	)
 	(wire
 		(pts
@@ -5566,6 +5896,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_3_Bridged12")
+		(at 255.27 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20287edb-69ed-4f37-bc62-b0368d9c1f74")
+		(property "Reference" "JP3"
+			(at 255.27 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RF Power Select"
+			(at 255.27 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 255.27 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+			(at 255.27 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "413f48ab-eede-496c-a3c3-7deafc168960")
+		)
+		(pin "1"
+			(uuid "10580ab6-68d2-4174-b574-90daf8cfa9a4")
+		)
+		(pin "3"
+			(uuid "e085b123-12e1-4c23-83cb-d1509ec5b217")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 185.42 44.45 0)
 		(unit 1)
@@ -5643,83 +6056,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 55.88 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "40e9affe-53ec-4aeb-a5e5-0ce9edd82fe8")
-		(property "Reference" "#PWR08"
-			(at 55.88 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5V_RF"
-			(at 55.88 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 55.88 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "225d41ff-e9c3-4b91-a838-f652419ea6da")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 100.33 105.41 0)
 		(unit 1)
@@ -5791,6 +6127,83 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VADC")
+		(at 267.97 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5c2ef1ab-9813-4c15-a785-524b9f5ddc57")
+		(property "Reference" "#PWR0113"
+			(at 271.78 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AVDD"
+			(at 267.97 60.706 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VADC\""
+			(at 267.97 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58e84326-ea44-4000-8224-43b6b6e6cf05")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -5876,6 +6289,83 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 43.18 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5ea920e9-9f66-4130-9da6-b6e5a24a45fc")
+		(property "Reference" "#PWR0111"
+			(at 43.18 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V_RF"
+			(at 43.18 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 43.18 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc88ef77-9406-4488-8e77-009062b556f5")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 99.06 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -5946,84 +6436,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VADC")
-		(at 255.27 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "73edcbfc-afbe-461b-b497-ed93adf3980f")
-		(property "Reference" "#PWR07"
-			(at 259.08 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DRVDD"
-			(at 253.492 72.136 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VADC\""
-			(at 255.27 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0cc1ae18-6f59-427b-bdca-1cf46add35a4")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6205,6 +6617,83 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VADC")
+		(at 68.58 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "885abbcd-0df4-4478-9c05-a6b11ceeab22")
+		(property "Reference" "#PWR0110"
+			(at 72.39 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AVDD"
+			(at 68.58 64.516 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VADC\""
+			(at 68.58 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b9d4e12-c24e-4a17-a957-04a22ab5e1ce")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -6807,6 +7296,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_3_Bridged12")
+		(at 55.88 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a16d94f2-88a8-4750-aa56-e902d4e811c7")
+		(property "Reference" "JP2"
+			(at 55.88 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RF Power Select"
+			(at 55.88 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 55.88 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+			(at 55.88 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "558719e2-b461-46e6-8a6a-ae2abad079c9")
+		)
+		(pin "1"
+			(uuid "ce9d6394-ccc0-4260-9856-8ed40620df55")
+		)
+		(pin "3"
+			(uuid "787b4e3f-b24c-432d-829b-8dca6be90413")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "planewatcher:TA2003A")
 		(at 149.86 85.09 0)
 		(unit 1)
@@ -7065,8 +7637,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 162.56 81.28 0)
+		(lib_id "power:+3.3VADC")
+		(at 242.57 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7074,9 +7646,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "badf2f39-ec14-465d-81c5-87e6aff5d09d")
-		(property "Reference" "#PWR010"
-			(at 162.56 85.09 0)
+		(uuid "bc00748b-01b0-4bb6-9365-8c404a1e4223")
+		(property "Reference" "#PWR08"
+			(at 246.38 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7086,18 +7658,19 @@
 				)
 			)
 		)
-		(property "Value" "5V_RF"
-			(at 162.56 77.47 0)
+		(property "Value" "DRVDD"
+			(at 240.792 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 81.28 0)
+			(at 242.57 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7108,7 +7681,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 81.28 0)
+			(at 242.57 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7118,8 +7691,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 162.56 81.28 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VADC\""
+			(at 242.57 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7130,12 +7703,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fae8915b-1e6a-43a9-9ce1-9824bfec2d2e")
+			(uuid "3cc6fb52-bfdd-4f64-a3ac-dbb8d26c922d")
 		)
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR010")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7393,83 +7966,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 109.22 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "de95e14e-c997-4533-ad1e-61bb8f3fc3a4")
-		(property "Reference" "#PWR09"
-			(at 109.22 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5V_RF"
-			(at 109.22 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 109.22 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b631b60d-b698-4ecd-b523-1dd98a924320")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)

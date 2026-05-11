@@ -1363,14 +1363,15 @@
 		)
 		(uuid "7b70c4d9-95d6-4f05-8a5d-318c39affb82")
 	)
-	(text_box "Voltage divider to set TADJ pin for optimum performance depening on frequency.\n\nFor first prototype, a trimmer is included to allow precise tuning.\nTrimmer at minimum: 0.8018V\nTrimmer at maximum: 0.8713V\n\nThis allows tuning between 900MHz & 1.9MHz from table 4 in datasheet (see inset)."
+	(text_box "Voltage divider to set TADJ pin for optimum performance depening on frequency.\n\nFor first prototype, a trimmer is included to allow precise tuning.\nTrimmer at minimum: 0.8018V\nTrimmer at maximum: 0.8713V\n\nThis allows tuning between 900MHz & 1.9MHz from table 4 in datasheet (see inset).\n\nReplace with simple voltage divider when optimum TADJ voltage is known."
 		(exclude_from_sim no)
 		(at 135.89 87.63 0)
-		(size 35.56 71.12)
+		(size 35.56 77.47)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
+			(color 255 0 0 1)
 		)
 		(fill
 			(type none)
@@ -1378,6 +1379,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 0 0 1)
 			)
 			(justify left bottom)
 		)
