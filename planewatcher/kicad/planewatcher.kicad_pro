@@ -761,7 +761,7 @@
         "uuid": "7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
       }
     ],
-    "used_designators": "TP20,JP2-3,#PWR8,#PWR110-113",
+    "used_designators": "#PWR7,#FLG1-11",
     "variants": []
   },
   "sheets": [

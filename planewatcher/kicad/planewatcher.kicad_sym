@@ -2270,25 +2270,6 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -1.27 5.08 0)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
 			(pin free line
 				(at 11.43 -31.75 180)
 				(length 2.54)
@@ -2303,25 +2284,6 @@
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -1.27 7.62 0)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 0.762 0.762)
 						)
 					)
 				)
@@ -2344,25 +2306,6 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -1.27 10.16 0)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
 			(pin free line
 				(at 11.43 -36.83 180)
 				(length 2.54)
@@ -2377,25 +2320,6 @@
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -1.27 12.7 0)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 0.762 0.762)
 						)
 					)
 				)
@@ -2490,25 +2414,6 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -1.27 15.24 0)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
 			(pin free line
 				(at 11.43 -41.91 180)
 				(length 2.54)
@@ -2545,25 +2450,6 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -1.27 17.78 0)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
 			(pin free line
 				(at 11.43 -44.45 180)
 				(length 2.54)
@@ -2578,25 +2464,6 @@
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -1.27 20.32 0)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 0.508 0.508)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 0.762 0.762)
 						)
 					)
 				)
@@ -2895,7 +2762,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 16.51 -19.05 180)
 				(length 2.54)
 				(name "OUT"
@@ -3836,7 +3703,7 @@
 			)
 		)
 		(symbol "TA2003A_1_1"
-			(pin power_in line
+			(pin passive line
 				(at -3.81 -20.32 90)
 				(length 2.54)
 				(name "GND"
@@ -3854,7 +3721,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "IN"
@@ -3872,7 +3739,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -1.27 -20.32 90)
 				(length 2.54)
 				(name "GND"
@@ -3890,7 +3757,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 1.27 -20.32 90)
 				(length 2.54)
 				(name "GND"
@@ -3908,7 +3775,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 10.16 -7.62 180)
 				(length 2.54)
 				(name "OUT"
@@ -3926,7 +3793,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 3.81 -20.32 90)
 				(length 2.54)
 				(name "GND"

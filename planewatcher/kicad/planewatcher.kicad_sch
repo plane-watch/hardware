@@ -2364,7 +2364,7 @@
 				)
 			)
 			(symbol "TA2003A_1_1"
-				(pin power_in line
+				(pin passive line
 					(at -3.81 -20.32 90)
 					(length 2.54)
 					(name "GND"
@@ -2382,7 +2382,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -10.16 -7.62 0)
 					(length 2.54)
 					(name "IN"
@@ -2400,7 +2400,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -1.27 -20.32 90)
 					(length 2.54)
 					(name "GND"
@@ -2418,7 +2418,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 1.27 -20.32 90)
 					(length 2.54)
 					(name "GND"
@@ -2436,7 +2436,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at 10.16 -7.62 180)
 					(length 2.54)
 					(name "OUT"
@@ -2454,7 +2454,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 3.81 -20.32 90)
 					(length 2.54)
 					(name "GND"
@@ -3007,6 +3007,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 30.48 74.93)
@@ -3020,6 +3135,106 @@
 			(type none)
 		)
 		(uuid "c27fb7a7-cc66-4ba0-96b7-4755d738d76e")
+	)
+	(text "FPGA_GND"
+		(exclude_from_sim no)
+		(at 61.468 147.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0a3ee24e-9f54-4ee1-96f1-719fb934631f")
+	)
+	(text "FPGA_3V3"
+		(exclude_from_sim no)
+		(at 122.174 188.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c0dac8e-57bf-468b-b1b1-ab2a2feaefaf")
+	)
+	(text "FPGA_3V3"
+		(exclude_from_sim no)
+		(at 27.432 145.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4edea00c-084a-4ea7-b521-e31175646e1d")
+	)
+	(text "FPGA_GND"
+		(exclude_from_sim no)
+		(at 27.686 147.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4fd0592a-7347-4b76-b706-6e89a9792915")
+	)
+	(text "FPGA_3V3"
+		(exclude_from_sim no)
+		(at 61.214 145.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7b71c9d4-23e6-4b34-be29-2e267236803f")
+	)
+	(text "FPGA_GND"
+		(exclude_from_sim no)
+		(at 122.174 185.928 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a2d81394-f3f8-46e2-878f-f4250cd383a6")
+	)
+	(text "FPGA_3V3"
+		(exclude_from_sim no)
+		(at 88.646 188.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a46f7f58-c821-46e9-931b-a230749c3de2")
+	)
+	(text "FPGA_GND"
+		(exclude_from_sim no)
+		(at 88.646 185.928 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c9bc36d1-7739-4783-ad0d-4c904eb8ad6a")
+	)
+	(text_box "NOTE: FPGA_3V3 pins intentionally left disconnected so KiCAD does not raise ERC warning about them not being connected on the PCB."
+		(exclude_from_sim no)
+		(at 52.07 130.8878 0)
+		(size 40.64 10.0822)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5ab07510-830b-4afa-837b-c8bea91a7e4d")
 	)
 	(text_box "See notes re: TADJ in nested sheet."
 		(exclude_from_sim no)
@@ -3104,6 +3319,18 @@
 		(uuid "42b508bf-7b1d-4b75-8089-cb069a9e4a66")
 	)
 	(junction
+		(at 255.27 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62d54aca-ee30-4bed-bf61-c29e26fbeca1")
+	)
+	(junction
+		(at 41.91 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "647b281c-1003-4091-99bb-de9b87fdcd8c")
+	)
+	(junction
 		(at 100.33 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3146,34 +3373,244 @@
 		(uuid "df5670d8-3eb3-4e29-b37e-daeff3b749cb")
 	)
 	(junction
+		(at 55.88 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9dce1ca-226c-4133-9a10-222c1779669f")
+	)
+	(junction
 		(at 69.85 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc7de7ff-38de-4f2d-92d1-172f5a551087")
 	)
 	(no_connect
+		(at 127 171.45)
+		(uuid "000634d7-e0aa-45a6-9fb2-f0985a88886e")
+	)
+	(no_connect
+		(at 83.82 168.91)
+		(uuid "01244fab-deda-4d9d-b2e2-2f4728f2251e")
+	)
+	(no_connect
+		(at 83.82 148.59)
+		(uuid "049ea1c3-a42b-4cb2-9954-24632730b118")
+	)
+	(no_connect
+		(at 83.82 163.83)
+		(uuid "05b08ad9-caf4-47af-8a5e-9e11c5538dfc")
+	)
+	(no_connect
+		(at 83.82 166.37)
+		(uuid "092c1016-1c3d-4ff8-a88b-5ea82b249d46")
+	)
+	(no_connect
+		(at 22.86 186.69)
+		(uuid "09c1f60e-b869-4329-a609-c1abaf11a60c")
+	)
+	(no_connect
 		(at 99.06 189.23)
 		(uuid "103ed21c-3483-4791-83ba-f06241c717de")
 	)
 	(no_connect
-		(at 127 189.23)
-		(uuid "12e460a6-3f0e-4bbf-847b-d2713972d89d")
+		(at 22.86 171.45)
+		(uuid "1a03623d-789c-406c-a36c-cf2244aceb3e")
 	)
 	(no_connect
-		(at 66.04 146.05)
-		(uuid "9137e030-900f-469e-abeb-467b3362203b")
+		(at 83.82 156.21)
+		(uuid "1b55db91-cf7c-456a-b385-fc913c3113c1")
 	)
 	(no_connect
-		(at 83.82 189.23)
-		(uuid "db9bd178-8c4e-4aae-b7f9-8b1b6ec104aa")
+		(at 22.86 173.99)
+		(uuid "22567f0a-2faf-4175-88d0-a37f57e4bd91")
 	)
 	(no_connect
-		(at 110.49 189.23)
+		(at 83.82 151.13)
+		(uuid "28969e6d-11b8-4acf-8e2c-24ccadb0fa5c")
+	)
+	(no_connect
+		(at 127 168.91)
+		(uuid "2983d3f1-0722-4679-8bf4-e6c199c4e96f")
+	)
+	(no_connect
+		(at 22.86 179.07)
+		(uuid "29b3f73f-a643-4869-b809-a0af68dd21f1")
+	)
+	(no_connect
+		(at 22.86 184.15)
+		(uuid "2a3b9483-aba2-4810-a0bb-c0c4aec7c968")
+	)
+	(no_connect
+		(at 127 176.53)
+		(uuid "2bf5be39-adfd-4db2-ba60-b86876908ed0")
+	)
+	(no_connect
+		(at 22.86 153.67)
+		(uuid "32b5dc8f-4703-429c-bf13-e0c3057e856c")
+	)
+	(no_connect
+		(at 83.82 158.75)
+		(uuid "340344aa-d56e-40ef-8b8e-e20695368290")
+	)
+	(no_connect
+		(at 83.82 181.61)
+		(uuid "3431fdf9-572a-4af2-b01e-c7970330c8ba")
+	)
+	(no_connect
+		(at 83.82 146.05)
+		(uuid "347c4ed9-9134-482e-bf16-a784002c4f56")
+	)
+	(no_connect
+		(at 83.82 179.07)
+		(uuid "373b5c19-d4af-4750-b026-02fd834753dc")
+	)
+	(no_connect
+		(at 22.86 158.75)
+		(uuid "39452e4d-c322-40e2-a20b-9a42a713bcde")
+	)
+	(no_connect
+		(at 66.04 156.21)
+		(uuid "46662520-3062-43bd-b789-f58f13c1b83c")
+	)
+	(no_connect
+		(at 66.04 153.67)
+		(uuid "4b247006-ec6e-48b5-abde-eba9656a5ff6")
+	)
+	(no_connect
+		(at 127 166.37)
+		(uuid "554b6ae9-e54f-49fd-964b-5e261e878c81")
+	)
+	(no_connect
+		(at 83.82 153.67)
+		(uuid "57b82fc8-8ae3-412f-9c04-427cf6fe794a")
+	)
+	(no_connect
+		(at 127 184.15)
+		(uuid "59c5f415-416d-419a-a6ab-f772bc0b74bb")
+	)
+	(no_connect
+		(at 83.82 176.53)
+		(uuid "5a1349a3-21f6-4b25-b0bc-2d4a07839555")
+	)
+	(no_connect
+		(at 83.82 173.99)
+		(uuid "652bd627-1a5b-4821-b0ba-7af5a5d10d23")
+	)
+	(no_connect
+		(at 66.04 158.75)
+		(uuid "66dd482c-d869-48d8-bd9b-ae640bd31145")
+	)
+	(no_connect
+		(at 22.86 163.83)
+		(uuid "6862e5d4-0e64-4407-aeb3-5bf571ba86f1")
+	)
+	(no_connect
+		(at 83.82 171.45)
+		(uuid "691720a2-a5ee-4924-ad65-8fde414607be")
+	)
+	(no_connect
+		(at 127 173.99)
+		(uuid "6975a826-e645-471f-8ff5-7163a9d26567")
+	)
+	(no_connect
+		(at 83.82 161.29)
+		(uuid "6c271f97-b533-43d1-8eb3-2283e63a3fc3")
+	)
+	(no_connect
+		(at 22.86 168.91)
+		(uuid "6d9c91f4-4cbb-4736-b91c-f8e46fa2a988")
+	)
+	(no_connect
+		(at 127 143.51)
+		(uuid "7564bdc3-9754-4948-9144-beb57dee3608")
+	)
+	(no_connect
+		(at 127 148.59)
+		(uuid "79434c99-af10-4234-b01d-82e288d229d9")
+	)
+	(no_connect
+		(at 22.86 189.23)
+		(uuid "82e05baa-3b9e-4428-85cc-b9542df8a058")
+	)
+	(no_connect
+		(at 22.86 181.61)
+		(uuid "942279dd-5087-4ae7-9691-e0a6f2379817")
+	)
+	(no_connect
+		(at 22.86 151.13)
+		(uuid "972a0dec-7c23-43c1-9992-89fe6271cebe")
+	)
+	(no_connect
+		(at 127 181.61)
+		(uuid "9742e36c-0378-4a4d-be64-79b83152d32f")
+	)
+	(no_connect
+		(at 127 156.21)
+		(uuid "9bf05d37-9658-4377-9b4e-1a2f62d81a1d")
+	)
+	(no_connect
+		(at 66.04 161.29)
+		(uuid "9e0335bb-c1fd-45a6-92c2-4ae58c06cf82")
+	)
+	(no_connect
+		(at 22.86 156.21)
+		(uuid "a7334ccd-6b77-4498-98f7-173095f90828")
+	)
+	(no_connect
+		(at 22.86 176.53)
+		(uuid "af0796e6-6a1d-47d1-8ba9-f39de03fa22e")
+	)
+	(no_connect
+		(at 127 163.83)
+		(uuid "b67e32ce-41b2-45e8-8e2f-82b918f57fec")
+	)
+	(no_connect
+		(at 83.82 143.51)
+		(uuid "b871e849-dd3c-40b5-bd25-5949eb56ad00")
+	)
+	(no_connect
+		(at 127 146.05)
+		(uuid "bca4d7ed-f2f7-4b65-9d28-7fe3ea4a2670")
+	)
+	(no_connect
+		(at 22.86 166.37)
+		(uuid "c6f5e8c2-c9db-43a1-8011-5318c332a263")
+	)
+	(no_connect
+		(at 22.86 161.29)
+		(uuid "c975aac8-ffe4-4d8a-9d7a-f9d87e454ed8")
+	)
+	(no_connect
+		(at 127 161.29)
+		(uuid "c9b36e7d-8750-4214-967c-b2cae5cf07b9")
+	)
+	(no_connect
+		(at 22.86 191.77)
+		(uuid "cc2adf30-15a8-44b1-8fca-2c189eac4e15")
+	)
+	(no_connect
+		(at 127 153.67)
+		(uuid "ce7362a0-5465-4d70-9bef-709fe56717bb")
+	)
+	(no_connect
+		(at 127 151.13)
+		(uuid "db7e97f5-1af2-42cc-b7cc-bcc7f7e21d0b")
+	)
+	(no_connect
+		(at 127 179.07)
+		(uuid "e4c1aa15-40d0-475a-9c4f-dd40d9d6642d")
+	)
+	(no_connect
+		(at 111.76 189.23)
 		(uuid "efe8cc3c-6e68-48a3-9ff7-eb6d9c68d29b")
 	)
 	(no_connect
-		(at 22.86 146.05)
-		(uuid "f48c9acb-a913-4347-8596-bc2addfcc55e")
+		(at 66.04 151.13)
+		(uuid "f446cebb-402a-42a1-9b00-12380536648a")
+	)
+	(no_connect
+		(at 83.82 184.15)
+		(uuid "f5392098-a78a-4d03-b0a5-47f4963a8809")
 	)
 	(no_connect
 		(at 50.8 146.05)
@@ -3182,6 +3619,10 @@
 	(no_connect
 		(at 38.1 146.05)
 		(uuid "f9dd0776-d1c5-4628-9dab-cb431a32d65f")
+	)
+	(no_connect
+		(at 127 158.75)
+		(uuid "fe8e3534-8f2d-40bc-9eb0-e0b1b769a070")
 	)
 	(wire
 		(pts
@@ -3655,16 +4096,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 92.71) (xy 57.15 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cd9543a-127e-4c7c-957f-a6b557c753fd")
-	)
-	(wire
-		(pts
 			(xy 162.56 78.74) (xy 162.56 87.63)
 		)
 		(stroke
@@ -3815,7 +4246,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 92.71) (xy 31.75 92.71)
+			(xy 24.13 92.71) (xy 41.91 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4305,6 +4736,26 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 92.71) (xy 41.91 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c4f97a-80a5-4bb0-8442-32677b56ee04")
+	)
+	(wire
+		(pts
+			(xy 41.91 92.71) (xy 57.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3237c22-64b7-4fbb-b3d9-a30f8fdb17b6")
+	)
+	(wire
+		(pts
 			(xy 83.82 176.53) (xy 99.06 176.53)
 		)
 		(stroke
@@ -4763,16 +5214,6 @@
 		)
 		(uuid "29f449ec-e38e-4ed5-83fe-efe42bfa1eaa")
 	)
-	(label "FPGA_GND"
-		(at 22.86 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2adadb1b-69d1-434d-bd2c-570e14b74f86")
-	)
 	(label "FPGA_V14"
 		(at 22.86 151.13 0)
 		(effects
@@ -4923,16 +5364,6 @@
 		)
 		(uuid "4d406fc8-d273-4423-aa03-41d7da6f6309")
 	)
-	(label "FPGA_GND"
-		(at 127 186.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4d7e7472-7a43-467f-b083-8c1a58af4402")
-	)
 	(label "FPGA_VCC"
 		(at 22.86 143.51 0)
 		(effects
@@ -4983,16 +5414,6 @@
 		)
 		(uuid "6a308dc8-3339-4a8e-b4cf-bdb336490314")
 	)
-	(label "FPGA_GND"
-		(at 66.04 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6ac6b51f-7dee-4643-b3d6-00758316bb1e")
-	)
 	(label "FPGA_D16"
 		(at 83.82 153.67 0)
 		(effects
@@ -5022,16 +5443,6 @@
 			(justify right bottom)
 		)
 		(uuid "714499e3-537f-44e3-a6fe-9c52d249d485")
-	)
-	(label "FPGA_3V3"
-		(at 66.04 146.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "754ab767-7919-4736-8dbd-449cc1105c70")
 	)
 	(label "FPGA_G15"
 		(at 127 143.51 180)
@@ -5223,16 +5634,6 @@
 		)
 		(uuid "9c23d2f0-64c1-4a91-8ee9-f866510b8aac")
 	)
-	(label "FPGA_3V3"
-		(at 22.86 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a0ba981e-e441-4c51-a924-1a3ef8674fa4")
-	)
 	(label "FPGA_B15"
 		(at 127 156.21 180)
 		(effects
@@ -5242,16 +5643,6 @@
 			(justify right bottom)
 		)
 		(uuid "a1665085-1a64-406e-a9cc-8912b9952532")
-	)
-	(label "FPGA_3V3"
-		(at 127 189.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a5230152-1dd5-4693-9b18-529d86bfc0be")
 	)
 	(label "FPGA_F19"
 		(at 83.82 173.99 0)
@@ -5383,16 +5774,6 @@
 		)
 		(uuid "df1ab064-f316-41b8-9543-3075022de7ee")
 	)
-	(label "FPGA_3V3"
-		(at 83.82 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eaa169ae-ac02-4f2e-b1b6-55e42c1d85bc")
-	)
 	(label "FPGA_AB19"
 		(at 66.04 179.07 180)
 		(effects
@@ -5512,16 +5893,6 @@
 			(justify right bottom)
 		)
 		(uuid "fc33d8c7-e1e4-4aab-93ee-e45cdc738332")
-	)
-	(label "FPGA_GND"
-		(at 83.82 186.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd5aa238-02d5-4112-bf6f-c17149cf04ba")
 	)
 	(label "FPGA_E19"
 		(at 83.82 171.45 0)
@@ -5960,6 +6331,17 @@
 				)
 			)
 		)
+		(property "Notes" "For prototype: Allow changing power rails for digital side of ADC"
+			(at 255.27 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "413f48ab-eede-496c-a3c3-7deafc168960")
 		)
@@ -5973,6 +6355,85 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 55.88 72.39 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26c654fe-8c37-40e5-9a75-c4cff03c2689")
+		(property "Reference" "#FLG02"
+			(at 57.785 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 59.69 72.3899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 55.88 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bda1e68-5831-4524-a7e0-c859b5650141")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -7360,6 +7821,17 @@
 				)
 			)
 		)
+		(property "Notes" "For prototype: Allow changing power rails for RF stage."
+			(at 55.88 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "558719e2-b461-46e6-8a6a-ae2abad079c9")
 		)
@@ -7972,6 +8444,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 255.27 68.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb386152-b62f-4ddb-ac9f-f9931fc29c22")
+		(property "Reference" "#FLG03"
+			(at 257.175 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 259.08 68.5799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 255.27 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d31633c7-19ce-414b-9421-c72c70890b9f")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VADC")
 		(at 198.12 81.28 0)
 		(unit 1)
@@ -8451,13 +9002,12 @@
 		)
 	)
 	(sheet
-		(at 31.75 88.9)
-		(size 19.05 7.62)
+		(at 31.75 99.06)
+		(size 20.32 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -8467,7 +9017,7 @@
 		)
 		(uuid "688449b3-e085-4d3d-9010-5bd7bcac8461")
 		(property "Sheetname" "RF_Input_Protection"
-			(at 31.75 88.1884 0)
+			(at 31.75 98.298 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8478,7 +9028,7 @@
 			)
 		)
 		(property "Sheetfile" "RF_Input_Protection.kicad_sch"
-			(at 31.75 97.1046 0)
+			(at 31.75 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8488,19 +9038,9 @@
 				(justify left top)
 			)
 		)
-		(pin "RF_IN" input
-			(at 31.75 92.71 180)
-			(uuid "2fdd6f3e-7ea3-411b-bb8c-580dcf3dbde1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RF_OUT" output
-			(at 50.8 92.71 0)
-			(uuid "90a4aba9-4487-4e4b-82b8-f3e8a14098c6")
+		(pin "RF" passive
+			(at 41.91 99.06 90)
+			(uuid "c6a4e0cf-d6ea-43ee-a2de-d68301a46c31")
 			(effects
 				(font
 					(size 1.27 1.27)

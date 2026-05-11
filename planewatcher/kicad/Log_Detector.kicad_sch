@@ -786,25 +786,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -1.27 5.08 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
 				(pin free line
 					(at 11.43 -31.75 180)
 					(length 2.54)
@@ -819,25 +800,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -1.27 7.62 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 0.762 0.762)
 							)
 						)
 					)
@@ -860,25 +822,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -1.27 10.16 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
 				(pin free line
 					(at 11.43 -36.83 180)
 					(length 2.54)
@@ -893,25 +836,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -1.27 12.7 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1006,25 +930,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -1.27 15.24 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
 				(pin free line
 					(at 11.43 -41.91 180)
 					(length 2.54)
@@ -1061,25 +966,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -1.27 17.78 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
 				(pin free line
 					(at 11.43 -44.45 180)
 					(length 2.54)
@@ -1094,25 +980,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -1.27 20.32 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1406,6 +1273,12 @@
 		(uuid "fc28d971-a11b-43af-be39-c66749cab29b")
 	)
 	(junction
+		(at 160.02 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "089444fe-d8d1-45e2-b533-bbafd085bdd9")
+	)
+	(junction
 		(at 130.81 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1629,7 +1502,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 113.03) (xy 160.02 106.68)
+			(xy 160.02 113.03) (xy 160.02 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1726,6 +1599,16 @@
 			(type default)
 		)
 		(uuid "75784e4d-70f2-4a5f-9172-3563a038c783")
+	)
+	(wire
+		(pts
+			(xy 160.02 109.22) (xy 160.02 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77bdcfe9-0431-4702-8717-bd4176cc20bd")
 	)
 	(wire
 		(pts
@@ -1846,6 +1729,16 @@
 			(type default)
 		)
 		(uuid "b274c55a-6be4-4fd1-ac7b-802d442f2f8a")
+	)
+	(wire
+		(pts
+			(xy 153.67 109.22) (xy 160.02 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfb1d94c-0a13-424e-bd1b-ff15c775140c")
 	)
 	(wire
 		(pts
@@ -3245,6 +3138,17 @@
 				)
 			)
 		)
+		(property "Notes" "For prototype: Voltage divider to set TADJ pin for optimum performance depening on frequency. "
+			(at 153.67 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "f3f479aa-c57e-4ee8-958e-973c0f10e1e3")
 		)
@@ -4004,27 +3908,6 @@
 		)
 		(pin "2"
 			(uuid "dbdea785-e97b-446c-81fe-036e57a49c89")
-		)
-		(pin "5"
-			(uuid "cf2be0e0-21f8-4428-9827-725c692d3dfe")
-		)
-		(pin "6"
-			(uuid "9f6f758f-0833-4e8e-b49b-3ec1af0a7f7b")
-		)
-		(pin "7"
-			(uuid "4c48e66d-c208-46d1-aa56-97c76828834a")
-		)
-		(pin "16"
-			(uuid "231a796b-41c7-47b5-ae0d-9ec7bd85db72")
-		)
-		(pin "13"
-			(uuid "b0b685b4-b5f1-4b57-979b-bd446d896d7b")
-		)
-		(pin "15"
-			(uuid "288d9fd5-639b-45bc-abcd-6cc0f1e8f5cc")
-		)
-		(pin "8"
-			(uuid "c2475e0c-0875-46cc-ba7e-a8be983a21e8")
 		)
 		(instances
 			(project "planewatcher"
