@@ -6124,7 +6124,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9872a1fe-8b2a-4188-807f-fa5fc3bd0db0")
 		(property "Reference" "JP1"

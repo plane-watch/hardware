@@ -3908,20 +3908,6 @@
 	)
 	(polyline
 		(pts
-			(xy 200.928 173.185) (xy 200.928 173.185)
-		)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 211 209 209 1)
-		)
-		(uuid "d3289a36-5b3a-4e08-84e9-6df24a2ebd88")
-	)
-	(polyline
-		(pts
 			(xy 217.4894 172.2182) (xy 217.5914 172.2262) (xy 217.6893 172.2395) (xy 217.7833 172.258) (xy 217.8734 172.2817)
 			(xy 217.9596 172.3105) (xy 218.042 172.3444) (xy 218.1206 172.3834) (xy 218.1954 172.4273) (xy 218.2666 172.4762)
 			(xy 218.3341 172.53) (xy 218.398 172.5887) (xy 218.4584 172.6521) (xy 218.5152 172.7203) (xy 218.5686 172.7933)
@@ -5668,6 +5654,16 @@
 		)
 		(uuid "d1db8e95-cde0-479e-86cb-add14e7309e1")
 	)
+	(polyline
+		(pts
+			(xy 200.928 173.185) (xy 200.928 173.185)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(uuid "d3289a36-5b3a-4e08-84e9-6df24a2ebd88")
+	)
 	(wire
 		(pts
 			(xy 26.67 33.02) (xy 40.64 33.02)
@@ -6777,7 +6773,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0471bc32-9f7f-4f95-b9c3-dbe90ea8fe70")
 		(property "Reference" "J5"
@@ -7082,7 +7078,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "139bb395-df0e-4b1d-9a01-82c19f93b1e1")
 		(property "Reference" "J1"
 			(at 21.59 41.91 0)
@@ -7180,10 +7176,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "20287edb-69ed-4f37-bc62-b0368d9c1f74")
 		(property "Reference" "JP3"
@@ -8300,7 +8296,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8bf3fc60-6a23-4635-89d8-675e527dd459")
 		(property "Reference" "J4"
@@ -8835,10 +8831,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a16d94f2-88a8-4750-aa56-e902d4e811c7")
 		(property "Reference" "JP2"
@@ -9313,7 +9309,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c62a1275-4d62-49be-acdc-c0eba61d1bbd")
 		(property "Reference" "J2"
 			(at 22.1096 86.36 0)
