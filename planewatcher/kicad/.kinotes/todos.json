@@ -2,8 +2,13 @@
   {
     "text": "Schematic Review",
     "done": false,
-    "time_spent": 0,
-    "history": [],
+    "time_spent": 4.595525026321411,
+    "history": [
+      {
+        "start": 1778683989,
+        "stop": 1778683994
+      }
+    ],
     "is_running": false
   },
   {
