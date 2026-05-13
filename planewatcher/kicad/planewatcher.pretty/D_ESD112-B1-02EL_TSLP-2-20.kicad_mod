@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Footprint for Infineon ESD112-B1-02EL, TSLP-2-20 package.")
+	(descr "Footprint for Infineon PG-TSLP-2-20 RF ESD diode, compatible with ESD103-B1-02EL.")
 	(property "Reference" "REF**"
 		(at 0 -1.5 0)
 		(unlocked yes)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "D_ESD112-B1-02EL"
+	(property "Value" "D_ESD103-B1-02EL"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-esd112-b1-ds-en.pdf?fileId=db3a30433d346a2d013d3aa400953906&folderId=db3a30431f848401011fcbf2ab4c04c4"
+	(property "Datasheet" "https://www.infineon.com/cms/en/product/esd-and-surge-protection/low-capacitance-esd-devices/esd103-b1-02el/"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -41,7 +41,7 @@
 			)
 		)
 	)
-	(property "Description" "Bi-directional Ultra-low Capacitance ESD / Transient Protection Diode"
+	(property "Description" "Low-capacitance bidirectional RF ESD diode, 0.13pF typical, ±15V working voltage"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
