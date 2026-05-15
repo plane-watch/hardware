@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.5,
-          "height": 0.8,
-          "width": 0.8
+          "drill": 0.0,
+          "height": 0.305,
+          "width": 0.813
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -205,7 +205,8 @@
         0.2,
         0.305,
         0.309617,
-        0.5
+        0.5,
+        1.7
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -786,7 +787,7 @@
         "uuid": "7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
       }
     ],
-    "used_designators": "TP21",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -795,16 +796,8 @@
       "Root"
     ],
     [
-      "7535f1c6-2dba-45f2-85ce-bd33ccc49d1a",
-      "Power_5V_RF"
-    ],
-    [
-      "06efddeb-af3c-41f7-82c5-125e2fa87253",
-      "Power_3V_Analog"
-    ],
-    [
-      "524be695-6a59-49a2-8dca-c59940e9e883",
-      "Power_3V_Digital"
+      "e02d84ed-6468-4290-a59c-50ded41c0aba",
+      "Power_3V3"
     ],
     [
       "be54cab6-561b-439c-9db3-5433a1e68d46",
@@ -825,10 +818,6 @@
     [
       "f77ae351-26f3-42d4-beb0-b884b17c3798",
       "ADC"
-    ],
-    [
-      "3f548880-1f88-4cb2-a308-e70fd70c9481",
-      "Power_5V_FPGA"
     ],
     [
       "5ac3603d-bbeb-44f4-b422-6252fe26d95e",

@@ -2050,10 +2050,10 @@
 		)
 		(uuid "7b70c4d9-95d6-4f05-8a5d-318c39affb82")
 	)
-	(text_box "Voltage divider to set TADJ pin for optimum performance depending on frequency.\n\nFor first prototype, a trimmer is included to allow precise tuning.\nTrimmer at minimum: 0.8018V\nTrimmer at maximum: 0.8713V\n\nThis allows tuning between 900MHz & 1.9GHz from table 4 in datasheet (see inset).\n\nReplace with simple voltage divider when optimum TADJ voltage is known."
+	(text_box "Voltage divider to set TADJ pin for optimum performance depending on frequency.\n\nFor first prototype, a trimmer is included to allow precise tuning from a 3.32V VPOS rail.\nTrimmer at minimum: 0.8017V\nTrimmer at maximum: 0.8713V\n\nThis allows tuning between 900MHz & 1.9GHz from table 4 in datasheet (see inset).\n\nReplace with simple voltage divider when optimum TADJ voltage is known."
 		(exclude_from_sim no)
 		(at 196.85 81.28 0)
-		(size 35.56 77.47)
+		(size 35.56 81.28)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3594,17 +3594,6 @@
 		)
 		(uuid "295485b1-e63b-4899-9664-1fff909b0ab0")
 	)
-	(hierarchical_label "+5V"
-		(shape input)
-		(at 220.98 90.17 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "59418f3f-ec4f-4469-900d-efd42244c75f")
-	)
 	(hierarchical_label "VLOG_OUT"
 		(shape output)
 		(at 200.66 36.83 0)
@@ -3615,6 +3604,17 @@
 			(justify left)
 		)
 		(uuid "60880fda-1ff9-41ed-adff-628cfc86c36a")
+	)
+	(hierarchical_label "VPOS"
+		(shape input)
+		(at 220.98 90.17 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d0ba9a1-a23e-4912-a5b1-1de1361bbade")
 	)
 	(hierarchical_label "VPOS"
 		(shape input)
