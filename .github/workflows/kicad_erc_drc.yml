@@ -1,0 +1,20 @@
+name: Run ERC/DRC on planewatcher
+
+on: push
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout to latest commit
+        uses: actions/checkout@v4
+
+      - name: Run ERC
+        uses: maartin0/kicad-erc-action@v1
+        with:
+          sch: planewatcher/kicad/planewatcher.kicad_sch
+
+      - name: Run DRC
+        uses: maartin0/kicad-drc-action@v1
+        with:
+          pcb: planewatcher/kicad/planewatcher.kicad_pcb
