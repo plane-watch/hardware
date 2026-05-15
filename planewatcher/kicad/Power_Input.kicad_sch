@@ -7,7 +7,7 @@
 	(title_block
 		(title "Plane Watcher: Power Input Protection & Filtering")
 		(date "2026-05-08")
-		(rev "prototype 1.0")
+		(rev "prototype 1.1")
 		(company "plane.watch")
 	)
 	(lib_symbols

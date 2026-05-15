@@ -120,7 +120,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -24296,8 +24295,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "prototype rev: 1.1"
-		(at -39.31 -3.35 90)
+	(gr_text "rev: proto 1.1"
+		(at -39.2 -3.58 90)
 		(layer "F.SilkS")
 		(uuid "6c87b36e-f0fd-49e2-8265-c48f2ad5d241")
 		(effects
