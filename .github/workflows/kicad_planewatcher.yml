@@ -27,8 +27,9 @@ jobs:
 
       - name: Run ERC for planewatcher
         run: |
+          mkdir -p "$GITHUB_WORKSPACE"/kicad_rpt_out
+          chown a+rw "$GITHUB_WORKSPACE"/kicad_rpt_out
           set +e
-          chown a+rw "$GITHUB_WORKSPACE"
           docker run \
             -v "$GITHUB_WORKSPACE":/workspace:rw \
             "$KICAD_IMAGE" \
@@ -36,17 +37,18 @@ jobs:
               --severity-error \
               --severity-warning \
               --exit-code-violations \
-              --output /workspace/planewatcher/kicad/planewatcher_erc.rpt \
-              /workspace/planewatcher/kicad/planewatcher.kicad_sch
+              --output /workspace/kicad_rpt_out/planewatcher_erc.rpt \
+              /workspace/planewatcher/kicad/planewatcher.kicad_pcb
           ERC_EXIT_CODE=$?
           set -e
-          cat ./planewatcher/kicad/planewatcher_erc.rpt
+          cat "$GITHUB_WORKSPACE"/kicad_rpt_out/planewatcher_erc.rpt
           exit $ERC_EXIT_CODE
 
       - name: Run DRC for planewatcher
         run: |
+          mkdir -p "$GITHUB_WORKSPACE"/kicad_rpt_out
+          chown a+rw "$GITHUB_WORKSPACE"/kicad_rpt_out
           set +e
-          chown a+rw "$GITHUB_WORKSPACE"
           docker run \
             -v "$GITHUB_WORKSPACE":/workspace:rw \
             "$KICAD_IMAGE" \
@@ -57,11 +59,11 @@ jobs:
               --schematic-parity \
               --refill-zones \
               --exit-code-violations \
-              --output /workspace/planewatcher/kicad/planewatcher_drc.rpt \
+              --output /workspace/kicad_rpt_out/planewatcher_drc.rpt \
               /workspace/planewatcher/kicad/planewatcher.kicad_pcb
           DRC_EXIT_CODE=$?
           set -e
-          cat ./planewatcher/kicad/planewatcher_drc.rpt
+          cat "$GITHUB_WORKSPACE"/kicad_rpt_out/planewatcher_drc.rpt
           exit $DRC_EXIT_CODE
 
   kicadiff:
