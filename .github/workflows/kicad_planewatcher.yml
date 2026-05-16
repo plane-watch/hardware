@@ -1,53 +1,61 @@
-# .github/workflows/kicad-diff.yml
-name: KiCad visual diff
+name: KiCad
+
 on:
   pull_request:
-    paths: ["**/*.kicad_pcb", "**/*.kicad_sch"]
+    paths:
+      - "**/*.kicad_pcb"
+      - "**/*.kicad_sch"
+
 permissions:
   contents: read
-  pull-requests: write   # only needed for pr-comment / pr-description
+  pull-requests: write
+
 jobs:
 
   kicad_actions:
+    runs-on: ubuntu-latest
+
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v6
+      - name: Checkout Repository
+        uses: actions/checkout@v6
 
-    - name: Run KiCad actions
-      uses: actions-for-kicad/kicad-actions@v2-k10.0
-      with:
-        schematic_file_name: ./planewatcher/kicad/planewatcher.kicad_sch
-        symbol_libraries: "symbol-library=./planewatcher/kicad/planewatcher.kicad_sym"
-        run_erc: true
-        schematic_output_pdf: true
+      - name: Run KiCad actions
+        uses: actions-for-kicad/kicad-actions@v2-k10.0
+        with:
+          schematic_file_name: ./planewatcher/kicad/planewatcher.kicad_sch
+          symbol_libraries: "symbol-library=./planewatcher/kicad/planewatcher.kicad_sym"
+          run_erc: true
+          schematic_output_pdf: true
 
-        pcb_file_name: ./planewatcher/kicad/planewatcher.kicad_pcb
-        footprint_libraries: "footprint-library=./planewatcher/kicad/planewatcher.pretty"
-        run_drc: true
-        pcb_output_gerbers_and_drill: false
-        pcb_output_image: true
+          pcb_file_name: ./planewatcher/kicad/planewatcher.kicad_pcb
+          footprint_libraries: "footprint-library=./planewatcher/kicad/planewatcher.pretty"
+          run_drc: true
+          pcb_output_gerbers_and_drill: false
+          pcb_output_image: true
 
-    - name: Upload schematic
-      uses: actions/upload-artifact@v7
-      with:
-        path: ./schematic.pdf
-        archive: false
+      - name: Upload schematic
+        uses: actions/upload-artifact@v4
+        with:
+          name: schematic
+          path: ./schematic.pdf
 
-    - name: Upload image render
-      uses: actions/upload-artifact@v7
-      with:
-        path: ./pcb.png
-        archive: false
+      - name: Upload image render
+        uses: actions/upload-artifact@v4
+        with:
+          name: pcb-render
+          path: ./pcb.png
 
   kicadiff:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v6
-        with: { fetch-depth: 0 }
+        with:
+          fetch-depth: 0
+
       - uses: sksat/kicadiff@v0.1.1
         with:
           path: planewatcher/kicad/
-          upload-artifact: 'true'
-          pr-comment:      'true'
-          pr-description:  'true'
-          
+          upload-artifact: "true"
+          pr-comment: "true"
+          pr-description: "true"
