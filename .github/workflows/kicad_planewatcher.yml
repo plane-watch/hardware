@@ -28,7 +28,10 @@ jobs:
       - name: Run ERC for planewatcher
         run: |
           set +e
-          docker run -v "$GITHUB_WORKSPACE":/workspace:rw "$KICAD_IMAGE" \
+          docker run \
+            -v "$GITHUB_WORKSPACE":/workspace:rw \
+            --user "$(id -u):$(id -g)" \
+            "$KICAD_IMAGE" \
             kicad-cli sch erc \
               --severity-error \
               --severity-warning \
@@ -43,7 +46,10 @@ jobs:
       - name: Run DRC for planewatcher
         run: |
           set +e
-          docker run -v "$GITHUB_WORKSPACE":/workspace:rw "$KICAD_IMAGE" \
+          docker run \
+            -v "$GITHUB_WORKSPACE":/workspace:rw \
+            --user "$(id -u):$(id -g)" \
+            "$KICAD_IMAGE" \
             kicad-cli pcb drc \
               --severity-error \
               --severity-warning \
