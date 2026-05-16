@@ -5287,19 +5287,8 @@
 				)
 			)
 		)
-		(property "Purpose" "Zero-ohm link tying ADL5513 VOUT to VSET for measurement mode."
+		(property "Purpose" "Series resistor in tunable 50 ohm attenuator \"pi pad\" footprint."
 			(at 59.69 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" "Series resistor in tunable 50 ohm attenuator \"pi pad\" footprint."
-			(at 59.69 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
