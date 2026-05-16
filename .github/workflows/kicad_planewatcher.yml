@@ -10,6 +10,9 @@ permissions:
   contents: read
   pull-requests: write
 
+env:
+  KICAD_IMAGE: "kicad/kicad:10.0"
+
 jobs:
 
   kicad_actions:
@@ -19,31 +22,33 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v6
 
-      - name: Run KiCad actions
-        uses: actions-for-kicad/kicad-actions@v2-k10.0
-        with:
-          schematic_file_name: ./planewatcher/kicad/planewatcher.kicad_sch
-          symbol_libraries: "symbol-library=./planewatcher/kicad/planewatcher.kicad_sym"
-          run_erc: true
-          schematic_output_pdf: true
+      - name: Pull KiCad Docker Image
+        run: docker pull "$KICAD_IMAGE"
 
-          pcb_file_name: ./planewatcher/kicad/planewatcher.kicad_pcb
-          footprint_libraries: "footprint-library=./planewatcher/kicad/planewatcher.pretty"
-          run_drc: true
-          pcb_output_gerbers_and_drill: false
-          pcb_output_image: true
+      - name: Run ERC for planewatcher
+        run: |
+          docker run -v "$GITHUB_WORKSPACE":/workspace "$KICAD_IMAGE" \
+            kicad-cli sch erc \
+              --severity-error \
+              --severity-warning \
+              --exit-code-violations \
+              --output /workspace/planewatcher/kicad/planewatcher_erc.rpt \
+              /workspace/planewatcher/kicad/planewatcher.kicad_sch
+          cat ./planewatcher/kicad/planewatcher_erc.rpt
 
-      - name: Upload schematic
-        uses: actions/upload-artifact@v4
-        with:
-          name: schematic
-          path: ./schematic.pdf
-
-      - name: Upload image render
-        uses: actions/upload-artifact@v4
-        with:
-          name: pcb-render
-          path: ./pcb.png
+      - name: Run DRC for planewatcher
+        run: |
+          docker run -v "$GITHUB_WORKSPACE":/workspace "$KICAD_IMAGE" \
+            kicad-cli pcb drc \
+              --severity-error \
+              --severity-warning \
+              --all-track-errors \
+              --schematic-parity \
+              --refill-zones \
+              --exit-code-violations \
+              --output /workspace/planewatcher/kicad/planewatcher_drc.rpt \
+              /workspace/planewatcher/kicad/planewatcher.kicad_pcb
+          cat ./planewatcher/kicad/planewatcher_drc.rpt
 
   kicadiff:
     runs-on: ubuntu-latest
