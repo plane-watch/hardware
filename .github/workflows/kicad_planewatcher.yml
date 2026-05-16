@@ -27,18 +27,23 @@ jobs:
 
       - name: Run ERC for planewatcher
         run: |
-          docker run -v "$GITHUB_WORKSPACE":/workspace "$KICAD_IMAGE" \
+          set +e
+          docker run -v "$GITHUB_WORKSPACE":/workspace:rw "$KICAD_IMAGE" \
             kicad-cli sch erc \
               --severity-error \
               --severity-warning \
               --exit-code-violations \
               --output /workspace/planewatcher/kicad/planewatcher_erc.rpt \
               /workspace/planewatcher/kicad/planewatcher.kicad_sch
+          ERC_EXIT_CODE=$?
+          set -e
           cat ./planewatcher/kicad/planewatcher_erc.rpt
+          exit $ERC_EXIT_CODE
 
       - name: Run DRC for planewatcher
         run: |
-          docker run -v "$GITHUB_WORKSPACE":/workspace "$KICAD_IMAGE" \
+          set +e
+          docker run -v "$GITHUB_WORKSPACE":/workspace:rw "$KICAD_IMAGE" \
             kicad-cli pcb drc \
               --severity-error \
               --severity-warning \
@@ -48,7 +53,10 @@ jobs:
               --exit-code-violations \
               --output /workspace/planewatcher/kicad/planewatcher_drc.rpt \
               /workspace/planewatcher/kicad/planewatcher.kicad_pcb
+          DRC_EXIT_CODE=$?
+          set -e
           cat ./planewatcher/kicad/planewatcher_drc.rpt
+          exit $DRC_EXIT_CODE
 
   kicadiff:
     runs-on: ubuntu-latest
