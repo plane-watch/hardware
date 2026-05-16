@@ -33,6 +33,8 @@ jobs:
             --user "$(id -u):$(id -g)" \
             --tmpfs /tmp \
             -e HOME=/tmp \
+            -e KICAD10_SYMBOL_DIR=/usr/share/kicad/symbols \
+            -e KICAD10_FOOTPRINT_DIR=/usr/share/kicad/footprints \
             "$KICAD_IMAGE" \
             kicad-cli sch erc \
               --severity-error \
@@ -53,6 +55,8 @@ jobs:
             --user "$(id -u):$(id -g)" \
             --tmpfs /tmp \
             -e HOME=/tmp \
+            -e KICAD10_SYMBOL_DIR=/usr/share/kicad/symbols \
+            -e KICAD10_FOOTPRINT_DIR=/usr/share/kicad/footprints \
             "$KICAD_IMAGE" \
             kicad-cli pcb drc \
               --severity-error \
