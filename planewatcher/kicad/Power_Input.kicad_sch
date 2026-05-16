@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher: Power Input Protection & Filtering")
-		(date "2026-05-08")
+		(date "2026-05-16")
 		(rev "prototype 1.1")
 		(company "plane.watch")
 	)
