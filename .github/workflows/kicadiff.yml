@@ -14,6 +14,7 @@ jobs:
         with: { fetch-depth: 0 }
       - uses: sksat/kicadiff@v0.1.1
         with:
+          path: planewatcher/kicad/
           upload-artifact: 'true'
           pr-comment:      'true'
           pr-description:  'true'
