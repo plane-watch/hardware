@@ -2008,6 +2008,32 @@
 		)
 		(uuid "3288cd00-db12-4cec-9ea4-6c0372d019d6")
 	)
+	(text_box "PG asserts nominally at 3.09 V, guaranteed by 3.20 V"
+		(exclude_from_sim no)
+		(at 170.18 35.56 0)
+		(size 25.4 24.13)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5ecbb1b5-0c88-47ee-b79b-184dd3dde4c1")
+	)
+	(junction
+		(at 185.42 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0312541b-1e04-4466-9bca-9d1d80470da7")
+	)
 	(junction
 		(at 190.5 99.06)
 		(diameter 0)
@@ -2075,16 +2101,16 @@
 		(uuid "8f2cc4db-552b-46aa-9c82-d681453ea148")
 	)
 	(junction
+		(at 223.52 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdb56ca2-b11b-49cc-8b4f-e09c70df9994")
+	)
+	(junction
 		(at 190.5 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5595e4b-240a-45a7-8ad4-de52eb40966c")
-	)
-	(junction
-		(at 191.77 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2009ccb-c317-4eda-96e7-ab0d04328d76")
 	)
 	(no_connect
 		(at 191.77 83.82)
@@ -2132,16 +2158,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 72.39) (xy 191.77 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "180ea29b-ac06-43f8-b3c7-e781a48920c9")
-	)
-	(wire
-		(pts
 			(xy 118.11 66.04) (xy 124.46 66.04)
 		)
 		(stroke
@@ -2159,6 +2175,16 @@
 			(type default)
 		)
 		(uuid "429cfb5e-6ce7-4bf9-981d-1b0ff0b445c0")
+	)
+	(wire
+		(pts
+			(xy 185.42 76.2) (xy 185.42 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4db69d93-831d-4985-9e12-4fc98ec84a01")
 	)
 	(wire
 		(pts
@@ -2242,6 +2268,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 49.53) (xy 186.69 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baefda8b-788f-42f4-8ef5-a1c8dec25027")
+	)
+	(wire
+		(pts
 			(xy 234.95 77.47) (xy 223.52 81.28)
 		)
 		(stroke
@@ -2249,6 +2285,16 @@
 			(type default)
 		)
 		(uuid "bee5997a-77d5-4399-afcd-ec1456908fd2")
+	)
+	(wire
+		(pts
+			(xy 176.53 49.53) (xy 173.99 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e6bfa6-3829-4e3b-b2b5-5884f665e207")
 	)
 	(wire
 		(pts
@@ -2272,6 +2318,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 49.53) (xy 223.52 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7191a0-f21a-410c-a45f-3f812f2fdce5")
+	)
+	(wire
+		(pts
 			(xy 205.74 92.71) (xy 210.82 92.71)
 		)
 		(stroke
@@ -2282,6 +2338,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 49.53) (xy 173.99 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb47ace-65f1-41ef-be48-f1310c71e9af")
+	)
+	(wire
+		(pts
 			(xy 177.8 106.68) (xy 190.5 106.68)
 		)
 		(stroke
@@ -2289,6 +2355,36 @@
 			(type default)
 		)
 		(uuid "e3d6ebca-2d37-4f0c-9dc7-da9a2652d875")
+	)
+	(wire
+		(pts
+			(xy 194.31 49.53) (xy 223.52 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f720ce-62ad-4100-bf41-f69dcd929e7b")
+	)
+	(wire
+		(pts
+			(xy 191.77 76.2) (xy 185.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f12ee105-243b-457a-9197-546a38af1182")
+	)
+	(wire
+		(pts
+			(xy 185.42 49.53) (xy 184.15 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3960a1d-5d32-4c69-9c12-8f89258c14c7")
 	)
 	(wire
 		(pts
@@ -2377,7 +2473,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+			(property "Datasheet" ""
 			(at 234.95 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2697,6 +2793,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 173.99 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22642aa6-ff99-44c3-b97a-bdd1e272ace9")
+		(property "Reference" "#PWR01"
+			(at 173.99 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "128315d0-c035-4523-8467-42b35afd7e54")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 118.11 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -2775,7 +2949,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 223.52 71.12 0)
+		(at 223.52 71.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2786,7 +2960,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ef1f116-c8a6-4aba-a396-3d2f843e64b6")
 		(property "Reference" "TP11"
-			(at 226.06 66.5479 0)
+			(at 228.6 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2797,7 +2971,7 @@
 			)
 		)
 		(property "Value" "VOUT"
-			(at 226.06 69.0879 0)
+			(at 228.6 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2808,7 +2982,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 228.6 71.12 0)
+			(at 223.52 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2819,7 +2993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 71.12 0)
+			(at 223.52 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3265,6 +3439,108 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 180.34 49.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d07d239-0bb0-4763-b712-f75ea19e34db")
+			(property "Reference" "R18"
+			(at 180.34 43.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 180.34 45.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 180.34 51.308 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+			(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/AT0402BRD0710KL"
+			(at 180.34 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10kΩ, ±0.1%, thin film, ±25ppm/°C, 0402 chip resistor"
+			(at 180.34 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Suggested Part" "Yageo AT0402BRD0710KL"
+			(at 180.34 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Lower resistor in the LT3045 PGFB divider; sets the power-good assertion threshold."
+			(at 180.34 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1449cef8-bf9f-4946-9892-76a05a3d424a")
+		)
+		(pin "1"
+			(uuid "79a3039a-e6d6-49fc-8154-d505b8f9358c")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3890,6 +4166,108 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 190.5 49.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "feb734c3-ccc7-43d1-88ae-313f047c6e51")
+		(property "Reference" "R19"
+			(at 190.5 43.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "93.1kΩ"
+			(at 190.5 45.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 190.5 51.308 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/AT0402BRD0793K1L"
+			(at 190.5 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "93.1kΩ, ±0.1%, thin film, ±25ppm/°C, 0402 chip resistor"
+			(at 190.5 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Suggested Part" "Yageo AT0402BRD0793K1L"
+			(at 190.5 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Upper resistor in the LT3045 PGFB divider; sets the power-good assertion threshold."
+			(at 190.5 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef7e83eb-0139-412c-9c4c-9e7c08645cdb")
+		)
+		(pin "2"
+			(uuid "f2f105ea-9d77-4a7f-8c6c-ff7c28131fdd")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba"
+					(reference "R19")
 					(unit 1)
 				)
 			)

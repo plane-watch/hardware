@@ -206,6 +206,7 @@
         0.305,
         0.309617,
         0.5,
+        1.0,
         1.7
       ],
       "tuning_pattern_settings": {
@@ -671,7 +672,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Suggested Part",
           "name": "Suggested Part",
           "show": true
@@ -791,7 +792,7 @@
         "uuid": "7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
       }
     ],
-    "used_designators": "R6-17,D4-7",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
