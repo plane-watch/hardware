@@ -1,0 +1,21 @@
+# .github/workflows/kicad-diff.yml
+name: KiCad visual diff
+on:
+  pull_request:
+    paths: ["**/*.kicad_pcb", "**/*.kicad_sch"]
+permissions:
+  contents: read
+  pull-requests: write   # only needed for pr-comment / pr-description
+jobs:
+  diff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with: { fetch-depth: 0 }
+      - uses: sksat/kicadiff@v0.1.1
+        with:
+          path: .kicadiff/
+          upload-artifact: 'true'
+          pr-comment:      'true'
+          pr-description:  'true'
+          
