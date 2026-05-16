@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.5,
-          "height": 0.8,
-          "width": 0.8
+          "drill": 0.0,
+          "height": 0.305,
+          "width": 0.813
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -205,7 +205,9 @@
         0.2,
         0.305,
         0.309617,
-        0.5
+        0.5,
+        1.0,
+        1.7
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -256,7 +258,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "prototype 1.0"
+      "sch_revision": "prototype 1.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -607,6 +609,10 @@
       {
         "netclass": "ADC_DIFF_PAIR",
         "pattern": "/ADC/AINP"
+      },
+      {
+        "netclass": "RF_50Ω",
+        "pattern": "/L(NA_Stage_1/RF_IN|NA_Stage_1/RF_OUT|NA_Stage_2/RF_IN|NA_Stage_2/RF_OUT|og_Detector/RF_IN)"
       }
     ]
   },
@@ -666,7 +672,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Suggested Part",
           "name": "Suggested Part",
           "show": true
@@ -786,7 +792,7 @@
         "uuid": "7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
       }
     ],
-    "used_designators": "TP21",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -795,16 +801,16 @@
       "Root"
     ],
     [
-      "7535f1c6-2dba-45f2-85ce-bd33ccc49d1a",
-      "Power_5V_RF"
+      "e02d84ed-6468-4290-a59c-50ded41c0aba",
+      "Power_3V3"
     ],
     [
-      "06efddeb-af3c-41f7-82c5-125e2fa87253",
-      "Power_3V_Analog"
+      "59545c86-c058-4e69-82ad-a37ead5abf92",
+      "RGB LED 1"
     ],
     [
-      "524be695-6a59-49a2-8dca-c59940e9e883",
-      "Power_3V_Digital"
+      "7739f02d-62c0-4bca-89eb-2791de83397a",
+      "RGB LED 2"
     ],
     [
       "be54cab6-561b-439c-9db3-5433a1e68d46",
@@ -827,8 +833,8 @@
       "ADC"
     ],
     [
-      "3f548880-1f88-4cb2-a308-e70fd70c9481",
-      "Power_5V_FPGA"
+      "52b32cc6-d826-42d3-aa96-9038a73a9bfc",
+      "RGB LED 3"
     ],
     [
       "5ac3603d-bbeb-44f4-b422-6252fe26d95e",
@@ -837,6 +843,14 @@
     [
       "688449b3-e085-4d3d-9010-5bd7bcac8461",
       "RF_Input_Protection"
+    ],
+    [
+      "8d837c64-f9ae-4d10-9c5f-d514a90db394",
+      "RGB LED 4"
+    ],
+    [
+      "d4f7e37f-a721-4dfe-b190-52f36600c34c",
+      "RGB LED 5"
     ]
   ],
   "text_variables": {},

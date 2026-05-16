@@ -1,0 +1,82 @@
+name: KiCad
+
+on:
+  pull_request:
+    paths:
+      - "**/*.kicad_pcb"
+      - "**/*.kicad_sch"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+env:
+  KICAD_IMAGE: "kicad/kicad:10.0"
+
+jobs:
+
+  kicad_actions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v6
+
+      - name: Pull KiCad Docker Image
+        run: docker pull "$KICAD_IMAGE"
+
+      - name: Run ERC for planewatcher
+        run: |
+          mkdir -p "$GITHUB_WORKSPACE"/kicad_rpt_out
+          sudo chmod -R a+rw "$GITHUB_WORKSPACE"
+          set +e
+          docker run \
+            -v "$GITHUB_WORKSPACE":/workspace:rw \
+            "$KICAD_IMAGE" \
+            kicad-cli sch erc \
+              --severity-error \
+              --severity-warning \
+              --exit-code-violations \
+              --output /workspace/kicad_rpt_out/planewatcher_erc.rpt \
+              /workspace/planewatcher/kicad/planewatcher.kicad_sch
+          ERC_EXIT_CODE=$?
+          set -e
+          cat "$GITHUB_WORKSPACE"/kicad_rpt_out/planewatcher_erc.rpt
+          exit $ERC_EXIT_CODE
+
+      - name: Run DRC for planewatcher
+        run: |
+          mkdir -p "$GITHUB_WORKSPACE"/kicad_rpt_out
+          sudo chmod -R a+rw "$GITHUB_WORKSPACE"
+          set +e
+          docker run \
+            -v "$GITHUB_WORKSPACE":/workspace:rw \
+            "$KICAD_IMAGE" \
+            kicad-cli pcb drc \
+              --severity-error \
+              --severity-warning \
+              --all-track-errors \
+              --schematic-parity \
+              --refill-zones \
+              --exit-code-violations \
+              --output /workspace/kicad_rpt_out/planewatcher_drc.rpt \
+              /workspace/planewatcher/kicad/planewatcher.kicad_pcb
+          DRC_EXIT_CODE=$?
+          set -e
+          cat "$GITHUB_WORKSPACE"/kicad_rpt_out/planewatcher_drc.rpt
+          exit $DRC_EXIT_CODE
+
+  kicadiff:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - uses: sksat/kicadiff@v0.1.1
+        with:
+          path: planewatcher/kicad/
+          upload-artifact: "true"
+          pr-comment: "true"
+          pr-description: "true"

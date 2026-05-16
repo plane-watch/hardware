@@ -4635,7 +4635,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2cb83d53-b276-49b1-802d-996fc7b5ebec")
 		(property "Reference" "U12"

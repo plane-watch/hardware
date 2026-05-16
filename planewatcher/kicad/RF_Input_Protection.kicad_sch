@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher: RF Input Protection")
-		(date "2026-05-08")
-		(rev "prototype 1.0")
+		(date "2026-05-16")
+		(rev "prototype 1.1")
 		(company "plane.watch")
 	)
 	(lib_symbols
