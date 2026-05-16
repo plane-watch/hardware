@@ -791,7 +791,7 @@
         "uuid": "7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R6-17,D4-7",
     "variants": []
   },
   "sheets": [
@@ -802,6 +802,14 @@
     [
       "e02d84ed-6468-4290-a59c-50ded41c0aba",
       "Power_3V3"
+    ],
+    [
+      "59545c86-c058-4e69-82ad-a37ead5abf92",
+      "RGB LED 1"
+    ],
+    [
+      "7739f02d-62c0-4bca-89eb-2791de83397a",
+      "RGB LED 2"
     ],
     [
       "be54cab6-561b-439c-9db3-5433a1e68d46",
@@ -824,12 +832,24 @@
       "ADC"
     ],
     [
+      "52b32cc6-d826-42d3-aa96-9038a73a9bfc",
+      "RGB LED 3"
+    ],
+    [
       "5ac3603d-bbeb-44f4-b422-6252fe26d95e",
       "Power_Input"
     ],
     [
       "688449b3-e085-4d3d-9010-5bd7bcac8461",
       "RF_Input_Protection"
+    ],
+    [
+      "8d837c64-f9ae-4d10-9c5f-d514a90db394",
+      "RGB LED 4"
+    ],
+    [
+      "d4f7e37f-a721-4dfe-b190-52f36600c34c",
+      "RGB LED 5"
     ]
   ],
   "text_variables": {},

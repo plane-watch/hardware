@@ -2008,26 +2008,6 @@
 		)
 		(uuid "3288cd00-db12-4cec-9ea4-6c0372d019d6")
 	)
-	(text_box "LT3045-1 Power Good State:\n~VIN = Good\n~0V  = Bad / No input power"
-		(exclude_from_sim no)
-		(at 224.79 96.52 0)
-		(size 33.02 27.94)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f6ca06e9-f096-4c0f-ab35-34d4d836a9fb")
-	)
 	(junction
 		(at 190.5 99.06)
 		(diameter 0)
@@ -2093,12 +2073,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f2cc4db-552b-46aa-9c82-d681453ea148")
-	)
-	(junction
-		(at 227.33 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad2cd597-03da-403f-a684-2b52d20864dd")
 	)
 	(junction
 		(at 190.5 106.68)
@@ -2178,16 +2152,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 105.41) (xy 242.57 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ec5d79f-2e61-4712-b952-e9b3386d56ce")
-	)
-	(wire
-		(pts
 			(xy 191.77 68.58) (xy 191.77 72.39)
 		)
 		(stroke
@@ -2195,26 +2159,6 @@
 			(type default)
 		)
 		(uuid "429cfb5e-6ce7-4bf9-981d-1b0ff0b445c0")
-	)
-	(wire
-		(pts
-			(xy 227.33 92.71) (xy 227.33 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47d4b8bc-f1a5-4e6f-be30-8fcf6ee5ac9b")
-	)
-	(wire
-		(pts
-			(xy 227.33 111.76) (xy 227.33 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c887554-d282-4b38-bbcf-261a60639aa4")
 	)
 	(wire
 		(pts
@@ -2265,16 +2209,6 @@
 			(type default)
 		)
 		(uuid "9101f4ea-23c1-410a-80b3-55416ed5a1a4")
-	)
-	(wire
-		(pts
-			(xy 215.9 92.71) (xy 227.33 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a754cfe6-b441-4d73-81e1-a950624fa7ac")
 	)
 	(wire
 		(pts
@@ -2377,6 +2311,17 @@
 		)
 		(uuid "5e9a6a39-bbc6-42b7-a7e3-0b685e4eaab8")
 	)
+	(hierarchical_label "PG"
+		(shape output)
+		(at 215.9 92.71 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7dcf2793-9ad4-4e7c-9cca-29bc2d592edf")
+	)
 	(hierarchical_label "VOUT"
 		(shape output)
 		(at 245.11 77.47 0)
@@ -2387,17 +2332,6 @@
 			(justify left)
 		)
 		(uuid "9f2d6cdc-a0f0-46bc-b933-d80a11192f45")
-	)
-	(hierarchical_label "VIN"
-		(shape input)
-		(at 242.57 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f75f4c6a-cad6-4f57-b3cb-f6db1af13d51")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3409,208 +3343,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 231.14 105.41 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "874ebe91-56fc-478a-b8b2-84559ea028ff")
-		(property "Reference" "R24"
-			(at 231.14 99.06 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 231.14 101.6 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 231.14 103.632 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10kΩ, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
-			(at 231.14 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo RC0402FR-0710KL"
-			(at 231.14 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "Pull-up or bias resistor in the LT3045 power-good/control network."
-			(at 231.14 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "521cad49-a2f8-471e-bedb-fb4cccc8211e")
-		)
-		(pin "1"
-			(uuid "c2105d11-110c-4ab8-9707-d69a06355cd5")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 227.33 111.76 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b9ef19b8-343a-4940-999c-4ce1ec4f7e4d")
-		(property "Reference" "TP12"
-			(at 232.156 111.76 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PG_OUT"
-			(at 232.156 114.3 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 227.33 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "PCB copper test pad, 1.0mm, no fitted component"
-			(at 227.33 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "No fitted part (PCB pad only)"
-			(at 227.33 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "Provides oscilloscope/DMM probe access to PG_OUT."
-			(at 227.33 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7c5c7819-7ec3-478b-906f-71eae48cfbf9")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba"
-					(reference "TP12")
 					(unit 1)
 				)
 			)
