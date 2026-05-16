@@ -24295,6 +24295,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "${CURRENT_DATE}"
+		(at -29.599524 -22.5 0)
+		(layer "F.SilkS")
+		(uuid "764ec293-53c0-488c-ba09-30d9f59630d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "rev: proto 1.1"
 		(at -39.2 -3.58 90)
 		(layer "F.SilkS")
@@ -40153,7 +40165,7 @@
 		)
 		(polygon
 			(pts
-				(xy -32.625 -26.1) (xy -26.525 -26.1) (xy -26.525 -24.025) (xy -32.625 -24.025)
+				(xy -32.649524 -26.1) (xy -26.549524 -26.1) (xy -26.549524 -24.025) (xy -32.649524 -24.025)
 			)
 		)
 	)
