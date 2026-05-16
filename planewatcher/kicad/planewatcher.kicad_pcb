@@ -13898,7 +13898,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP16"
-			(at 1.345 -0.155 180)
+			(at 1.57 -0.295 180)
 			(layer "F.SilkS")
 			(uuid "9693e147-1663-49af-8453-b366a17b6355")
 			(effects
@@ -15416,7 +15416,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP17"
-			(at -1.04 -2.21 180)
+			(at -1.66 -0.575 180)
 			(layer "F.SilkS")
 			(uuid "c961eed3-4d6f-4607-8355-ab8170446275")
 			(effects
@@ -25115,7 +25115,7 @@
 		(uuid "133340d7-964c-4758-b4c8-b635fc259f84")
 	)
 	(via
-		(at -24.18 -7.82)
+		(at -24.17 -7.7)
 		(size 0.45)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -26450,7 +26450,7 @@
 		(uuid "42adf823-6cfb-4180-bba1-0a28ae78da2b")
 	)
 	(via
-		(at -19.36 -3.96)
+		(at -19.39 -4.1)
 		(size 0.45)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -27137,7 +27137,7 @@
 		(uuid "5c7039d3-3ec2-413c-a1c1-14a6370ae1c5")
 	)
 	(via
-		(at -21.93 -8.2)
+		(at -21.95 -7.93)
 		(size 0.45)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -28607,7 +28607,7 @@
 		(uuid "950d76c5-3346-4556-942a-ebd2decc2eba")
 	)
 	(via
-		(at -21.26 -3.98)
+		(at -21.24 -4.11)
 		(size 0.45)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -30176,7 +30176,7 @@
 		(uuid "cc321cbf-559f-4718-8ae8-1decb0a7b911")
 	)
 	(via
-		(at -22.85 -7.95)
+		(at -22.99 -7.91)
 		(size 0.45)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
