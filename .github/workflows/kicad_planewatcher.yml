@@ -38,7 +38,7 @@ jobs:
               --severity-warning \
               --exit-code-violations \
               --output /workspace/kicad_rpt_out/planewatcher_erc.rpt \
-              /workspace/planewatcher/kicad/planewatcher.kicad_pcb
+              /workspace/planewatcher/kicad/planewatcher.kicad_sch
           ERC_EXIT_CODE=$?
           set -e
           cat "$GITHUB_WORKSPACE"/kicad_rpt_out/planewatcher_erc.rpt
