@@ -608,6 +608,10 @@
       {
         "netclass": "ADC_DIFF_PAIR",
         "pattern": "/ADC/AINP"
+      },
+      {
+        "netclass": "RF_50Ω",
+        "pattern": "/L(NA_Stage_1/RF_IN|NA_Stage_1/RF_OUT|NA_Stage_2/RF_IN|NA_Stage_2/RF_OUT|og_Detector/RF_IN)"
       }
     ]
   },
