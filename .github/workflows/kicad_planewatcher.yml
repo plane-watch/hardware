@@ -28,7 +28,7 @@ jobs:
       - name: Run ERC for planewatcher
         run: |
           mkdir -p "$GITHUB_WORKSPACE"/kicad_rpt_out
-          chmod a+rw "$GITHUB_WORKSPACE"/kicad_rpt_out
+          chmod -R a+rw "$GITHUB_WORKSPACE"
           set +e
           docker run \
             -v "$GITHUB_WORKSPACE":/workspace:rw \
@@ -47,7 +47,7 @@ jobs:
       - name: Run DRC for planewatcher
         run: |
           mkdir -p "$GITHUB_WORKSPACE"/kicad_rpt_out
-          chmod a+rw "$GITHUB_WORKSPACE"/kicad_rpt_out
+          chmod -R a+rw "$GITHUB_WORKSPACE"
           set +e
           docker run \
             -v "$GITHUB_WORKSPACE":/workspace:rw \
