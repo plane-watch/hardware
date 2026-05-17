@@ -15236,7 +15236,7 @@
 		(at -30.9225 -23.81)
 		(descr "Layer marker, 4 layers, simple ordinals, text size 1mm, pitch 1.27mm, margin 1.27mm")
 		(tags "layer order identification numbering")
-		(property "Reference" "REF**"
+		(property "Reference" "LayerMarker"
 			(at 0 1.27 0)
 			(layer "F.SilkS")
 			(hide yes)
