@@ -58,3 +58,11 @@ Public licence: CERN-OHL-S-2.0
 Commercial carve-out: Companies that want different terms can enter a separate commercial agreement.
 
 TL;DR: If you are happy to keep your changes open, use the public licence. If you want private modifications, proprietary integration, or some other commercial arrangement, talk to us.
+
+## Notice
+
+This repository may include third-party datasheets, application notes, and technical documentation.
+
+Such materials remain the copyright of their respective owners and are included solely to assist development and interoperability of this project.
+
+If you are a copyright holder and have concerns regarding included materials, please open an issue or contact the maintainers.
