@@ -4378,7 +4378,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 134.62) (xy 194.31 134.62)
+			(xy 213.36 158.75) (xy 226.06 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4418,7 +4418,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 152.4) (xy 260.35 152.4)
+			(xy 214.63 125.73) (xy 226.06 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4458,7 +4458,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 134.62) (xy 260.35 134.62)
+			(xy 179.07 134.62) (xy 191.77 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4478,7 +4478,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 148.59) (xy 260.35 148.59)
+			(xy 208.28 121.92) (xy 226.06 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4578,7 +4578,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 130.81) (xy 227.33 130.81)
+			(xy 248.92 129.54) (xy 260.35 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4658,7 +4658,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 127) (xy 260.35 127)
+			(xy 179.07 127) (xy 191.77 127)
 		)
 		(stroke
 			(width 0)
@@ -4688,7 +4688,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 160.02) (xy 260.35 160.02)
+			(xy 214.63 133.35) (xy 226.06 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4808,7 +4808,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 123.19) (xy 260.35 123.19)
+			(xy 173.99 123.19) (xy 191.77 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4978,7 +4978,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 148.59) (xy 227.33 148.59)
+			(xy 242.57 147.32) (xy 260.35 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5068,7 +5068,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 156.21) (xy 227.33 156.21)
+			(xy 247.65 154.94) (xy 260.35 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5258,7 +5258,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 130.81) (xy 260.35 130.81)
+			(xy 179.07 130.81) (xy 191.77 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5548,7 +5548,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 156.21) (xy 260.35 156.21)
+			(xy 214.63 129.54) (xy 226.06 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5578,7 +5578,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 123.19) (xy 227.33 123.19)
+			(xy 242.57 121.92) (xy 260.35 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5748,7 +5748,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 127) (xy 194.31 127)
+			(xy 213.36 151.13) (xy 226.06 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5828,7 +5828,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 123.19) (xy 194.31 123.19)
+			(xy 208.28 147.32) (xy 226.06 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5858,7 +5858,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 152.4) (xy 227.33 152.4)
+			(xy 247.65 151.13) (xy 260.35 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5868,7 +5868,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 127) (xy 227.33 127)
+			(xy 248.92 125.73) (xy 260.35 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5908,7 +5908,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 160.02) (xy 227.33 160.02)
+			(xy 247.65 158.75) (xy 260.35 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5928,7 +5928,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 134.62) (xy 227.33 134.62)
+			(xy 248.92 133.35) (xy 260.35 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6038,7 +6038,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 130.81) (xy 194.31 130.81)
+			(xy 213.36 154.94) (xy 226.06 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6207,7 +6207,7 @@
 		(uuid "23c9cc5a-f8bf-4758-b16f-c6849cba439f")
 	)
 	(label "FPGA_3V3_BNK33"
-		(at 242.57 148.59 0)
+		(at 208.28 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6257,7 +6257,7 @@
 		(uuid "2c127a4a-0fc9-4126-bc33-7947cfb2d265")
 	)
 	(label "FPGA_AA14"
-		(at 214.63 160.02 0)
+		(at 247.65 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6337,7 +6337,7 @@
 		(uuid "3dc3adca-85af-4c02-85b7-a6d19c11eebb")
 	)
 	(label "FPGA_V14"
-		(at 214.63 156.21 0)
+		(at 247.65 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6437,7 +6437,7 @@
 		(uuid "575aeb2f-729d-4a04-adbe-2602cfcaa530")
 	)
 	(label "FPGA_3V3_BNK33"
-		(at 176.53 123.19 0)
+		(at 208.28 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6507,7 +6507,7 @@
 		(uuid "714499e3-537f-44e3-a6fe-9c52d249d485")
 	)
 	(label "FPGA_3V3_BNK33"
-		(at 209.55 123.19 0)
+		(at 242.57 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6517,7 +6517,7 @@
 		(uuid "7276175e-ae60-44a2-b097-405f10b8ffbf")
 	)
 	(label "FPGA_V15"
-		(at 214.63 152.4 0)
+		(at 247.65 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6737,7 +6737,7 @@
 		(uuid "9801c97d-661f-4111-b75c-e4ef32ac9539")
 	)
 	(label "FPGA_AA18"
-		(at 247.65 127 0)
+		(at 179.07 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6747,7 +6747,7 @@
 		(uuid "98fb045b-3fc0-42e7-a50d-60725b89550a")
 	)
 	(label "FPGA_AA17"
-		(at 181.61 127 0)
+		(at 213.36 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6767,7 +6767,7 @@
 		(uuid "99f63fdc-dd5f-409e-b393-7bec437ac895")
 	)
 	(label "FPGA_AB17"
-		(at 215.9 130.81 0)
+		(at 248.92 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6817,7 +6817,7 @@
 		(uuid "a6f0badc-c1e0-4bde-a929-f314c86f8d2b")
 	)
 	(label "FPGA_AA16"
-		(at 247.65 130.81 0)
+		(at 179.07 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6847,7 +6847,7 @@
 		(uuid "b70dc68b-b5c5-43ab-88e7-fa48bfd1402e")
 	)
 	(label "FPGA_W17"
-		(at 215.9 134.62 0)
+		(at 248.92 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6857,7 +6857,7 @@
 		(uuid "b84a1dac-3a8c-4a35-be28-c8cf411c905c")
 	)
 	(label "FPGA_Y16"
-		(at 215.9 127 0)
+		(at 248.92 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6917,7 +6917,7 @@
 		(uuid "cabde313-32d6-4ef7-b1bd-f5c5412f97c6")
 	)
 	(label "FPGA_W13"
-		(at 248.92 152.4 0)
+		(at 214.63 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6957,7 +6957,7 @@
 		(uuid "d49eaace-e411-4bb6-8e40-8796090d208d")
 	)
 	(label "FPGA_W16"
-		(at 181.61 130.81 0)
+		(at 213.36 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7007,7 +7007,7 @@
 		(uuid "d9ec16b6-01ca-46ab-9759-f549f73fc160")
 	)
 	(label "FPGA_3V3_BNK33"
-		(at 209.55 148.59 0)
+		(at 242.57 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7017,7 +7017,7 @@
 		(uuid "da8d1b4b-d629-436e-8aaf-f154f962b3bc")
 	)
 	(label "FPGA_Y19"
-		(at 247.65 134.62 0)
+		(at 179.07 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7027,7 +7027,7 @@
 		(uuid "ddd19a43-7dd9-4b63-af83-24338753ccb4")
 	)
 	(label "FPGA_AA13"
-		(at 248.92 156.21 0)
+		(at 214.63 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7057,7 +7057,7 @@
 		(uuid "df1ab064-f316-41b8-9543-3075022de7ee")
 	)
 	(label "FPGA_3V3_BNK33"
-		(at 242.57 123.19 0)
+		(at 173.99 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7097,7 +7097,7 @@
 		(uuid "effaed87-a427-426b-a075-15cb7ca3cb96")
 	)
 	(label "FPGA_Y14"
-		(at 181.61 134.62 0)
+		(at 213.36 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7117,7 +7117,7 @@
 		(uuid "f0dabbe9-273d-4111-a474-de88cdc1abca")
 	)
 	(label "FPGA_AB15"
-		(at 248.92 160.02 0)
+		(at 214.63 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11230,7 +11230,7 @@
 		)
 	)
 	(sheet
-		(at 260.35 120.65)
+		(at 191.77 120.65)
 		(size 12.7 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11246,7 +11246,7 @@
 		)
 		(uuid "52b32cc6-d826-42d3-aa96-9038a73a9bfc")
 		(property "Sheetname" "RGB LED1"
-			(at 260.35 119.9384 0)
+			(at 191.77 119.9384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11257,7 +11257,7 @@
 			)
 		)
 		(property "Sheetfile" "RGB_LED.kicad_sch"
-			(at 260.35 137.7446 0)
+			(at 191.77 137.7446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11268,7 +11268,7 @@
 			)
 		)
 		(pin "BLUE" output
-			(at 260.35 134.62 180)
+			(at 191.77 134.62 180)
 			(uuid "336765f8-3feb-4d2d-b06c-9fd87c0aec36")
 			(effects
 				(font
@@ -11278,7 +11278,7 @@
 			)
 		)
 		(pin "GREEN" output
-			(at 260.35 130.81 180)
+			(at 191.77 130.81 180)
 			(uuid "f4415520-30c9-4a6f-94c9-cc6314267563")
 			(effects
 				(font
@@ -11288,7 +11288,7 @@
 			)
 		)
 		(pin "RED" output
-			(at 260.35 127 180)
+			(at 191.77 127 180)
 			(uuid "c5cf18f2-257a-48b5-af4e-94380efe6c01")
 			(effects
 				(font
@@ -11298,7 +11298,7 @@
 			)
 		)
 		(pin "FPGA_3V3" input
-			(at 260.35 123.19 180)
+			(at 191.77 123.19 180)
 			(uuid "4d0b032a-53ae-41af-b1b9-95f9413356a6")
 			(effects
 				(font
@@ -11316,7 +11316,7 @@
 		)
 	)
 	(sheet
-		(at 194.31 120.65)
+		(at 226.06 144.78)
 		(size 12.7 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11332,7 +11332,7 @@
 		)
 		(uuid "59545c86-c058-4e69-82ad-a37ead5abf92")
 		(property "Sheetname" "RGB LED4"
-			(at 194.31 119.9384 0)
+			(at 226.06 144.0684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11343,7 +11343,7 @@
 			)
 		)
 		(property "Sheetfile" "RGB_LED.kicad_sch"
-			(at 194.31 137.7446 0)
+			(at 226.06 161.8746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11354,7 +11354,7 @@
 			)
 		)
 		(pin "BLUE" output
-			(at 194.31 134.62 180)
+			(at 226.06 158.75 180)
 			(uuid "b45d7eec-cd0c-4c37-b31d-a340d23c1695")
 			(effects
 				(font
@@ -11364,7 +11364,7 @@
 			)
 		)
 		(pin "GREEN" output
-			(at 194.31 130.81 180)
+			(at 226.06 154.94 180)
 			(uuid "fb5c74fe-5939-47af-bc61-55b7db820e07")
 			(effects
 				(font
@@ -11374,7 +11374,7 @@
 			)
 		)
 		(pin "RED" output
-			(at 194.31 127 180)
+			(at 226.06 151.13 180)
 			(uuid "04d14bb1-720e-4b21-8187-53f010ad2ea1")
 			(effects
 				(font
@@ -11384,7 +11384,7 @@
 			)
 		)
 		(pin "FPGA_3V3" input
-			(at 194.31 123.19 180)
+			(at 226.06 147.32 180)
 			(uuid "0aa59252-2078-4362-99b8-98b6761b9cfc")
 			(effects
 				(font
@@ -11523,7 +11523,7 @@
 		)
 	)
 	(sheet
-		(at 227.33 120.65)
+		(at 260.35 119.38)
 		(size 12.7 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11539,7 +11539,7 @@
 		)
 		(uuid "7739f02d-62c0-4bca-89eb-2791de83397a")
 		(property "Sheetname" "RGB LED3"
-			(at 227.33 119.9384 0)
+			(at 260.35 118.6684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11550,7 +11550,7 @@
 			)
 		)
 		(property "Sheetfile" "RGB_LED.kicad_sch"
-			(at 227.33 137.7446 0)
+			(at 260.35 136.4746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11561,7 +11561,7 @@
 			)
 		)
 		(pin "BLUE" output
-			(at 227.33 134.62 180)
+			(at 260.35 133.35 180)
 			(uuid "a3661751-c002-468a-8baf-bac7a7cd588f")
 			(effects
 				(font
@@ -11571,7 +11571,7 @@
 			)
 		)
 		(pin "GREEN" output
-			(at 227.33 130.81 180)
+			(at 260.35 129.54 180)
 			(uuid "24593651-cb22-49e1-9a92-19681df3996d")
 			(effects
 				(font
@@ -11581,7 +11581,7 @@
 			)
 		)
 		(pin "RED" output
-			(at 227.33 127 180)
+			(at 260.35 125.73 180)
 			(uuid "7bc7ca4d-3ee7-4302-a299-42a3a6a0ef25")
 			(effects
 				(font
@@ -11591,7 +11591,7 @@
 			)
 		)
 		(pin "FPGA_3V3" input
-			(at 227.33 123.19 180)
+			(at 260.35 121.92 180)
 			(uuid "d0a45705-0e48-442d-962a-cca17db10178")
 			(effects
 				(font
@@ -11705,7 +11705,7 @@
 		)
 	)
 	(sheet
-		(at 227.33 146.05)
+		(at 260.35 144.78)
 		(size 12.7 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11721,7 +11721,7 @@
 		)
 		(uuid "8d837c64-f9ae-4d10-9c5f-d514a90db394")
 		(property "Sheetname" "RGB LED5"
-			(at 227.33 145.3384 0)
+			(at 260.35 144.0684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11732,7 +11732,7 @@
 			)
 		)
 		(property "Sheetfile" "RGB_LED.kicad_sch"
-			(at 227.33 163.1446 0)
+			(at 260.35 161.8746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11743,7 +11743,7 @@
 			)
 		)
 		(pin "BLUE" output
-			(at 227.33 160.02 180)
+			(at 260.35 158.75 180)
 			(uuid "da8383b4-c3c5-404b-9dfd-0f8b7ec5c971")
 			(effects
 				(font
@@ -11753,7 +11753,7 @@
 			)
 		)
 		(pin "GREEN" output
-			(at 227.33 156.21 180)
+			(at 260.35 154.94 180)
 			(uuid "53257cc3-10e9-41cb-a62e-03217064423b")
 			(effects
 				(font
@@ -11763,7 +11763,7 @@
 			)
 		)
 		(pin "RED" output
-			(at 227.33 152.4 180)
+			(at 260.35 151.13 180)
 			(uuid "a94cf20c-e1b6-4877-a56a-28c5ec1fe2f6")
 			(effects
 				(font
@@ -11773,7 +11773,7 @@
 			)
 		)
 		(pin "FPGA_3V3" input
-			(at 227.33 148.59 180)
+			(at 260.35 147.32 180)
 			(uuid "372381bb-f620-455a-940b-0081c81673db")
 			(effects
 				(font
@@ -11963,7 +11963,7 @@
 		)
 	)
 	(sheet
-		(at 260.35 146.05)
+		(at 226.06 119.38)
 		(size 12.7 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11979,7 +11979,7 @@
 		)
 		(uuid "d4f7e37f-a721-4dfe-b190-52f36600c34c")
 		(property "Sheetname" "RGB LED2"
-			(at 260.35 145.3384 0)
+			(at 226.06 118.6684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11990,7 +11990,7 @@
 			)
 		)
 		(property "Sheetfile" "RGB_LED.kicad_sch"
-			(at 260.35 163.1446 0)
+			(at 226.06 136.4746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12001,7 +12001,7 @@
 			)
 		)
 		(pin "BLUE" output
-			(at 260.35 160.02 180)
+			(at 226.06 133.35 180)
 			(uuid "84e7fad1-76cc-46f0-9abc-77cbef8b7eab")
 			(effects
 				(font
@@ -12011,7 +12011,7 @@
 			)
 		)
 		(pin "GREEN" output
-			(at 260.35 156.21 180)
+			(at 226.06 129.54 180)
 			(uuid "5e27b101-466b-4930-9bf6-455819c49244")
 			(effects
 				(font
@@ -12021,7 +12021,7 @@
 			)
 		)
 		(pin "RED" output
-			(at 260.35 152.4 180)
+			(at 226.06 125.73 180)
 			(uuid "151d185c-a3eb-4ad8-8851-b1a6d439401d")
 			(effects
 				(font
@@ -12031,7 +12031,7 @@
 			)
 		)
 		(pin "FPGA_3V3" input
-			(at 260.35 148.59 180)
+			(at 226.06 121.92 180)
 			(uuid "bf5ea5b2-7053-4874-9593-b788d621f7df")
 			(effects
 				(font
