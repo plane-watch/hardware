@@ -3595,7 +3595,7 @@
 				)
 			)
 		)
-		(property "MPN" "CAT16-2201F4LF"
+		(property "MPN" "CAT16-22R0F4LF"
 			(at 45.72 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3617,7 +3617,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Bourns CAT16-2201F4LF"
+		(property "Suggested Part" "Bourns CAT16-22R0F4LF"
 			(at 45.72 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5407,7 +5407,7 @@
 				)
 			)
 		)
-		(property "MPN" "CAT16-2201F4LF"
+		(property "MPN" "CAT16-22R0F4LF"
 			(at 58.42 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5429,7 +5429,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Bourns CAT16-2201F4LF"
+		(property "Suggested Part" "Bourns CAT16-22R0F4LF"
 			(at 58.42 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5560,7 +5560,7 @@
 				)
 			)
 		)
-		(property "MPN" "CAT16-2201F4LF"
+		(property "MPN" "CAT16-22R0F4LF"
 			(at 45.72 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5582,7 +5582,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Bourns CAT16-2201F4LF"
+		(property "Suggested Part" "Bourns CAT16-22R0F4LF"
 			(at 45.72 93.98 0)
 			(hide yes)
 			(show_name no)
