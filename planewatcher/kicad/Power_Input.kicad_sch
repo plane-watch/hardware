@@ -1799,7 +1799,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Texas Instruments TPD1E10B06DYAR"
+		(property "Purpose" "Clamps input supply transients on the protected power input."
 			(at 111.76 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1810,8 +1810,8 @@
 				)
 			)
 		)
-		(property "Purpose" "Clamps input supply transients on the protected power input."
-			(at 111.76 96.52 0)
+		(property "Mount_Type" ""
+			(at 111.76 96.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1903,7 +1903,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "No fitted part (PCB pad only)"
+		(property "Purpose" "Provides oscilloscope/DMM probe access to V+."
 			(at 129.54 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1914,7 +1914,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Provides oscilloscope/DMM probe access to V+."
+		(property "Mount_Type" ""
 			(at 129.54 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2270,7 +2270,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Littelfuse 1812L110/24DR"
+		(property "Purpose" "Provides resettable overcurrent protection at the board power input."
 			(at 100.33 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2281,8 +2281,8 @@
 				)
 			)
 		)
-		(property "Purpose" "Provides resettable overcurrent protection at the board power input."
-			(at 100.33 88.9 0)
+		(property "Mount_Type" ""
+			(at 100.33 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

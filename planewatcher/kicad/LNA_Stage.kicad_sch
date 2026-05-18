@@ -2018,7 +2018,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01.pdf"
 			(at 167.64 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2029,7 +2029,7 @@
 				)
 			)
 		)
-		(property "Description" "1µF, X5R, ±10%, 16V, 0402 MLCC"
+		(property "Description" "1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 167.64 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2040,7 +2040,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 167.64 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2051,7 +2051,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R61C105KA12D"
+		(property "MPN" "GRM155Z71A105KE01D"
 			(at 167.64 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2062,18 +2062,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 167.64 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM155R61C105KA12D"
+		(property "Manufacturer" "Murata Electronics"
 			(at 167.64 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2096,6 +2085,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 167.64 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 167.64 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -2414,7 +2414,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1HR50BA16-01A.pdf"
 			(at 120.65 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2425,7 +2425,7 @@
 				)
 			)
 		)
-		(property "Description" "100pF, C0G/NP0, ±5%, 50V, 0402 MLCC"
+		(property "Description" "100 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 120.65 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2436,7 +2436,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 120.65 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2447,7 +2447,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H101JA01D"
+		(property "MPN" "GCM1555C1H101FA16D"
 			(at 120.65 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2458,18 +2458,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 120.65 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM1555C1H101JA01D"
+		(property "Manufacturer" "Murata Electronics"
 			(at 120.65 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2492,6 +2481,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 120.65 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 120.65 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -2564,7 +2564,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1HR50BA16-01A.pdf"
 			(at 167.64 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2575,7 +2575,7 @@
 				)
 			)
 		)
-		(property "Description" "100pF, C0G/NP0, ±5%, 50V, 0402 MLCC"
+		(property "Description" "100 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 167.64 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2586,7 +2586,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 167.64 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2597,7 +2597,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H101JA01D"
+		(property "MPN" "GCM1555C1H101FA16D"
 			(at 167.64 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2608,18 +2608,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 167.64 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM1555C1H101JA01D"
+		(property "Manufacturer" "Murata Electronics"
 			(at 167.64 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2642,6 +2631,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 167.64 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 167.64 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -2714,7 +2714,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 167.64 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -2725,7 +2725,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 167.64 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -2736,7 +2736,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 167.64 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -2747,7 +2747,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 167.64 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -2758,18 +2758,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 167.64 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
+		(property "Manufacturer" "Murata Electronics"
 			(at 167.64 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -2782,6 +2771,17 @@
 		)
 		(property "Purpose" "Local high-frequency decoupling for the TQP3M9036 LNA supply."
 			(at 167.64 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
+			(at 167.64 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2853,7 +2853,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H102FA01-01.pdf"
 			(at 167.64 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2864,7 +2864,7 @@
 				)
 			)
 		)
-		(property "Description" "1nF, C0G/NP0, ±5%, 50V, 0402 MLCC"
+		(property "Description" "1000 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 167.64 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2875,7 +2875,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 167.64 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2886,7 +2886,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H102JA01D"
+		(property "MPN" "GRM1555C1H102FA01D"
 			(at 167.64 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2897,18 +2897,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 167.64 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM1555C1H102JA01D"
+		(property "Manufacturer" "Murata Electronics"
 			(at 167.64 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2921,6 +2910,17 @@
 		)
 		(property "Purpose" "RF supply bypass/matching capacitor for the 1090MHz LNA stage."
 			(at 167.64 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
+			(at 167.64 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3047,17 +3047,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Qorvo TQP3M9036"
-			(at 138.43 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purpose" "Provides gain for the 1090MHz RF signal before filtering and detection."
 			(at 138.43 100.33 0)
 			(hide yes)
@@ -3070,6 +3059,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 138.43 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3245,7 +3245,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1HR50BA16-01A.pdf"
 			(at 167.64 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3256,7 +3256,7 @@
 				)
 			)
 		)
-		(property "Description" "100pF, C0G/NP0, ±5%, 50V, 0402 MLCC"
+		(property "Description" "100 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 167.64 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3267,7 +3267,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 167.64 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3278,7 +3278,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H101JA01D"
+		(property "MPN" "GCM1555C1H101FA16D"
 			(at 167.64 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3289,18 +3289,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 167.64 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM1555C1H101JA01D"
+		(property "Manufacturer" "Murata Electronics"
 			(at 167.64 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3323,6 +3312,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 167.64 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 167.64 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -3534,17 +3534,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Coilcraft 0603CS-68NXJLU"
-			(at 153.67 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purpose" "RF choke/matching inductor in the 1090MHz LNA stage."
 			(at 153.67 93.98 0)
 			(hide yes)
@@ -3557,6 +3546,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 153.67 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 153.67 93.98 0)
 			(hide yes)
 			(show_name no)

@@ -2303,17 +2303,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Panasonic ERA-2AEB49R9X"
-			(at 80.01 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purpose" "AD8138 input/output termination and gain-setting resistor for the differential ADC driver."
 			(at 80.01 111.76 0)
 			(hide yes)
@@ -2326,6 +2315,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 80.01 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 80.01 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2415,17 +2415,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "No fitted part (PCB pad only)"
-			(at 124.46 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purpose" "Provides oscilloscope/DMM probe access to -OUT."
 			(at 124.46 102.87 0)
 			(hide yes)
@@ -2438,6 +2427,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 124.46 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 124.46 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2583,7 +2583,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 55.88 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2594,7 +2594,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 55.88 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2605,7 +2605,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 55.88 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2616,7 +2616,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 55.88 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2627,18 +2627,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 55.88 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
+		(property "Manufacturer" "Murata Electronics"
 			(at 55.88 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2650,6 +2639,17 @@
 			)
 		)
 		(property "Purpose" "Local high-frequency decoupling for the AD8138 analog supply."
+			(at 55.88 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 55.88 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2775,7 +2775,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Panasonic ERA-2AEB4990X"
+		(property "Purpose" "Sets the AD8138 unity-gain input/feedback network with datasheet-recommended impedance."
 			(at 80.01 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2786,7 +2786,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Sets the AD8138 unity-gain input/feedback network with datasheet-recommended impedance."
+		(property "Mount_Type" ""
 			(at 80.01 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2912,17 +2912,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Panasonic ERA-2AEB49R9X"
-			(at 139.7 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purpose" "AD8138 input/output termination and gain-setting resistor for the differential ADC driver."
 			(at 139.7 111.76 0)
 			(hide yes)
@@ -2935,6 +2924,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 139.7 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 139.7 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3136,7 +3136,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Panasonic ERA-2AEB4990X"
+		(property "Purpose" "Sets the AD8138 unity-gain input/feedback network with datasheet-recommended impedance."
 			(at 73.66 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3147,8 +3147,8 @@
 				)
 			)
 		)
-		(property "Purpose" "Sets the AD8138 unity-gain input/feedback network with datasheet-recommended impedance."
-			(at 73.66 80.01 0)
+		(property "Mount_Type" ""
+			(at 73.66 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3274,7 +3274,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "100nF"
 			(at 63.5 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3296,7 +3296,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 59.69 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3307,7 +3307,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 59.69 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3318,7 +3318,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 59.69 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3329,7 +3329,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 59.69 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3340,18 +3340,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 59.69 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
+		(property "Manufacturer" "Murata Electronics"
 			(at 59.69 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3363,6 +3352,17 @@
 			)
 		)
 		(property "Purpose" "Local high-frequency decoupling for the AD8138 analog supply and VOCM network."
+			(at 59.69 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 59.69 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3486,7 +3486,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Panasonic ERA-2AEB4990X"
+		(property "Purpose" "Sets the AD8138 unity-gain input/feedback network with datasheet-recommended impedance."
 			(at 146.05 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3497,8 +3497,8 @@
 				)
 			)
 		)
-		(property "Purpose" "Sets the AD8138 unity-gain input/feedback network with datasheet-recommended impedance."
-			(at 146.05 80.01 0)
+		(property "Mount_Type" ""
+			(at 146.05 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3587,17 +3587,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "No fitted part (PCB pad only)"
-			(at 95.25 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purpose" "Provides oscilloscope/DMM probe access to +OUT."
 			(at 95.25 102.87 0)
 			(hide yes)
@@ -3610,6 +3599,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 95.25 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 95.25 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3730,17 +3730,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Analog Devices AD8138ARZ"
-			(at 109.22 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purpose" "Converts and buffers the detector output into a differential signal for the ADC."
 			(at 109.22 74.93 0)
 			(hide yes)
@@ -3753,6 +3742,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 109.22 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 109.22 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3917,7 +3917,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H200FB01-01.pdf"
 			(at 134.62 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3928,18 +3928,7 @@
 				)
 			)
 		)
-		(property "Description" "20pF tuning capacitor footprint, C0G/NP0 0402 when fitted, DNP by default"
-			(at 134.62 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "DNP by default; fit RF-grade C0G 0402 value selected during ADC-driver tuning"
+		(property "Description" "20 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 134.62 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3952,6 +3941,61 @@
 		)
 		(property "Purpose" "Optional shunt capacitance for ADC-driver output and anti-alias response tuning."
 			(at 134.62 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
+			(at 134.62 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GJM1555C1H200FB01D"
+			(at 134.62 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 134.62 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" "Tuning capacitor footprint, C0G/NP0 0402 when fitted, DNP by default"
+			(at 134.62 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 134.62 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4199,7 +4243,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "No fitted part (PCB pad only)"
+		(property "Purpose" "Provides oscilloscope/DMM probe access to VOCM."
 			(at 73.66 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4210,7 +4254,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Provides oscilloscope/DMM probe access to VOCM."
+		(property "Mount_Type" ""
 			(at 73.66 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4333,7 +4377,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Yageo RC0402FR-0710KL"
+		(property "Purpose" "Biases the AD8138 VOCM/offset network."
 			(at 45.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4344,7 +4388,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Biases the AD8138 VOCM/offset network."
+		(property "Mount_Type" ""
 			(at 45.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4392,7 +4436,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "100nF"
 			(at 57.658 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4413,7 +4457,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 63.5 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4424,7 +4468,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 63.5 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4435,7 +4479,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 63.5 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4446,7 +4490,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 63.5 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4457,18 +4501,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 63.5 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
+		(property "Manufacturer" "Murata Electronics"
 			(at 63.5 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4492,6 +4525,17 @@
 		)
 		(property "Notes" ""
 			(at 63.5 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
+			(at 63.5 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4559,7 +4603,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106MA73-01A.pdf"
 			(at 49.53 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4570,7 +4614,7 @@
 				)
 			)
 		)
-		(property "Description" "10µF, X5R, ±20%, 16V, 0603 MLCC"
+		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 49.53 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4581,7 +4625,7 @@
 				)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0603 (1608 Metric)"
 			(at 49.53 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4592,7 +4636,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61C106MA73D"
+		(property "MPN" "GRM188Z71A106MA73J"
 			(at 49.53 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4603,18 +4647,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 49.53 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM188R61C106MA73D"
+		(property "Manufacturer" "Murata Electronics"
 			(at 49.53 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4638,6 +4671,17 @@
 		)
 		(property "Notes" ""
 			(at 49.53 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
+			(at 49.53 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4762,7 +4806,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Panasonic ERA-2AEB4990X"
+		(property "Purpose" "Sets the AD8138 unity-gain input/feedback network with datasheet-recommended impedance."
 			(at 139.7 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4773,7 +4817,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Sets the AD8138 unity-gain input/feedback network with datasheet-recommended impedance."
+		(property "Mount_Type" ""
 			(at 139.7 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4842,7 +4886,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H200FB01-01.pdf"
 			(at 85.09 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -4853,18 +4897,7 @@
 				)
 			)
 		)
-		(property "Description" "20pF tuning capacitor footprint, C0G/NP0 0402 when fitted, DNP by default"
-			(at 85.09 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "DNP by default; fit RF-grade C0G 0402 value selected during ADC-driver tuning"
+		(property "Description" "20 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 85.09 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -4877,6 +4910,61 @@
 		)
 		(property "Purpose" "Optional shunt capacitance for ADC-driver output and anti-alias response tuning."
 			(at 85.09 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
+			(at 85.09 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GJM1555C1H200FB01D"
+			(at 85.09 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 85.09 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" "Tuning capacitor footprint, C0G/NP0 0402 when fitted, DNP by default"
+			(at 85.09 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 85.09 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5078,7 +5166,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Yageo RC0402FR-0710KL"
+		(property "Purpose" "Biases the AD8138 VOCM/offset network."
 			(at 45.72 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5089,7 +5177,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Biases the AD8138 VOCM/offset network."
+		(property "Mount_Type" ""
 			(at 45.72 53.34 0)
 			(hide yes)
 			(show_name no)

@@ -7324,17 +7324,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Samtec TSW-120-07-L-D"
-			(at 106.68 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purpose" "Breaks out FPGA bank 35 I/O and power pins to the carrier/FPGA interface."
 			(at 106.68 168.91 0)
 			(hide yes)
@@ -7347,6 +7336,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 106.68 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 106.68 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -7663,7 +7663,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Yageo RC0402FR-07330RL"
+		(property "Purpose" "Series resistor between LT3045 power-good output and the FPGA monitor input."
 			(at 184.15 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7674,7 +7674,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Series resistor between LT3045 power-good output and the FPGA monitor input."
+		(property "Mount_Type" ""
 			(at 184.15 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7745,7 +7745,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/en-sg/pim/details/?partNum=GCJ31CR71A226KE01%23&displayChangeClass=productDetailPrint"
 			(at 120.65 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7756,7 +7756,7 @@
 				)
 			)
 		)
-		(property "Description" "22µF, X5R, ±10%, 16V, 1206 MLCC"
+		(property "Description" "22 µF ±10% 10V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 120.65 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7767,7 +7767,7 @@
 				)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "1206 (3216 Metric)"
 			(at 120.65 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7778,7 +7778,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL31A226KOHNNNE"
+		(property "MPN" "GCJ31CR71A226KE01K"
 			(at 120.65 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7789,18 +7789,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung"
-			(at 120.65 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Samsung CL31A226KOHNNNE"
+		(property "Manufacturer" "Murata Electronics"
 			(at 120.65 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7812,6 +7801,28 @@
 			)
 		)
 		(property "Purpose" "Load-side bulk decoupling for the filtered 3V3A analog rail."
+			(at 120.65 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Design Notes" "~18µF after DC bias de-rating"
+			(at 120.65 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 120.65 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7882,7 +7893,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 133.35 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7893,7 +7904,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 133.35 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7904,7 +7915,7 @@
 				)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0402 (1005 Metric)"
 			(at 133.35 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7915,7 +7926,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 133.35 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7926,18 +7937,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 133.35 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
+		(property "Manufacturer" "Murata Electronics"
 			(at 133.35 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7949,6 +7949,17 @@
 			)
 		)
 		(property "Purpose" "Load-side high-frequency decoupling for the filtered 3V3A analog rail."
+			(at 133.35 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 133.35 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8152,7 +8163,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Yageo RC0402FR-0710KL"
+		(property "Purpose" "Pulls the LT3045 open-collector power-good output up to 3V3."
 			(at 184.15 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8163,7 +8174,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Pulls the LT3045 open-collector power-good output up to 3V3."
+		(property "Mount_Type" ""
 			(at 184.15 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8478,6 +8489,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 127 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 127 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8831,17 +8853,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Tai-Saw TA2003A"
-			(at 96.52 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purpose" "Band-limits the ADS-B 1090MHz RF path and rejects out-of-band energy."
 			(at 96.52 77.47 0)
 			(hide yes)
@@ -8854,6 +8865,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 96.52 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 96.52 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9147,7 +9169,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Laird/BMI BMI-S-209-F"
+		(property "Purpose" "Shields the RF front-end area from external and board-level interference."
 			(at 179.07 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9158,7 +9180,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Shields the RF front-end area from external and board-level interference."
+		(property "Mount_Type" ""
 			(at 179.07 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9279,17 +9301,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Samtec TSW-120-07-L-D"
-			(at 45.72 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purpose" "Breaks out FPGA bank 33 I/O and power pins to the carrier/FPGA interface."
 			(at 45.72 168.91 0)
 			(hide yes)
@@ -9302,6 +9313,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 45.72 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 45.72 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -10084,17 +10106,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Tai-Saw TA2003A"
-			(at 149.86 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purpose" "Band-limits the ADS-B 1090MHz RF path and rejects out-of-band energy."
 			(at 149.86 77.47 0)
 			(hide yes)
@@ -10107,6 +10118,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 149.86 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 149.86 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10344,7 +10366,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H102FA01-01.pdf"
 			(at 146.05 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10355,7 +10377,7 @@
 				)
 			)
 		)
-		(property "Description" "1nF, C0G/NP0, ±5%, 50V, 0402 MLCC"
+		(property "Description" "1000 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 146.05 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10366,7 +10388,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 146.05 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10377,7 +10399,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H102JA01D"
+		(property "MPN" "GRM1555C1H102FA01D"
 			(at 146.05 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10388,18 +10410,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 146.05 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM1555C1H102JA01D"
+		(property "Manufacturer" "Murata Electronics"
 			(at 146.05 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10411,6 +10422,17 @@
 			)
 		)
 		(property "Purpose" "Load-side RF decoupling for the filtered 3V3A analog rail."
+			(at 146.05 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 146.05 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10534,17 +10556,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Amphenol RF 132289"
-			(at 21.59 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purpose" "Accepts the external 1090MHz antenna input."
 			(at 21.59 85.09 0)
 			(hide yes)
@@ -10557,6 +10568,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 21.59 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 21.59 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10680,7 +10702,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Würth Elektronik 74269262601"
+		(property "Purpose" "Ferrite bead isolation between the 3V3 regulator output and the 3V3A analog rail."
 			(at 109.22 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -10691,7 +10713,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Ferrite bead isolation between the 3V3 regulator output and the 3V3A analog rail."
+		(property "Mount_Type" ""
 			(at 109.22 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -10971,18 +10993,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Amphenol RF 132289"
-			(at 217.17 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "Accepts the external 1090MHz antenna input."
+		(property "Purpose" "Accepts the external GPS/GNSS antenna input."
 			(at 217.17 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10994,6 +11005,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 217.17 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 217.17 29.21 0)
 			(hide yes)
 			(show_name no)

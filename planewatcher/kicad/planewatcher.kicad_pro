@@ -660,6 +660,12 @@
         },
         {
           "group_by": false,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Quantity",
           "name": "${QUANTITY}",
           "show": true
@@ -696,7 +702,7 @@
         },
         {
           "group_by": false,
-          "label": "PCBWay Note",
+          "label": "Notes",
           "name": "Notes",
           "show": true
         },
@@ -710,25 +716,13 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Value",
-          "name": "Value",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Suggested Part",
-          "name": "Suggested Part",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Purpose",
           "name": "Purpose",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -746,13 +740,13 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -771,14 +765,20 @@
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Design Notes",
+          "name": "Design Notes",
+          "show": true
         }
       ],
-      "filter_string": "",
-      "group_symbols": true,
+      "filter_string": "C",
+      "group_symbols": false,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -821,7 +821,7 @@
         "uuid": "7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
       }
     ],
-    "used_designators": "#FLG3-5,#FLG7,J1,J6,D8,C4-6,C59-60,C74,#PWR4-5,#PWR24-29,L2,R20-21,R23-24,U1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

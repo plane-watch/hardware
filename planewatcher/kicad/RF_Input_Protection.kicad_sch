@@ -1483,17 +1483,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Infineon ESD103B102ELE6327XTMA1"
-			(at 139.7 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purpose" "Provides low-capacitance ESD protection to chassis/board ground."
 			(at 139.7 97.79 90)
 			(hide yes)
@@ -1506,6 +1495,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 139.7 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 139.7 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -1631,17 +1631,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Coilcraft 0402DC-68NXJRW"
-			(at 123.19 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purpose" "RF choke/shunt inductor to ground; provides DC/static bleed and input matching/filtering at 1090MHz."
 			(at 123.19 97.79 0)
 			(hide yes)
@@ -1654,6 +1643,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 123.19 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 123.19 97.79 0)
 			(hide yes)
 			(show_name no)

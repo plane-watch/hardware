@@ -852,7 +852,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Kingbright APHF1608SEEQBDZGKC"
+		(property "Purpose" "Common-anode RGB status indicator driven by FPGA GPIO pins."
 			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -863,7 +863,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Common-anode RGB status indicator driven by FPGA GPIO pins."
+		(property "Mount_Type" ""
 			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1011,7 +1011,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Yageo RC0402FR-07665RL"
+		(property "Purpose" "Current-limit resistor for an FPGA-driven RGB status LED channel."
 			(at 133.35 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1022,7 +1022,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Current-limit resistor for an FPGA-driven RGB status LED channel."
+		(property "Mount_Type" ""
 			(at 133.35 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1164,7 +1164,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Yageo RC0402FR-07665RL"
+		(property "Purpose" "Current-limit resistor for an FPGA-driven RGB status LED channel."
 			(at 144.78 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1175,7 +1175,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Current-limit resistor for an FPGA-driven RGB status LED channel."
+		(property "Mount_Type" ""
 			(at 144.78 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1317,7 +1317,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Yageo RC0402FR-071KL"
+		(property "Purpose" "Current-limit resistor for an FPGA-driven RGB status LED channel."
 			(at 123.19 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -1328,7 +1328,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Current-limit resistor for an FPGA-driven RGB status LED channel."
+		(property "Mount_Type" ""
 			(at 123.19 92.71 0)
 			(hide yes)
 			(show_name no)

@@ -3894,7 +3894,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "DNP by default; fit Vishay CRCW0402 value selected from attenuator table during RF tuning"
+		(property "Purpose" "Optional shunt leg for configurable RF input attenuation ahead of the ADL5513."
 			(at 52.07 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3905,7 +3905,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Optional shunt leg for configurable RF input attenuation ahead of the ADL5513."
+		(property "Mount_Type" ""
 			(at 52.07 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4187,17 +4187,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Bourns 3224W-1-102E"
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purpose" "Allows prototype adjustment of the ADL5513 TADJ calibration voltage."
 			(at 214.63 106.68 0)
 			(hide yes)
@@ -4253,6 +4242,17 @@
 				)
 			)
 		)
+		(property "Mount_Type" ""
+			(at 214.63 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "f3f479aa-c57e-4ee8-958e-973c0f10e1e3")
 		)
@@ -4292,7 +4292,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "100nF"
 			(at 132.08 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4313,7 +4313,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 138.43 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4324,7 +4324,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 138.43 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4335,7 +4335,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 138.43 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4346,7 +4346,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 138.43 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4357,18 +4357,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 138.43 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
+		(property "Manufacturer" "Murata Electronics"
 			(at 138.43 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4392,6 +4381,17 @@
 		)
 		(property "Notes" ""
 			(at 138.43 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
+			(at 138.43 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4480,17 +4480,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "No fitted part (PCB pad only)"
-			(at 191.77 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purpose" "Provides oscilloscope/DMM probe access to VLOG_OUT."
 			(at 191.77 36.83 0)
 			(hide yes)
@@ -4503,6 +4492,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 191.77 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 191.77 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4567,7 +4567,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1HR50BA16-01A.pdf"
 			(at 151.13 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4578,7 +4578,7 @@
 				)
 			)
 		)
-		(property "Description" "100pF, C0G/NP0, ±5%, 50V, 0402 MLCC"
+		(property "Description" "100 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 151.13 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4589,7 +4589,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 151.13 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4600,7 +4600,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H101JA01D"
+		(property "MPN" "GCM1555C1H101FA16D"
 			(at 151.13 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4611,18 +4611,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 151.13 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM1555C1H101JA01D"
+		(property "Manufacturer" "Murata Electronics"
 			(at 151.13 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4646,6 +4635,17 @@
 		)
 		(property "Notes" ""
 			(at 151.13 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
+			(at 151.13 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4737,17 +4737,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "No fitted part (PCB pad only)"
-			(at 199.39 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purpose" "Provides oscilloscope/DMM probe access to TADJ."
 			(at 199.39 107.95 0)
 			(hide yes)
@@ -4760,6 +4749,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 199.39 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 199.39 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4902,7 +4902,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71A473KA01-01.pdf"
 			(at 130.81 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4913,7 +4913,7 @@
 				)
 			)
 		)
-		(property "Description" "47nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.047 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 130.81 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4924,7 +4924,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 130.81 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4935,7 +4935,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H473KE14D"
+		(property "MPN" "GRM155R71A473KA01D"
 			(at 130.81 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4946,18 +4946,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 130.81 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM155R71H473KE14D"
+		(property "Manufacturer" "Murata Electronics"
 			(at 130.81 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4980,6 +4969,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 130.81 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 130.81 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -5047,7 +5047,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1HR50BA16-01A.pdf"
 			(at 151.13 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5058,7 +5058,7 @@
 				)
 			)
 		)
-		(property "Description" "100pF, C0G/NP0, ±5%, 50V, 0402 MLCC"
+		(property "Description" "100 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 151.13 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5069,7 +5069,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 151.13 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5080,7 +5080,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H101JA01D"
+		(property "MPN" "GCM1555C1H101FA16D"
 			(at 151.13 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5091,18 +5091,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 151.13 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM1555C1H101JA01D"
+		(property "Manufacturer" "Murata Electronics"
 			(at 151.13 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5126,6 +5115,17 @@
 		)
 		(property "Notes" ""
 			(at 151.13 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
+			(at 151.13 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5248,17 +5248,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Analog Devices ADL5513ACPZ-R7"
-			(at 175.26 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purpose" "Converts 1090MHz RF amplitude into a logarithmic video/RSSI voltage."
 			(at 175.26 50.8 0)
 			(hide yes)
@@ -5271,6 +5260,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 175.26 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 175.26 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5384,7 +5384,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C103KA01-01.pdf"
 			(at 203.2 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5395,7 +5395,7 @@
 				)
 			)
 		)
-		(property "Description" "10nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "10000 pF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 203.2 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5406,7 +5406,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 203.2 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5417,7 +5417,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H103KA88D"
+		(property "MPN" "GRM155R71C103KA01D"
 			(at 203.2 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5428,7 +5428,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 203.2 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5439,7 +5439,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM155R71H103KA88D"
+		(property "Purpose" "ADL5513 TADJ decoupling cap."
 			(at 203.2 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5450,8 +5450,8 @@
 				)
 			)
 		)
-		(property "Purpose" "ADL5513 VOUT/VSET measurement-mode support capacitor in the detector output network."
-			(at 203.2 91.44 0)
+		(property "Mount_Type" ""
+			(at 203.2 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5573,7 +5573,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Yageo RC0402JR-070RL"
+		(property "Purpose" "Series resistor in tunable 50 ohm attenuator \"pi pad\" footprint."
 			(at 59.69 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5584,8 +5584,8 @@
 				)
 			)
 		)
-		(property "Purpose" "Series resistor in tunable 50 ohm attenuator \"pi pad\" footprint."
-			(at 59.69 62.23 0)
+		(property "Mount_Type" ""
+			(at 59.69 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5631,7 +5631,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "100nF"
 			(at 132.08 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5652,7 +5652,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 138.43 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5663,7 +5663,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 138.43 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5674,7 +5674,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 138.43 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5685,7 +5685,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 138.43 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5696,18 +5696,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 138.43 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
+		(property "Manufacturer" "Murata Electronics"
 			(at 138.43 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5731,6 +5720,17 @@
 		)
 		(property "Notes" ""
 			(at 138.43 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
+			(at 138.43 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5798,7 +5798,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71A473KA01-01.pdf"
 			(at 109.22 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5809,7 +5809,7 @@
 				)
 			)
 		)
-		(property "Description" "47nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.047 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 109.22 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5820,7 +5820,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 109.22 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5831,7 +5831,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H473KE14D"
+		(property "MPN" "GRM155R71A473KA01D"
 			(at 109.22 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5842,18 +5842,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 109.22 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM155R71H473KE14D"
+		(property "Manufacturer" "Murata Electronics"
 			(at 109.22 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5876,6 +5865,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 109.22 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 109.22 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -6079,17 +6079,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "${RTADJ_VPOS_Suggested_Part}"
-			(at 220.98 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purpose" "Upper resistor in the ADL5513 TADJ divider for 1090MHz detector calibration."
 			(at 220.98 96.52 0)
 			(hide yes)
@@ -6102,6 +6091,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 220.98 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 220.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6227,7 +6227,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "DNP by default; fit Vishay CRCW0402 value selected from attenuator table during RF tuning"
+		(property "Purpose" "Optional shunt leg for configurable RF input attenuation ahead of the ADL5513."
 			(at 67.31 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6238,7 +6238,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Optional shunt leg for configurable RF input attenuation ahead of the ADL5513."
+		(property "Mount_Type" ""
 			(at 67.31 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6520,17 +6520,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "${RTADJ_GND_Suggested_Part}"
-			(at 214.63 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purpose" "Lower resistor in the ADL5513 TADJ divider for 1090MHz detector calibration."
 			(at 214.63 114.3 0)
 			(hide yes)
@@ -6543,6 +6532,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 214.63 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 214.63 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6824,17 +6824,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Panasonic ERA-2AEB52R3X"
-			(at 101.6 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Purpose" "ADL5513 RF input shunt termination for broadband 50Ω matching."
 			(at 101.6 66.04 0)
 			(hide yes)
@@ -6847,6 +6836,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 101.6 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mount_Type" ""
 			(at 101.6 66.04 0)
 			(hide yes)
 			(show_name no)
