@@ -5,8 +5,9 @@
 	(uuid "5c9c07f4-89c2-4a6f-b1d4-9942915ec6a5")
 	(paper "A4")
 	(title_block
-		(date "2026-05-16")
-		(rev "prototype 1.1")
+		(title "Plane Watcher")
+		(date "2026-05-18")
+		(rev "prototype 1.2")
 		(company "plane.watch")
 	)
 	(lib_symbols
@@ -765,7 +766,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01c94f7f-1299-4e08-8745-cb66cf62f211")
-		(property "Reference" "D1"
+		(property "Reference" "LED4"
 			(at 111.76 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -888,23 +889,23 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/52b32cc6-d826-42d3-aa96-9038a73a9bfc"
-					(reference "D5")
+					(reference "LED1")
 					(unit 1)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/59545c86-c058-4e69-82ad-a37ead5abf92"
-					(reference "D1")
+					(reference "LED4")
 					(unit 1)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/7739f02d-62c0-4bca-89eb-2791de83397a"
-					(reference "D4")
+					(reference "LED3")
 					(unit 1)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/8d837c64-f9ae-4d10-9c5f-d514a90db394"
-					(reference "D6")
+					(reference "LED5")
 					(unit 1)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/d4f7e37f-a721-4dfe-b190-52f36600c34c"
-					(reference "D7")
+					(reference "LED2")
 					(unit 1)
 				)
 			)

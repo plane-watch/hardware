@@ -5,9 +5,9 @@
 	(uuid "f58b2516-fd5a-45f9-8930-84c778fa84ba")
 	(paper "A4")
 	(title_block
-		(title "Plane Watcher: LNA Stage")
-		(date "2026-05-16")
-		(rev "prototype 1.1")
+		(title "Plane Watcher")
+		(date "2026-05-18")
+		(rev "prototype 1.2")
 		(company "plane.watch")
 	)
 	(lib_symbols

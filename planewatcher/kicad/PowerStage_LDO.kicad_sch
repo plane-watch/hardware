@@ -5,8 +5,9 @@
 	(uuid "cc367ac3-b96c-436a-91a5-25465c1ed8f1")
 	(paper "A4")
 	(title_block
-		(date "2026-05-16")
-		(rev "prototype 1.1")
+		(title "Plane Watcher")
+		(date "2026-05-18")
+		(rev "prototype 1.2")
 		(company "plane.watch")
 	)
 	(lib_symbols
@@ -2473,7 +2474,7 @@
 				)
 			)
 		)
-			(property "Datasheet" ""
+		(property "Datasheet" ""
 			(at 234.95 85.09 0)
 			(hide yes)
 			(show_name no)

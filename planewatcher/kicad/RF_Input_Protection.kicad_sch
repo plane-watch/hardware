@@ -5,9 +5,9 @@
 	(uuid "d3208dd5-1025-4320-a9f2-8c1e9312fb47")
 	(paper "A4")
 	(title_block
-		(title "Plane Watcher: RF Input Protection")
-		(date "2026-05-16")
-		(rev "prototype 1.1")
+		(title "Plane Watcher")
+		(date "2026-05-18")
+		(rev "prototype 1.2")
 		(company "plane.watch")
 	)
 	(lib_symbols

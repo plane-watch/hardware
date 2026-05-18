@@ -62,8 +62,8 @@
       ],
       "drc_exclusions": [
         [
-          "nonmirrored_text_on_back_layer|-28226037|-24104000|f6d29e68-38fb-478d-8147-3d17b0b8de4d|00000000-0000-0000-0000-000000000000",
-          "Layer markings when viewed from top - should not be mirrored."
+          "nonmirrored_text_on_back_layer|-27112500|-25080000|c198f876-ed40-413d-aff4-20dc384c7784|00000000-0000-0000-0000-000000000000",
+          "This is by design so layer marker text is right way up when viewed from top."
         ]
       ],
       "meta": {
@@ -258,7 +258,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "prototype 1.1"
+      "sch_revision": "prototype 1.2"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -278,7 +278,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|1536700|698500|e0aa2690-adc4-4eb2-9066-0274a9487255|00000000-0000-0000-0000-000000000000|/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/84812100-48e5-47cc-a358-d48bbae76aaf|/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/84812100-48e5-47cc-a358-d48bbae76aaf|",
+        "Connected as-per integration guide: \"Figure 11: Module design with active antenna, internal supply from VCC_RF\""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -816,7 +821,7 @@
         "uuid": "7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#FLG3-5,#FLG7,J1,J6,D8,C4-6,C59-60,C74,#PWR4-5,#PWR24-29,L2,R20-21,R23-24,U1",
     "variants": []
   },
   "sheets": [
@@ -830,11 +835,11 @@
     ],
     [
       "59545c86-c058-4e69-82ad-a37ead5abf92",
-      "RGB LED 1"
+      "RGB LED4"
     ],
     [
       "7739f02d-62c0-4bca-89eb-2791de83397a",
-      "RGB LED 2"
+      "RGB LED3"
     ],
     [
       "be54cab6-561b-439c-9db3-5433a1e68d46",
@@ -858,7 +863,7 @@
     ],
     [
       "52b32cc6-d826-42d3-aa96-9038a73a9bfc",
-      "RGB LED 3"
+      "RGB LED1"
     ],
     [
       "5ac3603d-bbeb-44f4-b422-6252fe26d95e",
@@ -870,11 +875,15 @@
     ],
     [
       "8d837c64-f9ae-4d10-9c5f-d514a90db394",
-      "RGB LED 4"
+      "RGB LED5"
     ],
     [
       "d4f7e37f-a721-4dfe-b190-52f36600c34c",
-      "RGB LED 5"
+      "RGB LED2"
+    ],
+    [
+      "84812100-48e5-47cc-a358-d48bbae76aaf",
+      "GPS Module"
     ]
   ],
   "text_variables": {},

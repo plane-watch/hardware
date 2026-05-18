@@ -5,9 +5,9 @@
 	(uuid "618946eb-f05b-4208-b7db-5aff2edb4ecf")
 	(paper "A4")
 	(title_block
-		(title "Plane Watcher: ADC Section")
-		(date "2026-05-16")
-		(rev "prototype 1.1")
+		(title "Plane Watcher")
+		(date "2026-05-18")
+		(rev "prototype 1.2")
 		(company "plane.watch")
 	)
 	(lib_symbols

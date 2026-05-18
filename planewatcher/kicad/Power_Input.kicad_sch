@@ -5,9 +5,9 @@
 	(uuid "79410aaf-2f60-483a-9e24-5c606923ee17")
 	(paper "A4")
 	(title_block
-		(title "Plane Watcher: Power Input Protection & Filtering")
-		(date "2026-05-16")
-		(rev "prototype 1.1")
+		(title "Plane Watcher")
+		(date "2026-05-18")
+		(rev "prototype 1.2")
 		(company "plane.watch")
 	)
 	(lib_symbols
