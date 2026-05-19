@@ -1,6 +1,6 @@
 # plane watcher
 
-![Render of Plane Watcher PCB, prototype revision 1.1](assets/planewatcher_proto_1.1_render.png)
+![Render of Plane Watcher PCB, prototype revision 1.2](assets/planewatcher_proto_1.2_render.png)
 
 The **plane watcher** is our attempt at creating a hardware-based ADS-B receiver and decoder. It is a hat/cape/shield for a [HelloFPGA Smart ZYNQ SL](http://www.hellofpga.com/index.php/2023/05/10/smart-zynq-sl/) board.
 
@@ -36,7 +36,7 @@ The FPGA contains bytecode to perform the ADS-B decoding via discrete logic bloc
 
 ## TODO List / Ideas
 
-- add GPS module to board.
+- ~~add GPS module to board.~~ Added in proto 1.2.
 - check if the ADC digital supply can operate from FPGA’s 3V3 supply to further reduce noise on the LT3045-1 supply.
 - check test points when prototype is returned, to ensure voltages and expected signals are correct.
 - if signal is too hot on prototype, consider fitting pi pad parts.
