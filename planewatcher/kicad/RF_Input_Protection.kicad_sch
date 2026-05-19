@@ -1406,7 +1406,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD103-B1-02EL"
+		(property "Value" "ESD8472MUT5G"
 			(at 142.24 99.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1417,7 +1417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "planewatcher:D_ESD112-B1-02EL_TSLP-2-20"
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
 			(at 139.7 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1428,7 +1428,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/cms/en/product/esd-and-surge-protection/low-capacitance-esd-devices/esd103-b1-02el/"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/esd8472-d.pdf"
 			(at 139.7 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1439,7 +1439,7 @@
 				)
 			)
 		)
-		(property "Description" "Low-capacitance bidirectional RF ESD diode, 0.13pF typical, ±15V working voltage, PG-TSLP-2-20 package"
+		(property "Description" "14V Clamp 3A (8/20µs) Ipp Tvs Diode Surface Mount 2-X3DFN (0.6x0.3) (0201)"
 			(at 139.7 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1450,7 +1450,7 @@
 				)
 			)
 		)
-		(property "Package" "PG-TSLP-2-20"
+		(property "Package" "2-X3DFN (0.6x0.3) (0201)"
 			(at 139.7 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1461,7 +1461,7 @@
 				)
 			)
 		)
-		(property "MPN" "ESD103B102ELE6327XTMA1"
+		(property "MPN" "ESD8472MUT5G"
 			(at 139.7 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1472,7 +1472,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Infineon"
+		(property "Manufacturer" "onsemi"
 			(at 139.7 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1483,7 +1483,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Provides low-capacitance ESD protection to chassis/board ground."
+		(property "Purpose" "Provides low-capacitance ESD protection to chassis/board ground for 1090MHz RF input."
 			(at 139.7 97.79 90)
 			(hide yes)
 			(show_name no)
