@@ -2095,17 +2095,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 167.64 45.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "f17fc9cf-53de-4252-b16a-119e917d3796")
 		)
@@ -2491,17 +2480,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 120.65 104.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "610e7bf1-2283-4188-803a-0d81e468fc57")
 		)
@@ -2641,17 +2619,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 167.64 104.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "223b6f11-50ae-49ec-9c13-fa9a857dc70b")
 		)
@@ -2780,17 +2747,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 167.64 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "1ae77e5e-f180-480e-a7d2-73946989d595")
 		)
@@ -2910,17 +2866,6 @@
 		)
 		(property "Purpose" "RF supply bypass/matching capacitor for the 1090MHz LNA stage."
 			(at 167.64 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
-			(at 167.64 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3059,17 +3004,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 138.43 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
 			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3322,17 +3256,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 167.64 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "e825c489-beef-477b-8605-8d64ad67ab98")
 		)
@@ -3546,17 +3469,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 153.67 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
 			(at 153.67 93.98 0)
 			(hide yes)
 			(show_name no)

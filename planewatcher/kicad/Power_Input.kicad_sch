@@ -1810,17 +1810,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 111.76 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "031c47dd-f206-45c0-a2fc-602d08cca3a9")
 		)
@@ -1904,17 +1893,6 @@
 			)
 		)
 		(property "Purpose" "Provides oscilloscope/DMM probe access to V+."
-			(at 129.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
 			(at 129.54 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2272,17 +2250,6 @@
 		)
 		(property "Purpose" "Provides resettable overcurrent protection at the board power input."
 			(at 100.33 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
-			(at 100.33 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

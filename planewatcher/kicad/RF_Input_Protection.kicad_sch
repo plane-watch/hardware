@@ -1505,17 +1505,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 139.7 97.79 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "795392d1-f3d3-48ef-b550-e010d7b9022c")
 		)
@@ -1643,17 +1632,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 123.19 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
 			(at 123.19 97.79 0)
 			(hide yes)
 			(show_name no)

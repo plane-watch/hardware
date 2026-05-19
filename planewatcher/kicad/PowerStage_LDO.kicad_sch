@@ -2617,17 +2617,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 128.27 66.04 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0a8b7b74-badf-4f92-b580-05531a3642b1")
 		)
@@ -2822,17 +2811,6 @@
 			)
 		)
 		(property "Purpose" "Low freq bypass capacitor for the LT3045-1."
-			(at 138.43 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
 			(at 138.43 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3103,17 +3081,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 223.52 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "8b03227c-dd43-4a79-bb55-e990a3092169")
 		)
@@ -3237,17 +3204,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 234.95 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
 			(at 234.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3675,17 +3631,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 180.34 49.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "1449cef8-bf9f-4946-9892-76a05a3d424a")
 		)
@@ -3977,17 +3922,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 207.01 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "0c63a21d-c0d9-41dd-b875-de01e262861d")
 		)
@@ -4147,17 +4081,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 118.11 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ec4bf5bf-e987-495f-8ac5-953fc8f34ae7")
 		)
@@ -4295,17 +4218,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 177.8 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "86ac9774-d44d-4575-a832-bd8bb567cdfd")
 		)
@@ -4432,17 +4344,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 158.75 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "4f6b5362-160d-44f7-a4e4-bb53261138a0")
 		)
@@ -4557,17 +4458,6 @@
 			)
 		)
 		(property "Purpose" "Upper resistor in the LT3045 PGFB divider; sets the power-good assertion threshold."
-			(at 190.5 49.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
 			(at 190.5 49.53 90)
 			(hide yes)
 			(show_name no)

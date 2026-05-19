@@ -7346,17 +7346,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 106.68 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "23"
 			(uuid "584e6fac-27b1-4364-946a-c7082b18ced2")
 		)
@@ -7811,17 +7800,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 120.65 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "fdb09ba6-2f66-4fa1-9df5-c4564532a7d5")
 		)
@@ -7938,17 +7916,6 @@
 			)
 		)
 		(property "Purpose" "Load-side high-frequency decoupling for the filtered 3V3A analog rail."
-			(at 133.35 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
 			(at 133.35 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8477,17 +8444,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 127 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "f23d902f-bdec-40e5-8e03-1fbbc0a427d0")
 		)
@@ -8853,17 +8809,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 96.52 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "E"
 			(uuid "d6d3a5cd-7d53-462e-8293-1e56e0dd3093")
 		)
@@ -9158,17 +9103,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 179.07 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "824e92fc-f4b0-47b8-8bbe-b3a024d5236d")
 		)
@@ -9291,17 +9225,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 45.72 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
 			(at 45.72 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -10106,17 +10029,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 149.86 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "E"
 			(uuid "01641691-089b-43d0-8f69-07f25b81feaf")
 		)
@@ -10410,17 +10322,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 146.05 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "c18e6f11-d5f4-4a7d-b8aa-c3f30e2f8255")
 		)
@@ -10556,17 +10457,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 21.59 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "46c212f2-be93-4298-b3f9-b7b6d0ca9171")
 		)
@@ -10681,17 +10571,6 @@
 			)
 		)
 		(property "Purpose" "Ferrite bead isolation between the 3V3 regulator output and the 3V3A analog rail."
-			(at 109.22 34.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
 			(at 109.22 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -10983,17 +10862,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 217.17 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
 			(at 217.17 29.21 0)
 			(hide yes)
 			(show_name no)

@@ -2632,17 +2632,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 107.95 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "53d5533b-3166-403c-a549-a64666c0c6c3")
 		)
@@ -2769,17 +2758,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 184.15 101.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "18e1c3d4-0d32-407e-a771-9faed18e3d8e")
 		)
@@ -2851,17 +2829,6 @@
 		)
 		(property "Description" "10 Ohms ±0.5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thick Film"
 			(at 163.83 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
-			(at 163.83 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3039,17 +3006,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 179.07 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "c0b0e5e2-128a-416e-bd91-d9e1301a563b")
 		)
@@ -3121,17 +3077,6 @@
 		)
 		(property "Description" "33 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 184.15 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
-			(at 184.15 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3256,17 +3201,6 @@
 		)
 		(property "Description" "33 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 107.95 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
-			(at 107.95 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3689,17 +3623,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 121.92 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "d1870d3a-ceb0-4348-ba63-b373f29b8899")
 		)
@@ -3850,17 +3773,6 @@
 			)
 		)
 		(property "Description" "GNSS Module LEA M8, VCC 2.7V to 3.6V"
-			(at 148.59 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
 			(at 148.59 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4098,17 +4010,6 @@
 		)
 		(property "Description" "33 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 107.95 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
-			(at 107.95 96.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

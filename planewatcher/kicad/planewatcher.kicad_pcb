@@ -185,7 +185,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -196,7 +196,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "33 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -204,6 +204,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0733RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a81e8735-ba32-4429-bd54-b3e335b9f6d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd54dfb1-b173-4c6c-8efd-e1acb969415f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da269d28-4e3c-4465-861e-6bd71b6e953d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purpose" "Series damping/termination for GPS module digital I/O lines into the FPGA header."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e966713-8a88-4f6f-8310-802caa8a70a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -331,7 +383,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106MA73-01A.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -342,7 +394,7 @@
 				)
 			)
 		)
-		(property "Description" "10µF, X5R, ±20%, 16V, 0603 MLCC"
+		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -350,19 +402,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM188R61C106MA73D"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "71065772-86d2-4779-a4eb-3b64887a6fcd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -379,7 +418,7 @@
 				)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0603 (1608 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -392,7 +431,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61C106MA73D"
+		(property "MPN" "GRM188Z71A106MA73J"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -405,7 +444,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -561,19 +600,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Laird/BMI BMI-S-209-F"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05bf726c-2a95-4db3-a059-ed6c46242ec7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -1025,7 +1051,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/en-sg/pim/details/?partNum=GCJ31CR71A226KE01%23&displayChangeClass=productDetailPrint"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1036,7 +1062,7 @@
 				)
 			)
 		)
-		(property "Description" "22µF, X5R, ±10%, 16V, 1206 MLCC"
+		(property "Description" "22 µF ±10% 10V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1044,19 +1070,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Samsung CL31A226KOHNNNE"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dc66a26d-df74-44fc-a570-e10e4f375440")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -1073,7 +1086,7 @@
 				)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "1206 (3216 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1086,7 +1099,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL31A226KOHNNNE"
+		(property "MPN" "GCJ31CR71A226KE01K"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1099,12 +1112,25 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "77f365c9-72f5-49a1-bb80-033de94b500f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Design Notes" "~18µF after DC bias de-rating"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee96355c-6b71-4558-b109-9639919f9174")
 			(effects
 				(font
 					(size 1 1)
@@ -1454,19 +1480,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c00a1fae-b9dd-44a5-a330-6fba90814b6e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Suggested Part" "Samtec TSW-120-07-L-D"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eacb98bc-8d40-49b2-a7e1-d3bfaba213bc")
 			(effects
 				(font
 					(size 1 1)
@@ -2174,7 +2187,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-RE_105_ROHS_L.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2185,7 +2198,7 @@
 				)
 			)
 		)
-		(property "Description" "10kΩ, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2193,19 +2206,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo RC0402FR-0710KL"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8997f3b9-42ac-4094-9ad0-59a9f671d364")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -2222,7 +2222,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2235,7 +2235,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "RE0402BRE0710KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2248,7 +2248,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2385,7 +2385,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2396,7 +2396,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "33 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2404,6 +2404,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0733RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "241f1be1-27eb-43c5-82ef-2cf072a164a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aeef9961-beac-41e5-bb5e-e23f1d1f0f57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3d5e3e9-10fd-4a60-83f5-1d2e439bd755")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purpose" "Series damping/termination for GPS module digital I/O lines into the FPGA header."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bb1ce99-7f30-41c1-b468-24662dc4a918")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2563,19 +2615,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "692439d8-47de-44e1-b1c5-3ac71257ea08")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Suggested Part" "Analog Devices ADL5513ACPZ-R7"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c297ff46-ee12-4a1d-927e-0f9535d9a3aa")
 			(effects
 				(font
 					(size 1 1)
@@ -3087,19 +3126,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Kingbright APHF1608SEEQBDZGKC"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "288d6973-fbbf-4437-af75-a08dc5f11743")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "Common-anode RGB status indicator driven by FPGA GPIO pins."
 			(at 0 0 0)
 			(unlocked yes)
@@ -3406,7 +3432,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1HR50BA16-01A.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3417,7 +3443,7 @@
 				)
 			)
 		)
-		(property "Description" "100pF, C0G/NP0, ±5%, 50V, 0402 MLCC"
+		(property "Description" "100 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3441,19 +3467,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM1555C1H101JA01D"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5f398ffc-78fb-478a-b4b2-fa7514f620c7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "RF bypass/matching capacitor in the 1090MHz LNA signal and supply network."
 			(at 0 0 0)
 			(unlocked yes)
@@ -3467,7 +3480,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3480,7 +3493,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H101JA01D"
+		(property "MPN" "GCM1555C1H101FA16D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3493,7 +3506,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3630,7 +3643,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H102FA01-01.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3641,7 +3654,7 @@
 				)
 			)
 		)
-		(property "Description" "1nF, C0G/NP0, ±5%, 50V, 0402 MLCC"
+		(property "Description" "1000 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3649,19 +3662,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM1555C1H102JA01D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2748263f-e8e1-4b46-89f5-42c7cee303d1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -3678,7 +3678,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3691,7 +3691,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H102JA01D"
+		(property "MPN" "GRM1555C1H102FA01D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3704,7 +3704,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3841,7 +3841,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C103KA01-01.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3852,7 +3852,7 @@
 				)
 			)
 		)
-		(property "Description" "10nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "10000 pF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3863,20 +3863,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM155R71H103KA88D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "28db09a9-9dac-4950-a030-35c469fb6c91")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Purpose" "ADL5513 VOUT/VSET measurement-mode support capacitor in the detector output network."
+		(property "Purpose" "ADL5513 TADJ decoupling cap."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3889,7 +3876,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3902,7 +3889,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H103KA88D"
+		(property "MPN" "GRM155R71C103KA01D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3915,7 +3902,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4053,7 +4040,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-07665RL"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4064,7 +4051,7 @@
 				)
 			)
 		)
-		(property "Description" "665Ω, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "665 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4072,19 +4059,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo RC0402FR-07665RL"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d9d936e0-cc87-4d17-b003-5e7bb775a1ff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -4101,7 +4075,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4127,7 +4101,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4290,19 +4264,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "No fitted part (PCB pad only)"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c52e292e-4c41-4b7c-acfa-cefed14b54b0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "Provides oscilloscope/DMM probe access to VOUT."
 			(at 0 0 180)
 			(unlocked yes)
@@ -4402,7 +4363,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "4bad373f-a8b6-44fe-b14b-4c3d71c27fe4")
@@ -4413,7 +4374,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4424,7 +4385,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4448,19 +4409,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c31700fa-4b2a-4418-bc07-be5fadc0bff0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "Local high-frequency VPOS decoupling for the ADL5513 log detector."
 			(at 0 0 0)
 			(unlocked yes)
@@ -4474,7 +4422,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4487,7 +4435,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4500,7 +4448,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4638,7 +4586,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-071KL"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4649,7 +4597,7 @@
 				)
 			)
 		)
-		(property "Description" "1kΩ, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4657,19 +4605,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo RC0402FR-071KL"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c8b6af96-b5ff-4be7-b5f9-2fc6b47553f3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -4686,7 +4621,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4712,7 +4647,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4849,7 +4784,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106MA73-01A.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4860,7 +4795,7 @@
 				)
 			)
 		)
-		(property "Description" "10µF, X5R, ±20%, 16V, 0603 MLCC"
+		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4868,19 +4803,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM188R61C106MA73D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d9212a83-52b0-4eb0-a7c7-3d49bd9ca3af")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -4897,7 +4819,7 @@
 				)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0603 (1608 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4910,7 +4832,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61C106MA73D"
+		(property "MPN" "GRM188Z71A106MA73J"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4923,7 +4845,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5060,7 +4982,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1HR50BA16-01A.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5071,7 +4993,7 @@
 				)
 			)
 		)
-		(property "Description" "100pF, C0G/NP0, ±5%, 50V, 0402 MLCC"
+		(property "Description" "100 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5095,19 +5017,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM1555C1H101JA01D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "377cf0b1-9c0a-43b5-8ee4-181b2975fcae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "RF bypass/matching capacitor in the 1090MHz LNA signal and supply network."
 			(at 0 0 0)
 			(unlocked yes)
@@ -5121,7 +5030,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5134,7 +5043,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H101JA01D"
+		(property "MPN" "GCM1555C1H101FA16D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5147,7 +5056,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5284,7 +5193,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5295,7 +5204,7 @@
 				)
 			)
 		)
-		(property "Description" "499Ω, ±0.1%, thin film, ≤25ppm/°C, 0402 chip resistor"
+		(property "Description" "499 Ohms ±0.05% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5303,19 +5212,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Panasonic ERA-2AEB4990X"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0c06bf68-2b55-4120-bbd8-e8c5b9e6a461")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -5332,7 +5228,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric) "
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5345,7 +5241,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB4990X"
+		(property "MPN" "RG1005N-4990-W-T1"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5358,7 +5254,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Susumu"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5674,7 +5570,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "03daba70-d2c8-40ed-80f5-fdcf9eaf60f7")
@@ -5685,7 +5581,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5696,7 +5592,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5704,19 +5600,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c98c3740-a30b-4e86-be29-90f64ba15c5d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -5733,7 +5616,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5746,7 +5629,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5759,7 +5642,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5885,7 +5768,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "bf64c25e-9c3a-42bc-b26d-89cb574fbce3")
@@ -5896,7 +5779,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5907,7 +5790,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5915,19 +5798,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "51bf2e9f-8328-4dc3-9ba3-2cfd6601be45")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -5944,7 +5814,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5957,7 +5827,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5970,7 +5840,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6096,7 +5966,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "6967fbe1-3da0-4594-8572-e0bb8392bed3")
@@ -6107,7 +5977,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6118,7 +5988,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6126,19 +5996,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a5919314-c556-401c-ad64-7589a48190c5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -6155,7 +6012,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6168,7 +6025,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6181,7 +6038,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6318,7 +6175,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6329,7 +6186,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "33 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6337,6 +6194,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0733RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa950607-9f57-414e-b354-321142e06ae0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09d941c2-b065-4aaa-bcd6-1f58ccb94a48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30992314-fe6c-4baa-80ec-44b1f9b064d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purpose" "Series damping/termination for GPS module digital I/O lines into the FPGA header."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "456b312d-4c88-46a6-8725-6770e917d4e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6485,19 +6394,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8d56a201-a733-421b-b4e9-923192ed5721")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Suggested Part" "Kingbright APHF1608SEEQBDZGKC"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f808c60d-b685-4c1f-9cdf-4e2c3eda0a93")
 			(effects
 				(font
 					(size 1 1)
@@ -6891,19 +6787,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Infineon ESD101B102ELE6327XTMA1"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "771a82f3-7e1d-468e-ac0f-5c437ed953c2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/84812100-48e5-47cc-a358-d48bbae76aaf/0ccd494e-7591-4a0c-b554-b136b91a9aab")
 		(sheetname "/GPS Module/")
@@ -7031,7 +6914,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7042,7 +6925,7 @@
 				)
 			)
 		)
-		(property "Description" "499Ω, ±0.1%, thin film, ≤25ppm/°C, 0402 chip resistor"
+		(property "Description" "499 Ohms ±0.05% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7050,19 +6933,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Panasonic ERA-2AEB4990X"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a11e996d-263f-4376-84e0-d01a14ebdc9f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -7079,7 +6949,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric) "
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7092,7 +6962,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB4990X"
+		(property "MPN" "RG1005N-4990-W-T1"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7105,7 +6975,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Susumu"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7242,7 +7112,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7253,7 +7123,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7261,19 +7131,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "257d6bbc-5a18-4abc-af0c-214089894487")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -7290,7 +7147,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7303,7 +7160,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7316,7 +7173,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7453,7 +7310,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1HR50BA16-01A.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7464,7 +7321,7 @@
 				)
 			)
 		)
-		(property "Description" "100pF, C0G/NP0, ±5%, 50V, 0402 MLCC"
+		(property "Description" "100 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7488,19 +7345,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM1555C1H101JA01D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8904b0fd-563e-406a-b2b8-4a8f4f388726")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "RF bypass/matching capacitor in the 1090MHz LNA signal and supply network."
 			(at 0 0 0)
 			(unlocked yes)
@@ -7514,7 +7358,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7527,7 +7371,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H101JA01D"
+		(property "MPN" "GCM1555C1H101FA16D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7540,7 +7384,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7677,7 +7521,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106MA73-01A.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7688,7 +7532,7 @@
 				)
 			)
 		)
-		(property "Description" "10µF, X5R, ±20%, 16V, 0603 MLCC"
+		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7712,19 +7556,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM188R61C106MA73D"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d12af3f1-97e3-45cb-b7f8-3b1c3b580abb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "Local bulk decoupling for the AD8138 analog supply."
 			(at 0 0 0)
 			(unlocked yes)
@@ -7738,7 +7569,7 @@
 				)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0603 (1608 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7751,7 +7582,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61C106MA73D"
+		(property "MPN" "GRM188Z71A106MA73J"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7764,7 +7595,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7902,7 +7733,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-07665RL"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7913,7 +7744,7 @@
 				)
 			)
 		)
-		(property "Description" "665Ω, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "665 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7921,19 +7752,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo RC0402FR-07665RL"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1de61d3e-f34f-4191-9025-400d507cd329")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -7950,7 +7768,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7976,7 +7794,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8113,7 +7931,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8124,7 +7942,7 @@
 				)
 			)
 		)
-		(property "Description" "52.3Ω, ±0.1%, thin film, ≤25ppm/°C, 0402 chip resistor"
+		(property "Description" "52.3 Ohms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8148,19 +7966,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Panasonic ERA-2AEB52R3X"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "55a51ba1-eaef-4c7f-aac6-17a7859bbd50")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "ADL5513 RF input shunt termination for broadband 50Ω matching."
 			(at 0 0 0)
 			(unlocked yes)
@@ -8174,7 +7979,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8200,7 +8005,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8338,7 +8143,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-071KL"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8349,7 +8154,7 @@
 				)
 			)
 		)
-		(property "Description" "1kΩ, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8357,19 +8162,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo RC0402FR-071KL"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2aed7dd2-98f6-4b78-9f00-911b942c638e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -8386,7 +8178,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8412,7 +8204,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8739,7 +8531,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71A473KA01-01.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8750,7 +8542,7 @@
 				)
 			)
 		)
-		(property "Description" "47nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.047 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8774,19 +8566,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM155R71H473KE14D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c262f707-f01d-4a3f-a02d-d12015b6ee50")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "AC-couples ADL5513 RF input pins while preserving the broadband input match."
 			(at 0 0 0)
 			(unlocked yes)
@@ -8800,7 +8579,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8813,7 +8592,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H473KE14D"
+		(property "MPN" "GRM155R71A473KA01D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8826,7 +8605,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8984,19 +8763,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9e2fc796-7d45-4829-a918-94f58f766641")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Suggested Part" "Analog Devices LT3045IMSE-1#PBF"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f94a9d17-717e-4507-8914-1fe59d938bdb")
 			(effects
 				(font
 					(size 1 1)
@@ -9474,19 +9240,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Coilcraft 0402DC-68NXJRW"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f4ed768b-dd8d-44a9-ac8a-aed48e6d1d7c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Package" "0402"
 			(at 0 0 270)
 			(unlocked yes)
@@ -9632,7 +9385,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-07665RL"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9643,7 +9396,7 @@
 				)
 			)
 		)
-		(property "Description" "665Ω, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "665 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9651,19 +9404,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo RC0402FR-07665RL"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "552f9df3-8159-4887-b5d6-e2e767636e44")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -9680,7 +9420,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9706,7 +9446,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9877,19 +9617,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1a0a8882-f0b3-4afd-8a1c-7172205f97c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Suggested Part" "Qorvo TQP3M9036"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "29d2c3dd-97d4-4ee8-9c77-43485378f0f2")
 			(effects
 				(font
 					(size 1 1)
@@ -10241,7 +9968,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H200FB01-01.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10252,7 +9979,7 @@
 				)
 			)
 		)
-		(property "Description" "20pF tuning capacitor footprint, C0G/NP0 0402 when fitted, DNP by default"
+		(property "Description" "20 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10263,12 +9990,12 @@
 				)
 			)
 		)
-		(property "Suggested Part" "DNP by default; fit RF-grade C0G 0402 value selected during ADC-driver tuning"
-			(at 0 0 270)
+		(property "Purpose" "Optional shunt capacitance for ADC-driver output and anti-alias response tuning."
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "108f84a1-6cb9-4341-9aa6-f389092620a4")
+			(uuid "302d77a6-9f0c-4242-9a90-2725884a91dc")
 			(effects
 				(font
 					(size 1 1)
@@ -10276,12 +10003,51 @@
 				)
 			)
 		)
-		(property "Purpose" "Optional shunt capacitance for ADC-driver output and anti-alias response tuning."
-			(at 0 0 0)
+		(property "MPN" "GJM1555C1H200FB01D"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "302d77a6-9f0c-4242-9a90-2725884a91dc")
+			(uuid "fdd31570-b827-48f2-9517-db103aae55dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "690e8af9-477e-40ee-aa77-00e537d13140")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Notes" "Tuning capacitor footprint, C0G/NP0 0402 when fitted, DNP by default"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69d4aef0-3d37-4165-ac94-0825f6f4df53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cca85da1-bb7d-41a4-bae1-13a96155b028")
 			(effects
 				(font
 					(size 1 1)
@@ -10413,7 +10179,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10424,7 +10190,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10432,19 +10198,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "34dc7e76-d9b5-4957-b004-08680c275ef6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -10461,7 +10214,7 @@
 				)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10474,7 +10227,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10487,7 +10240,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10643,19 +10396,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Analog Devices AD9203ARUZ"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "423dfbb9-4f0a-4945-b818-0799ff34af2e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -11260,7 +11000,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71A473KA01-01.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11271,7 +11011,7 @@
 				)
 			)
 		)
-		(property "Description" "47nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.047 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11295,19 +11035,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM155R71H473KE14D"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d643cfa8-bdb8-425b-8027-18dbf6f08baa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "AC-couples ADL5513 RF input pins while preserving the broadband input match."
 			(at 0 0 0)
 			(unlocked yes)
@@ -11321,7 +11048,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11334,7 +11061,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H473KE14D"
+		(property "MPN" "GRM155R71A473KA01D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11347,7 +11074,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11484,7 +11211,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/3/40/1/CATCAY.pdf"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11506,19 +11233,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Suggested Part" "Bourns CAT16-22R0F4LF"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7eb3d4bc-78cd-48b7-96a1-b83803390181")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11562,7 +11276,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "Bourns Inc."
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11843,19 +11557,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "14ab7b81-cab3-4412-a272-4bdcb5921708")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Suggested Part" "Kingbright APHF1608SEEQBDZGKC"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "26eb8cb0-e212-4605-9721-caf1f5d3fee5")
 			(effects
 				(font
 					(size 1 1)
@@ -12169,7 +11870,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/3/40/1/CATCAY.pdf"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12191,19 +11892,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Suggested Part" "Bourns CAT16-22R0F4LF"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "77458471-6267-465a-900d-1f1dff6ea930")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12247,7 +11935,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "Bourns Inc."
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12508,7 +12196,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-07665RL"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12519,7 +12207,7 @@
 				)
 			)
 		)
-		(property "Description" "665Ω, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "665 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12527,19 +12215,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo RC0402FR-07665RL"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "53b9eef6-d2a1-425d-88d9-2a7db7b121df")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -12556,7 +12231,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12582,7 +12257,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12708,7 +12383,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "588151c2-a646-418e-a58c-bec3c6a990c1")
@@ -12719,7 +12394,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12730,7 +12405,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12738,19 +12413,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e2767542-2ce2-4825-9b56-ab8f34653932")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -12767,7 +12429,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12780,7 +12442,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12793,7 +12455,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12969,19 +12631,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "No fitted part (PCB pad only)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1b8fa14c-7add-42f6-8e47-c79689bfaeeb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "Provides oscilloscope/DMM probe access to VLOG_OUT."
 			(at 0 0 0)
 			(unlocked yes)
@@ -13098,19 +12747,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata BLM21PG601SN1D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e88869a4-cf37-4ea6-8c1e-4ec17330027a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -13320,19 +12956,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e1229a87-2bbc-48b3-b260-6b77fe6627ce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Suggested Part" "Analog Devices AD8138ARZ"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a54b6afe-87c9-48a4-a841-6ec480ba897d")
 			(effects
 				(font
 					(size 1 1)
@@ -13761,19 +13384,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Würth Elektronik 74269262601"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b0dec099-8fa6-442b-baf2-e599460e33e2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "Ferrite bead isolation between the 3V3 regulator output and the 3V3A analog rail."
 			(at 0 0 180)
 			(unlocked yes)
@@ -13973,19 +13583,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "37f63eb6-1d2d-40bb-b814-240ad30e8deb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Suggested Part" "Kingbright APHF1608SEEQBDZGKC"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c3e08a40-a6d0-470c-a3b6-e800b306d2b6")
 			(effects
 				(font
 					(size 1 1)
@@ -14402,7 +13999,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1HR50BA16-01A.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14413,7 +14010,7 @@
 				)
 			)
 		)
-		(property "Description" "100pF, C0G/NP0, ±5%, 50V, 0402 MLCC"
+		(property "Description" "100 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14437,19 +14034,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM1555C1H101JA01D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b7da0cd0-c174-4819-bc98-184fb67330a5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "ADL5513 VPOS high-frequency decoupling capacitor placed close to supply pins."
 			(at 0 0 0)
 			(unlocked yes)
@@ -14463,7 +14047,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14476,7 +14060,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H101JA01D"
+		(property "MPN" "GCM1555C1H101FA16D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14489,7 +14073,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14659,19 +14243,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "135ba305-4c05-45c5-bd47-8457e4d0a5da")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Suggested Part" "Tai-Saw TA2003A"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "50c45e88-4b1b-4ded-96d9-0b7d24418c98")
 			(effects
 				(font
 					(size 1 1)
@@ -15084,7 +14655,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H102FA01-01.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15095,7 +14666,7 @@
 				)
 			)
 		)
-		(property "Description" "1nF, C0G/NP0, ±5%, 50V, 0402 MLCC"
+		(property "Description" "1000 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15103,19 +14674,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM1555C1H102JA01D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "870a602f-b2f9-4518-8e97-d493e6930a38")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -15132,7 +14690,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15145,7 +14703,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H102JA01D"
+		(property "MPN" "GRM1555C1H102FA01D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15158,7 +14716,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15328,19 +14886,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2fb57ce8-c9f3-43f2-af9f-85f7533512cb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Suggested Part" "Qorvo TQP3M9036"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "79dc9c1b-6a09-44e7-85a2-5c1204f2dfa8")
 			(effects
 				(font
 					(size 1 1)
@@ -15692,7 +15237,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/high-precision-chip-resistors/models/ERA3AEB3322V"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15703,7 +15248,7 @@
 				)
 			)
 		)
-		(property "Description" "33.2kΩ, ±0.1%, thin film, ≤25ppm/°C, 0603 LT3045 SET resistor"
+		(property "Description" "33.2 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15711,19 +15256,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Panasonic ERA-3AEB3322V"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "351050f2-e567-491d-bc4a-771d9466a141")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -15740,20 +15272,7 @@
 				)
 			)
 		)
-		(property "Notes" "LT3045 SET resistor, 0.1% thin film, ≤25ppm/°C, 0603, sets VOUT via 100µA reference"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d20d720d-1114-4c69-9353-e22abcd9c29b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Package" "0402"
+		(property "Package" "0603 (1608 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15766,7 +15285,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-07249RL"
+		(property "MPN" "ERA-3ARB3322V"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15779,7 +15298,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16058,7 +15577,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RDM0000C331.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16069,7 +15588,7 @@
 				)
 			)
 		)
-		(property "Description" "49.9Ω, ±0.1%, thin film, ≤25ppm/°C, 0402 chip resistor"
+		(property "Description" "49.9 Ohms ±0.1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16093,19 +15612,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Panasonic ERA-2AEB49R9X"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "423c6c73-7401-4b00-9efb-51d1ff7236c8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "AD8138 input/output termination and gain-setting resistor for the differential ADC driver."
 			(at 0 0 0)
 			(unlocked yes)
@@ -16119,7 +15625,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16132,7 +15638,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB49R9X"
+		(property "MPN" "ERA-2VEB49R9X"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16145,7 +15651,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16271,7 +15777,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "39456d6d-3d70-45c1-b4c0-22030b78a363")
@@ -16282,7 +15788,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16293,7 +15799,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16301,19 +15807,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "619973b2-e998-4df6-a97a-6e788d1ded44")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -16330,7 +15823,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16343,7 +15836,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16356,7 +15849,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16493,7 +15986,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-sg/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GCJ31CR71C475KA01%23"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16504,7 +15997,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7µF, X7R, ±10%, 25V, 1206 MLCC"
+		(property "Description" "4.7 µF ±10% 16V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16515,20 +16008,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM31CR71E475KA88L"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "23c7b1ac-7707-4b3d-9ce3-5a83768cb34d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Purpose" "Input/pre-regulator ceramic capacitor for the LT8608 buck stage."
+		(property "Purpose" "Bulk Input capacitor for the LT3045-1."
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16541,7 +16021,7 @@
 				)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "1206 (3216 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16554,7 +16034,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM31CR71E475KA88L"
+		(property "MPN" "GCJ31CR71C475KA01L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16567,7 +16047,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16732,19 +16212,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4072465e-297b-438e-af32-75cfb3413e97")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Suggested Part" "Samtec TSW-120-07-L-D"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "87f790c0-f4ab-42a2-b09d-21b09aa555b8")
 			(effects
 				(font
 					(size 1 1)
@@ -17452,7 +16919,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/3224.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17463,7 +16930,7 @@
 				)
 			)
 		)
-		(property "Description" "1kΩ sealed SMD trim potentiometer, top-adjust, Bourns 3224W footprint"
+		(property "Description" "1 kOhms 0.25W, 1/4W J Lead Surface Mount Trimmer Potentiometer Cermet 12.0 Turn Top Adjustment"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17526,19 +16993,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Bourns 3224W-1-102E"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b2512067-50ad-4b6d-949a-e34f1ccce1c8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "Allows prototype adjustment of the ADL5513 TADJ calibration voltage."
 			(at 0 0 0)
 			(unlocked yes)
@@ -17578,7 +17032,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "Bourns Inc."
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17853,19 +17307,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6b72c8c8-7c50-4c00-9c90-8ba4c45c80ff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Suggested Part" "Amphenol RF 132289"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0664f505-4c2b-4253-9c7f-24fdac17174a")
 			(effects
 				(font
 					(size 1 1)
@@ -18271,7 +17712,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18282,7 +17723,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18293,20 +17734,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "911b84e5-f6b4-425f-bf84-7c1381ce34e3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Purpose" "High-frequency bypass capacitor for the LT8608/LT3045 supply path."
+		(property "Purpose" "High freq bypass capacitor for the LT3045-1."
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18319,7 +17747,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18332,7 +17760,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18345,7 +17773,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18471,7 +17899,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "23dd71af-ca11-4e02-9835-f48e5f102549")
@@ -18482,7 +17910,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18493,7 +17921,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18517,19 +17945,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4497d943-1285-48ac-be99-83d0ad26ac30")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "Local high-frequency VPOS decoupling for the ADL5513 log detector."
 			(at 0 0 0)
 			(unlocked yes)
@@ -18543,7 +17958,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18556,7 +17971,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18569,7 +17984,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18707,7 +18122,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-071KL"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18718,7 +18133,7 @@
 				)
 			)
 		)
-		(property "Description" "1kΩ, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18726,19 +18141,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo RC0402FR-071KL"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9959fca3-beac-462e-896b-9a3c51cb15c9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -18755,7 +18157,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18781,7 +18183,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18919,7 +18321,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-071KL"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18930,7 +18332,7 @@
 				)
 			)
 		)
-		(property "Description" "1kΩ, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18938,19 +18340,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo RC0402FR-071KL"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b80b83e3-813b-430e-98fe-a45d488d6ecb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -18967,7 +18356,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18993,7 +18382,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19130,7 +18519,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2GE0R00X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19141,7 +18530,7 @@
 				)
 			)
 		)
-		(property "Description" "0Ω jumper, 0402 chip resistor"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19149,19 +18538,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo RC0402JR-070RL"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9790849f-4779-4fe1-a2b0-8a215e252bc6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -19178,7 +18554,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19191,7 +18567,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402JR-070RL"
+		(property "MPN" "ERJ-2GE0R00X"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19204,7 +18580,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19341,7 +18717,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://au.mouser.com/datasheet/3/995/1/0603cs.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19369,19 +18745,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "77ce20d9-8797-4e41-9db2-4fb866f91088")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Suggested Part" "Coilcraft 0603CS-68NXJLU"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bb8bbbae-eedc-422a-91f6-f7a904dbc643")
 			(effects
 				(font
 					(size 1 1)
@@ -19567,7 +18930,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19578,7 +18941,7 @@
 				)
 			)
 		)
-		(property "Description" "499Ω, ±0.1%, thin film, ≤25ppm/°C, 0402 chip resistor"
+		(property "Description" "499 Ohms ±0.05% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19586,19 +18949,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Panasonic ERA-2AEB4990X"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "84684d9b-354c-4cef-8231-e2f2394089cc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -19615,7 +18965,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric) "
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19628,7 +18978,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB4990X"
+		(property "MPN" "RG1005N-4990-W-T1"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19641,7 +18991,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Susumu"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19817,19 +19167,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "No fitted part (PCB pad only)"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "99a362b0-1ac8-469c-bed1-820c345805e0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "Provides oscilloscope/DMM probe access to +OUT."
 			(at 0 0 90)
 			(unlocked yes)
@@ -19927,7 +19264,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RDM0000C331.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19938,7 +19275,7 @@
 				)
 			)
 		)
-		(property "Description" "49.9Ω, ±0.1%, thin film, ≤25ppm/°C, 0402 chip resistor"
+		(property "Description" "49.9 Ohms ±0.1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19962,19 +19299,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Panasonic ERA-2AEB49R9X"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c7579e2d-47cf-4694-9000-3aada6872292")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "AD8138 input/output termination and gain-setting resistor for the differential ADC driver."
 			(at 0 0 0)
 			(unlocked yes)
@@ -19988,7 +19312,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20001,7 +19325,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB49R9X"
+		(property "MPN" "ERA-2VEB49R9X"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20014,7 +19338,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20172,19 +19496,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0a702346-9f0e-49c9-bd01-89986d2cea26")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Suggested Part" "Kingbright APHF1608SEEQBDZGKC"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "74f7936c-24df-4ba4-b114-c43c98d40809")
 			(effects
 				(font
 					(size 1 1)
@@ -21182,19 +20493,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "DNP by default; fit Vishay CRCW0402 value selected from attenuator table during RF tuning"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6c2920f4-8991-426d-821a-febebc3acf8b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "Optional shunt leg for configurable RF input attenuation ahead of the ADL5513."
 			(at 0 0 0)
 			(unlocked yes)
@@ -21372,7 +20670,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-07665RL"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21383,7 +20681,7 @@
 				)
 			)
 		)
-		(property "Description" "665Ω, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "665 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21391,19 +20689,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo RC0402FR-07665RL"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "22a9436a-1e2d-4460-b830-25e155f652e0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -21420,7 +20705,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21446,7 +20731,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21583,7 +20868,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1HR50BA16-01A.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21594,7 +20879,7 @@
 				)
 			)
 		)
-		(property "Description" "100pF, C0G/NP0, ±5%, 50V, 0402 MLCC"
+		(property "Description" "100 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21618,19 +20903,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM1555C1H101JA01D"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e8e0d200-b5a2-45ab-8fdc-23e809462558")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "RF bypass/matching capacitor in the 1090MHz LNA signal and supply network."
 			(at 0 0 0)
 			(unlocked yes)
@@ -21644,7 +20916,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21657,7 +20929,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H101JA01D"
+		(property "MPN" "GCM1555C1H101FA16D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21670,7 +20942,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21808,7 +21080,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-07665RL"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21819,7 +21091,7 @@
 				)
 			)
 		)
-		(property "Description" "665Ω, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "665 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21827,19 +21099,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo RC0402FR-07665RL"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dde16b01-f153-4272-ab39-a467e40a979a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -21856,7 +21115,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21882,7 +21141,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22019,7 +21278,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-RE_105_ROHS_L.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22030,7 +21289,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10 Ohms ±0.5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22038,6 +21297,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RE0402DRE0710RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "851b142c-2d52-4996-b526-3662a851a6d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "832cb678-7e3a-447b-8950-dd4489f1cbe4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "472e2e23-540f-4706-8513-96ac5b6c07a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purpose" "Series resistor for GPS module V_ANT pin."
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4dafbc67-c9f2-4038-9f91-a8d0ea712845")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22166,7 +21477,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-07665RL"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22177,7 +21488,7 @@
 				)
 			)
 		)
-		(property "Description" "665Ω, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "665 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22185,19 +21496,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo RC0402FR-07665RL"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4e37a732-2e73-4368-b605-13792cd01bc1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -22214,7 +21512,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22240,7 +21538,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22377,7 +21675,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/AT0402BRD0710KL"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22388,7 +21686,7 @@
 				)
 			)
 		)
-		(property "Description" "10kΩ, ±0.1%, thin film, ±25ppm/°C, 0402 chip resistor"
+		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22396,19 +21694,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo AT0402BRD0710KL"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f5f0cf53-cc0b-44b5-ae05-246399d299f0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -22425,7 +21710,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22438,7 +21723,7 @@
 				)
 			)
 		)
-		(property "MPN" "AT0402BRD0710KL"
+		(property "MPN" "ERA-2AEB103X"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22451,7 +21736,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22800,19 +22085,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Littelfuse 1812L110/24DR"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "24f73231-3c97-4ffd-a7dd-7faf31fa1a5c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "Provides resettable overcurrent protection at the board power input."
 			(at 0 0 180)
 			(unlocked yes)
@@ -22990,7 +22262,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-07665RL"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23001,7 +22273,7 @@
 				)
 			)
 		)
-		(property "Description" "665Ω, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "665 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23009,19 +22281,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo RC0402FR-07665RL"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1ca1ef1a-ccb7-4bbc-9569-fb480c0c05aa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -23038,7 +22297,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23064,7 +22323,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23201,7 +22460,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23212,7 +22471,7 @@
 				)
 			)
 		)
-		(property "Description" "1µF, X5R, ±10%, 16V, 0402 MLCC"
+		(property "Description" "1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23236,19 +22495,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM155R61C105KA12D"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9310b2d7-10cb-40ee-a7d4-62aad7008e92")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "Local bulk decoupling for the TQP3M9036 LNA supply."
 			(at 0 0 0)
 			(unlocked yes)
@@ -23262,7 +22508,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23275,7 +22521,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R61C105KA12D"
+		(property "MPN" "GRM155Z71A105KE01D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23288,7 +22534,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23444,19 +22690,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "DNP by default; fit Vishay CRCW0402 value selected from attenuator table during RF tuning"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ab8bfa57-7016-4794-ab6b-b8fa85a67161")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -23675,19 +22908,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "No fitted part (PCB pad only)"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b7efe1d1-21a3-4d60-b1f2-13b6c7f750d8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "Provides oscilloscope/DMM probe access to -OUT."
 			(at 0 0 90)
 			(unlocked yes)
@@ -23785,7 +23005,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-RE_105_ROHS_L.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23796,7 +23016,7 @@
 				)
 			)
 		)
-		(property "Description" "10kΩ, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23804,19 +23024,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo RC0402FR-0710KL"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "078cd5b3-6490-4c06-9480-93fed0f91768")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -23833,7 +23040,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23846,7 +23053,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "RE0402BRE0710KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23859,7 +23066,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24022,19 +23229,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "No fitted part (PCB pad only)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d6cb6f3f-bfe6-43b3-ad57-626c27437e8f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "Provides oscilloscope/DMM probe access to VREF."
 			(at 0 0 0)
 			(unlocked yes)
@@ -24143,7 +23337,7 @@
 				)
 			)
 		)
-		(property "Description" "10kΩ, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thin Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24151,19 +23345,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo RC0402FR-0710KL"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ca2b3f19-d7b7-4080-ad4a-a823afb0ffb0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -24180,7 +23361,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24193,7 +23374,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "RT0402FRE1310KL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24206,7 +23387,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24332,7 +23513,7 @@
 				)
 			)
 		)
-		(property "Value" "8.50kΩ"
+		(property "Value" "8.45kΩ"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "578a20ec-6c0d-44d0-8a8b-711bc10d26a0")
@@ -24343,7 +23524,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24354,7 +23535,7 @@
 				)
 			)
 		)
-		(property "Description" "8.50kΩ, ±0.1%, thin film, ≤25ppm/°C, 0402 chip resistor"
+		(property "Description" "8.45 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24378,19 +23559,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Panasonic ERA-2AEB8501X"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ee23e4fa-1d1a-49d6-a71c-4ef3ca7f970b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "Lower resistor in the ADL5513 TADJ divider for 1090MHz detector calibration."
 			(at 0 0 0)
 			(unlocked yes)
@@ -24404,7 +23572,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24417,7 +23585,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB9531X"
+		(property "MPN" "ERA-2ARB8451X"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24430,7 +23598,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24556,7 +23724,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "59e26d24-503d-4deb-988a-e38587f53d00")
@@ -24567,7 +23735,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24578,7 +23746,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24602,19 +23770,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0d4322c7-748d-4549-8074-3fbc130a3120")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "Local high-frequency decoupling for the AD8138 analog supply and VOCM network."
 			(at 0 0 0)
 			(unlocked yes)
@@ -24628,7 +23783,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24641,7 +23796,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24654,7 +23809,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24780,7 +23935,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "678420c7-ff36-49c5-a565-c295ecdddc6f")
@@ -24791,7 +23946,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24802,7 +23957,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24810,19 +23965,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "91aab761-fd1f-4116-8d53-2ef26db61d90")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -24839,7 +23981,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24852,7 +23994,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24865,7 +24007,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25041,19 +24183,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "No fitted part (PCB pad only)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9c7dd897-80dc-4d34-b81a-e0e0842a7df1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "Provides oscilloscope/DMM probe access to TADJ."
 			(at 0 0 0)
 			(unlocked yes)
@@ -25152,7 +24281,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-07330RL"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25163,7 +24292,7 @@
 				)
 			)
 		)
-		(property "Description" "330Ω, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "330 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25171,19 +24300,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo RC0402FR-07330RL"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c22b4975-6146-44d7-a4ac-284e10c9702f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -25200,7 +24316,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25213,7 +24329,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-07330RL"
+		(property "MPN" "RT0402FRE07330RL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25226,7 +24342,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25363,7 +24479,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1HR50BA16-01A.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25374,7 +24490,7 @@
 				)
 			)
 		)
-		(property "Description" "100pF, C0G/NP0, ±5%, 50V, 0402 MLCC"
+		(property "Description" "100 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25398,19 +24514,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM1555C1H101JA01D"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "de5e907a-ac5a-4581-8976-aa33dd123404")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "ADL5513 VPOS high-frequency decoupling capacitor placed close to supply pins."
 			(at 0 0 0)
 			(unlocked yes)
@@ -25424,7 +24527,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25437,7 +24540,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H101JA01D"
+		(property "MPN" "GCM1555C1H101FA16D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25450,7 +24553,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25587,7 +24690,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1HR50BA16-01A.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25598,7 +24701,7 @@
 				)
 			)
 		)
-		(property "Description" "100pF, C0G/NP0, ±5%, 50V, 0402 MLCC"
+		(property "Description" "100 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25622,19 +24725,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM1555C1H101JA01D"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c65db791-874a-412c-a460-c8e908a6b03b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "RF bypass/matching capacitor in the 1090MHz LNA signal and supply network."
 			(at 0 0 0)
 			(unlocked yes)
@@ -25648,7 +24738,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25661,7 +24751,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H101JA01D"
+		(property "MPN" "GCM1555C1H101FA16D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25674,7 +24764,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25811,7 +24901,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25822,7 +24912,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -25830,19 +24920,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "018e65b1-b66f-42d9-8441-9c78ffadb1fb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -25859,7 +24936,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25872,7 +24949,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25885,7 +24962,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26022,7 +25099,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H102FA01-01.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26033,7 +25110,7 @@
 				)
 			)
 		)
-		(property "Description" "1nF, C0G/NP0, ±5%, 50V, 0402 MLCC"
+		(property "Description" "1000 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26041,19 +25118,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM1555C1H102JA01D"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6a56d0d3-26b0-4bc5-b476-09667784d7ba")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -26070,7 +25134,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26083,7 +25147,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H102JA01D"
+		(property "MPN" "GRM1555C1H102FA01D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26096,7 +25160,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26255,19 +25319,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Suggested Part" "Texas Instruments TPD1E10B06DYAR"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "106612d7-73cf-45db-9249-4ac1a1bd5aec")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -26578,7 +25629,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106MA73-01A.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26589,7 +25640,7 @@
 				)
 			)
 		)
-		(property "Description" "10µF, X5R, ±20%, 16V, 0603 MLCC"
+		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26597,19 +25648,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM188R61C106MA73D"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e5e2b2bd-781d-445c-ae83-806c198e1ac4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -26626,7 +25664,7 @@
 				)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0603 (1608 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26639,7 +25677,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61C106MA73D"
+		(property "MPN" "GRM188Z71A106MA73J"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26652,7 +25690,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26789,7 +25827,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/en-sg/pim/details/?partNum=GCJ31CR71A226KE01%23&displayChangeClass=productDetailPrint"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26800,7 +25838,7 @@
 				)
 			)
 		)
-		(property "Description" "22µF, X5R, ±10%, 16V, 1206 MLCC"
+		(property "Description" "22 µF ±10% 10V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26808,19 +25846,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Samsung CL31A226KOHNNNE"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7c2ee04c-b8f5-43f5-8351-2776feae1eee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -26850,7 +25875,7 @@
 				)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "1206 (3216 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26863,7 +25888,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL31A226KOHNNNE"
+		(property "MPN" "GCJ31CR71A226KE01K"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26876,12 +25901,25 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dac46be9-57a0-44ce-b403-9e22be35aa84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Design Notes" "~18µF after DC bias de-rating"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "223ed591-7110-4e16-9d23-ce996736b445")
 			(effects
 				(font
 					(size 1 1)
@@ -27121,7 +26159,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27132,7 +26170,7 @@
 				)
 			)
 		)
-		(property "Description" "1µF, X5R, ±10%, 16V, 0402 MLCC"
+		(property "Description" "1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27156,19 +26194,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM155R61C105KA12D"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "92c4c6c7-57fc-4681-88fa-98a5f819b90b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "Local bulk decoupling for the TQP3M9036 LNA supply."
 			(at 0 0 0)
 			(unlocked yes)
@@ -27182,7 +26207,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27195,7 +26220,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R61C105KA12D"
+		(property "MPN" "GRM155Z71A105KE01D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27208,7 +26233,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27410,20 +26435,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Amphenol RF 132289"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1aa3202a-782d-4c7d-b25a-e28097a024b8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Purpose" "Accepts the external 1090MHz antenna input."
+		(property "Purpose" "Accepts the external GPS/GNSS antenna input."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27808,7 +26820,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-sg/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GCJ31CR71C475KA01%23"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27819,7 +26831,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7µF, X7R, ±10%, 25V, 1206 MLCC"
+		(property "Description" "4.7 µF ±10% 16V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27830,20 +26842,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM31CR71E475KA88L"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6bb7025e-c6c2-4fd9-89b6-abf0bd75dcf5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Purpose" "Input/pre-regulator ceramic capacitor for the LT8608 buck stage."
+		(property "Purpose" "Low freq bypass capacitor for the LT3045-1."
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27856,7 +26855,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "1206 (3216 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27869,7 +26868,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM31CR71E475KA88L"
+		(property "MPN" "GCJ31CR71C475KA01L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27882,7 +26881,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28019,7 +27018,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106MA73-01A.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -28030,7 +27029,7 @@
 				)
 			)
 		)
-		(property "Description" "10µF, X5R, ±20%, 16V, 0603 MLCC"
+		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -28041,7 +27040,7 @@
 				)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0603 (1608 Metric)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28054,7 +27053,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61C106MA73D"
+		(property "MPN" "GRM188Z71A106MA73J"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28067,7 +27066,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28080,20 +27079,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM188R61C106MA73D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d71670dc-f4a6-44e2-b016-d5ed743d2df1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Purpose" "Local bulk decoupling for the AD8138 analog supply."
+		(property "Purpose" "Local bulk decoupling for the GPS module."
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28243,7 +27229,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106MA73-01A.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -28254,7 +27240,7 @@
 				)
 			)
 		)
-		(property "Description" "10µF, X5R, ±20%, 16V, 0603 MLCC"
+		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -28262,19 +27248,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM188R61C106MA73D"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0b0e37a3-76d4-4f72-9c9d-0cfbaad27427")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -28291,7 +27264,7 @@
 				)
 			)
 		)
-		(property "Package" "0603"
+		(property "Package" "0603 (1608 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28304,7 +27277,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188R61C106MA73D"
+		(property "MPN" "GRM188Z71A106MA73J"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28317,7 +27290,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28454,7 +27427,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1HR50BA16-01A.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28465,7 +27438,7 @@
 				)
 			)
 		)
-		(property "Description" "100pF, C0G/NP0, ±5%, 50V, 0402 MLCC"
+		(property "Description" "100 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28489,19 +27462,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM1555C1H101JA01D"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7ad9510f-edf1-4261-adac-65436bbecec9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "RF bypass/matching capacitor in the 1090MHz LNA signal and supply network."
 			(at 0 0 0)
 			(unlocked yes)
@@ -28515,7 +27475,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28528,7 +27488,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H101JA01D"
+		(property "MPN" "GCM1555C1H101FA16D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28541,7 +27501,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28678,7 +27638,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/AT0402BRD0793K1L"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28689,7 +27649,7 @@
 				)
 			)
 		)
-		(property "Description" "93.1kΩ, ±0.1%, thin film, ±25ppm/°C, 0402 chip resistor"
+		(property "Description" "93.1 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28697,19 +27657,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo AT0402BRD0793K1L"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9411f09f-e327-455b-b833-62ea99942538")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -28726,7 +27673,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28739,7 +27686,7 @@
 				)
 			)
 		)
-		(property "MPN" "AT0402BRD0793K1L"
+		(property "MPN" "ERA-2AEB9312X"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28752,7 +27699,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28878,7 +27825,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "100nF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "8a5c7db3-14f1-4206-85b2-26b0e98dc59c")
@@ -28889,7 +27836,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -28900,7 +27847,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -28911,7 +27858,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28924,7 +27871,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28937,7 +27884,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28950,20 +27897,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "19887835-adb5-421c-b00b-4438a9e25e80")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Purpose" "Local high-frequency decoupling for the AD8138 analog supply and VOCM network."
+		(property "Purpose" "Local high-frequency decoupling for the GPS module."
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29139,19 +28073,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "No fitted part (PCB pad only)"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2afc76be-4922-4bc4-9b4e-6478538651b1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "Provides oscilloscope/DMM probe access to V+."
 			(at 0 0 180)
 			(unlocked yes)
@@ -29296,19 +28217,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7f59bd21-7ef8-46bf-abd2-fa1ae7c6aac6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Suggested Part" "Infineon ESD103B102ELE6327XTMA1"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8b370886-99a6-4b1e-a696-8e51be8795ba")
 			(effects
 				(font
 					(size 1 1)
@@ -29482,7 +28390,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29493,7 +28401,7 @@
 				)
 			)
 		)
-		(property "Description" "499Ω, ±0.1%, thin film, ≤25ppm/°C, 0402 chip resistor"
+		(property "Description" "499 Ohms ±0.05% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29501,19 +28409,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Panasonic ERA-2AEB4990X"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "01ca3bbd-35b7-4a5f-917d-62f069e44192")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -29530,7 +28425,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric) "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29543,7 +28438,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB4990X"
+		(property "MPN" "RG1005N-4990-W-T1"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29556,7 +28451,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Susumu"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29719,19 +28614,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "No fitted part (PCB pad only)"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7ba85b43-5ef9-4150-a67e-45c8a22d89a3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "Provides oscilloscope/DMM probe access to VOCM."
 			(at 0 0 90)
 			(unlocked yes)
@@ -29818,7 +28700,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "f5cfab86-ec7f-4895-8b4e-d1ef808d6f5b")
@@ -29829,7 +28711,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29840,7 +28722,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29848,19 +28730,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c4177807-d854-43b7-a146-cb488f3164bc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -29877,7 +28746,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29890,7 +28759,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29903,7 +28772,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30040,7 +28909,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30051,7 +28920,7 @@
 				)
 			)
 		)
-		(property "Description" "26.7kΩ, ±0.1%, thin film, ≤25ppm/°C, 0402 chip resistor"
+		(property "Description" "26.7 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30075,19 +28944,6 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Panasonic ERA-2AEB2672X"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0f682b5f-9d69-41fa-b7c2-96b3a947ee38")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Purpose" "Upper resistor in the ADL5513 TADJ divider for 1090MHz detector calibration."
 			(at 0 0 0)
 			(unlocked yes)
@@ -30101,7 +28957,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric) "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30114,7 +28970,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB4992X"
+		(property "MPN" "ERA-2ARB2672X"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30127,7 +28983,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30265,7 +29121,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-07665RL"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -30276,7 +29132,7 @@
 				)
 			)
 		)
-		(property "Description" "665Ω, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "665 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -30284,19 +29140,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo RC0402FR-07665RL"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "576ed50d-7518-44ab-9b86-46c649c657eb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -30313,7 +29156,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30339,7 +29182,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30477,7 +29320,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-07665RL"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -30488,7 +29331,7 @@
 				)
 			)
 		)
-		(property "Description" "665Ω, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "665 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -30496,19 +29339,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo RC0402FR-07665RL"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8e4e8673-8184-4351-a1c1-6672f4ede0aa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -30525,7 +29355,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30551,7 +29381,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30688,7 +29518,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C103KA01-01.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -30699,7 +29529,7 @@
 				)
 			)
 		)
-		(property "Description" "10nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "10000 pF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -30710,7 +29540,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30723,7 +29553,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H103KA88D"
+		(property "MPN" "GRM155R71C103KA01D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30736,7 +29566,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30749,20 +29579,7 @@
 				)
 			)
 		)
-		(property "Suggested Part" "Murata GRM155R71H103KA88D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "22f7c030-4728-437a-b5e2-803aaddf5a7c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Purpose" "ADL5513 VOUT/VSET measurement-mode support capacitor in the detector output network."
+		(property "Purpose" "Filter cap for GPS module VCC_RF supply output pin."
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30899,7 +29716,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://au.mouser.com/datasheet/3/995/1/0603cs.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30927,19 +29744,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0a064999-afa6-4f1e-9cef-c63f840b4509")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Suggested Part" "Coilcraft 0603CS-68NXJLU"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8521ff57-244b-4b18-891a-f1ffe164eaa8")
 			(effects
 				(font
 					(size 1 1)
@@ -31158,19 +29962,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d27b7a3a-fc6f-4d8d-b891-4ab5ef8efcf0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Suggested Part" "Tai-Saw TA2003A"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dd5a433c-55d7-4ef1-b4eb-0143a62ccd91")
 			(effects
 				(font
 					(size 1 1)
@@ -31475,7 +30266,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H200FB01-01.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31486,7 +30277,7 @@
 				)
 			)
 		)
-		(property "Description" "20pF tuning capacitor footprint, C0G/NP0 0402 when fitted, DNP by default"
+		(property "Description" "20 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31497,12 +30288,12 @@
 				)
 			)
 		)
-		(property "Suggested Part" "DNP by default; fit RF-grade C0G 0402 value selected during ADC-driver tuning"
+		(property "Purpose" "Optional shunt capacitance for ADC-driver output and anti-alias response tuning."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cff4093d-ac97-4d67-ae39-2fcb93dd8743")
+			(uuid "77a32030-9094-4df2-b70d-b2ade6615ebe")
 			(effects
 				(font
 					(size 1 1)
@@ -31510,12 +30301,51 @@
 				)
 			)
 		)
-		(property "Purpose" "Optional shunt capacitance for ADC-driver output and anti-alias response tuning."
+		(property "MPN" "GJM1555C1H200FB01D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "77a32030-9094-4df2-b70d-b2ade6615ebe")
+			(uuid "ea24a1df-c090-434e-a9a8-afc354c46055")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "decf78f1-8b56-4996-b8be-841ec38a7b7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Notes" "Tuning capacitor footprint, C0G/NP0 0402 when fitted, DNP by default"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "baf86c98-f6f8-4e34-8155-a5353e6634fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dff50412-8a8b-461f-a714-f88142effe34")
 			(effects
 				(font
 					(size 1 1)
@@ -31647,7 +30477,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/3/40/1/CATCAY.pdf"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31669,19 +30499,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Suggested Part" "Bourns CAT16-22R0F4LF"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d178511f-5945-4094-bcda-9c6fc19b19f5")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -31725,7 +30542,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "Bourns Inc."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31986,7 +30803,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-071KL"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -31997,7 +30814,7 @@
 				)
 			)
 		)
-		(property "Description" "1kΩ, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -32005,19 +30822,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Yageo RC0402FR-071KL"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "238187fd-79fa-4f5f-afc2-c11565ba6cb7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -32034,7 +30838,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32060,7 +30864,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32197,7 +31001,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A475KE15-01.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -32208,7 +31012,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7µF, X5R, ±10%, 16V, 0603 MLCC"
+		(property "Description" "4.7 µF ±10% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -32216,19 +31020,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "TDK C1608X5R1C475K080AC"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "70493b3a-4699-4e2e-aebb-bb54db605b73")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -32258,7 +31049,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0603 (1608 Metric)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32271,7 +31062,7 @@
 				)
 			)
 		)
-		(property "MPN" "C1608X5R1C475K080AC"
+		(property "MPN" "GRM188Z71A475KE15D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32284,7 +31075,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32421,7 +31212,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32432,7 +31223,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF, X7R, ±10%, 50V, 0402 MLCC"
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32440,19 +31231,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Suggested Part" "Murata GRM155R71H104KE14D"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2d15c199-04f6-489c-a5f5-16e48d14dd96")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -32469,7 +31247,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32482,7 +31260,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GCM155R71A104KA55D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32495,7 +31273,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

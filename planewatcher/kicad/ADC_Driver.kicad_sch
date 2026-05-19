@@ -2325,17 +2325,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 80.01 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "4f4037df-8360-4790-b709-ed903562e26a")
 		)
@@ -2427,17 +2416,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 124.46 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
 			(at 124.46 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2649,17 +2627,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 55.88 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "6c751a3d-5057-46a1-b31d-10af4af3c789")
 		)
@@ -2776,17 +2743,6 @@
 			)
 		)
 		(property "Purpose" "Sets the AD8138 unity-gain input/feedback network with datasheet-recommended impedance."
-			(at 80.01 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
 			(at 80.01 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2924,17 +2880,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 139.7 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
 			(at 139.7 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3138,17 +3083,6 @@
 		)
 		(property "Purpose" "Sets the AD8138 unity-gain input/feedback network with datasheet-recommended impedance."
 			(at 73.66 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
-			(at 73.66 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3362,17 +3296,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 59.69 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "47fde86c-d060-4fd5-aaba-cf266d5ccb71")
 		)
@@ -3497,17 +3420,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 146.05 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "60f9b620-10ca-481e-937f-d1bbcb8040a9")
 		)
@@ -3599,17 +3511,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 95.25 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
 			(at 95.25 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3742,17 +3643,6 @@
 			)
 		)
 		(property "Notes" ""
-			(at 109.22 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
 			(at 109.22 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3941,17 +3831,6 @@
 		)
 		(property "Purpose" "Optional shunt capacitance for ADC-driver output and anti-alias response tuning."
 			(at 134.62 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
-			(at 134.62 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4254,17 +4133,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 73.66 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "2696ff8e-d48e-409f-8ca5-d630d075cd8a")
 		)
@@ -4378,17 +4246,6 @@
 			)
 		)
 		(property "Purpose" "Biases the AD8138 VOCM/offset network."
-			(at 45.72 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
 			(at 45.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4534,17 +4391,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 63.5 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ce3fe9b7-e82e-4356-9634-b4db31c8f7fd")
 		)
@@ -4680,17 +4526,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 49.53 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "eddd4a47-2a10-4678-acde-05216ab853e2")
 		)
@@ -4817,17 +4652,6 @@
 				)
 			)
 		)
-		(property "Mount_Type" ""
-			(at 139.7 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "b4bf7f0a-6c8f-4f2a-a105-a51ca05bdf8b")
 		)
@@ -4910,17 +4734,6 @@
 		)
 		(property "Purpose" "Optional shunt capacitance for ADC-driver output and anti-alias response tuning."
 			(at 85.09 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
-			(at 85.09 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5167,17 +4980,6 @@
 			)
 		)
 		(property "Purpose" "Biases the AD8138 VOCM/offset network."
-			(at 45.72 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
 			(at 45.72 53.34 0)
 			(hide yes)
 			(show_name no)
