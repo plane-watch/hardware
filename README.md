@@ -37,6 +37,7 @@ The FPGA contains bytecode to perform the ADS-B decoding via discrete logic bloc
 ## TODO List / Ideas
 
 - ~~add GPS module to board.~~ Added in proto 1.2.
+- re-spin board so RF conectors both on same side.
 - check if the ADC digital supply can operate from FPGA’s 3V3 supply to further reduce noise on the LT3045-1 supply.
 - check test points when prototype is returned, to ensure voltages and expected signals are correct.
 - if signal is too hot on prototype, consider fitting pi pad parts.
