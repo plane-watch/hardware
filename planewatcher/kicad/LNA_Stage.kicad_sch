@@ -3479,7 +3479,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://au.mouser.com/datasheet/3/995/1/0603cs.pdf"
 			(at 153.67 93.98 0)
 			(hide yes)
 			(show_name no)
