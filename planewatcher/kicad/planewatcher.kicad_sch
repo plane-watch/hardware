@@ -7608,7 +7608,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-07330RL"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
 			(at 184.15 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7619,7 +7619,7 @@
 				)
 			)
 		)
-		(property "Description" "330Ω, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "330 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film"
 			(at 184.15 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7630,7 +7630,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 184.15 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7641,7 +7641,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-07330RL"
+		(property "MPN" "RT0402FRE07330RL"
 			(at 184.15 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7652,7 +7652,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 184.15 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7664,17 +7664,6 @@
 			)
 		)
 		(property "Purpose" "Series resistor between LT3045 power-good output and the FPGA monitor input."
-			(at 184.15 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
 			(at 184.15 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8119,7 +8108,7 @@
 				)
 			)
 		)
-		(property "Description" "10kΩ, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thin Film"
 			(at 184.15 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8130,7 +8119,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 184.15 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8141,7 +8130,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "RT0402FRE1310KL"
 			(at 184.15 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8152,7 +8141,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 184.15 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8164,17 +8153,6 @@
 			)
 		)
 		(property "Purpose" "Pulls the LT3045 open-collector power-good output up to 3V3."
-			(at 184.15 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
 			(at 184.15 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -11169,50 +11147,6 @@
 				(justify left top)
 			)
 		)
-		(property "RTADJ_VPOS" "26.7k"
-			(at 173.99 79.502 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "RTADJ_GND" "8.50k"
-			(at 175.006 81.788 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "RTADJ_VPOS_Suggested_Part" "Panasonic ERA-2AEB2672X"
-			(at 163.83 76.7584 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RTADJ_GND_Suggested_Part" "Panasonic ERA-2AEB8501X"
-			(at 163.83 76.7584 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "RF_IN" input
 			(at 163.83 85.09 180)
 			(uuid "6e93b1c2-6631-4b80-b9a4-7aeecc91c9fd")
@@ -12181,38 +12115,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(property "RSET" "33.2k"
-			(at 77.47 32.004 0)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RSET_Description" "33.2kΩ, ±0.1%, thin film, ≤25ppm/°C, 0603, LT3045 SET resistor (VOUT ≈ 100µA × RSET), Panasonic ERA-3AEB3322V"
-			(at 68.58 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RSET_Suggested_Part" "Panasonic ERA-3AEB3322V"
-			(at 68.58 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "VIN" input

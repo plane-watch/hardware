@@ -2248,7 +2248,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RDM0000C331.pdf"
 			(at 80.01 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2259,7 +2259,7 @@
 				)
 			)
 		)
-		(property "Description" "49.9Ω, ±0.1%, thin film, ≤25ppm/°C, 0402 chip resistor"
+		(property "Description" "49.9 Ohms ±0.1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
 			(at 80.01 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2270,7 +2270,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 80.01 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2281,7 +2281,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB49R9X"
+		(property "MPN" "ERA-2VEB49R9X"
 			(at 80.01 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2292,7 +2292,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 80.01 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2720,7 +2720,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf"
 			(at 80.01 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2731,7 +2731,7 @@
 				)
 			)
 		)
-		(property "Description" "499Ω, ±0.1%, thin film, ≤25ppm/°C, 0402 chip resistor"
+		(property "Description" "499 Ohms ±0.05% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
 			(at 80.01 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2742,7 +2742,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric) "
 			(at 80.01 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2753,7 +2753,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB4990X"
+		(property "MPN" "RG1005N-4990-W-T1"
 			(at 80.01 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2764,7 +2764,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Susumu"
 			(at 80.01 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2857,7 +2857,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RDM0000C331.pdf"
 			(at 139.7 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2868,7 +2868,7 @@
 				)
 			)
 		)
-		(property "Description" "49.9Ω, ±0.1%, thin film, ≤25ppm/°C, 0402 chip resistor"
+		(property "Description" "49.9 Ohms ±0.1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
 			(at 139.7 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2879,7 +2879,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 139.7 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2890,7 +2890,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB49R9X"
+		(property "MPN" "ERA-2VEB49R9X"
 			(at 139.7 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2901,7 +2901,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 139.7 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3081,7 +3081,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf"
 			(at 73.66 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3092,7 +3092,7 @@
 				)
 			)
 		)
-		(property "Description" "499Ω, ±0.1%, thin film, ≤25ppm/°C, 0402 chip resistor"
+		(property "Description" "499 Ohms ±0.05% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
 			(at 73.66 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3103,7 +3103,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric) "
 			(at 73.66 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3114,7 +3114,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB4990X"
+		(property "MPN" "RG1005N-4990-W-T1"
 			(at 73.66 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3125,7 +3125,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Susumu"
 			(at 73.66 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3431,7 +3431,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf"
 			(at 146.05 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3442,7 +3442,7 @@
 				)
 			)
 		)
-		(property "Description" "499Ω, ±0.1%, thin film, ≤25ppm/°C, 0402 chip resistor"
+		(property "Description" "499 Ohms ±0.05% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
 			(at 146.05 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3453,7 +3453,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric) "
 			(at 146.05 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3464,7 +3464,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB4990X"
+		(property "MPN" "RG1005N-4990-W-T1"
 			(at 146.05 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3475,7 +3475,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Susumu"
 			(at 146.05 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4322,7 +4322,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-RE_105_ROHS_L.pdf"
 			(at 45.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4333,7 +4333,7 @@
 				)
 			)
 		)
-		(property "Description" "10kΩ, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thick Film"
 			(at 45.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4344,7 +4344,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 45.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4355,7 +4355,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "RE0402BRE0710KL"
 			(at 45.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4366,7 +4366,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 45.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4751,7 +4751,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.susumu.co.jp/dl/?filename=n_catalog_partition01_en.pdf&type=application/pdf"
 			(at 139.7 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4762,7 +4762,7 @@
 				)
 			)
 		)
-		(property "Description" "499Ω, ±0.1%, thin film, ≤25ppm/°C, 0402 chip resistor"
+		(property "Description" "499 Ohms ±0.05% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
 			(at 139.7 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4773,7 +4773,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric) "
 			(at 139.7 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4784,7 +4784,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB4990X"
+		(property "MPN" "RG1005N-4990-W-T1"
 			(at 139.7 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4795,7 +4795,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Susumu"
 			(at 139.7 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5111,7 +5111,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-RE_105_ROHS_L.pdf"
 			(at 45.72 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5122,7 +5122,7 @@
 				)
 			)
 		)
-		(property "Description" "10kΩ, ±1%, thick film, 100ppm/°C, 0402 chip resistor"
+		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thick Film"
 			(at 45.72 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5133,7 +5133,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 45.72 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5144,7 +5144,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "RE0402BRE0710KL"
 			(at 45.72 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5155,7 +5155,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "YAGEO"
 			(at 45.72 53.34 0)
 			(hide yes)
 			(show_name no)

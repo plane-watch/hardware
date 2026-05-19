@@ -2838,7 +2838,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-RE_105_ROHS_L.pdf"
 			(at 163.83 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -2849,7 +2849,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10 Ohms ±0.5% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thick Film"
 			(at 163.83 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -2861,6 +2861,50 @@
 			)
 		)
 		(property "Mount_Type" ""
+			(at 163.83 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RE0402DRE0710RL"
+			(at 163.83 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 163.83 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 163.83 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Series resistor for GPS module V_ANT pin."
 			(at 163.83 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -3064,7 +3108,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 184.15 127 0)
 			(hide yes)
 			(show_name no)
@@ -3075,7 +3119,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "33 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 184.15 127 0)
 			(hide yes)
 			(show_name no)
@@ -3087,6 +3131,50 @@
 			)
 		)
 		(property "Mount_Type" ""
+			(at 184.15 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0733RL"
+			(at 184.15 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 184.15 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 184.15 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Series damping/termination for GPS module digital I/O lines into the FPGA header."
 			(at 184.15 127 90)
 			(hide yes)
 			(show_name no)
@@ -3155,7 +3243,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3166,7 +3254,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "33 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3178,6 +3266,50 @@
 			)
 		)
 		(property "Mount_Type" ""
+			(at 107.95 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0733RL"
+			(at 107.95 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 107.95 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 107.95 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Series damping/termination for GPS module digital I/O lines into the FPGA header."
 			(at 107.95 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -3953,7 +4085,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 107.95 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3964,7 +4096,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "33 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
 			(at 107.95 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3976,6 +4108,50 @@
 			)
 		)
 		(property "Mount_Type" ""
+			(at 107.95 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0733RL"
+			(at 107.95 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 107.95 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 107.95 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Series damping/termination for GPS module digital I/O lines into the FPGA header."
 			(at 107.95 96.52 90)
 			(hide yes)
 			(show_name no)

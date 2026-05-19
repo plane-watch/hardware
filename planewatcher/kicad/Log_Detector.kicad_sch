@@ -4132,7 +4132,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/3224.pdf"
 			(at 214.63 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4143,7 +4143,7 @@
 				)
 			)
 		)
-		(property "Description" "1kΩ sealed SMD trim potentiometer, top-adjust, Bourns 3224W footprint"
+		(property "Description" "1 kOhms 0.25W, 1/4W J Lead Surface Mount Trimmer Potentiometer Cermet 12.0 Turn Top Adjustment"
 			(at 214.63 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4176,7 +4176,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "Bourns Inc."
 			(at 214.63 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5518,7 +5518,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2GE0R00X"
 			(at 59.69 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5529,7 +5529,7 @@
 				)
 			)
 		)
-		(property "Description" "0Ω jumper, 0402 chip resistor"
+		(property "Description" "0 Ohms Jumper Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
 			(at 59.69 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5540,7 +5540,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 59.69 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5551,7 +5551,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402JR-070RL"
+		(property "MPN" "ERJ-2GE0R00X"
 			(at 59.69 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5562,7 +5562,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 59.69 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6002,7 +6002,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "${RTADJ_VPOS}Ω"
+		(property "Value" "26.7kΩ"
 			(at 223.52 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6024,7 +6024,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 220.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6035,7 +6035,7 @@
 				)
 			)
 		)
-		(property "Description" "${RTADJ_VPOS}Ω, ±0.1%, thin film, ≤25ppm/°C, 0402 chip resistor"
+		(property "Description" "26.7 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
 			(at 220.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6046,7 +6046,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric) "
 			(at 220.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6057,7 +6057,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB4992X"
+		(property "MPN" "ERA-2ARB2672X"
 			(at 220.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6068,7 +6068,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 220.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6443,7 +6443,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "${RTADJ_GND}Ω"
+		(property "Value" "8.45kΩ"
 			(at 217.17 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6465,7 +6465,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 214.63 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6476,7 +6476,7 @@
 				)
 			)
 		)
-		(property "Description" "${RTADJ_GND}Ω, ±0.1%, thin film, ≤25ppm/°C, 0402 chip resistor"
+		(property "Description" "8.45 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
 			(at 214.63 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6487,7 +6487,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 214.63 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6498,7 +6498,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB9531X"
+		(property "MPN" "ERA-2ARB8451X"
 			(at 214.63 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6509,7 +6509,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 214.63 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6769,7 +6769,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 101.6 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6780,7 +6780,7 @@
 				)
 			)
 		)
-		(property "Description" "52.3Ω, ±0.1%, thin film, ≤25ppm/°C, 0402 chip resistor"
+		(property "Description" "52.3 Ohms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
 			(at 101.6 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6791,7 +6791,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 101.6 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6813,7 +6813,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 101.6 66.04 0)
 			(hide yes)
 			(show_name no)

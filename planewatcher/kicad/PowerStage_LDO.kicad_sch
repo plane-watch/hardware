@@ -3463,7 +3463,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "${RSET}Ω"
+		(property "Value" "33.2kΩ"
 			(at 193.04 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3485,7 +3485,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/high-precision-chip-resistors/models/ERA3AEB3322V"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 190.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3496,7 +3496,7 @@
 				)
 			)
 		)
-		(property "Description" "${RSET}Ω, ±0.1%, thin film, ≤25ppm/°C, 0603 LT3045 SET resistor"
+		(property "Description" "33.2 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"
 			(at 190.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3507,7 +3507,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0603 (1608 Metric)"
 			(at 190.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3518,7 +3518,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-07249RL"
+		(property "MPN" "ERA-3ARB3322V"
 			(at 190.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3529,7 +3529,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 190.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3541,28 +3541,6 @@
 			)
 		)
 		(property "Purpose" "Sets the LT3045 output voltage through the 100µA SET pin reference."
-			(at 190.5 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" "LT3045 SET resistor, 0.1% thin film, ≤25ppm/°C, 0603, sets VOUT via 100µA reference"
-			(at 190.5 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mount_Type" ""
 			(at 190.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3631,7 +3609,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/AT0402BRD0710KL"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 180.34 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3642,7 +3620,7 @@
 				)
 			)
 		)
-		(property "Description" "10kΩ, ±0.1%, thin film, ±25ppm/°C, 0402 chip resistor"
+		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
 			(at 180.34 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3653,7 +3631,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 180.34 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3664,7 +3642,7 @@
 				)
 			)
 		)
-		(property "MPN" "AT0402BRD0710KL"
+		(property "MPN" "ERA-2AEB103X"
 			(at 180.34 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3675,7 +3653,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 180.34 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4523,7 +4501,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/AT0402BRD0793K1L"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 190.5 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4534,7 +4512,7 @@
 				)
 			)
 		)
-		(property "Description" "93.1kΩ, ±0.1%, thin film, ±25ppm/°C, 0402 chip resistor"
+		(property "Description" "93.1 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
 			(at 190.5 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4545,7 +4523,7 @@
 				)
 			)
 		)
-		(property "Package" "0402"
+		(property "Package" "0402 (1005 Metric)"
 			(at 190.5 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4556,7 +4534,7 @@
 				)
 			)
 		)
-		(property "MPN" "AT0402BRD0793K1L"
+		(property "MPN" "ERA-2AEB9312X"
 			(at 190.5 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4567,7 +4545,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 190.5 49.53 0)
 			(hide yes)
 			(show_name no)

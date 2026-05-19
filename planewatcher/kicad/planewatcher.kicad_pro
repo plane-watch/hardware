@@ -773,7 +773,7 @@
           "show": true
         }
       ],
-      "filter_string": "C",
+      "filter_string": "R*",
       "group_symbols": false,
       "include_excluded_from_bom": true,
       "name": "",
