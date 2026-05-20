@@ -30583,7 +30583,7 @@
 		(descr "Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "diode")
 		(property "Reference" "D3"
-			(at 1.66 -0.05 270)
+			(at 1.66 -0.05 90)
 			(layer "F.SilkS")
 			(uuid "e4002ab8-29ce-40ff-bd80-169d8cb2a208")
 			(effects
@@ -30594,7 +30594,7 @@
 			)
 		)
 		(property "Value" "ESD8472MUT5G"
-			(at 0 1.05 270)
+			(at 0 1.05 90)
 			(layer "F.Fab")
 			(uuid "22e81d7f-9322-4d97-8683-c66ad8edd362")
 			(effects
@@ -30605,7 +30605,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/esd8472-d.pdf"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6866e02a-29c2-4236-8364-ee423328cac1")
@@ -30616,7 +30616,7 @@
 			)
 		)
 		(property "Description" "14V Clamp 3A (8/20µs) Ipp Tvs Diode Surface Mount 2-X3DFN (0.6x0.3) (0201)"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "57cb9066-f901-4ae1-b276-0509fa068251")
@@ -30770,7 +30770,7 @@
 			(uuid "3fb18cfe-488a-472b-b234-4d467917d72e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 270)
+			(at 0 -0.68 90)
 			(layer "F.Fab")
 			(uuid "88608235-6ecd-4ff4-9296-f272dd92daa5")
 			(effects
@@ -30815,7 +30815,7 @@
 			(uuid "91719ea4-c52c-4f3b-885f-c612e65fa08e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0201_0603Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
