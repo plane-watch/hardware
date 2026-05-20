@@ -7782,7 +7782,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCJ31CR71A226KE01K"
+		(property "MPN" "CL31B226KPHNNNE"
 			(at 120.65 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7793,7 +7793,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 120.65 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7826,7 +7826,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C3883047"
+		(property "lcsc_id" "C87996"
 			(at 120.65 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8123,7 +8123,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thin Film"
+		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
 			(at 184.15 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8145,7 +8145,7 @@
 				)
 			)
 		)
-		(property "MPN" "RT0402FRE1310KL"
+		(property "MPN" "ERA-2AEB103X"
 			(at 184.15 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8156,7 +8156,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 184.15 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8178,7 +8178,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C5455557"
+		(property "lcsc_id" "C191915"
 			(at 184.15 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10359,7 +10359,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H102FA01D"
+		(property "MPN" "GCM1555C1H102FA16D"
 			(at 146.05 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10392,7 +10392,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C161523"
+		(property "lcsc_id" "C126493"
 			(at 146.05 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10629,7 +10629,7 @@
 				)
 			)
 		)
-		(property "Package" "0805"
+		(property "Package" "0603"
 			(at 109.22 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10640,7 +10640,7 @@
 				)
 			)
 		)
-		(property "MPN" "74269262601"
+		(property "MPN" "MPZ1608S601ATA00"
 			(at 109.22 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10651,7 +10651,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
+		(property "Manufacturer" "TDK"
 			(at 109.22 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10673,7 +10673,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C5914022"
+		(property "lcsc_id" "C107335"
 			(at 109.22 34.29 0)
 			(hide yes)
 			(show_name no)

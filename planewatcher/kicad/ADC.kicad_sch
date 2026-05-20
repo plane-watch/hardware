@@ -3599,7 +3599,7 @@
 				)
 			)
 		)
-		(property "MPN" "CAT16-22R0F4LF"
+		(property "MPN" "CAY16-22R0F4LF"
 			(at 45.72 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3632,7 +3632,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C1731387"
+		(property "lcsc_id" "C1734385"
 			(at 45.72 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5400,7 +5400,7 @@
 				)
 			)
 		)
-		(property "MPN" "CAT16-22R0F4LF"
+		(property "MPN" "CAY16-22R0F4LF"
 			(at 58.42 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5433,7 +5433,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C1731387"
+		(property "lcsc_id" "C1734385"
 			(at 58.42 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5553,7 +5553,7 @@
 				)
 			)
 		)
-		(property "MPN" "CAT16-22R0F4LF"
+		(property "MPN" "CAY16-22R0F4LF"
 			(at 45.72 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5586,7 +5586,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C1731387"
+		(property "lcsc_id" "C1734385"
 			(at 45.72 93.98 0)
 			(hide yes)
 			(show_name no)

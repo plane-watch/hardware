@@ -269,7 +269,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C2935238"
+		(property "lcsc_id" "C138002"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1135,7 +1135,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCJ31CR71A226KE01K"
+		(property "MPN" "CL31B226KPHNNNE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1148,7 +1148,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1174,7 +1174,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C3883047"
+		(property "lcsc_id" "C87996"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2260,7 +2260,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thick Film"
+		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2297,7 +2297,7 @@
 				)
 			)
 		)
-		(property "MPN" "RE0402BRE0710KL"
+		(property "MPN" "ERA-2AEB103X"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2310,7 +2310,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2323,7 +2323,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C4140200"
+		(property "lcsc_id" "C191915"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2534,7 +2534,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C2935238"
+		(property "lcsc_id" "C138002"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3818,7 +3818,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H102FA01D"
+		(property "MPN" "GCM1555C1H102FA16D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3844,7 +3844,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C161523"
+		(property "lcsc_id" "C126493"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4029,7 +4029,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71C103KA01D"
+		(property "MPN" "CL05B103KB5NNNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4042,7 +4042,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4055,7 +4055,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C85735"
+		(property "lcsc_id" "C15195"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4839,7 +4839,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C2935237"
+		(property "lcsc_id" "C106235"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5422,7 +5422,7 @@
 				)
 			)
 		)
-		(property "Description" "499 Ohms ±0.05% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
+		(property "Description" "63mW 499Ω 25V Thin Film Resistor ±0.1% ±10ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5459,7 +5459,7 @@
 				)
 			)
 		)
-		(property "MPN" "RG1005N-4990-W-T1"
+		(property "MPN" "RN73C1E499RBTD"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5472,7 +5472,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Susumu"
+		(property "Manufacturer" "TE Connectivity"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5485,7 +5485,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C4184281"
+		(property "lcsc_id" "C2090004"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6770,7 +6770,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C2935238"
+		(property "lcsc_id" "C138002"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7265,7 +7265,7 @@
 				)
 			)
 		)
-		(property "Description" "499 Ohms ±0.05% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
+		(property "Description" "63mW 499Ω 25V Thin Film Resistor ±0.1% ±10ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7302,7 +7302,7 @@
 				)
 			)
 		)
-		(property "MPN" "RG1005N-4990-W-T1"
+		(property "MPN" "RN73C1E499RBTD"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7315,7 +7315,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Susumu"
+		(property "Manufacturer" "TE Connectivity"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7328,7 +7328,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C4184281"
+		(property "lcsc_id" "C2090004"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8347,7 +8347,7 @@
 				)
 			)
 		)
-		(property "Description" "52.3 Ohms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
+		(property "Description" "62.5mW 52.3Ω 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8397,7 +8397,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB52R3X"
+		(property "MPN" "RC0402FR-0752R3L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8410,7 +8410,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic Industry"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8423,7 +8423,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C2088289"
+		(property "lcsc_id" "C273696"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8635,7 +8635,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C2935237"
+		(property "lcsc_id" "C106235"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9023,7 +9023,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71A473KA01D"
+		(property "MPN" "CC0402KRX7R6BB473"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9036,7 +9036,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9049,7 +9049,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C113049"
+		(property "lcsc_id" "C327054"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9176,7 +9176,7 @@
 				)
 			)
 		)
-		(property "Value" "LT3045IMSE-1#PBF"
+		(property "Value" "LT3045/LT3045-1"
 			(at 0 3.5 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9253,7 +9253,7 @@
 				)
 			)
 		)
-		(property "MPN" "LT3045IMSE-1#PBF"
+		(property "MPN" "LT3045IMSE#TRPBF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9279,7 +9279,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C666588"
+		(property "lcsc_id" "C666587"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11596,7 +11596,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71A473KA01D"
+		(property "MPN" "CC0402KRX7R6BB473"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11609,7 +11609,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11622,7 +11622,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C113049"
+		(property "lcsc_id" "C327054"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11811,7 +11811,7 @@
 				)
 			)
 		)
-		(property "MPN" "CAT16-22R0F4LF"
+		(property "MPN" "CAY16-22R0F4LF"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11837,7 +11837,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C1731387"
+		(property "lcsc_id" "C1734385"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12496,7 +12496,7 @@
 				)
 			)
 		)
-		(property "MPN" "CAT16-22R0F4LF"
+		(property "MPN" "CAY16-22R0F4LF"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12522,7 +12522,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C1731387"
+		(property "lcsc_id" "C1734385"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13330,7 +13330,7 @@
 				)
 			)
 		)
-		(property "Value" "BEAD"
+		(property "Value" "600Ω @ 100MHz"
 			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "eccf93a7-393c-4f6c-990d-5d68fcc5cac8")
@@ -13389,7 +13389,7 @@
 				)
 			)
 		)
-		(property "MPN" "BLM21PG601SN1D"
+		(property "MPN" "BLM21SP601SN1D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13402,7 +13402,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "muRata BLM21SP601SN1D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13415,7 +13415,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C41556732"
+		(property "lcsc_id" "C3716677"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14036,7 +14036,7 @@
 				)
 			)
 		)
-		(property "Package" "0805"
+		(property "Package" "0603"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14049,7 +14049,7 @@
 				)
 			)
 		)
-		(property "MPN" "74269262601"
+		(property "MPN" "MPZ1608S601ATA00"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14062,7 +14062,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
+		(property "Manufacturer" "TDK"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14075,7 +14075,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C5914022"
+		(property "lcsc_id" "C107335"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15381,7 +15381,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H102FA01D"
+		(property "MPN" "GCM1555C1H102FA16D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15407,7 +15407,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C161523"
+		(property "lcsc_id" "C126493"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15952,7 +15952,7 @@
 				)
 			)
 		)
-		(property "Description" "33.2 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"
+		(property "Description" "100mW 33.2kΩ Thin Film Resistor ±0.1% ±10ppm/℃ 0603 Chip Resistor - Surface Mount RoHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15989,7 +15989,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-3ARB3322V"
+		(property "MPN" "RT0603BRB0733K2L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16002,7 +16002,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic Industry"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16015,7 +16015,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C4054572"
+		(property "lcsc_id" "C860335"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16305,7 +16305,7 @@
 				)
 			)
 		)
-		(property "Description" "49.9 Ohms ±0.1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
+		(property "Description" "49.9Ω 63mW 50V Thin Film Resistor ±25ppm/℃ ±0.1% 0402 Chip Resistor - Surface Mount RoHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16355,7 +16355,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2VEB49R9X"
+		(property "MPN" "RT0402BRD0749R9L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16368,7 +16368,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic Industry"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16381,7 +16381,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C4103766"
+		(property "lcsc_id" "C852809"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16777,7 +16777,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCJ31CR71C475KA01L"
+		(property "MPN" "CL31B475KBHNNNE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16790,7 +16790,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16803,7 +16803,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C3903725"
+		(property "lcsc_id" "C51205"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19017,7 +19017,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C2935237"
+		(property "lcsc_id" "C106235"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19229,7 +19229,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C2935237"
+		(property "lcsc_id" "C106235"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19814,7 +19814,7 @@
 				)
 			)
 		)
-		(property "Description" "499 Ohms ±0.05% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
+		(property "Description" "63mW 499Ω 25V Thin Film Resistor ±0.1% ±10ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19851,7 +19851,7 @@
 				)
 			)
 		)
-		(property "MPN" "RG1005N-4990-W-T1"
+		(property "MPN" "RN73C1E499RBTD"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19864,7 +19864,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Susumu"
+		(property "Manufacturer" "TE Connectivity"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19877,7 +19877,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C4184281"
+		(property "lcsc_id" "C2090004"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20161,7 +20161,7 @@
 				)
 			)
 		)
-		(property "Description" "49.9 Ohms ±0.1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
+		(property "Description" "49.9Ω 63mW 50V Thin Film Resistor ±25ppm/℃ ±0.1% 0402 Chip Resistor - Surface Mount RoHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20211,7 +20211,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2VEB49R9X"
+		(property "MPN" "RT0402BRD0749R9L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20224,7 +20224,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic Industry"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20237,7 +20237,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C4103766"
+		(property "lcsc_id" "C852809"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24045,7 +24045,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thick Film"
+		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24082,7 +24082,7 @@
 				)
 			)
 		)
-		(property "MPN" "RE0402BRE0710KL"
+		(property "MPN" "ERA-2AEB103X"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24095,7 +24095,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24108,7 +24108,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C4140200"
+		(property "lcsc_id" "C191915"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24379,7 +24379,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thin Film"
+		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24416,7 +24416,7 @@
 				)
 			)
 		)
-		(property "MPN" "RT0402FRE1310KL"
+		(property "MPN" "ERA-2AEB103X"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24429,7 +24429,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24442,7 +24442,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C5455557"
+		(property "lcsc_id" "C191915"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24640,7 +24640,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2ARB8451X"
+		(property "MPN" "RT0402BRD078K45L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24653,7 +24653,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic Industry"
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24666,7 +24666,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C4151733"
+		(property "lcsc_id" "C728566"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26293,7 +26293,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H102FA01D"
+		(property "MPN" "GCM1555C1H102FA16D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26319,7 +26319,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C161523"
+		(property "lcsc_id" "C126493"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27073,7 +27073,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCJ31CR71A226KE01K"
+		(property "MPN" "CL31B226KPHNNNE"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27086,7 +27086,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27112,7 +27112,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C3883047"
+		(property "lcsc_id" "C87996"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28092,7 +28092,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCJ31CR71C475KA01L"
+		(property "MPN" "CL31B475KBHNNNE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28105,7 +28105,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28118,7 +28118,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C3903725"
+		(property "lcsc_id" "C51205"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28925,7 +28925,7 @@
 				)
 			)
 		)
-		(property "Description" "93.1 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
+		(property "Description" "100mW 93.1kΩ 50V Thin Film Resistor ±0.1% ±25ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28962,7 +28962,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB9312X"
+		(property "MPN" "TNPW040293K1BEED"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28975,7 +28975,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic Industry"
+		(property "Manufacturer" "VISHAY"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28988,7 +28988,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C2088292"
+		(property "lcsc_id" "C2088785"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29734,7 +29734,7 @@
 				)
 			)
 		)
-		(property "Description" "499 Ohms ±0.05% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
+		(property "Description" "63mW 499Ω 25V Thin Film Resistor ±0.1% ±10ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29771,7 +29771,7 @@
 				)
 			)
 		)
-		(property "MPN" "RG1005N-4990-W-T1"
+		(property "MPN" "RN73C1E499RBTD"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29784,7 +29784,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Susumu"
+		(property "Manufacturer" "TE Connectivity"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29797,7 +29797,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C4184281"
+		(property "lcsc_id" "C2090004"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30329,7 +30329,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2ARB2672X"
+		(property "MPN" "ERJ2RKF2672X"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30342,7 +30342,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic Industry"
+		(property "Manufacturer" "PANASONIC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30355,7 +30355,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C4221522"
+		(property "lcsc_id" "C2077115"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30951,7 +30951,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71C103KA01D"
+		(property "MPN" "CL05B103KB5NNNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30964,7 +30964,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30990,7 +30990,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C85735"
+		(property "lcsc_id" "C15195"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31966,7 +31966,7 @@
 				)
 			)
 		)
-		(property "MPN" "CAT16-22R0F4LF"
+		(property "MPN" "CAY16-22R0F4LF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31992,7 +31992,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C1731387"
+		(property "lcsc_id" "C1734385"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32327,7 +32327,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C2935237"
+		(property "lcsc_id" "C106235"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")

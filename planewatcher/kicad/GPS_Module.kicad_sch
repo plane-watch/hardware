@@ -2873,7 +2873,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155R71C103KA01D"
+		(property "MPN" "CL05B103KB5NNNC"
 			(at 179.07 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -2884,7 +2884,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 179.07 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -2906,7 +2906,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C85735"
+		(property "lcsc_id" "C15195"
 			(at 179.07 59.69 0)
 			(hide yes)
 			(show_name no)

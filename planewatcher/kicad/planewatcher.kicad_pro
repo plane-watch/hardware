@@ -62,8 +62,8 @@
       ],
       "drc_exclusions": [
         [
-          "nonmirrored_text_on_back_layer|-27112500|-25080000|c198f876-ed40-413d-aff4-20dc384c7784|00000000-0000-0000-0000-000000000000",
-          "This is by design so layer marker text is right way up when viewed from top."
+          "nonmirrored_text_on_back_layer|122425700|66608841|c198f876-ed40-413d-aff4-20dc384c7784|00000000-0000-0000-0000-000000000000",
+          "This is fine - layer window."
         ]
       ],
       "meta": {

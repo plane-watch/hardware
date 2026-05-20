@@ -2263,7 +2263,7 @@
 				)
 			)
 		)
-		(property "Description" "49.9 Ohms ±0.1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
+		(property "Description" "49.9Ω 63mW 50V Thin Film Resistor ±25ppm/℃ ±0.1% 0402 Chip Resistor - Surface Mount RoHS"
 			(at 80.01 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2285,7 +2285,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2VEB49R9X"
+		(property "MPN" "RT0402BRD0749R9L"
 			(at 80.01 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2296,7 +2296,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic Industry"
+		(property "Manufacturer" "YAGEO"
 			(at 80.01 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2329,7 +2329,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C4103766"
+		(property "lcsc_id" "C852809"
 			(at 80.01 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2724,7 +2724,7 @@
 				)
 			)
 		)
-		(property "Description" "499 Ohms ±0.05% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
+		(property "Description" "63mW 499Ω 25V Thin Film Resistor ±0.1% ±10ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"
 			(at 80.01 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2746,7 +2746,7 @@
 				)
 			)
 		)
-		(property "MPN" "RG1005N-4990-W-T1"
+		(property "MPN" "RN73C1E499RBTD"
 			(at 80.01 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2757,7 +2757,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Susumu"
+		(property "Manufacturer" "TE Connectivity"
 			(at 80.01 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2779,7 +2779,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C4184281"
+		(property "lcsc_id" "C2090004"
 			(at 80.01 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2861,7 +2861,7 @@
 				)
 			)
 		)
-		(property "Description" "49.9 Ohms ±0.1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
+		(property "Description" "49.9Ω 63mW 50V Thin Film Resistor ±25ppm/℃ ±0.1% 0402 Chip Resistor - Surface Mount RoHS"
 			(at 139.7 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2883,7 +2883,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2VEB49R9X"
+		(property "MPN" "RT0402BRD0749R9L"
 			(at 139.7 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2894,7 +2894,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic Industry"
+		(property "Manufacturer" "YAGEO"
 			(at 139.7 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2927,7 +2927,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C4103766"
+		(property "lcsc_id" "C852809"
 			(at 139.7 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3085,7 +3085,7 @@
 				)
 			)
 		)
-		(property "Description" "499 Ohms ±0.05% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
+		(property "Description" "63mW 499Ω 25V Thin Film Resistor ±0.1% ±10ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"
 			(at 73.66 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3107,7 +3107,7 @@
 				)
 			)
 		)
-		(property "MPN" "RG1005N-4990-W-T1"
+		(property "MPN" "RN73C1E499RBTD"
 			(at 73.66 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3118,7 +3118,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Susumu"
+		(property "Manufacturer" "TE Connectivity"
 			(at 73.66 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3140,7 +3140,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C4184281"
+		(property "lcsc_id" "C2090004"
 			(at 73.66 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3435,7 +3435,7 @@
 				)
 			)
 		)
-		(property "Description" "499 Ohms ±0.05% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
+		(property "Description" "63mW 499Ω 25V Thin Film Resistor ±0.1% ±10ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"
 			(at 146.05 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3457,7 +3457,7 @@
 				)
 			)
 		)
-		(property "MPN" "RG1005N-4990-W-T1"
+		(property "MPN" "RN73C1E499RBTD"
 			(at 146.05 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3468,7 +3468,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Susumu"
+		(property "Manufacturer" "TE Connectivity"
 			(at 146.05 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3490,7 +3490,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C4184281"
+		(property "lcsc_id" "C2090004"
 			(at 146.05 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4304,7 +4304,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thick Film"
+		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
 			(at 45.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4326,7 +4326,7 @@
 				)
 			)
 		)
-		(property "MPN" "RE0402BRE0710KL"
+		(property "MPN" "ERA-2AEB103X"
 			(at 45.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4337,7 +4337,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 45.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4359,7 +4359,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C4140200"
+		(property "lcsc_id" "C191915"
 			(at 45.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4733,7 +4733,7 @@
 				)
 			)
 		)
-		(property "Description" "499 Ohms ±0.05% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film"
+		(property "Description" "63mW 499Ω 25V Thin Film Resistor ±0.1% ±10ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"
 			(at 139.7 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4755,7 +4755,7 @@
 				)
 			)
 		)
-		(property "MPN" "RG1005N-4990-W-T1"
+		(property "MPN" "RN73C1E499RBTD"
 			(at 139.7 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4766,7 +4766,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Susumu"
+		(property "Manufacturer" "TE Connectivity"
 			(at 139.7 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4788,7 +4788,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C4184281"
+		(property "lcsc_id" "C2090004"
 			(at 139.7 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5093,7 +5093,7 @@
 				)
 			)
 		)
-		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thick Film"
+		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
 			(at 45.72 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5115,7 +5115,7 @@
 				)
 			)
 		)
-		(property "MPN" "RE0402BRE0710KL"
+		(property "MPN" "ERA-2AEB103X"
 			(at 45.72 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5126,7 +5126,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Panasonic Industry"
 			(at 45.72 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5148,7 +5148,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C4140200"
+		(property "lcsc_id" "C191915"
 			(at 45.72 53.34 0)
 			(hide yes)
 			(show_name no)

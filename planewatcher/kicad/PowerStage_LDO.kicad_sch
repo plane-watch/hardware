@@ -2534,7 +2534,7 @@
 				)
 			)
 		)
-		(property "Value" "BEAD"
+		(property "Value" "600Ω @ 100MHz"
 			(at 128.27 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2588,7 +2588,7 @@
 				)
 			)
 		)
-		(property "MPN" "BLM21PG601SN1D"
+		(property "MPN" "BLM21SP601SN1D"
 			(at 128.27 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2599,7 +2599,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "muRata BLM21SP601SN1D"
 			(at 128.27 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2621,7 +2621,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C41556732"
+		(property "lcsc_id" "C3716677"
 			(at 128.27 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2803,7 +2803,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCJ31CR71C475KA01L"
+		(property "MPN" "CL31B475KBHNNNE"
 			(at 138.43 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2814,7 +2814,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 138.43 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2836,7 +2836,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C3903725"
+		(property "lcsc_id" "C51205"
 			(at 138.43 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3196,7 +3196,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCJ31CR71A226KE01K"
+		(property "MPN" "CL31B226KPHNNNE"
 			(at 234.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3207,7 +3207,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 234.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3251,7 +3251,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C3883047"
+		(property "lcsc_id" "C87996"
 			(at 234.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3489,7 +3489,7 @@
 				)
 			)
 		)
-		(property "Description" "33.2 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"
+		(property "Description" "100mW 33.2kΩ Thin Film Resistor ±0.1% ±10ppm/℃ 0603 Chip Resistor - Surface Mount RoHS"
 			(at 190.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3511,7 +3511,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-3ARB3322V"
+		(property "MPN" "RT0603BRB0733K2L"
 			(at 190.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3522,7 +3522,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic Industry"
+		(property "Manufacturer" "YAGEO"
 			(at 190.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3544,7 +3544,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C4054572"
+		(property "lcsc_id" "C860335"
 			(at 190.5 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3883,7 +3883,7 @@
 				)
 			)
 		)
-		(property "Value" "LT3045IMSE-1#PBF"
+		(property "Value" "LT3045/LT3045-1"
 			(at 207.645 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3937,7 +3937,7 @@
 				)
 			)
 		)
-		(property "MPN" "LT3045IMSE-1#PBF"
+		(property "MPN" "LT3045IMSE#TRPBF"
 			(at 207.01 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -3981,7 +3981,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C666588"
+		(property "lcsc_id" "C666587"
 			(at 207.01 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4118,7 +4118,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCJ31CR71C475KA01L"
+		(property "MPN" "CL31B475KBHNNNE"
 			(at 118.11 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4129,7 +4129,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 118.11 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4151,7 +4151,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C3903725"
+		(property "lcsc_id" "C51205"
 			(at 118.11 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4516,7 +4516,7 @@
 				)
 			)
 		)
-		(property "Description" "93.1 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
+		(property "Description" "100mW 93.1kΩ 50V Thin Film Resistor ±0.1% ±25ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"
 			(at 190.5 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4538,7 +4538,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERA-2AEB9312X"
+		(property "MPN" "TNPW040293K1BEED"
 			(at 190.5 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4549,7 +4549,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic Industry"
+		(property "Manufacturer" "VISHAY"
 			(at 190.5 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4571,7 +4571,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C2088292"
+		(property "lcsc_id" "C2088785"
 			(at 190.5 49.53 0)
 			(hide yes)
 			(show_name no)
