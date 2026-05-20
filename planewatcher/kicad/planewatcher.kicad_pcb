@@ -10390,7 +10390,7 @@
 			(uuid "3231c0ff-ba82-4d63-a676-46b73b060d5e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-12-1EP_3x3mm_P0.45mm_EP1.65x2.38mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/MSOP-12-1EP_3x4.039mm_P0.65mm_EP1.651x2.845mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
