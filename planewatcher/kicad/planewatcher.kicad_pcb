@@ -2238,7 +2238,7 @@
 				)
 			)
 		)
-		(property "Value" "20Ω"
+		(property "Value" "68Ω"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "35f4cc65-f682-495e-bade-234e477de139")
@@ -2260,7 +2260,7 @@
 				)
 			)
 		)
-		(property "Description" "20Ω 200mW 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"
+		(property "Description" "68Ω 200mW Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2271,7 +2271,7 @@
 				)
 			)
 		)
-		(property "MPN" "RCS040220R0FKED"
+		(property "MPN" "ERJPA2F68R0X"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2284,7 +2284,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "VISHAY"
+		(property "Manufacturer" "PANASONIC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2323,7 +2323,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C1854736"
+		(property "lcsc_id" "C542959"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
