@@ -3041,7 +3041,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C2935238"
+		(property "lcsc_id" "C138002"
 			(at 184.15 127 90)
 			(hide yes)
 			(show_name no)
@@ -3176,7 +3176,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C2935238"
+		(property "lcsc_id" "C138002"
 			(at 107.95 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -4155,7 +4155,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C2935238"
+		(property "lcsc_id" "C138002"
 			(at 107.95 96.52 90)
 			(hide yes)
 			(show_name no)
