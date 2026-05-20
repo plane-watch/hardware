@@ -4276,6 +4276,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C93943"
+			(at 135.89 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "90102e14-554f-4ed2-bb50-f92351bd9b96")
 		)
@@ -4502,6 +4513,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C114151"
+			(at 173.99 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d0cde311-4c03-43b9-ba75-32d7261c6463")
 		)
@@ -4638,6 +4660,17 @@
 			)
 		)
 		(property "Notes" "From datasheet: \"For optimal transient performance and load regulation, Kelvin connect OUTS directly to the output capacitor and the load. Also, tie the GND connections of the output capacitor and the SET pin capacitor directly together .\""
+			(at 208.28 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C666588"
 			(at 208.28 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4808,6 +4841,17 @@
 			)
 		)
 		(property "Purpose" "High-frequency bypass capacitor for the LT8608/LT3045 supply path."
+			(at 88.9 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C77020"
 			(at 88.9 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5210,6 +5254,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C18305"
+			(at 58.42 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "df88b4e9-740e-4b7b-b745-fa5e44da5a90")
 		)
@@ -5436,6 +5491,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C490824"
+			(at 191.77 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a9cb74c6-917d-4388-9e95-0574f5b20faa")
 		)
@@ -5573,6 +5639,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C77094"
+			(at 48.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "532049e8-0752-465f-8b6a-da450beba805")
 		)
@@ -5698,6 +5775,17 @@
 			)
 		)
 		(property "Purpose" "LT8608 buck switching inductor for the low-noise pre-regulator."
+			(at 147.32 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C6012418"
 			(at 147.32 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5934,6 +6022,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C155695"
+			(at 154.94 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7b529cdc-d286-41ce-8d52-d67070d480e0")
 		)
@@ -6070,6 +6169,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 120.65 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C580300"
 			(at 120.65 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6234,6 +6344,17 @@
 			)
 		)
 		(property "Purpose" "Input/pre-regulator ceramic capacitor for the LT8608 buck stage."
+			(at 68.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C77094"
 			(at 68.58 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6470,6 +6591,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C77019"
+			(at 48.26 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "54ad4d6a-76a2-4e5d-a44c-3cad8785f91b")
 		)
@@ -6686,6 +6818,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 212.09 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C185439"
 			(at 212.09 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7255,6 +7398,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C94034"
+			(at 154.94 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "81b34196-b955-4875-86bc-4bd3043c5297")
 		)
@@ -7380,6 +7534,17 @@
 			)
 		)
 		(property "Purpose" "Pull-up or bias resistor in the LT3045 power-good/control network."
+			(at 232.41 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C60490"
 			(at 232.41 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -7692,6 +7857,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C5159775"
+			(at 137.16 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "21b4559d-1241-431b-b3da-391c1d58d790")
 		)
@@ -7828,6 +8004,17 @@
 		)
 		(property "Notes" ""
 			(at 162.56 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C138019"
+			(at 162.56 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7975,6 +8162,17 @@
 			)
 		)
 		(property "Notes" "From datasheet: \"The INTVCC can supply enough current for the LT8608’s circuitry and must be bypassed to ground with a minimum of 1μF ceramic capacitor.\""
+			(at 105.41 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C77006"
 			(at 105.41 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -8245,6 +8443,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C2167106"
+			(at 179.07 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2f545919-6c0d-46a2-b7b4-c1b45cb49c72")
 		)
@@ -8495,6 +8704,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 90.17 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C327333"
 			(at 90.17 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8798,6 +9018,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 236.22 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C90146"
 			(at 236.22 109.22 0)
 			(hide yes)
 			(show_name no)

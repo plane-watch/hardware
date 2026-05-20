@@ -1665,6 +1665,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C155695"
+			(at 137.16 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f856764d-18d9-4f15-9816-314dd6287248")
 		)
@@ -1767,6 +1778,17 @@
 			)
 		)
 		(property "Manufacturer" "Kingbright"
+			(at 172.72 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C7077285"
 			(at 172.72 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -1888,6 +1910,17 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
+			(at 148.59 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C138019"
 			(at 148.59 62.23 0)
 			(hide yes)
 			(show_name no)

@@ -2592,7 +2592,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188Z71A106MA73J"
+		(property "MPN" "GRM188Z71A106MA73D"
 			(at 107.95 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2627,6 +2627,17 @@
 		)
 		(property "Notes" ""
 			(at 107.95 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C237435"
+			(at 107.95 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2750,6 +2761,17 @@
 			)
 		)
 		(property "Purpose" "Series resistor for GPS module V_ANT pin."
+			(at 163.83 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C4240446"
 			(at 163.83 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -2884,6 +2906,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C85735"
+			(at 179.07 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c0b0e5e2-128a-416e-bd91-d9e1301a563b")
 		)
@@ -3008,6 +3041,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C2935238"
+			(at 184.15 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cde5b23f-d498-4e67-92b2-27722ca72861")
 		)
@@ -3122,6 +3166,17 @@
 			)
 		)
 		(property "Purpose" "Series damping/termination for GPS module digital I/O lines into the FPGA header."
+			(at 107.95 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C2935238"
 			(at 107.95 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -3260,6 +3315,17 @@
 		)
 		(property "Notes" ""
 			(at 184.15 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C133346"
+			(at 184.15 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3629,6 +3695,17 @@
 		)
 		(property "Notes" ""
 			(at 121.92 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C161163"
+			(at 121.92 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4068,6 +4145,17 @@
 			)
 		)
 		(property "Purpose" "Series damping/termination for GPS module digital I/O lines into the FPGA header."
+			(at 107.95 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C2935238"
 			(at 107.95 96.52 90)
 			(hide yes)
 			(show_name no)

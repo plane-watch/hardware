@@ -3759,20 +3759,6 @@
 	)
 	(polyline
 		(pts
-			(xy 242.3253 175.57) (xy 242.3253 175.57)
-		)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 211 209 209 1)
-		)
-		(uuid "c8966e89-196f-4bd0-a9ac-e6de9ae111cc")
-	)
-	(polyline
-		(pts
 			(xy 281.4795 174.9174) (xy 281.4789 175.0015) (xy 281.4772 175.0835) (xy 281.4742 175.1631) (xy 281.4701 175.2401)
 			(xy 281.4648 175.3142) (xy 281.4583 175.385) (xy 281.4506 175.4523) (xy 281.4417 175.5157) (xy 281.5278 175.4535)
 			(xy 281.6136 175.3945) (xy 281.6991 175.3389) (xy 281.7845 175.2867) (xy 281.8696 175.238) (xy 281.9546 175.1929)
@@ -5674,6 +5660,16 @@
 		)
 		(uuid "c818ce35-e137-4b3c-bda3-364af55ff3f1")
 	)
+	(polyline
+		(pts
+			(xy 242.3253 175.57) (xy 242.3253 175.57)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(uuid "c8966e89-196f-4bd0-a9ac-e6de9ae111cc")
+	)
 	(wire
 		(pts
 			(xy 50.8 146.05) (xy 74.93 146.05)
@@ -7354,6 +7350,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C5968215"
+			(at 106.68 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "23"
 			(uuid "584e6fac-27b1-4364-946a-c7082b18ced2")
 		)
@@ -7671,6 +7678,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C854274"
+			(at 184.15 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "31d93520-19d5-4162-b897-51a3fb9fb15a")
 		)
@@ -7808,6 +7826,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C3883047"
+			(at 120.65 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fdb09ba6-2f66-4fa1-9df5-c4564532a7d5")
 		)
@@ -7924,6 +7953,17 @@
 			)
 		)
 		(property "Purpose" "Load-side high-frequency decoupling for the filtered 3V3A analog rail."
+			(at 133.35 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C161163"
 			(at 133.35 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8128,6 +8168,17 @@
 			)
 		)
 		(property "Purpose" "Pulls the LT3045 open-collector power-good output up to 3V3."
+			(at 184.15 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C5455557"
 			(at 184.15 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9243,6 +9294,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C5968215"
+			(at 45.72 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "23"
 			(uuid "8c6c55bd-dca7-4cde-a313-25ec8cf16a0e")
 		)
@@ -10330,6 +10392,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C161523"
+			(at 146.05 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c18e6f11-d5f4-4a7d-b8aa-c3f30e2f8255")
 		)
@@ -10465,6 +10538,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C3172723"
+			(at 21.59 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "46c212f2-be93-4298-b3f9-b7b6d0ca9171")
 		)
@@ -10580,6 +10664,17 @@
 		)
 		(property "Purpose" "Ferrite bead isolation between the 3V3 regulator output and the 3V3A analog rail."
 			(at 109.22 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C5914022"
+			(at 109.22 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10870,6 +10965,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 217.17 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C3172723"
 			(at 217.17 29.21 0)
 			(hide yes)
 			(show_name no)

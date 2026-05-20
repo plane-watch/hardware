@@ -3328,7 +3328,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188Z71A106MA73J"
+		(property "MPN" "GRM188Z71A106MA73D"
 			(at 135.89 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3351,6 +3351,17 @@
 			)
 		)
 		(property "Purpose" "Local bulk decoupling for AD9203 analog, digital, and reference supply rails."
+			(at 135.89 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C237435"
 			(at 135.89 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3487,6 +3498,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C161163"
+			(at 121.92 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f9bd213b-88bb-4423-a717-15f135e90e94")
 		)
@@ -3600,6 +3622,17 @@
 			)
 		)
 		(property "Purpose" "Series damping/termination for AD9203 digital output lines into the FPGA header."
+			(at 45.72 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C1731387"
 			(at 45.72 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3799,7 +3832,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188Z71A106MA73J"
+		(property "MPN" "GRM188Z71A106MA73D"
 			(at 135.89 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3822,6 +3855,17 @@
 			)
 		)
 		(property "Purpose" "Local bulk decoupling for AD9203 analog, digital, and reference supply rails."
+			(at 135.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C237435"
 			(at 135.89 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3948,6 +3992,17 @@
 			)
 		)
 		(property "Purpose" "Local high-frequency decoupling for AD9203 AVDD, DRVDD, and reference supply pins."
+			(at 121.92 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C161163"
 			(at 121.92 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4174,6 +4229,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C161163"
+			(at 59.69 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1185ee02-b8ea-4a26-bc9f-b185a909df90")
 		)
@@ -4300,6 +4366,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C161163"
+			(at 107.95 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d08ab7c6-9a93-4472-864c-9f91564bca16")
 		)
@@ -4393,7 +4470,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188Z71A106MA73J"
+		(property "MPN" "GRM188Z71A106MA73D"
 			(at 121.92 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4416,6 +4493,17 @@
 			)
 		)
 		(property "Purpose" "Local bulk decoupling for AD9203 analog, digital, and reference supply rails."
+			(at 121.92 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C237435"
 			(at 121.92 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4540,6 +4628,17 @@
 			)
 		)
 		(property "Purpose" "Digitizes the differential analog signal for the FPGA."
+			(at 83.82 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C653239"
 			(at 83.82 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4721,7 +4820,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM188Z71A106MA73J"
+		(property "MPN" "GRM188Z71A106MA73D"
 			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4744,6 +4843,17 @@
 			)
 		)
 		(property "Purpose" "Local bulk decoupling for AD9203 analog, digital, and reference supply rails."
+			(at 45.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C237435"
 			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5033,6 +5143,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C161163"
+			(at 152.4 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dcfca469-9749-4009-9371-d51d300588a2")
 		)
@@ -5312,6 +5433,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C1731387"
+			(at 58.42 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "5ae73232-8c35-4d1e-8184-eaa05daaba42")
 		)
@@ -5444,6 +5576,17 @@
 			)
 		)
 		(property "Purpose" "Series damping/termination for AD9203 digital output lines into the FPGA header."
+			(at 45.72 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C1731387"
 			(at 45.72 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5664,6 +5807,17 @@
 			)
 		)
 		(property "Purpose" "Local high-frequency decoupling for AD9203 AVDD, DRVDD, and reference supply pins."
+			(at 152.4 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C161163"
 			(at 152.4 73.66 0)
 			(hide yes)
 			(show_name no)

@@ -1696,6 +1696,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C5145179"
+			(at 111.76 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7cda54f5-9bd7-46bb-9345-15e80944d998")
 		)
@@ -1834,6 +1845,17 @@
 			)
 		)
 		(property "Purpose" "Current-limit resistor for an FPGA-driven RGB status LED channel."
+			(at 133.35 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C477780"
 			(at 133.35 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1986,6 +2008,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C477780"
+			(at 144.78 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0a3037c0-96d9-43b0-88b7-761d0148eaeb")
 		)
@@ -2118,6 +2151,17 @@
 			)
 		)
 		(property "Purpose" "Current-limit resistor for an FPGA-driven RGB status LED channel."
+			(at 123.19 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C2935237"
 			(at 123.19 92.71 0)
 			(hide yes)
 			(show_name no)
