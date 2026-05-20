@@ -565,7 +565,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.309617,
+        "track_width": 0.2941,
         "tuning_profile": ""
       },
       {
@@ -607,6 +607,10 @@
       {
         "netclass": "RF_50Ω",
         "pattern": "/LNA_Stage_1/RF_IN"
+      },
+      {
+        "netclass": "RF_50Ω",
+        "pattern": "/GPS Module/RF_IN"
       },
       {
         "netclass": "ADC_DIFF_PAIR",
