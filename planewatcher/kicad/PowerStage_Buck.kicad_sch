@@ -4286,6 +4286,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C76973"
+			(at 161.29 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "02ce2d2f-ce22-4fdd-b4bb-922adcf3cc29")
 		)
@@ -4488,6 +4499,17 @@
 			)
 		)
 		(property "Purpose" "Filters high-frequency switching noise on the LT8640 regulator rail."
+			(at 99.06 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C18305"
 			(at 99.06 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4710,6 +4732,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C77019"
+			(at 115.57 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "787e6d05-6090-4493-9a63-9b8bb41d3bca")
 		)
@@ -4846,6 +4879,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 143.51 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C674120"
 			(at 143.51 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5044,6 +5088,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C327333"
+			(at 119.38 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5a320105-caee-4274-ac99-f362c052cf54")
 		)
@@ -5169,6 +5224,17 @@
 			)
 		)
 		(property "Purpose" "LT8640 buck switching inductor for the FPGA 5V supply."
+			(at 180.34 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C7432409"
 			(at 180.34 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5394,6 +5460,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C138033"
+			(at 190.5 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d091851b-fbee-48df-b5c2-70fef68e44b7")
 		)
@@ -5518,6 +5595,17 @@
 			)
 		)
 		(property "Purpose" "Regulator auxiliary/input bypass capacitor in the LT8640 buck stage."
+			(at 123.19 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C77006"
 			(at 123.19 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5655,6 +5743,17 @@
 			)
 		)
 		(property "Purpose" "Input ceramic capacitor for the LT8640 buck regulator."
+			(at 91.44 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C77094"
 			(at 91.44 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5912,6 +6011,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C77020"
+			(at 161.29 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "50b06e20-43d2-4b26-bab3-c3b0f9ee5e98")
 		)
@@ -6039,6 +6149,17 @@
 			)
 		)
 		(property "Purpose" "Local 1µF VIN bypass capacitor for the LT8640 buck regulator, placed close to the IC."
+			(at 121.92 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C77404"
 			(at 121.92 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6330,6 +6451,17 @@
 			)
 		)
 		(property "Purpose" "LT8640 power-good pull-up or regulator status bias resistor."
+			(at 92.71 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C93943"
 			(at 92.71 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6632,6 +6764,17 @@
 			)
 		)
 		(property "Notes" "Allow FPGA power to be disconnected, if FPGA powered externally."
+			(at 209.55 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C7365746"
 			(at 209.55 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7269,6 +7412,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C77094"
+			(at 106.68 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0fa23044-15fb-40c9-aceb-b878025bc7aa")
 		)
@@ -7406,6 +7560,17 @@
 				)
 			)
 		)
+		(property "lcsc_id" "C138028"
+			(at 190.5 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1cb57da1-76ac-4077-8391-e4b2660ad4e3")
 		)
@@ -7533,6 +7698,17 @@
 			)
 		)
 		(property "Purpose" "Local 1µF VIN bypass capacitor for the LT8640 buck regulator, placed close to the IC."
+			(at 161.29 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C77404"
 			(at 161.29 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7681,6 +7857,17 @@
 			)
 		)
 		(property "Notes" ""
+			(at 204.47 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C2167866"
 			(at 204.47 97.79 0)
 			(hide yes)
 			(show_name no)
