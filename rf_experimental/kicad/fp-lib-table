@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "planewatcher") (type "KiCad") (uri "/Users/mikenye/Development/github.com/plane-watch/hardware/planewatcher/kicad/planewatcher.pretty") (options "") (descr ""))
+)
