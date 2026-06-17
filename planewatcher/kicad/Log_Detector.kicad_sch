@@ -1963,9 +1963,9 @@
 		)
 		(uuid "ee6803f0-86e2-4bdd-af20-61b96854f7d2")
 	)
-	(text "Datasheet says to operate in \nmeasurement mode, connect VOUT to VSET."
+	(text "Datasheet says to operate in \nmeasurement mode, connect VOUT to VSET.\nFootprints added so we can experiment with slope adjustment."
 		(exclude_from_sim no)
-		(at 188.468 64.77 0)
+		(at 200.406 62.484 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2076,10 +2076,10 @@
 		)
 		(uuid "8b0f3214-4571-43f6-85d1-002ec0ae6c1d")
 	)
-	(text_box "For maximum video bandwidth / fastest rise time, datasheet says leave CLPF unconnected and avoid stray capacitance."
+	(text_box "For maximum video bandwidth / fastest rise time, datasheet says leave CLPF unconnected and avoid stray capacitance.\nFootprint added for experimentation."
 		(exclude_from_sim no)
-		(at 166.37 101.6001 0)
-		(size 17.78 22.8599)
+		(at 166.37 103.5049 0)
+		(size 17.78 51.4351)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2123,12 +2123,6 @@
 		(uuid "089444fe-d8d1-45e2-b533-bbafd085bdd9")
 	)
 	(junction
-		(at 191.77 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b8608f0-e6ba-46e8-97b7-57ed51aa753b")
-	)
-	(junction
 		(at 186.69 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2159,6 +2153,12 @@
 		(uuid "3c41e37a-ec6b-4e51-9c47-71fe91d8eb92")
 	)
 	(junction
+		(at 191.77 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ac022b3-8a72-47c0-8870-99c0c25e675f")
+	)
+	(junction
 		(at 199.39 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2175,6 +2175,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "621b8fc5-9a99-43d4-87ae-057d472600ea")
+	)
+	(junction
+		(at 191.77 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69aed877-d59d-4c0e-a7b6-d9c2d4429e3b")
 	)
 	(junction
 		(at 101.6 62.23)
@@ -2225,6 +2231,12 @@
 		(uuid "c6a09e8d-beaf-4bd5-94c7-80c6d43551e4")
 	)
 	(junction
+		(at 191.77 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d290ad30-43b3-495e-8390-d829f9e92825")
+	)
+	(junction
 		(at 220.98 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2241,10 +2253,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8f616a3-e323-410a-82b4-1490813fd145")
-	)
-	(no_connect
-		(at 175.26 102.87)
-		(uuid "4ceaf119-0099-44e3-8738-0884f6a577a1")
 	)
 	(wire
 		(pts
@@ -2265,6 +2273,16 @@
 			(type default)
 		)
 		(uuid "0fdb999b-2118-4a11-a3b7-7b49d3521339")
+	)
+	(wire
+		(pts
+			(xy 175.26 102.87) (xy 175.26 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "156cd6a7-77c2-464d-b2d5-2aac369fac6c")
 	)
 	(wire
 		(pts
@@ -2385,6 +2403,16 @@
 			(type default)
 		)
 		(uuid "45dc6d75-0396-4bfd-be77-944a8a112a1b")
+	)
+	(wire
+		(pts
+			(xy 179.07 118.11) (xy 175.26 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50dca956-4a33-4524-8f8f-7dffff2b6fff")
 	)
 	(wire
 		(pts
@@ -2518,6 +2546,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 115.57) (xy 179.07 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f366a1d-c447-430e-891a-9bc4624e6e52")
+	)
+	(wire
+		(pts
 			(xy 151.13 40.64) (xy 151.13 36.83)
 		)
 		(stroke
@@ -2565,6 +2603,16 @@
 			(type default)
 		)
 		(uuid "929a418e-fa3b-4522-951a-bc8992d510e5")
+	)
+	(wire
+		(pts
+			(xy 179.07 105.41) (xy 179.07 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "937a4c75-c537-4f9c-889d-b70c8004e775")
 	)
 	(wire
 		(pts
@@ -2658,16 +2706,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 54.61) (xy 191.77 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5ce5d7e-ea97-4fe0-9cc0-e71afb598095")
-	)
-	(wire
-		(pts
 			(xy 220.98 90.17) (xy 220.98 92.71)
 		)
 		(stroke
@@ -2735,6 +2773,26 @@
 			(type default)
 		)
 		(uuid "e91c8a4a-2e21-49d1-9d1c-7e257e303290")
+	)
+	(wire
+		(pts
+			(xy 175.26 118.11) (xy 175.26 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9583d48-c2f0-47a2-9b9e-e3d9e4a4a71d")
+	)
+	(wire
+		(pts
+			(xy 175.26 105.41) (xy 179.07 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee3245bf-90ff-4134-8f82-91df5540102e")
 	)
 	(wire
 		(pts
@@ -5313,6 +5371,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 175.26 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ad8c806-cf89-4b4c-b9e9-030e43c5d04a")
+		(property "Reference" "#PWR030"
+			(at 175.26 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21b3e3a7-0c13-41f0-b36c-4451a68c7eeb")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/2b870c27-11be-4d09-9c58-83e75b33e075"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 203.2 91.44 90)
 		(unit 1)
@@ -5583,6 +5719,151 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 179.07 111.76 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "8787e800-1905-4b0c-ad93-9382c0af8196")
+		(property "Reference" "C61"
+			(at 172.72 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100pF"
+			(at 172.72 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 178.1048 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1HR50BA16-01A.pdf"
+			(at 179.07 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 179.07 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 179.07 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM1555C1H101FA16D"
+			(at 179.07 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 179.07 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "ADL5513 CLPF capacitor"
+			(at 179.07 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 179.07 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C2941926"
+			(at 179.07 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "88513743-4dce-49d0-9b3c-b23b3ba8956a")
+		)
+		(pin "1"
+			(uuid "d45f04fd-bb0d-47a2-b967-926bf2c371b4")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/2b870c27-11be-4d09-9c58-83e75b33e075"
+					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 138.43 101.6 180)
 		(unit 1)
 		(body_style 1)
@@ -5721,6 +6002,140 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/2b870c27-11be-4d09-9c58-83e75b33e075"
 					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 191.77 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b10fee2-7ada-4f49-b897-0d6f68043831")
+		(property "Reference" "R44"
+			(at 195.58 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 195.58 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 189.992 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2GE0R00X"
+			(at 191.77 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0 Ohms Jumper Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+			(at 191.77 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 191.77 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-2GE0R00X"
+			(at 191.77 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic Industry"
+			(at 191.77 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "ADL5513 slope adjustment, VOUT to VSET"
+			(at 191.77 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C242160"
+			(at 191.77 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c87353fd-cf11-4ab2-8164-0aac38141f51")
+		)
+		(pin "2"
+			(uuid "ae578bd1-a3b9-4736-95c0-995a8f61740d")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/2b870c27-11be-4d09-9c58-83e75b33e075"
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -6827,6 +7242,140 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/2b870c27-11be-4d09-9c58-83e75b33e075"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 191.77 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "e625f1ec-30a6-41cb-b2df-1144834ccc3a")
+		(property "Reference" "R45"
+			(at 195.58 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 195.58 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 189.992 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2GE0R00X"
+			(at 191.77 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0 Ohms Jumper Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+			(at 191.77 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 191.77 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-2GE0R00X"
+			(at 191.77 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic Industry"
+			(at 191.77 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "ADL5513 slope adjustment, VSET to GND"
+			(at 191.77 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C242160"
+			(at 191.77 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef35b906-ab93-45bb-99db-97cf95ad979e")
+		)
+		(pin "2"
+			(uuid "c3c1ea99-e336-4956-843e-0fb7259900d0")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/2b870c27-11be-4d09-9c58-83e75b33e075"
+					(reference "R45")
 					(unit 1)
 				)
 			)
