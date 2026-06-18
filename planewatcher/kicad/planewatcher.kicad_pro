@@ -60,12 +60,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "nonmirrored_text_on_back_layer|122425700|66608841|c198f876-ed40-413d-aff4-20dc384c7784|00000000-0000-0000-0000-000000000000",
-          "This is fine - layer window."
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -259,7 +254,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "prototype 1.2"
+      "sch_revision": "prototype 1.3"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -826,7 +821,7 @@
         "uuid": "7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
       }
     ],
-    "used_designators": "#FLG7-8,D1,D5,#PWR31-36,C4-6,R34-36,R46,U2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
