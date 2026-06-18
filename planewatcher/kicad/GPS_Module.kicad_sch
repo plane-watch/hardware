@@ -3489,7 +3489,7 @@
 				)
 			)
 		)
-		(property "Value" "68Ω"
+		(property "Value" "1kΩ"
 			(at 184.15 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3521,7 +3521,7 @@
 				)
 			)
 		)
-		(property "Description" "68Ω 200mW Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS"
+		(property "Description" ""
 			(at 184.15 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -3532,7 +3532,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJPA2F68R0X"
+		(property "MPN" ""
 			(at 184.15 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -3543,7 +3543,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "PANASONIC"
+		(property "Manufacturer" ""
 			(at 184.15 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -3576,7 +3576,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C542959"
+		(property "lcsc_id" ""
 			(at 184.15 147.32 90)
 			(hide yes)
 			(show_name no)
