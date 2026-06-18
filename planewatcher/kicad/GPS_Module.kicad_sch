@@ -2605,10 +2605,6 @@
 		(uuid "2cd4dfb7-de6b-4ad2-880d-53c36f0f9ae4")
 	)
 	(no_connect
-		(at 130.81 110.49)
-		(uuid "67bf494a-c106-4e4e-8962-82f41d833081")
-	)
-	(no_connect
 		(at 130.81 115.57)
 		(uuid "694b9c73-48c3-4430-b341-19eaa6617bec")
 	)
@@ -2771,6 +2767,16 @@
 			(type default)
 		)
 		(uuid "4c25060b-89c4-4c40-a123-f3da391d43a6")
+	)
+	(wire
+		(pts
+			(xy 121.92 110.49) (xy 130.81 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb8a6c9-e15f-481e-83da-683f337878d5")
 	)
 	(wire
 		(pts
@@ -3168,6 +3174,17 @@
 			(justify left)
 		)
 		(uuid "b58541e8-0ade-4d8c-91ee-8230808926a2")
+	)
+	(hierarchical_label "TP2"
+		(shape tri_state)
+		(at 121.92 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d124a0c2-bf23-4e11-9e2f-9dfd80680097")
 	)
 	(symbol
 		(lib_id "Device:C")

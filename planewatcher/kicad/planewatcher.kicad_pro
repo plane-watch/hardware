@@ -826,7 +826,7 @@
         "uuid": "7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
       }
     ],
-    "used_designators": "#PWR30,C61,R34,R44-45",
+    "used_designators": "#FLG7-8,D1,D5,#PWR31-36,C4-6,R34-36,R46,U2",
     "variants": []
   },
   "sheets": [
@@ -876,7 +876,7 @@
     ],
     [
       "688449b3-e085-4d3d-9010-5bd7bcac8461",
-      "RF_Input_Protection"
+      "RF_Input"
     ],
     [
       "8d837c64-f9ae-4d10-9c5f-d514a90db394",

@@ -1972,13 +1972,14 @@
 		)
 		(uuid "e3bf5b60-84e1-4ece-9603-3e812fe764e5")
 	)
-	(text "20kΩ sets Ishort to 350mA"
+	(text "Sets ~350 mA normal current-limit threshold"
 		(exclude_from_sim no)
-		(at 109.728 117.602 0)
+		(at 96.52 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "f652ddba-baa5-4da0-bf58-1c3b990b7c00")
 	)
@@ -2293,16 +2294,6 @@
 			(type default)
 		)
 		(uuid "fdf4e222-8089-4c06-a5b1-f5c86909188b")
-	)
-	(label "VIN"
-		(at 36.83 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "57d44d62-95aa-4a96-bd42-6d55f7e3887f")
 	)
 	(hierarchical_label "BIAS-TEE_VCC"
 		(shape input)
@@ -2628,7 +2619,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20kΩ"
+		(property "Value" "75kΩ"
 			(at 96.52 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
