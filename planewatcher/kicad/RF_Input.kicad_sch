@@ -3429,6 +3429,17 @@
 				)
 			)
 		)
+		(property "Package" "0603"
+			(at 102.87 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4fa3ce79-3ae4-49c2-bfaa-535bf5adcf27")
 		)
@@ -4074,7 +4085,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 169.2148 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4728,6 +4739,17 @@
 			)
 		)
 		(property "lcsc_id" "C7371905"
+			(at 73.66 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603"
 			(at 73.66 111.76 90)
 			(hide yes)
 			(show_name no)
