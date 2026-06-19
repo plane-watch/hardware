@@ -659,6 +659,12 @@
           "show": true
         },
         {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
           "group_by": false,
           "label": "Value",
           "name": "Value",
@@ -704,13 +710,7 @@
           "group_by": false,
           "label": "Notes",
           "name": "Notes",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -770,7 +770,7 @@
           "group_by": false,
           "label": "Design Notes",
           "name": "Design Notes",
-          "show": true
+          "show": false
         }
       ],
       "filter_string": "",
@@ -821,7 +821,7 @@
         "uuid": "7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C62-63,#PWR25,#PWR37-44,D5,R33,R47-49,J1,U3-4",
     "variants": []
   },
   "sheets": [
