@@ -4099,6 +4099,12 @@
 		(uuid "663ce8f1-c9f0-418c-b090-ce20d0dcbab1")
 	)
 	(junction
+		(at 62.23 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72580dfc-a784-43ae-971e-c8c4359cd9c4")
+	)
+	(junction
 		(at 120.65 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4926,6 +4932,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 22.86) (xy 66.04 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea16a6b-1fa4-4b04-908d-a5d6654f5323")
+	)
+	(wire
+		(pts
 			(xy 193.04 85.09) (xy 199.39 85.09)
 		)
 		(stroke
@@ -5323,6 +5339,16 @@
 			(type default)
 		)
 		(uuid "850372ac-9b32-46b4-970d-b6105165ceb4")
+	)
+	(wire
+		(pts
+			(xy 208.28 43.18) (xy 226.06 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88082d9b-9535-42d4-a5b8-d89658358793")
 	)
 	(wire
 		(pts
@@ -5986,7 +6012,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 22.86) (xy 66.04 22.86)
+			(xy 57.15 22.86) (xy 62.23 22.86)
 		)
 		(stroke
 			(width 0)
@@ -6243,6 +6269,16 @@
 			(justify right bottom)
 		)
 		(uuid "0e24843a-85f0-4179-8596-77a44cedac29")
+	)
+	(label "4V5"
+		(at 208.28 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17fd1aad-07b4-4dae-8638-8d6c2fc76e5d")
 	)
 	(label "FPGA_Y18"
 		(at 270.51 86.36 180)
@@ -9186,6 +9222,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3VADC")
+		(at 62.23 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "78b77e51-b3ae-40f9-ac3c-b9b5ea6de96a")
+		(property "Reference" "#PWR043"
+			(at 66.04 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4V5"
+			(at 62.23 18.796 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VADC\""
+			(at 62.23 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d20133cb-41f9-427a-bc2e-b9bdf57da5c1")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 73.66 173.99 0)
 		(unit 1)
@@ -11856,16 +11969,6 @@
 				(justify right)
 			)
 		)
-		(pin "VCC" input
-			(at 226.06 39.37 180)
-			(uuid "43f142c4-97a4-47b6-a375-b9f9543cbc66")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "RF_IN" input
 			(at 238.76 33.02 90)
 			(uuid "48a6b98f-9e5f-48fe-8e7f-043d0dfd379f")
@@ -11904,6 +12007,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 226.06 39.37 180)
+			(uuid "51292c47-2274-4b62-9413-85a963f22b2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "4V5" input
+			(at 226.06 43.18 180)
+			(uuid "cd3091cb-5114-41f3-a808-b5eac0cec5f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
