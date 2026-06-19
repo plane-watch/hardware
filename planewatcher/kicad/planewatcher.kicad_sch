@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher")
-		(date "2026-06-18")
+		(date "2026-06-19")
 		(rev "prototype 1.3")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
@@ -10640,7 +10640,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "c62a1275-4d62-49be-acdc-c0eba61d1bbd")
 		(property "Reference" "J2"
 			(at 22.1096 78.74 0)
@@ -10662,7 +10662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 21.59 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10684,7 +10684,7 @@
 				)
 			)
 		)
-		(property "Description" "Right-angle edge-mount SMA jack, 50Ω RF connector"
+		(property "Description" "Hirose U.FL-R-SMT-1, 50Ω RF connector"
 			(at 21.59 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10695,7 +10695,7 @@
 				)
 			)
 		)
-		(property "Package" "SMA edge-mount"
+		(property "Package" ""
 			(at 21.59 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10706,7 +10706,7 @@
 				)
 			)
 		)
-		(property "MPN" "132289"
+		(property "MPN" ""
 			(at 21.59 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10717,7 +10717,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Amphenol RF"
+		(property "Manufacturer" ""
 			(at 21.59 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10750,7 +10750,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C3172723"
+		(property "lcsc_id" ""
 			(at 21.59 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -11077,7 +11077,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "f6d2c189-906e-47bf-8a89-d0858b45dc03")
 		(property "Reference" "J6"
 			(at 217.6896 21.59 0)
@@ -11099,7 +11099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 217.17 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11121,7 +11121,7 @@
 				)
 			)
 		)
-		(property "Description" "Right-angle edge-mount SMA jack, 50Ω RF connector"
+		(property "Description" "Hirose U.FL-R-SMT-1, 50Ω RF connector"
 			(at 217.17 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11132,7 +11132,7 @@
 				)
 			)
 		)
-		(property "Package" "SMA edge-mount"
+		(property "Package" ""
 			(at 217.17 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11143,7 +11143,7 @@
 				)
 			)
 		)
-		(property "MPN" "132289"
+		(property "MPN" ""
 			(at 217.17 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11154,7 +11154,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Amphenol RF"
+		(property "Manufacturer" ""
 			(at 217.17 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11187,7 +11187,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C3172723"
+		(property "lcsc_id" ""
 			(at 217.17 27.94 0)
 			(hide yes)
 			(show_name no)
