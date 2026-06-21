@@ -3432,6 +3432,17 @@
 				)
 			)
 		)
+		(property "Purpose" "Feedback resistor capacitor, Cf from AD8138 datasheet, figure 42"
+			(at 187.96 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ae907a14-6257-44ee-a576-040d6c2b2654")
 		)
@@ -3875,6 +3886,61 @@
 				)
 			)
 		)
+		(property "MPN" "OPA2320AIDRGT"
+			(at 111.76 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 111.76 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "SON-8-EP(3x3)"
+			(at 111.76 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Two channel, high-precision, low-noise, RRIO, CMOS operational amplifiers with shutdown function"
+			(at 111.76 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C2057346"
+			(at 111.76 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "9305a6e2-15b9-4498-8717-2f5c1b1b2631")
 		)
@@ -4100,6 +4166,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 102.87 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Feedback resistor capacitor, Cf from AD8138 datasheet, figure 42"
 			(at 102.87 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5244,29 +5321,84 @@
 				)
 			)
 		)
+		(property "MPN" "OPA2320AIDRGT"
+			(at 250.19 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 250.19 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "SON-8-EP(3x3)"
+			(at 250.19 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Two channel, high-precision, low-noise, RRIO, CMOS operational amplifiers with shutdown function"
+			(at 250.19 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C2057346"
+			(at 250.19 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
-			(uuid "9305a6e2-15b9-4498-8717-2f5c1b1b2631")
+			(uuid "9305a6e2-15b9-4498-8717-2f5c1b1b2632")
 		)
 		(pin "6"
-			(uuid "7882537d-c0da-4c7a-80ca-9c4cdcd083b3")
+			(uuid "7882537d-c0da-4c7a-80ca-9c4cdcd083b4")
 		)
 		(pin "1"
-			(uuid "94a6c403-b14a-4082-8bcb-b7aea34df2a2")
+			(uuid "94a6c403-b14a-4082-8bcb-b7aea34df2a3")
 		)
 		(pin "8"
-			(uuid "ba0a85bd-2784-4e8c-beb5-5652e4894af2")
+			(uuid "ba0a85bd-2784-4e8c-beb5-5652e4894af3")
 		)
 		(pin "4"
-			(uuid "cf7fcb09-5b62-41dc-a518-821b7e619348")
+			(uuid "cf7fcb09-5b62-41dc-a518-821b7e619349")
 		)
 		(pin "2"
-			(uuid "3d0346fc-7114-4f7a-ba1c-18d88255d776")
+			(uuid "3d0346fc-7114-4f7a-ba1c-18d88255d777")
 		)
 		(pin "5"
-			(uuid "aba8fcd0-5d7b-48eb-a679-d5ee876fb421")
+			(uuid "aba8fcd0-5d7b-48eb-a679-d5ee876fb422")
 		)
 		(pin "3"
-			(uuid "ffcb965e-6aca-436c-b0af-e531232d1ac0")
+			(uuid "ffcb965e-6aca-436c-b0af-e531232d1ac1")
 		)
 		(instances
 			(project "planewatcher"
@@ -5771,7 +5903,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C481918.pdf"
 			(at 203.2 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -5782,7 +5914,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 100kΩ ±1% 63mW 0402"
 			(at 203.2 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -5794,6 +5926,50 @@
 			)
 		)
 		(property "Purpose" "Series resistor in low-pass filter to output noise floor"
+			(at 203.2 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRCW0402100KFKED"
+			(at 203.2 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "VISHAY"
+			(at 203.2 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 203.2 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C481918"
 			(at 203.2 41.91 90)
 			(hide yes)
 			(show_name no)

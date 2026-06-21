@@ -773,12 +773,12 @@
           "show": false
         }
       ],
-      "filter_string": "R5",
+      "filter_string": "",
       "group_symbols": false,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "${DNP}"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -821,7 +821,7 @@
         "uuid": "7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
       }
     ],
-    "used_designators": "U3,TP2,#PWR45,#PWR47,#PWR50-51,R48,R50-51,C7-9,C64-65",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

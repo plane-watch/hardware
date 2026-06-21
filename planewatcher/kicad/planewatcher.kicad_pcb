@@ -4882,7 +4882,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C65"
-			(at 2.31 0.01 90)
+			(at 2.21 0.085 90)
 			(layer "F.SilkS")
 			(uuid "af6c122f-77f4-443a-a625-e0285897fad8")
 			(effects
@@ -13138,7 +13138,7 @@
 		(descr "TSSOP, 28 Pin (JEDEC MO-153 Var AE https://www.jedec.org/document_search?search_api_views_fulltext=MO-153)")
 		(tags "TSSOP SO")
 		(property "Reference" "U11"
-			(at 0 -0.0475 0)
+			(at 4.411159 3.9682 0)
 			(layer "F.SilkS")
 			(uuid "dc1072ec-ed9a-4127-bfc1-3fbe35a7542d")
 			(effects
@@ -15444,7 +15444,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP13"
-			(at -2.35 0.46 0)
+			(at -2.23 0.46 0)
 			(layer "F.SilkS")
 			(uuid "fe890642-621b-4add-84a1-0d344b2b19cb")
 			(effects
@@ -15793,7 +15793,7 @@
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf)")
 		(tags "SOIC SO")
 		(property "Reference" "U10"
-			(at 0.17 -0.08 270)
+			(at 4.461159 1.7482 0)
 			(layer "F.SilkS")
 			(uuid "82dcc76e-c06e-4f79-b99f-b65aa59e1b39")
 			(effects
@@ -20090,7 +20090,7 @@
 		(descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x20 2.54mm double row")
 		(property "Reference" "J5"
-			(at -0.546159 -2.1282 90)
+			(at -0.456159 -2.0082 90)
 			(layer "F.SilkS")
 			(uuid "7d7123cf-e753-4c00-8d7b-47ce999c844f")
 			(effects
@@ -45070,15 +45070,6 @@
 		(uuid "139d9714-0806-41f2-8174-518382c04ced")
 	)
 	(via
-		(at 190 100)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "GND")
-		(uuid "13ff7165-6805-45e3-b459-e5b4fc763c6f")
-	)
-	(via
 		(at 135.16 99.32)
 		(size 0.45)
 		(drill 0.2)
@@ -50679,15 +50670,6 @@
 		(free yes)
 		(net "GND")
 		(uuid "6dadaec9-7d6d-4174-8569-bedf171d2548")
-	)
-	(via
-		(at 190 90)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "GND")
-		(uuid "6dce4323-4ac5-43ef-88fe-f682d79053e8")
 	)
 	(via
 		(at 133.9882 70.138841)
@@ -58470,15 +58452,6 @@
 		(free yes)
 		(net "GND")
 		(uuid "edcdea36-ba23-48b1-9a37-ba7d2beb790d")
-	)
-	(via
-		(at 187.5 100)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "GND")
-		(uuid "ee2828cf-7f94-4f7c-8916-76ca4e56172d")
 	)
 	(via
 		(at 179.81 82.86)
