@@ -2786,6 +2786,26 @@
 		)
 		(uuid "85c556dc-2f5a-4aa7-8de8-126c2bfc3b5e")
 	)
+	(text_box "Buffers the GPS TIMEPULSE signal and provides enough output current to drive the external 1PPS coax output.\nChannel A drives the coax connector.\nChannel B drives the PPS LED."
+		(exclude_from_sim no)
+		(at 143.51 80.01 0)
+		(size 114.3 58.42)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef8224e8-ba5f-4863-bcf3-d017672865d8")
+	)
 	(junction
 		(at 101.6 53.34)
 		(diameter 0)
@@ -2802,13 +2822,7 @@
 		(at 138.43 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "64f8dcc4-fb91-4753-9252-a36d931a9c8b")
-	)
-	(junction
-		(at 154.94 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77f97672-3610-4ed0-ac91-088634fa0c87")
+		(uuid "51400f25-dab2-4062-8024-9d9633645f24")
 	)
 	(junction
 		(at 71.12 63.5)
@@ -2835,10 +2849,16 @@
 		(uuid "8fa75ed6-3e93-496d-a579-db58becf1a59")
 	)
 	(junction
-		(at 138.43 140.97)
+		(at 138.43 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bff7b390-2e9b-4022-91a5-59383bed8379")
+	)
+	(junction
+		(at 154.94 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3fa304c-1cac-4be8-997e-30fd047249f5")
 	)
 	(junction
 		(at 85.09 53.34)
@@ -3002,7 +3022,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 124.46) (xy 170.18 124.46)
+			(xy 186.69 120.65) (xy 170.18 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3122,7 +3142,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 152.4) (xy 138.43 154.94)
+			(xy 138.43 160.02) (xy 138.43 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3132,7 +3152,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 140.97) (xy 138.43 144.78)
+			(xy 138.43 148.59) (xy 138.43 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3142,7 +3162,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 115.57) (xy 170.18 124.46)
+			(xy 170.18 115.57) (xy 170.18 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3202,7 +3222,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 115.57) (xy 138.43 140.97)
+			(xy 138.43 115.57) (xy 138.43 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3382,7 +3402,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 140.97) (xy 161.29 140.97)
+			(xy 158.75 148.59) (xy 161.29 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3392,7 +3412,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 140.97) (xy 151.13 140.97)
+			(xy 138.43 148.59) (xy 151.13 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3412,7 +3432,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 124.46) (xy 204.47 124.46)
+			(xy 215.9 120.65) (xy 210.82 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3422,7 +3442,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 124.46) (xy 196.85 124.46)
+			(xy 194.31 120.65) (xy 203.2 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3432,7 +3452,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 83.82) (xy 154.94 83.82)
+			(xy 151.13 83.82) (xy 154.94 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3534,7 +3554,7 @@
 	)
 	(hierarchical_label "4V5"
 		(shape input)
-		(at 148.59 83.82 180)
+		(at 151.13 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3578,7 +3598,7 @@
 	)
 	(hierarchical_label "PPS"
 		(shape output)
-		(at 161.29 140.97 0)
+		(at 161.29 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3959,7 +3979,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 200.66 124.46 270)
+		(at 207.01 120.65 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3971,7 +3991,7 @@
 		(fields_autoplaced yes)
 		(uuid "16f93e7a-f6ba-4b66-937d-06f9ea4fdcac")
 		(property "Reference" "R32"
-			(at 200.66 118.11 90)
+			(at 207.01 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3981,7 +4001,7 @@
 			)
 		)
 		(property "Value" "2.2kΩ"
-			(at 200.66 120.65 90)
+			(at 207.01 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3991,7 +4011,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 200.66 126.238 90)
+			(at 207.01 122.428 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4002,7 +4022,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4202009.pdf"
-			(at 200.66 124.46 0)
+			(at 207.01 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4013,7 +4033,7 @@
 			)
 		)
 		(property "Description" "RES 2.2kΩ ±5% 0.063W 0402"
-			(at 200.66 124.46 0)
+			(at 207.01 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4024,7 +4044,7 @@
 			)
 		)
 		(property "MPN" "CRCW04022K20JNED"
-			(at 200.66 124.46 90)
+			(at 207.01 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4035,7 +4055,7 @@
 			)
 		)
 		(property "Manufacturer" "VISHAY"
-			(at 200.66 124.46 90)
+			(at 207.01 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4046,7 +4066,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 200.66 124.46 90)
+			(at 207.01 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4057,7 +4077,7 @@
 			)
 		)
 		(property "Purpose" "LED current-limiting resistor. Sets the 1PPS indicator brightness and keeps LED current low."
-			(at 200.66 124.46 90)
+			(at 207.01 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4068,7 +4088,7 @@
 			)
 		)
 		(property "lcsc_id" "C4202009"
-			(at 200.66 124.46 90)
+			(at 207.01 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4746,7 +4766,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 154.94 140.97 90)
+		(at 154.94 148.59 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4757,7 +4777,7 @@
 		(fields_autoplaced yes)
 		(uuid "54395c4f-8dde-4acf-ac1a-c77d9f0de467")
 		(property "Reference" "R21"
-			(at 154.94 134.62 90)
+			(at 154.94 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4767,7 +4787,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 154.94 137.16 90)
+			(at 154.94 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4777,7 +4797,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 154.94 142.748 90)
+			(at 154.94 150.368 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4788,7 +4808,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 154.94 140.97 0)
+			(at 154.94 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4799,7 +4819,7 @@
 			)
 		)
 		(property "Description" "33 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 154.94 140.97 0)
+			(at 154.94 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4810,7 +4830,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0733RL"
-			(at 154.94 140.97 90)
+			(at 154.94 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4821,7 +4841,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 154.94 140.97 90)
+			(at 154.94 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4832,7 +4852,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 154.94 140.97 90)
+			(at 154.94 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4843,7 +4863,7 @@
 			)
 		)
 		(property "Purpose" "Small series resistor feeding FPGA PPS input. Provides edge damping and modest input protection for the FPGA GPIO path."
-			(at 154.94 140.97 90)
+			(at 154.94 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4854,7 +4874,7 @@
 			)
 		)
 		(property "lcsc_id" "C138002"
-			(at 154.94 140.97 90)
+			(at 154.94 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5016,7 +5036,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 138.43 148.59 0)
+		(at 138.43 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5027,7 +5047,7 @@
 		(fields_autoplaced yes)
 		(uuid "61342591-a6db-4041-b7d7-48acb1e339fd")
 		(property "Reference" "R47"
-			(at 140.97 147.3199 0)
+			(at 140.97 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5038,7 +5058,7 @@
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 140.97 149.8599 0)
+			(at 140.97 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5049,7 +5069,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 136.652 148.59 90)
+			(at 136.652 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5060,7 +5080,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C481918.pdf"
-			(at 138.43 148.59 0)
+			(at 138.43 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5071,7 +5091,7 @@
 			)
 		)
 		(property "Description" "RES 100kΩ ±1% 63mW 0402"
-			(at 138.43 148.59 0)
+			(at 138.43 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5082,7 +5102,7 @@
 			)
 		)
 		(property "Purpose" "Weak pulldown on raw GPS TIMEPULSE. Holds driver and FPGA input low if the GPS TIMEPULSE pin is high-impedance during reset/startup."
-			(at 138.43 148.59 0)
+			(at 138.43 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5093,7 +5113,7 @@
 			)
 		)
 		(property "MPN" "CRCW0402100KFKED"
-			(at 138.43 148.59 0)
+			(at 138.43 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5104,7 +5124,7 @@
 			)
 		)
 		(property "Manufacturer" "VISHAY"
-			(at 138.43 148.59 0)
+			(at 138.43 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5115,7 +5135,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 138.43 148.59 0)
+			(at 138.43 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5126,7 +5146,7 @@
 			)
 		)
 		(property "lcsc_id" "C481918"
-			(at 138.43 148.59 0)
+			(at 138.43 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5660,7 +5680,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 124.46 0)
+		(at 215.9 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5671,7 +5691,7 @@
 		(fields_autoplaced yes)
 		(uuid "8247a952-7200-470c-9cdb-a22c57a9f204")
 		(property "Reference" "#PWR025"
-			(at 209.55 130.81 0)
+			(at 215.9 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5682,7 +5702,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 129.54 0)
+			(at 215.9 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5692,7 +5712,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 124.46 0)
+			(at 215.9 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5703,7 +5723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 124.46 0)
+			(at 215.9 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5714,7 +5734,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 124.46 0)
+			(at 215.9 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5816,7 +5836,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 154.94 0)
+		(at 138.43 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5827,7 +5847,7 @@
 		(fields_autoplaced yes)
 		(uuid "90387f5f-be81-4bc2-9e2e-a63499be07f6")
 		(property "Reference" "#PWR042"
-			(at 138.43 161.29 0)
+			(at 138.43 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5838,7 +5858,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 160.02 0)
+			(at 138.43 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5848,7 +5868,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 154.94 0)
+			(at 138.43 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5859,7 +5879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 154.94 0)
+			(at 138.43 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5870,7 +5890,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 154.94 0)
+			(at 138.43 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7140,7 +7160,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 184.15 124.46 0)
+		(at 190.5 120.65 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7152,7 +7172,7 @@
 		(fields_autoplaced yes)
 		(uuid "fec2cd0d-48a7-4ea5-a706-ba8c5333a154")
 		(property "Reference" "LED6"
-			(at 185.7375 118.11 0)
+			(at 192.0875 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7162,7 +7182,7 @@
 			)
 		)
 		(property "Value" "PINK LED"
-			(at 185.7375 120.65 0)
+			(at 192.0875 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7172,7 +7192,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 184.15 124.46 0)
+			(at 190.5 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7183,7 +7203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 124.46 0)
+			(at 190.5 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7194,7 +7214,7 @@
 			)
 		)
 		(property "Description" "Pink LED Indication - Discrete 3.3V 0603"
-			(at 184.15 124.46 0)
+			(at 190.5 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7205,7 +7225,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 184.15 124.46 0)
+			(at 190.5 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7216,7 +7236,7 @@
 			)
 		)
 		(property "MPN" "XL-1608UPC-06"
-			(at 184.15 124.46 0)
+			(at 190.5 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7227,7 +7247,7 @@
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT"
-			(at 184.15 124.46 0)
+			(at 190.5 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7238,7 +7258,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 184.15 124.46 0)
+			(at 190.5 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7249,7 +7269,7 @@
 			)
 		)
 		(property "lcsc_id" "C2977076"
-			(at 184.15 124.46 0)
+			(at 190.5 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7260,7 +7280,7 @@
 			)
 		)
 		(property "Purpose" "Visual 1PPS activity indicator. Blinks when GPS TIMEPULSE is high."
-			(at 184.15 124.46 0)
+			(at 190.5 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1915,7 +1915,7 @@
 	(text_box "Unity-gain buffer for low-pass filter output"
 		(exclude_from_sim no)
 		(at 91.44 48.26 0)
-		(size 33.02 27.432)
+		(size 33.02 27.94)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2242,7 +2242,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 100.33) (xy 130.81 100.33)
+			(xy 133.35 100.33) (xy 129.54 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2332,7 +2332,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 100.33) (xy 130.81 58.42)
+			(xy 129.54 100.33) (xy 129.54 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2422,7 +2422,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 58.42) (xy 138.43 58.42)
+			(xy 129.54 58.42) (xy 138.43 58.42)
 		)
 		(stroke
 			(width 0)
