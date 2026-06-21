@@ -4602,16 +4602,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 90.17) (xy 233.68 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "295be79f-83fd-4843-b0e9-d213eef232b8")
-	)
-	(wire
-		(pts
 			(xy 22.86 191.77) (xy 38.1 191.77)
 		)
 		(stroke
@@ -12201,7 +12191,7 @@
 	)
 	(sheet
 		(at 199.39 77.47)
-		(size 27.94 15.24)
+		(size 27.94 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -12227,7 +12217,7 @@
 			)
 		)
 		(property "Sheetfile" "ADC_Driver.kicad_sch"
-			(at 199.39 93.2946 0)
+			(at 199.39 88.2146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12275,16 +12265,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "ADC_OFFSET" input
-			(at 227.33 90.17 0)
-			(uuid "eb1e5d56-1883-4413-b78c-f35be79e880f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
@@ -12728,16 +12708,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "VREF" output
-			(at 233.68 90.17 180)
-			(uuid "88fd9b28-f664-41c2-9a53-8eba3ed15536")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances

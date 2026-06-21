@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.305,
-          "width": 0.813
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -773,7 +773,7 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "R5",
       "group_symbols": false,
       "include_excluded_from_bom": true,
       "name": "",
@@ -821,7 +821,7 @@
         "uuid": "7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
       }
     ],
-    "used_designators": "C7-8",
+    "used_designators": "U3,TP2,#PWR45,#PWR47,#PWR50-51,R48,R50-51,C7-9,C64-65",
     "variants": []
   },
   "sheets": [

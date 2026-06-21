@@ -2195,16 +2195,16 @@
 		(uuid "ed84095b-3d98-47f7-90da-0ac836ae2e15")
 	)
 	(junction
-		(at 135.89 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01ae845e-1b54-464e-baf2-586ae9700705")
-	)
-	(junction
 		(at 45.72 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09b9d4dc-81f0-43bb-8934-91a50318253a")
+	)
+	(junction
+		(at 135.89 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f187b61-d048-4b67-a2d6-e7e71ca114bd")
 	)
 	(junction
 		(at 59.69 62.23)
@@ -2253,12 +2253,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7fcf287-4c78-4fd7-a16e-651f43b56884")
-	)
-	(junction
-		(at 128.27 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba9b6273-6272-4dd9-8760-7975a7b1c453")
 	)
 	(junction
 		(at 107.95 62.23)
@@ -2343,16 +2337,6 @@
 			(type default)
 		)
 		(uuid "0a18b53a-225e-4f46-953c-8f1db35eb834")
-	)
-	(wire
-		(pts
-			(xy 128.27 97.79) (xy 135.89 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c6ecc87-ac42-4baa-891b-bd44567b077c")
 	)
 	(wire
 		(pts
@@ -2826,6 +2810,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 97.79) (xy 148.59 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cce27958-43ca-44bb-87d1-a5c9f654dfd9")
+	)
+	(wire
+		(pts
 			(xy 64.77 90.17) (xy 69.85 90.17)
 		)
 		(stroke
@@ -2886,23 +2880,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 97.79) (xy 128.27 97.79)
+			(xy 121.92 97.79) (xy 135.89 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e40563f1-3bad-406c-81a4-331d580f2abc")
-	)
-	(wire
-		(pts
-			(xy 148.59 97.79) (xy 135.89 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e95a1401-77f6-4c85-969d-e047fa700309")
 	)
 	(wire
 		(pts
@@ -3050,17 +3034,6 @@
 			(justify left)
 		)
 		(uuid "5c278739-070f-4e6d-ba40-762cacd4233f")
-	)
-	(hierarchical_label "VREF"
-		(shape output)
-		(at 148.59 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5fd5fc5c-6a71-4acb-84a8-fde73daa36aa")
 	)
 	(hierarchical_label "D8"
 		(shape output)
@@ -4030,7 +4003,8 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 128.27 97.79 0)
+		(at 148.59 97.79 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4038,10 +4012,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "74b20e00-9c46-4e50-a012-448c5a7a3325")
 		(property "Reference" "TP21"
-			(at 130.81 93.2179 0)
+			(at 151.13 102.3621 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4052,7 +4025,7 @@
 			)
 		)
 		(property "Value" "VREF"
-			(at 130.81 95.7579 0)
+			(at 151.13 99.8221 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4063,7 +4036,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 133.35 97.79 0)
+			(at 153.67 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4074,7 +4047,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 97.79 0)
+			(at 153.67 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4085,7 +4058,7 @@
 			)
 		)
 		(property "Description" "PCB copper test pad, 1.0mm, no fitted component"
-			(at 128.27 97.79 0)
+			(at 148.59 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4096,7 +4069,7 @@
 			)
 		)
 		(property "Purpose" "Provides oscilloscope/DMM probe access to VREF."
-			(at 128.27 97.79 0)
+			(at 148.59 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
