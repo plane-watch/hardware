@@ -577,49 +577,51 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "U2 Conns",
-        "pattern": "*U2*"
-      },
-      {
-        "netclass": "U2 Conns",
-        "pattern": "*AVDD"
-      },
-      {
-        "netclass": "U2 Conns",
-        "pattern": "*VOCM"
-      },
-      {
-        "netclass": "LT8608_PWR",
-        "pattern": "*U3*"
-      },
-      {
-        "netclass": "Default",
-        "pattern": ""
-      },
-      {
-        "netclass": "RF_50Ω",
-        "pattern": "/LNA_Stage_1/RF_IN"
-      },
-      {
-        "netclass": "RF_50Ω",
-        "pattern": "/GPS Module/RF_IN"
-      },
-      {
-        "netclass": "ADC_DIFF_PAIR",
-        "pattern": "/ADC/AINN"
-      },
-      {
-        "netclass": "ADC_DIFF_PAIR",
-        "pattern": "/ADC/AINP"
-      },
-      {
-        "netclass": "RF_50Ω",
-        "pattern": "/L(NA_Stage_1/RF_IN|NA_Stage_1/RF_OUT|NA_Stage_2/RF_IN|NA_Stage_2/RF_OUT|og_Detector/RF_IN)"
-      }
-    ]
+    "netclass_assignments": {
+      "/GPS Module/RF_IN": [
+        "RF_50Ω"
+      ],
+      "/LNA_Stage_1/RF_IN": [
+        "RF_50Ω"
+      ],
+      "/LNA_Stage_1/RF_OUT": [
+        "RF_50Ω"
+      ],
+      "/LNA_Stage_2/RF_IN": [
+        "RF_50Ω"
+      ],
+      "/LNA_Stage_2/RF_OUT": [
+        "RF_50Ω"
+      ],
+      "/Log_Detector/RF_IN": [
+        "RF_50Ω"
+      ],
+      "Net-(C42-Pad1)": [
+        "RF_50Ω"
+      ],
+      "Net-(D5-A1)": [
+        "RF_50Ω"
+      ],
+      "Net-(U7-RF_In)": [
+        "RF_50Ω"
+      ],
+      "Net-(U7-RF_Out)": [
+        "RF_50Ω"
+      ],
+      "Net-(U8-RF_In)": [
+        "RF_50Ω"
+      ],
+      "Net-(U8-RF_Out)": [
+        "RF_50Ω"
+      ],
+      "Net-(U9-INHI)": [
+        "RF_50Ω"
+      ],
+      "Net-(U9-INLO)": [
+        "RF_50Ω"
+      ]
+    },
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {

@@ -2084,6 +2084,12 @@
 		(uuid "f8bedf50-1107-4f90-aff2-acc9f9a7ae85")
 	)
 	(junction
+		(at 203.2 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16f38e22-4700-41a0-adfb-61868caac558")
+	)
+	(junction
 		(at 116.84 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2124,12 +2130,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c13a2cf6-4c4c-41e7-af17-53c6e8a181f6")
-	)
-	(junction
-		(at 203.2 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d03708c6-0554-4462-80d2-725b4d4acdd2")
 	)
 	(wire
 		(pts
@@ -2220,6 +2220,16 @@
 			(type default)
 		)
 		(uuid "5386b10f-551b-4aeb-abb6-b236a006b3f3")
+	)
+	(wire
+		(pts
+			(xy 203.2 58.42) (xy 203.2 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "554ef463-a53e-4a9f-a02e-bfb9b7320d4e")
 	)
 	(wire
 		(pts
@@ -2320,16 +2330,6 @@
 			(type default)
 		)
 		(uuid "86475f46-33f9-4991-913e-4d54278b7c1c")
-	)
-	(wire
-		(pts
-			(xy 203.2 58.42) (xy 203.2 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97396f40-2575-4e39-811c-246b9c7aedac")
 	)
 	(wire
 		(pts
@@ -2495,6 +2495,41 @@
 			(justify left)
 		)
 		(uuid "ece5d8d8-689e-486f-a699-78c58b7392e4")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 203.2 60.96 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7dcdb6b9-17fb-44c0-b0bc-4cd047bbc931")
+		(property "Net Class" "RF_50Ω"
+			(at 205.74 61.6585 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 72.39 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
