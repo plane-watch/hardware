@@ -433,219 +433,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Potentiometer_Trim"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Potentiometer_Trim"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Trim-potentiometer"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "POT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "resistor variable trimpot trimmer"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_Trim_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.762) (xy 1.524 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_Trim_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "planewatcher:ADL5513"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2054,15 +1841,14 @@
 		)
 		(uuid "7b70c4d9-95d6-4f05-8a5d-318c39affb82")
 	)
-	(text_box "Voltage divider to set TADJ pin for optimum performance depending on frequency.\n\nFor first prototype, a trimmer is included to allow precise tuning from a 3.32V VPOS rail.\nTrimmer at minimum: 0.8017V\nTrimmer at maximum: 0.8713V\n\nThis allows tuning between 900MHz & 1.9GHz from table 4 in datasheet (see inset).\n\nReplace with simple voltage divider when optimum TADJ voltage is known."
+	(text_box "Fixed voltage divider sets the ADL5513 TADJ pin to approximately 0.85 V for 1090 MHz operation.\n\nTADJ provides temperature compensation bias for the log detector. It is not a pulse-amplitude or gain adjustment.\n\nNominal divider target:\nTADJ = ~0.85 V from VPOS\n\nThis value is based on the datasheet guidance near 900 MHz and is suitable for this fixed-frequency 1090 MHz application.\n\nThe capacitor to ground provides local bypassing for the TADJ bias node.\n\nIf future temperature testing shows excessive VOUT drift, the divider values may be adjusted to optimise VTADJ for this board and operating frequency.\n"
 		(exclude_from_sim no)
-		(at 196.85 81.28 0)
-		(size 35.56 81.28)
+		(at 194.31 81.28 0)
+		(size 64.77 73.66)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
-			(color 255 0 0 1)
 		)
 		(fill
 			(type none)
@@ -2070,7 +1856,6 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 255 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -2117,12 +1902,6 @@
 		(uuid "ff2c9a7e-6425-46ca-b3e1-0c6be62772e7")
 	)
 	(junction
-		(at 220.98 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "089444fe-d8d1-45e2-b533-bbafd085bdd9")
-	)
-	(junction
 		(at 186.69 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2157,6 +1936,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ac022b3-8a72-47c0-8870-99c0c25e675f")
+	)
+	(junction
+		(at 220.98 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4eef6bd4-460c-4678-9e66-53abd782a6b9")
 	)
 	(junction
 		(at 199.39 100.33)
@@ -2235,12 +2020,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d290ad30-43b3-495e-8390-d829f9e92825")
-	)
-	(junction
-		(at 220.98 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7261e4f-28b0-4b20-8f29-aea9ef5573aa")
 	)
 	(junction
 		(at 138.43 93.98)
@@ -2396,16 +2175,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 106.68) (xy 220.98 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45dc6d75-0396-4bfd-be77-944a8a112a1b")
-	)
-	(wire
-		(pts
 			(xy 179.07 118.11) (xy 175.26 118.11)
 		)
 		(stroke
@@ -2513,16 +2282,6 @@
 			(type default)
 		)
 		(uuid "75784e4d-70f2-4a5f-9172-3563a038c783")
-	)
-	(wire
-		(pts
-			(xy 220.98 102.87) (xy 220.98 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77bdcfe9-0431-4702-8717-bd4176cc20bd")
 	)
 	(wire
 		(pts
@@ -2686,16 +2445,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 102.87) (xy 220.98 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfb1d94c-0a13-424e-bd1b-ff15c775140c")
-	)
-	(wire
-		(pts
 			(xy 186.69 90.17) (xy 186.69 92.71)
 		)
 		(stroke
@@ -2793,16 +2542,6 @@
 			(type default)
 		)
 		(uuid "ee3245bf-90ff-4134-8f82-91df5540102e")
-	)
-	(wire
-		(pts
-			(xy 218.44 106.68) (xy 220.98 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f52e52ff-bda8-4607-9824-24b7fdf5d40e")
 	)
 	(wire
 		(pts
@@ -3780,7 +3519,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 118.11 0)
+		(at 220.98 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3791,7 +3530,7 @@
 		(fields_autoplaced yes)
 		(uuid "07d862fc-cbba-40a4-b2ef-145fe432b384")
 		(property "Reference" "#PWR080"
-			(at 214.63 124.46 0)
+			(at 220.98 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3802,7 +3541,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 123.19 0)
+			(at 220.98 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3812,7 +3551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 118.11 0)
+			(at 220.98 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3823,7 +3562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 118.11 0)
+			(at 220.98 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3834,7 +3573,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 118.11 0)
+			(at 220.98 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4133,190 +3872,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/2b870c27-11be-4d09-9c58-83e75b33e075"
 					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_Trim")
-		(at 214.63 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f5b3fab-f011-493d-a8bf-e5d8f78d2b56")
-		(property "Reference" "RV1"
-			(at 212.09 105.4099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 212.09 107.9499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3224W_Vertical"
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/3224.pdf"
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1 kOhms 0.25W, 1/4W J Lead Surface Mount Trimmer Potentiometer Cermet 12.0 Turn Top Adjustment"
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "3224W (SMD trim pot)"
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "3224W-1-102E"
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Bourns Inc."
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "Allows prototype adjustment of the ADL5513 TADJ calibration voltage."
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "POT"
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" "For prototype: Voltage divider to set TADJ pin for optimum performance depending on frequency. "
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "lcsc_id" "C50204"
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "f3f479aa-c57e-4ee8-958e-973c0f10e1e3")
-		)
-		(pin "2"
-			(uuid "6d56b651-d0e4-4a51-a3ac-fc462329db9b")
-		)
-		(pin "1"
-			(uuid "585e7936-3770-4938-8cd6-52972cb4e842")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/2b870c27-11be-4d09-9c58-83e75b33e075"
-					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -6388,7 +5943,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "26.7kΩ"
+		(property "Value" "2.21kΩ"
 			(at 223.52 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6410,7 +5965,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+		(property "Datasheet" ""
 			(at 220.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6421,7 +5976,7 @@
 				)
 			)
 		)
-		(property "Description" "26.7 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
+		(property "Description" "2.21 kΩ, 1%, 100 ppm/°C, 0402"
 			(at 220.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6432,7 +5987,7 @@
 				)
 			)
 		)
-		(property "Package" "0402 (1005 Metric) "
+		(property "Package" "0402 (1005 Metric)"
 			(at 220.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6443,7 +5998,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ2RKF2672X"
+		(property "MPN" "ERJ2RKF2211X"
 			(at 220.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6465,7 +6020,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Upper resistor in the ADL5513 TADJ divider for 1090MHz detector calibration."
+		(property "Purpose" "Upper resistor in the ADL5513 TADJ divider"
 			(at 220.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6487,7 +6042,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C2077115"
+		(property "lcsc_id" "C416496"
 			(at 220.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6797,7 +6352,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 114.3 0)
+		(at 220.98 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6808,7 +6363,7 @@
 		(fields_autoplaced yes)
 		(uuid "c78c89f7-4780-4dc1-a5c1-548b9e2179bf")
 		(property "Reference" "R27"
-			(at 217.17 113.0299 0)
+			(at 223.52 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6818,8 +6373,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.45kΩ"
-			(at 217.17 115.5699 0)
+		(property "Value" "768Ω"
+			(at 223.52 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6830,7 +6385,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 212.852 114.3 90)
+			(at 219.202 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6840,8 +6395,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
-			(at 214.63 114.3 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3025660.pdf"
+			(at 220.98 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6851,8 +6406,8 @@
 				)
 			)
 		)
-		(property "Description" "8.45 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
-			(at 214.63 114.3 0)
+		(property "Description" "768 Ω,   1%, 100 ppm/°C, 0402"
+			(at 220.98 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6863,7 +6418,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 214.63 114.3 0)
+			(at 220.98 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6873,8 +6428,8 @@
 				)
 			)
 		)
-		(property "MPN" "RT0402BRD078K45L"
-			(at 214.63 114.3 0)
+		(property "MPN" "ERJ2RKF7680X"
+			(at 220.98 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6884,8 +6439,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 214.63 114.3 0)
+		(property "Manufacturer" "PANASONIC"
+			(at 220.98 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6895,8 +6450,8 @@
 				)
 			)
 		)
-		(property "Purpose" "Lower resistor in the ADL5513 TADJ divider for 1090MHz detector calibration."
-			(at 214.63 114.3 0)
+		(property "Purpose" "Lower resistor in the ADL5513 TADJ divider"
+			(at 220.98 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6907,7 +6462,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 214.63 114.3 0)
+			(at 220.98 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6917,8 +6472,8 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C728566"
-			(at 214.63 114.3 0)
+		(property "lcsc_id" "C3025660"
+			(at 220.98 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -9467,7 +9467,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BMI-S-209-F"
+		(property "Value" "BMI-S-209-F + C"
 			(at 195.58 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9522,7 +9522,7 @@
 				)
 			)
 		)
-		(property "MPN" "BMI-S-209-F"
+		(property "MPN" "BMI-S-209-F + BMI-S-209-C"
 			(at 179.07 100.33 0)
 			(hide yes)
 			(show_name no)

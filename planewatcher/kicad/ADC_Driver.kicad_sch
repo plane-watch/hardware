@@ -4672,7 +4672,7 @@
 				)
 			)
 		)
-		(property "Value" "AD8138ARZ"
+		(property "Value" "AD8138"
 			(at 147.955 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)

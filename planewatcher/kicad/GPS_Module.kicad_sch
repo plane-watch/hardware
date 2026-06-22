@@ -4632,7 +4632,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TC4427xOA"
+		(property "Value" "TC4427"
 			(at 157.0833 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)

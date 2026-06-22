@@ -4524,7 +4524,7 @@
 				)
 			)
 		)
-		(property "Value" "AD9203ARUZ"
+		(property "Value" "AD9203"
 			(at 83.82 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
