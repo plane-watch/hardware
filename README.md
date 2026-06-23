@@ -18,6 +18,8 @@ The first fabricated prototype (proto 1.2) worked, but had a few issues:
 
 Regardless of the issues, we were able to obtain a range of ~320km.
 
+![Animated GIF showing proto 1.2 in operation with blinky LEDs](assets/planewatcher_proto_1.3_running.gif)
+
 ![Polar range diagram from proto 1.2](assets/planewatcher_proto_1.3_polar_coverage_alt.png)
 
 In addition to the above, the next prototype (proto 1.3) has had some functionality improvements:
