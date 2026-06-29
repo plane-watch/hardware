@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.0,
+          "height": 0.64,
+          "width": 0.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -569,10 +569,19 @@
       "/Log_Detector/RF_IN": [
         "RF_50Ω"
       ],
+      "/RF_Input/RF_IN": [
+        "RF_50Ω"
+      ],
       "Net-(C42-Pad1)": [
         "RF_50Ω"
       ],
+      "Net-(C66-Pad1)": [
+        "RF_50Ω"
+      ],
       "Net-(D5-A1)": [
+        "RF_50Ω"
+      ],
+      "Net-(R37-Pad2)": [
         "RF_50Ω"
       ],
       "Net-(U7-RF_In)": [
@@ -796,7 +805,7 @@
         "uuid": "7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
       }
     ],
-    "used_designators": "RN1,J7",
+    "used_designators": "C66,R37-40,RN1,#PWR52-53,J7",
     "variants": []
   },
   "sheets": [
