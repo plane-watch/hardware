@@ -4279,7 +4279,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Two channel, high-precision, low-noise, RRIO, CMOS operational amplifiers with shutdown function"
+		(property "Purpose" "Dual high-precision, low-noise, RRIO CMOS operational amplifier. Non-shutdown OPA2320AIDRGT variant."
 			(at 111.76 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5970,7 +5970,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Two channel, high-precision, low-noise, RRIO, CMOS operational amplifiers with shutdown function"
+		(property "Purpose" "Dual high-precision, low-noise, RRIO CMOS operational amplifier. Non-shutdown OPA2320AIDRGT variant."
 			(at 250.19 77.47 0)
 			(hide yes)
 			(show_name no)

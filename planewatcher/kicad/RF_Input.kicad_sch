@@ -3917,7 +3917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric"
+		(property "Footprint" "planewatcher:ESD8472"
 			(at 149.86 83.82 0)
 			(hide yes)
 			(show_name no)
