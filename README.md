@@ -36,8 +36,6 @@ In addition to the above, the next prototype (proto 1.3) has had some functional
 
 ## Design
 
-![Proto 1.3 PCB marked up](assets/planewatcher_proto_1.3_explainer.png)
-
 The design consists of these parts:
 
 ### RF Input
