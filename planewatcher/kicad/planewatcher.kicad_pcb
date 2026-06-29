@@ -4232,7 +4232,7 @@
 				)
 			)
 		)
-		(property "Purpose" "RF bypass/matching capacitor in the 1090MHz LNA signal and supply network."
+		(property "Purpose" "RF AC-coupling/DC-blocking capacitor in the 1090 MHz LNA signal path."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4469,7 +4469,7 @@
 				)
 			)
 		)
-		(property "Purpose" "RF supply bypass/matching capacitor for the 1090MHz LNA stage."
+		(property "Purpose" "RF-frequency supply bypass capacitor for the TQP3M9036 LNA supply."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4943,7 +4943,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Feedback resistor capacitor, Cf from AD8138 datasheet, figure 42"
+		(property "Purpose" "Optional DNP AD8138 feedback capacitor (Cf) for bandwidth/stability tuning per datasheet guidance."
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5976,7 +5976,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Bias tee DC blocking cap before matching network"
+		(property "Purpose" "RF DC-blocking capacitor between the antenna/bias-tee node and the tunable input matching network."
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7046,7 +7046,7 @@
 				)
 			)
 		)
-		(property "Purpose" "ADL5513 slope adjustment, VSET to GND, populate if needed."
+		(property "Purpose" "Optional DNP VSET-to-ground resistor for alternate ADL5513 VSET bias/control experiments; leave unpopulated when R44 ties VOUT to VSET."
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7259,7 +7259,7 @@
 				)
 			)
 		)
-		(property "Purpose" "RF bypass/matching capacitor in the 1090MHz LNA signal and supply network."
+		(property "Purpose" "High-frequency/RF supply bypass capacitor for the TQP3M9036 LNA supply."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7968,7 +7968,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Provides low-capacitance ESD protection to chassis/board ground for GPS RF input."
+		(property "Purpose" "Low-capacitance ESD protection from GPS RF input to board ground."
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9522,7 +9522,7 @@
 				)
 			)
 		)
-		(property "Purpose" "ADL5513 slope adjustment, VOUT to VSET"
+		(property "Purpose" "0 ohm link tying VOUT to VSET to configure the ADL5513 for measurement/log-output mode."
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9970,7 +9970,7 @@
 				)
 			)
 		)
-		(property "Purpose" "RF bypass/matching capacitor in the 1090MHz LNA signal and supply network."
+		(property "Purpose" "RF AC-coupling/DC-blocking capacitor in the 1090 MHz LNA signal path."
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10910,7 +10910,7 @@
 				)
 			)
 		)
-		(property "Purpose" "AC-couples ADL5513 RF input pins while preserving the broadband input match."
+		(property "Purpose" "AC-grounds ADL5513 INLO for the single-ended RF input configuration."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12147,6 +12147,19 @@
 				)
 			)
 		)
+		(property "Purpose" "Provides oscilloscope/DMM probe access to the slow noise-floor/baseline node."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "340831cb-a0fc-4f35-89d2-6cfa22925772")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/cbd39e42-d959-46e0-ad78-463479feebd1/77b9e570-7d77-4a30-bdbe-246a75e21c96")
 		(sheetname "/ADC_Driver/")
@@ -12678,7 +12691,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Optional shunt capacitance for ADC-driver output and anti-alias response tuning."
+		(property "Purpose" "Shunt capacitor at the AD9203 differential input for ADC input filtering, settling, and anti-alias response tuning."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14188,7 +14201,7 @@
 				)
 			)
 		)
-		(property "Purpose" "AC-couples ADL5513 RF input pins while preserving the broadband input match."
+		(property "Purpose" "AC-couples the RF signal into ADL5513 INHI as part of the broadband input match."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15728,7 +15741,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Filters high-frequency switching noise on the low-noise regulator rail."
+		(property "Purpose" "Ferrite bead input filter feeding the LT3045 IN/EN node from 4V5; attenuates high-frequency switching noise before the low-noise regulator."
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15980,7 +15993,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Converts and buffers the detector output into a differential signal for the ADC."
+		(property "Purpose" "Fully differential ADC driver; converts the buffered detector signal relative to the slow baseline into a differential signal centered at VOCM for U11."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16709,6 +16722,19 @@
 				)
 			)
 		)
+		(property "Purpose" "Provides oscilloscope/DMM probe access to the filtered 3V3A analog rail."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58d1481c-3e3f-4f07-9df1-b72929748799")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/60506d33-14ce-437d-ae8b-1bf172789484")
 		(sheetname "/")
@@ -17430,7 +17456,7 @@
 				)
 			)
 		)
-		(property "Purpose" "RF supply bypass/matching capacitor for the 1090MHz LNA stage."
+		(property "Purpose" "RF-frequency supply bypass capacitor for the TQP3M9036 LNA supply."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19411,7 +19437,7 @@
 				)
 			)
 		)
-		(property "Purpose" "AD8138 input/output termination and gain-setting resistor for the differential ADC driver."
+		(property "Purpose" "Series output isolation/termination resistor between AD8138 output and AD9203 input; works with the shunt capacitor to tune ADC input filtering/settling."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22699,7 +22725,7 @@
 				)
 			)
 		)
-		(property "Purpose" "High freq bypass capacitor for the LT3045-1."
+		(property "Purpose" "High-frequency bypass capacitor on the filtered LT3045 input/EN node."
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23852,7 +23878,7 @@
 				)
 			)
 		)
-		(property "Purpose" "AD8138 input/output termination and gain-setting resistor for the differential ADC driver."
+		(property "Purpose" "Series output isolation/termination resistor between AD8138 output and AD9203 input; works with the shunt capacitor to tune ADC input filtering/settling."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24128,7 +24154,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Shunt capacitor in low-pass filter to output noise floor"
+		(property "Purpose" "Forms the slow low-pass baseline/noise-floor filter from VLOG_IN before buffering by U3B."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24365,7 +24391,7 @@
 				)
 			)
 		)
-		(property "Purpose" "ADL5513 CLPF capacitor"
+		(property "Purpose" "Optional DNP ADL5513 CLPF capacitor footprint for video-bandwidth/rise-time experiments; leave unpopulated for fastest ADS-B pulse response."
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24640,6 +24666,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "74fe45e7-9eb6-481a-bf71-0fb7e7fcad22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purpose" "GPS/GNSS timing receiver module. Receives GPS RF input, provides UART/control signals, and outputs TIMEPULSE for FPGA timing and external 1PPS buffering."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dee3f9fa-d70b-478d-80a8-c092d5e7dab5")
 			(effects
 				(font
 					(size 1 1)
@@ -25543,7 +25582,7 @@
 				)
 			)
 		)
-		(property "Purpose" "RF bypass/matching capacitor in the 1090MHz LNA signal and supply network."
+		(property "Purpose" "RF AC-coupling/DC-blocking capacitor in the 1090 MHz LNA signal path."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31237,7 +31276,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Series resistor in low-pass filter to output noise floor"
+		(property "Purpose" "Forms the slow low-pass baseline/noise-floor filter from VLOG_IN before buffering by U3B."
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31737,7 +31776,7 @@
 				)
 			)
 		)
-		(property "Purpose" "RF bypass/matching capacitor in the 1090MHz LNA signal and supply network."
+		(property "Purpose" "RF AC-coupling/DC-blocking capacitor in the 1090 MHz LNA signal path."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33479,7 +33518,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Feedback resistor capacitor, Cf from AD8138 datasheet, figure 42, populate if needed."
+		(property "Purpose" "Optional DNP AD8138 feedback capacitor (Cf) for bandwidth/stability tuning per datasheet guidance."
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35077,7 +35116,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Low freq bypass capacitor for the LT3045-1."
+		(property "Purpose" "Low-frequency bulk bypass capacitor on the filtered LT3045 input/EN node."
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36051,7 +36090,7 @@
 				)
 			)
 		)
-		(property "Purpose" "RF bypass/matching capacitor in the 1090MHz LNA signal and supply network."
+		(property "Purpose" "High-frequency/RF supply bypass capacitor for the TQP3M9036 LNA supply."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40060,7 +40099,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Optional shunt capacitance for ADC-driver output and anti-alias response tuning."
+		(property "Purpose" "Shunt capacitor at the AD9203 differential input for ADC input filtering, settling, and anti-alias response tuning."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
