@@ -5888,7 +5888,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Provides low-capacitance ESD protection to chassis/board ground for GPS RF input."
+		(property "Purpose" "Low-capacitance ESD protection from GPS RF input to board ground."
 			(at 107.95 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -6885,6 +6885,17 @@
 			)
 		)
 		(property "Description" "GNSS Module LEA M8, VCC 2.7V to 3.6V"
+			(at 78.74 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "GPS/GNSS timing receiver module. Receives GPS RF input, provides UART/control signals, and outputs TIMEPULSE for FPGA timing and external 1PPS buffering."
 			(at 78.74 88.9 0)
 			(hide yes)
 			(show_name no)

@@ -4830,7 +4830,7 @@
 				)
 			)
 		)
-		(property "Purpose" "AC-couples ADL5513 RF input pins while preserving the broadband input match."
+		(property "Purpose" "AC-grounds ADL5513 INLO for the single-ended RF input configuration."
 			(at 130.81 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5768,7 +5768,7 @@
 				)
 			)
 		)
-		(property "Purpose" "ADL5513 CLPF capacitor"
+		(property "Purpose" "Optional DNP ADL5513 CLPF capacitor footprint for video-bandwidth/rise-time experiments; leave unpopulated for fastest ADS-B pulse response."
 			(at 179.07 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6102,7 +6102,7 @@
 				)
 			)
 		)
-		(property "Purpose" "ADL5513 slope adjustment, VOUT to VSET"
+		(property "Purpose" "0 ohm link tying VOUT to VSET to configure the ADL5513 for measurement/log-output mode."
 			(at 191.77 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6259,7 +6259,7 @@
 				)
 			)
 		)
-		(property "Purpose" "AC-couples ADL5513 RF input pins while preserving the broadband input match."
+		(property "Purpose" "AC-couples the RF signal into ADL5513 INHI as part of the broadband input match."
 			(at 109.22 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7476,7 +7476,7 @@
 				)
 			)
 		)
-		(property "Purpose" "ADL5513 slope adjustment, VSET to GND, populate if needed."
+		(property "Purpose" "Optional DNP VSET-to-ground resistor for alternate ADL5513 VSET bias/control experiments; leave unpopulated when R44 ties VOUT to VSET."
 			(at 191.77 66.04 0)
 			(hide yes)
 			(show_name no)

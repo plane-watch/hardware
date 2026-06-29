@@ -2647,7 +2647,7 @@
 				)
 			)
 		)
-		(property "Purpose" "RF bypass/matching capacitor in the 1090MHz LNA signal and supply network."
+		(property "Purpose" "RF AC-coupling/DC-blocking capacitor in the 1090 MHz LNA signal path."
 			(at 110.49 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2819,7 +2819,7 @@
 				)
 			)
 		)
-		(property "Purpose" "RF bypass/matching capacitor in the 1090MHz LNA signal and supply network."
+		(property "Purpose" "RF AC-coupling/DC-blocking capacitor in the 1090 MHz LNA signal path."
 			(at 167.64 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3152,7 +3152,7 @@
 				)
 			)
 		)
-		(property "Purpose" "RF supply bypass/matching capacitor for the 1090MHz LNA stage."
+		(property "Purpose" "RF-frequency supply bypass capacitor for the TQP3M9036 LNA supply."
 			(at 167.64 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3588,7 +3588,7 @@
 				)
 			)
 		)
-		(property "Purpose" "RF bypass/matching capacitor in the 1090MHz LNA signal and supply network."
+		(property "Purpose" "High-frequency/RF supply bypass capacitor for the TQP3M9036 LNA supply."
 			(at 167.64 83.82 0)
 			(hide yes)
 			(show_name no)

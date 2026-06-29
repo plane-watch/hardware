@@ -3813,7 +3813,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Bias tee DC blocking cap before matching network"
+		(property "Purpose" "RF DC-blocking capacitor between the antenna/bias-tee node and the tunable input matching network."
 			(at 181.61 77.47 0)
 			(hide yes)
 			(show_name no)

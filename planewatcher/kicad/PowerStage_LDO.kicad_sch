@@ -2610,7 +2610,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Filters high-frequency switching noise on the low-noise regulator rail."
+		(property "Purpose" "Ferrite bead input filter feeding the LT3045 IN/EN node from 4V5; attenuates high-frequency switching noise before the low-noise regulator."
 			(at 128.27 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2847,7 +2847,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Low freq bypass capacitor for the LT3045-1."
+		(property "Purpose" "Low-frequency bulk bypass capacitor on the filtered LT3045 input/EN node."
 			(at 138.43 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4623,7 +4623,7 @@
 				)
 			)
 		)
-		(property "Purpose" "High freq bypass capacitor for the LT3045-1."
+		(property "Purpose" "High-frequency bypass capacitor on the filtered LT3045 input/EN node."
 			(at 158.75 69.85 0)
 			(hide yes)
 			(show_name no)
