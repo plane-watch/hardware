@@ -2186,8 +2186,8 @@
 	)
 	(text_box "AD8138 Gain/Feedback"
 		(exclude_from_sim no)
-		(at 91.44 80.01 0)
-		(size 33.02 53.34)
+		(at 88.9 80.01 0)
+		(size 35.56 53.34)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2307,7 +2307,7 @@
 	(text_box "AD8138 Gain/Feedback"
 		(exclude_from_sim no)
 		(at 168.275 80.01 0)
-		(size 31.75 53.34)
+		(size 33.655 53.34)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3664,7 +3664,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "CF_DNP"
 			(at 193.04 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3708,7 +3708,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Feedback resistor capacitor, Cf from AD8138 datasheet, figure 42"
+		(property "Purpose" "Feedback resistor capacitor, Cf from AD8138 datasheet, figure 42, populate if needed."
 			(at 189.23 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4379,7 +4379,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "CF_DNP"
 			(at 97.79 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)

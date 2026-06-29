@@ -1883,8 +1883,8 @@
 	)
 	(text_box "Tunable 50 ohm attenuator \"pi pad\" footprint.\n\n0 dB:  shunts DNP, series 0Ω\n3 dB:  shunts 292Ω, series 17.6Ω\n6 dB:  shunts 150Ω, series 37.4Ω\n10 dB: shunts 96.1Ω, series 71.5Ω\n20 dB: shunts 61.9Ω, series 247Ω"
 		(exclude_from_sim no)
-		(at 41.91 35.56 0)
-		(size 36.83 44.45)
+		(at 21.59 35.56 0)
+		(size 57.15 44.45)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1932,6 +1932,12 @@
 		(uuid "3c41e37a-ec6b-4e51-9c47-71fe91d8eb92")
 	)
 	(junction
+		(at 101.6 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49a0e435-ef2c-4fb9-a1b8-131d69ced0ff")
+	)
+	(junction
 		(at 191.77 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1968,12 +1974,6 @@
 		(uuid "69aed877-d59d-4c0e-a7b6-d9c2d4429e3b")
 	)
 	(junction
-		(at 101.6 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a64f056-93bb-4869-b5c1-4d1fa6bfc735")
-	)
-	(junction
 		(at 186.69 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1992,22 +1992,16 @@
 		(uuid "a31a3553-6e18-456e-b00d-8971abd9a4ca")
 	)
 	(junction
-		(at 52.07 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b576efae-a4d8-491b-a021-662502fd31a1")
-	)
-	(junction
-		(at 67.31 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be637deb-e0f6-49a6-8d19-2a32ef8ad4bc")
-	)
-	(junction
 		(at 186.69 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5bcff29-a7bd-492d-afd9-8eff0996096b")
+	)
+	(junction
+		(at 59.69 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c69e9c39-a520-4781-94e5-e42bfd97b515")
 	)
 	(junction
 		(at 101.6 69.85)
@@ -2020,6 +2014,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d290ad30-43b3-495e-8390-d829f9e92825")
+	)
+	(junction
+		(at 31.75 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d31d28ae-c3c2-4bfb-8928-c5a4151a1eff")
 	)
 	(junction
 		(at 138.43 93.98)
@@ -2075,7 +2075,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 62.23) (xy 67.31 63.5)
+			(xy 59.69 62.23) (xy 59.69 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2135,7 +2135,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 62.23) (xy 52.07 62.23)
+			(xy 20.32 62.23) (xy 31.75 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2172,6 +2172,16 @@
 			(type solid)
 		)
 		(uuid "3fab9b20-e950-46aa-a84f-40128ab6ff4a")
+	)
+	(wire
+		(pts
+			(xy 59.69 62.23) (xy 101.6 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c710109-4a94-4661-a6e5-2f6b24330014")
 	)
 	(wire
 		(pts
@@ -2225,7 +2235,17 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 62.23) (xy 52.07 63.5)
+			(xy 49.53 62.23) (xy 59.69 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a6b8f13-209f-438d-9771-33f545cabc37")
+	)
+	(wire
+		(pts
+			(xy 31.75 62.23) (xy 31.75 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2415,16 +2435,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 62.23) (xy 101.6 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b158ca05-d3f3-4102-b78a-7186b76aadab")
-	)
-	(wire
-		(pts
 			(xy 101.6 69.85) (xy 127 69.85)
 		)
 		(stroke
@@ -2432,16 +2442,6 @@
 			(type default)
 		)
 		(uuid "b274c55a-6be4-4fd1-ac7b-802d442f2f8a")
-	)
-	(wire
-		(pts
-			(xy 63.5 62.23) (xy 67.31 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b330c14d-a84b-4208-92ce-25a18c07c0db")
 	)
 	(wire
 		(pts
@@ -2505,7 +2505,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 62.23) (xy 55.88 62.23)
+			(xy 31.75 62.23) (xy 41.91 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3386,7 +3386,7 @@
 	)
 	(hierarchical_label "RF_IN"
 		(shape input)
-		(at 40.64 62.23 180)
+		(at 20.32 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3550,7 +3550,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 64.77 62.23 0)
+		(at 49.53 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3560,7 +3560,7 @@
 		)
 		(uuid "a753fa44-8cc2-4589-a097-ec098d7ea592")
 		(property "Net Class" "RF_50Ω"
-			(at 65.4685 59.69 0)
+			(at 50.2285 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3571,7 +3571,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -66.04 110.49 0)
+			(at -81.28 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3585,7 +3585,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 54.61 62.23 0)
+		(at 40.64 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3595,7 +3595,7 @@
 		)
 		(uuid "f901a147-aca4-4813-a0b5-438df06cea65")
 		(property "Net Class" "RF_50Ω"
-			(at 53.9115 59.69 0)
+			(at 39.9415 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3606,7 +3606,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 185.42 110.49 0)
+			(at 171.45 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3776,7 +3776,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 52.07 67.31 180)
+		(at 31.75 67.31 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3787,7 +3787,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ce19791-be83-4bde-b6f7-1fd4bf616973")
 		(property "Reference" "R41"
-			(at 54.61 66.0399 0)
+			(at 34.29 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3797,8 +3797,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DNP"
-			(at 54.61 68.5799 0)
+		(property "Value" "RF_SHUNT_DNP"
+			(at 34.29 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3809,7 +3809,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 53.848 67.31 90)
+			(at 33.528 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3820,7 +3820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 67.31 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3831,7 +3831,7 @@
 			)
 		)
 		(property "Description" "Optional 0402 shunt resistor footprint for tunable 50Ω pi attenuator, DNP by default"
-			(at 52.07 67.31 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3842,7 +3842,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 52.07 67.31 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3853,7 +3853,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 52.07 67.31 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3864,7 +3864,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 52.07 67.31 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3875,7 +3875,7 @@
 			)
 		)
 		(property "Purpose" "Optional shunt leg for configurable RF input attenuation ahead of the ADL5513."
-			(at 52.07 67.31 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3886,7 +3886,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 52.07 67.31 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3897,7 +3897,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 52.07 67.31 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5517,7 +5517,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 62.23 90)
+		(at 45.72 62.23 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5527,7 +5527,7 @@
 		(dnp no)
 		(uuid "6e6eac10-0785-4e4f-8714-d9d0b3859a19")
 		(property "Reference" "R43"
-			(at 59.69 57.15 90)
+			(at 45.72 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5537,7 +5537,7 @@
 			)
 		)
 		(property "Value" "0Ω"
-			(at 59.69 59.69 90)
+			(at 45.72 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5547,7 +5547,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 59.69 64.008 90)
+			(at 45.72 64.008 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5558,7 +5558,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2GE0R00X"
-			(at 59.69 62.23 0)
+			(at 45.72 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5569,7 +5569,7 @@
 			)
 		)
 		(property "Description" "0 Ohms Jumper Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 59.69 62.23 0)
+			(at 45.72 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5580,7 +5580,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 59.69 62.23 0)
+			(at 45.72 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5591,7 +5591,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2GE0R00X"
-			(at 59.69 62.23 0)
+			(at 45.72 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5602,7 +5602,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Industry"
-			(at 59.69 62.23 0)
+			(at 45.72 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5613,7 +5613,7 @@
 			)
 		)
 		(property "Purpose" "Series resistor in tunable 50 ohm attenuator \"pi pad\" footprint."
-			(at 59.69 62.23 0)
+			(at 45.72 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5624,7 +5624,7 @@
 			)
 		)
 		(property "lcsc_id" "C242160"
-			(at 59.69 62.23 0)
+			(at 45.72 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5635,7 +5635,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 59.69 62.23 90)
+			(at 45.72 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5646,7 +5646,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 59.69 62.23 90)
+			(at 45.72 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5692,7 +5692,7 @@
 				)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "CLPF_DNP"
 			(at 172.72 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6579,7 +6579,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 67.31 67.31 180)
+		(at 59.69 67.31 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6590,7 +6590,7 @@
 		(fields_autoplaced yes)
 		(uuid "b25dad4c-3b3d-4424-9240-ab3f25cb671b")
 		(property "Reference" "R42"
-			(at 69.85 66.0399 0)
+			(at 62.23 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6600,8 +6600,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DNP"
-			(at 69.85 68.5799 0)
+		(property "Value" "RF_SHUNT_DNP"
+			(at 62.23 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6612,7 +6612,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 69.088 67.31 90)
+			(at 61.468 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6623,7 +6623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 67.31 0)
+			(at 59.69 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6634,7 +6634,7 @@
 			)
 		)
 		(property "Description" "Optional 0402 shunt resistor footprint for tunable 50Ω pi attenuator, DNP by default"
-			(at 67.31 67.31 0)
+			(at 59.69 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6645,7 +6645,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 67.31 67.31 0)
+			(at 59.69 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6656,7 +6656,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 67.31 67.31 0)
+			(at 59.69 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6667,7 +6667,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 67.31 67.31 0)
+			(at 59.69 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6678,7 +6678,7 @@
 			)
 		)
 		(property "Purpose" "Optional shunt leg for configurable RF input attenuation ahead of the ADL5513."
-			(at 67.31 67.31 0)
+			(at 59.69 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6689,7 +6689,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 67.31 67.31 0)
+			(at 59.69 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6700,7 +6700,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 67.31 67.31 0)
+			(at 59.69 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6727,7 +6727,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 71.12 0)
+		(at 59.69 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6738,7 +6738,7 @@
 		(fields_autoplaced yes)
 		(uuid "b366a9de-8046-4504-997d-f0e9c74eac73")
 		(property "Reference" "#PWR0115"
-			(at 67.31 77.47 0)
+			(at 59.69 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6749,7 +6749,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 76.2 0)
+			(at 59.69 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6759,7 +6759,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 71.12 0)
+			(at 59.69 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6770,7 +6770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 71.12 0)
+			(at 59.69 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6781,7 +6781,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 71.12 0)
+			(at 59.69 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7131,7 +7131,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 71.12 0)
+		(at 31.75 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7142,7 +7142,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6dc9bf8-83e3-4715-8275-cd12ef83877c")
 		(property "Reference" "#PWR0114"
-			(at 52.07 77.47 0)
+			(at 31.75 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7153,7 +7153,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 76.2 0)
+			(at 31.75 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7163,7 +7163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 71.12 0)
+			(at 31.75 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7174,7 +7174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 71.12 0)
+			(at 31.75 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7185,7 +7185,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 71.12 0)
+			(at 31.75 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7389,23 +7389,25 @@
 		(dnp yes)
 		(uuid "e625f1ec-30a6-41cb-b2df-1144834ccc3a")
 		(property "Reference" "R45"
-			(at 195.58 64.77 0)
+			(at 193.548 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "0Ω"
-			(at 195.58 67.31 0)
+		(property "Value" "VSET_DIV_BTM_DNP"
+			(at 193.548 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -7430,7 +7432,7 @@
 				)
 			)
 		)
-		(property "Description" "0 Ohms Jumper Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "ADL5513 slope adjustment, VSET to GND, populate if needed."
 			(at 191.77 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7452,7 +7454,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2GE0R00X"
+		(property "MPN" ""
 			(at 191.77 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7463,7 +7465,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic Industry"
+		(property "Manufacturer" ""
 			(at 191.77 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7474,7 +7476,7 @@
 				)
 			)
 		)
-		(property "Purpose" "ADL5513 slope adjustment, VSET to GND"
+		(property "Purpose" "ADL5513 slope adjustment, VSET to GND, populate if needed."
 			(at 191.77 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7485,7 +7487,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C242160"
+		(property "lcsc_id" ""
 			(at 191.77 66.04 0)
 			(hide yes)
 			(show_name no)
