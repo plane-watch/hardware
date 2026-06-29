@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher (JLC04161H-7628 Stackup)")
-		(date "2026-06-22")
+		(date "2026-06-29")
 		(rev "prototype 1.3")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
