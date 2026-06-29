@@ -18317,7 +18317,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Populate C/L/R after VNA/S11 testing to compensate ESD/bias-tee/LNA input parasitics."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
