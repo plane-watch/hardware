@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.64,
-          "width": 0.54
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -805,7 +805,7 @@
         "uuid": "7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
       }
     ],
-    "used_designators": "",
+    "used_designators": "RN5-6,R54-56,LED9-14",
     "variants": []
   },
   "sheets": [
@@ -816,14 +816,6 @@
     [
       "e02d84ed-6468-4290-a59c-50ded41c0aba",
       "Power_3V3"
-    ],
-    [
-      "59545c86-c058-4e69-82ad-a37ead5abf92",
-      "RGB LED4"
-    ],
-    [
-      "7739f02d-62c0-4bca-89eb-2791de83397a",
-      "RGB LED3"
     ],
     [
       "be54cab6-561b-439c-9db3-5433a1e68d46",
@@ -846,10 +838,6 @@
       "ADC"
     ],
     [
-      "52b32cc6-d826-42d3-aa96-9038a73a9bfc",
-      "RGB LED1"
-    ],
-    [
       "5ac3603d-bbeb-44f4-b422-6252fe26d95e",
       "Power_Input"
     ],
@@ -858,16 +846,12 @@
       "RF_Input"
     ],
     [
-      "8d837c64-f9ae-4d10-9c5f-d514a90db394",
-      "RGB LED5"
-    ],
-    [
-      "d4f7e37f-a721-4dfe-b190-52f36600c34c",
-      "RGB LED2"
-    ],
-    [
       "84812100-48e5-47cc-a358-d48bbae76aaf",
       "GPS Module"
+    ],
+    [
+      "0fe3afdd-b158-44fe-a21c-fff7a77122bf",
+      "RGB LEDs"
     ]
   ],
   "text_variables": {},
