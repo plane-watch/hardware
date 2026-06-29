@@ -27,12 +27,14 @@ In addition to the above, the next prototype (proto 1.3) has had some functional
 - More unpopulated footprints have been added to allow tweaking/refinement:
   - ADL5513 log-detector slope adjustment voltage divider.
   - AD8138 ADC driver feedback capacitors.
+  - Various RF matching/tweaking footprints along the RF path.
 - The ADL5513 log-detector output is buffered for more robust operation with weak signals, and to decouple from the AD8138 input network.
 - The ADL5513 log-detector output is also fed into a low-pass filter at ~1.6Hz to produce a slow-moving noise-floor estimate without ADS-B pulses. This baseline signal is buffered and applied to the AD8138 ADC driver input network, offsetting the detector output before digitisation and improving usable ADC range for weak pulses.
 - RF_IN and GPS antenna connectors have been swapped from SMA to U.FL.
 - A software-controlled bias tee has been added. This can supply around 4.5 V to the RF_IN connector, current-limited to approximately 300 mA. LEDs have been added to show whether bias tee is enabled/disabled, and to show if overcurrent disable has been activated.
 - A GNSS-disciplined 1PPS timing output has been added. This is a buffered copy of the LEA-M8T TIMEPULSE signal, provided on a 50Ω source-terminated U.FL connector. The centre pin carries an active-high pulse and the shell is connected to ground. The output is approximately 0 to 4.5 V into a high-impedance load, or approximately 0 to 2.2 V into a 50 Ω terminated load. The rising edge should be treated as the timing reference.
 - Some commonly hand-tweaked parts have been changed to thermal-relief pads to make hand soldering easier.
+- Replace some discrete resistors with resistor arrays to reduce BoM and make hand assembly easier.
 
 ## Design
 
