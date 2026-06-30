@@ -2224,10 +2224,10 @@
 		)
 		(uuid "445ca889-ec1a-4478-b895-4822f5b93795")
 	)
-	(text_box "Low-Pass filter to output only noise floor with no pulses."
+	(text_box "Slow analog baseline / noise-floor LPF\n\nR51 and C9 form a first-order low-pass filter from the buffered log-detector output\nto the U3B baseline buffer. This is used for slow analog DC centering before the\nAD8138/AD9203 path.\n\nWith R51 = 1M and C9 = 2.2uF:\n  tau = R*C = 2.2 s\n  fc = 1/(2*pi*R*C) = 0.072 Hz\n  95% step response ~= 6.6 s\n  ~99% settling ~= 11 s\n\nWe've attempted to make this filter react slow enough\nto not follow short bursts of ADS-B pulse energy.\n\nThis helps avoid analog baseline pumping in high-traffic areas,\npreserving ADC headroom for weak long-range pulses.\n\nTradeoffs:\n  - Slower startup and recovery after large RF level changes.\n  - A simple RC still averages sustained RF pulse occupancy over time.\n  - FPGA/software will perform the real pulse-rejecting noise-floor or\n    threshold estimation."
 		(exclude_from_sim no)
-		(at 178.435 33.02 0)
-		(size 31.75 36.195)
+		(at 163.83 13.97 0)
+		(size 119.38 48.9301)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2240,7 +2240,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right top)
 		)
 		(uuid "6f96dfa8-5a67-4579-8d18-9700446d21ba")
 	)
@@ -2284,26 +2284,6 @@
 		)
 		(uuid "9f1388ff-c71a-4849-912d-8130a4fa95d9")
 	)
-	(text_box "To revert behaviour to proto 1.2, de-populate low-pass filter components, and connect TP2 to TP21."
-		(exclude_from_sim no)
-		(at 173.99 23.0774 0)
-		(size 40.64 8.0376)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "a1d9796a-19a0-4851-b219-d24bab627d95")
-	)
 	(text_box "AD8138 Gain/Feedback"
 		(exclude_from_sim no)
 		(at 168.275 80.01 0)
@@ -2337,10 +2317,10 @@
 		(uuid "266c9b7c-9f7f-4264-bc0e-3e917eb65616")
 	)
 	(junction
-		(at 180.34 41.91)
+		(at 167.64 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "394d201e-68dc-4a33-bef4-1099591990a9")
+		(uuid "2da18146-5f92-4257-9b40-7b473662429c")
 	)
 	(junction
 		(at 109.22 92.71)
@@ -2353,12 +2333,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46f1c125-5091-461c-b153-2107e8ee35ea")
-	)
-	(junction
-		(at 194.31 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5248ca3b-80fc-4d98-83d3-8ce7bcd856c2")
 	)
 	(junction
 		(at 99.06 60.96)
@@ -2415,6 +2389,12 @@
 		(uuid "aa53f6c6-ce65-47c5-8573-1bec2bd3f13f")
 	)
 	(junction
+		(at 191.77 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae873eb7-40b3-4590-89c7-208cb767ecb3")
+	)
+	(junction
 		(at 241.3 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2439,16 +2419,22 @@
 		(uuid "c1d1ea29-2536-43f6-bf8e-25936a3933a8")
 	)
 	(junction
+		(at 204.47 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c63b05e2-1911-4aaf-a88d-034e1d6aeda7")
+	)
+	(junction
+		(at 128.27 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db0e3647-e7e4-49d1-b231-af4701b8b9f1")
+	)
+	(junction
 		(at 189.23 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e039a1a6-dfc6-4086-a278-67b416ae58d1")
-	)
-	(junction
-		(at 212.09 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7cd7d03-6b05-410a-8511-16739b9751df")
 	)
 	(junction
 		(at 162.56 115.57)
@@ -2464,7 +2450,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 41.91) (xy 180.34 41.91)
+			(xy 121.92 41.91) (xy 128.27 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2544,16 +2530,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 41.91) (xy 194.31 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13270fec-a643-43b9-b4a8-6328319058af")
-	)
-	(wire
-		(pts
 			(xy 157.48 143.51) (xy 163.83 143.51)
 		)
 		(stroke
@@ -2571,16 +2547,6 @@
 			(type default)
 		)
 		(uuid "2528d14c-10c9-4d0f-8201-f375c87b35ab")
-	)
-	(wire
-		(pts
-			(xy 212.09 92.71) (xy 215.9 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "274d1a2e-ccb6-4a46-b1b2-d4d768d4138a")
 	)
 	(wire
 		(pts
@@ -2624,6 +2590,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 41.91) (xy 191.77 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35a04a19-4bac-4f0d-86ec-d28cd9c51b45")
+	)
+	(wire
+		(pts
 			(xy 87.63 60.96) (xy 87.63 92.71)
 		)
 		(stroke
@@ -2641,6 +2617,16 @@
 			(type default)
 		)
 		(uuid "48ed4f87-09f4-4bb6-8647-66992fcab37d")
+	)
+	(wire
+		(pts
+			(xy 204.47 92.71) (xy 215.9 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab7f0eb-d638-4d8f-ac92-d0abb9a12e8f")
 	)
 	(wire
 		(pts
@@ -2724,16 +2710,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 41.91) (xy 199.39 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68032521-157c-4498-ad84-bd125a49ecaa")
-	)
-	(wire
-		(pts
 			(xy 219.71 74.93) (xy 227.33 74.93)
 		)
 		(stroke
@@ -2774,7 +2750,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 41.91) (xy 212.09 92.71)
+			(xy 204.47 41.91) (xy 204.47 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2804,7 +2780,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 92.71) (xy 212.09 92.71)
+			(xy 196.85 92.71) (xy 204.47 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2854,7 +2830,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 46.99) (xy 194.31 41.91)
+			(xy 191.77 46.99) (xy 191.77 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2881,6 +2857,16 @@
 			(type default)
 		)
 		(uuid "8fb06677-bc4a-4ee2-8454-6c4ea97e83c1")
+	)
+	(wire
+		(pts
+			(xy 167.64 41.91) (xy 167.64 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9725176e-94a6-4783-a496-05060d3b46f3")
 	)
 	(wire
 		(pts
@@ -2974,7 +2960,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 41.91) (xy 212.09 41.91)
+			(xy 201.93 41.91) (xy 204.47 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3094,6 +3080,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 41.91) (xy 167.64 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f2166d-b1b3-4a08-99b6-340d8d8a2242")
+	)
+	(wire
+		(pts
 			(xy 171.45 92.71) (xy 189.23 92.71)
 		)
 		(stroke
@@ -3111,6 +3107,16 @@
 			(type default)
 		)
 		(uuid "f74d6326-56a3-4d9f-b844-6f259048ca13")
+	)
+	(wire
+		(pts
+			(xy 194.31 41.91) (xy 191.77 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc8ac0bd-5c44-4c1e-adc2-da3459fd095b")
 	)
 	(wire
 		(pts
@@ -5366,7 +5372,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 180.34 41.91 0)
+		(at 128.27 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5377,7 +5383,7 @@
 		(fields_autoplaced yes)
 		(uuid "77b9e570-7d77-4a30-bdbe-246a75e21c96")
 		(property "Reference" "TP2"
-			(at 182.88 37.3379 0)
+			(at 130.81 37.3379 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5388,7 +5394,7 @@
 			)
 		)
 		(property "Value" "Noise Floor"
-			(at 182.88 39.8779 0)
+			(at 130.81 39.8779 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5399,7 +5405,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 185.42 41.91 0)
+			(at 133.35 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5410,7 +5416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 41.91 0)
+			(at 133.35 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5421,7 +5427,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 180.34 41.91 0)
+			(at 128.27 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5432,7 +5438,7 @@
 			)
 		)
 		(property "Purpose" "Provides oscilloscope/DMM probe access to the slow noise-floor/baseline node."
-			(at 180.34 41.91 0)
+			(at 128.27 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5443,7 +5449,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 180.34 41.91 0)
+			(at 128.27 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5454,7 +5460,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 180.34 41.91 0)
+			(at 128.27 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5556,7 +5562,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 194.31 50.8 0)
+		(at 191.77 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5567,7 +5573,7 @@
 		(fields_autoplaced yes)
 		(uuid "846c36a3-17d8-4d50-ba34-5eeb3035e41e")
 		(property "Reference" "C9"
-			(at 198.12 49.5299 0)
+			(at 195.58 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5577,8 +5583,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µF"
-			(at 198.12 52.0699 0)
+		(property "Value" "2.2µF"
+			(at 195.58 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5589,7 +5595,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 195.2752 54.61 0)
+			(at 192.7352 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5599,8 +5605,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 194.31 50.8 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5362585.pdf"
+			(at 191.77 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5610,8 +5616,8 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 1uF 50V X7R 0805"
-			(at 194.31 50.8 0)
+		(property "Description" "CAP CER 2.2uF 50V X7R 0805"
+			(at 191.77 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5621,8 +5627,8 @@
 				)
 			)
 		)
-		(property "MPN" "CL21B105KBFNNNE"
-			(at 194.31 50.8 0)
+		(property "MPN" "CL21B225KBYVPNE"
+			(at 191.77 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5633,7 +5639,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 194.31 50.8 0)
+			(at 191.77 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5644,7 +5650,7 @@
 			)
 		)
 		(property "Package" "0805 (2012 Metric)"
-			(at 194.31 50.8 0)
+			(at 191.77 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5655,7 +5661,7 @@
 			)
 		)
 		(property "Purpose" "Forms the slow low-pass baseline/noise-floor filter from VLOG_IN before buffering by U3B."
-			(at 194.31 50.8 0)
+			(at 191.77 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5665,8 +5671,8 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C28323"
-			(at 194.31 50.8 0)
+		(property "lcsc_id" "C5362585"
+			(at 191.77 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5677,7 +5683,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 194.31 50.8 0)
+			(at 191.77 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5688,7 +5694,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 194.31 50.8 0)
+			(at 191.77 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5708,6 +5714,84 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "913fc251-443f-4898-bc02-1a1909d3605d")
+		(property "Reference" "#PWR095"
+			(at 167.64 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c602cffb-e82b-4b73-a803-9e6a0168e33c")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -6754,7 +6838,89 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 203.2 41.91 90)
+		(at 167.64 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "adba4740-0da3-4172-ac27-9d8b9b5fbed8")
+		(property "Reference" "R3"
+			(at 170.18 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_BASE_GND_DNP"
+			(at 170.18 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 165.862 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Populating it forces the analog baseline to ground and disables moving-baseline subtraction. Leave DNP for normal operation."
+			(at 167.64 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8ed91985-894c-4627-b76d-bdb5e5dbb671")
+		)
+		(pin "1"
+			(uuid "ed9b16e2-84b6-417f-a90d-4d58b16c2835")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 198.12 41.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6765,7 +6931,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae7df914-0de9-4d72-bf9b-651d07cfcad7")
 		(property "Reference" "R51"
-			(at 203.2 35.56 90)
+			(at 198.12 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6774,8 +6940,8 @@
 				)
 			)
 		)
-		(property "Value" "100kΩ"
-			(at 203.2 38.1 90)
+		(property "Value" "1MΩ"
+			(at 198.12 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6785,7 +6951,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 203.2 43.688 90)
+			(at 198.12 43.688 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6795,8 +6961,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C481918.pdf"
-			(at 203.2 41.91 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C413126.pdf"
+			(at 198.12 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6806,8 +6972,8 @@
 				)
 			)
 		)
-		(property "Description" "RES 100kΩ ±1% 63mW 0402"
-			(at 203.2 41.91 0)
+		(property "Description" "RES 1000000Ω ±1% 0.1W 0402"
+			(at 198.12 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6818,7 +6984,7 @@
 			)
 		)
 		(property "Purpose" "Forms the slow low-pass baseline/noise-floor filter from VLOG_IN before buffering by U3B."
-			(at 203.2 41.91 90)
+			(at 198.12 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6828,8 +6994,8 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW0402100KFKED"
-			(at 203.2 41.91 90)
+		(property "MPN" "ERJ2RKF1004X"
+			(at 198.12 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6839,8 +7005,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "VISHAY"
-			(at 203.2 41.91 90)
+		(property "Manufacturer" "PANASONIC"
+			(at 198.12 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6851,7 +7017,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 203.2 41.91 90)
+			(at 198.12 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6861,8 +7027,8 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C481918"
-			(at 203.2 41.91 90)
+		(property "lcsc_id" "C413126"
+			(at 198.12 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6873,7 +7039,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 203.2 41.91 90)
+			(at 198.12 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6884,7 +7050,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 203.2 41.91 90)
+			(at 198.12 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7493,7 +7659,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 54.61 0)
+		(at 191.77 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7504,7 +7670,7 @@
 		(fields_autoplaced yes)
 		(uuid "c62e1cf7-f2ee-47bb-9059-0a9dc0f5e686")
 		(property "Reference" "#PWR047"
-			(at 194.31 60.96 0)
+			(at 191.77 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7515,7 +7681,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 59.69 0)
+			(at 191.77 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7525,7 +7691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 54.61 0)
+			(at 191.77 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7536,7 +7702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 54.61 0)
+			(at 191.77 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7547,7 +7713,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 54.61 0)
+			(at 191.77 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -805,7 +805,7 @@
         "uuid": "7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
       }
     ],
-    "used_designators": "RN5-6,R54-56,LED9-14",
+    "used_designators": "RN5-6,R3,R54-56,#PWR95,LED9-14",
     "variants": []
   },
   "sheets": [
