@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher")
-		(date "2026-05-18")
-		(rev "prototype 1.2")
+		(date "2026-06-30")
+		(rev "prototype 1.3")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
 		(comment 2 "Source: https://github.com/plane-watch/hardware.")
@@ -1600,6 +1600,12 @@
 		(uuid "ef40cebb-9d19-4341-a0f3-33ff4be22ccb")
 	)
 	(junction
+		(at 132.08 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2eda7c74-7c02-4538-99b7-147941a19491")
+	)
+	(junction
 		(at 111.76 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1633,6 +1639,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 88.9) (xy 134.62 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dcc6c7e-8d1a-4447-ad09-0ea89e1923fe")
+	)
+	(wire
+		(pts
 			(xy 85.09 88.9) (xy 96.52 88.9)
 		)
 		(stroke
@@ -1653,7 +1669,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 88.9) (xy 134.62 88.9)
+			(xy 129.54 88.9) (xy 132.08 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1680,6 +1696,16 @@
 			(type default)
 		)
 		(uuid "efacbc76-294b-4677-9653-880b6567d57b")
+	)
+	(wire
+		(pts
+			(xy 132.08 86.36) (xy 132.08 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f25cd99c-417f-488e-9770-b8e3ea526918")
 	)
 	(hierarchical_label "IN"
 		(shape input)
@@ -1825,6 +1851,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 111.76 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 111.76 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "031c47dd-f206-45c0-a2fc-602d08cca3a9")
 		)
@@ -1874,7 +1922,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 124.46 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1908,6 +1956,28 @@
 			)
 		)
 		(property "Purpose" "Provides oscilloscope/DMM probe access to V+."
+			(at 129.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 129.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 129.54 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2285,6 +2355,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 100.33 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 100.33 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c59c1332-5f6a-4d24-95dc-e6a2030ca870")
 		)
@@ -2295,6 +2387,84 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/5ac3603d-bbeb-44f4-b422-6252fe26d95e"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 132.08 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f879039d-0f44-407a-9822-fe071b4af4be")
+		(property "Reference" "#FLG01"
+			(at 132.08 84.455 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 132.08 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 132.08 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a18bcf5a-eb26-40e8-8d2e-652acc81b5db")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/5ac3603d-bbeb-44f4-b422-6252fe26d95e"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)

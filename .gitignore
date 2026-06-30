@@ -344,6 +344,7 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/goland,goland+all,goland+iml,kicad,macos,windows,linux
 
 .history
+*.history_trim
 
 *.kicad_*.lck
 

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher")
-		(date "2026-05-18")
-		(rev "prototype 1.2")
+		(date "2026-06-30")
+		(rev "prototype 1.3")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
 		(comment 2 "Source: https://github.com/plane-watch/hardware.")
@@ -423,219 +423,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R_Potentiometer_Trim"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Potentiometer_Trim"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Trim-potentiometer"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "POT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "resistor variable trimpot trimmer"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_Trim_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.762) (xy 1.524 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_Trim_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1963,9 +1750,9 @@
 		)
 		(uuid "ee6803f0-86e2-4bdd-af20-61b96854f7d2")
 	)
-	(text "Datasheet says to operate in \nmeasurement mode, connect VOUT to VSET."
+	(text "Datasheet says to operate in \nmeasurement mode, connect VOUT to VSET.\nFootprints added so we can experiment with slope adjustment."
 		(exclude_from_sim no)
-		(at 188.468 64.77 0)
+		(at 200.406 62.484 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2054,15 +1841,14 @@
 		)
 		(uuid "7b70c4d9-95d6-4f05-8a5d-318c39affb82")
 	)
-	(text_box "Voltage divider to set TADJ pin for optimum performance depending on frequency.\n\nFor first prototype, a trimmer is included to allow precise tuning from a 3.32V VPOS rail.\nTrimmer at minimum: 0.8017V\nTrimmer at maximum: 0.8713V\n\nThis allows tuning between 900MHz & 1.9GHz from table 4 in datasheet (see inset).\n\nReplace with simple voltage divider when optimum TADJ voltage is known."
+	(text_box "Fixed voltage divider sets the ADL5513 TADJ pin to approximately 0.85 V for 1090 MHz operation.\n\nTADJ provides temperature compensation bias for the log detector. It is not a pulse-amplitude or gain adjustment.\n\nNominal divider target:\nTADJ = ~0.85 V from VPOS\n\nThis value is based on the datasheet guidance near 900 MHz and is suitable for this fixed-frequency 1090 MHz application.\n\nThe capacitor to ground provides local bypassing for the TADJ bias node.\n\nIf future temperature testing shows excessive VOUT drift, the divider values may be adjusted to optimise VTADJ for this board and operating frequency.\n"
 		(exclude_from_sim no)
-		(at 196.85 81.28 0)
-		(size 35.56 81.28)
+		(at 194.31 81.28 0)
+		(size 64.77 73.66)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type solid)
-			(color 255 0 0 1)
 		)
 		(fill
 			(type none)
@@ -2070,16 +1856,15 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 255 0 0 1)
 			)
 			(justify left bottom)
 		)
 		(uuid "8b0f3214-4571-43f6-85d1-002ec0ae6c1d")
 	)
-	(text_box "For maximum video bandwidth / fastest rise time, datasheet says leave CLPF unconnected and avoid stray capacitance."
+	(text_box "For maximum video bandwidth / fastest rise time, datasheet says leave CLPF unconnected and avoid stray capacitance.\nFootprint added for experimentation."
 		(exclude_from_sim no)
-		(at 166.37 101.6001 0)
-		(size 17.78 22.8599)
+		(at 166.37 103.5049 0)
+		(size 17.78 51.4351)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2098,8 +1883,8 @@
 	)
 	(text_box "Tunable 50 ohm attenuator \"pi pad\" footprint.\n\n0 dB:  shunts DNP, series 0Ω\n3 dB:  shunts 292Ω, series 17.6Ω\n6 dB:  shunts 150Ω, series 37.4Ω\n10 dB: shunts 96.1Ω, series 71.5Ω\n20 dB: shunts 61.9Ω, series 247Ω"
 		(exclude_from_sim no)
-		(at 41.91 35.56 0)
-		(size 36.83 44.45)
+		(at 21.59 35.56 0)
+		(size 57.15 44.45)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2115,18 +1900,6 @@
 			(justify left top)
 		)
 		(uuid "ff2c9a7e-6425-46ca-b3e1-0c6be62772e7")
-	)
-	(junction
-		(at 220.98 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "089444fe-d8d1-45e2-b533-bbafd085bdd9")
-	)
-	(junction
-		(at 191.77 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b8608f0-e6ba-46e8-97b7-57ed51aa753b")
 	)
 	(junction
 		(at 186.69 69.85)
@@ -2159,6 +1932,24 @@
 		(uuid "3c41e37a-ec6b-4e51-9c47-71fe91d8eb92")
 	)
 	(junction
+		(at 101.6 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49a0e435-ef2c-4fb9-a1b8-131d69ced0ff")
+	)
+	(junction
+		(at 191.77 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ac022b3-8a72-47c0-8870-99c0c25e675f")
+	)
+	(junction
+		(at 220.98 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4eef6bd4-460c-4678-9e66-53abd782a6b9")
+	)
+	(junction
 		(at 199.39 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2177,10 +1968,10 @@
 		(uuid "621b8fc5-9a99-43d4-87ae-057d472600ea")
 	)
 	(junction
-		(at 101.6 62.23)
+		(at 191.77 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9a64f056-93bb-4869-b5c1-4d1fa6bfc735")
+		(uuid "69aed877-d59d-4c0e-a7b6-d9c2d4429e3b")
 	)
 	(junction
 		(at 186.69 90.17)
@@ -2201,22 +1992,16 @@
 		(uuid "a31a3553-6e18-456e-b00d-8971abd9a4ca")
 	)
 	(junction
-		(at 52.07 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b576efae-a4d8-491b-a021-662502fd31a1")
-	)
-	(junction
-		(at 67.31 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be637deb-e0f6-49a6-8d19-2a32ef8ad4bc")
-	)
-	(junction
 		(at 186.69 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5bcff29-a7bd-492d-afd9-8eff0996096b")
+	)
+	(junction
+		(at 59.69 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c69e9c39-a520-4781-94e5-e42bfd97b515")
 	)
 	(junction
 		(at 101.6 69.85)
@@ -2225,10 +2010,16 @@
 		(uuid "c6a09e8d-beaf-4bd5-94c7-80c6d43551e4")
 	)
 	(junction
-		(at 220.98 100.33)
+		(at 191.77 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f7261e4f-28b0-4b20-8f29-aea9ef5573aa")
+		(uuid "d290ad30-43b3-495e-8390-d829f9e92825")
+	)
+	(junction
+		(at 31.75 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d31d28ae-c3c2-4bfb-8928-c5a4151a1eff")
 	)
 	(junction
 		(at 138.43 93.98)
@@ -2241,10 +2032,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8f616a3-e323-410a-82b4-1490813fd145")
-	)
-	(no_connect
-		(at 175.26 102.87)
-		(uuid "4ceaf119-0099-44e3-8738-0884f6a577a1")
 	)
 	(wire
 		(pts
@@ -2268,6 +2055,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 102.87) (xy 175.26 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "156cd6a7-77c2-464d-b2d5-2aac369fac6c")
+	)
+	(wire
+		(pts
 			(xy 138.43 93.98) (xy 151.13 93.98)
 		)
 		(stroke
@@ -2278,7 +2075,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 62.23) (xy 67.31 63.5)
+			(xy 59.69 62.23) (xy 59.69 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2338,7 +2135,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 62.23) (xy 52.07 62.23)
+			(xy 20.32 62.23) (xy 31.75 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2378,13 +2175,23 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 106.68) (xy 220.98 102.87)
+			(xy 59.69 62.23) (xy 101.6 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45dc6d75-0396-4bfd-be77-944a8a112a1b")
+		(uuid "4c710109-4a94-4661-a6e5-2f6b24330014")
+	)
+	(wire
+		(pts
+			(xy 179.07 118.11) (xy 175.26 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50dca956-4a33-4524-8f8f-7dffff2b6fff")
 	)
 	(wire
 		(pts
@@ -2428,7 +2235,17 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 62.23) (xy 52.07 63.5)
+			(xy 49.53 62.23) (xy 59.69 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a6b8f13-209f-438d-9771-33f545cabc37")
+	)
+	(wire
+		(pts
+			(xy 31.75 62.23) (xy 31.75 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2488,16 +2305,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 102.87) (xy 220.98 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77bdcfe9-0431-4702-8717-bd4176cc20bd")
-	)
-	(wire
-		(pts
 			(xy 101.6 62.23) (xy 105.41 62.23)
 		)
 		(stroke
@@ -2515,6 +2322,16 @@
 			(type default)
 		)
 		(uuid "7a04d79b-2d7e-4c91-a37f-b70a422ed6b6")
+	)
+	(wire
+		(pts
+			(xy 179.07 115.57) (xy 179.07 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f366a1d-c447-430e-891a-9bc4624e6e52")
 	)
 	(wire
 		(pts
@@ -2568,6 +2385,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 105.41) (xy 179.07 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "937a4c75-c537-4f9c-889d-b70c8004e775")
+	)
+	(wire
+		(pts
 			(xy 199.39 77.47) (xy 199.39 91.44)
 		)
 		(stroke
@@ -2608,16 +2435,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 62.23) (xy 101.6 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b158ca05-d3f3-4102-b78a-7186b76aadab")
-	)
-	(wire
-		(pts
 			(xy 101.6 69.85) (xy 127 69.85)
 		)
 		(stroke
@@ -2628,26 +2445,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 62.23) (xy 67.31 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b330c14d-a84b-4208-92ce-25a18c07c0db")
-	)
-	(wire
-		(pts
-			(xy 214.63 102.87) (xy 220.98 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfb1d94c-0a13-424e-bd1b-ff15c775140c")
-	)
-	(wire
-		(pts
 			(xy 186.69 90.17) (xy 186.69 92.71)
 		)
 		(stroke
@@ -2655,16 +2452,6 @@
 			(type default)
 		)
 		(uuid "c47fe234-e72b-4049-8281-a978448e2957")
-	)
-	(wire
-		(pts
-			(xy 191.77 54.61) (xy 191.77 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5ce5d7e-ea97-4fe0-9cc0-e71afb598095")
 	)
 	(wire
 		(pts
@@ -2718,7 +2505,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 62.23) (xy 55.88 62.23)
+			(xy 31.75 62.23) (xy 41.91 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2738,13 +2525,23 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 106.68) (xy 220.98 106.68)
+			(xy 175.26 118.11) (xy 175.26 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f52e52ff-bda8-4607-9824-24b7fdf5d40e")
+		(uuid "e9583d48-c2f0-47a2-9b9e-e3d9e4a4a71d")
+	)
+	(wire
+		(pts
+			(xy 175.26 105.41) (xy 179.07 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee3245bf-90ff-4134-8f82-91df5540102e")
 	)
 	(wire
 		(pts
@@ -3589,7 +3386,7 @@
 	)
 	(hierarchical_label "RF_IN"
 		(shape input)
-		(at 40.64 62.23 180)
+		(at 20.32 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3641,6 +3438,185 @@
 			(justify right)
 		)
 		(uuid "ceda451d-33e7-45e7-b438-f3b7dd7dd4ea")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 104.14 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a91c457-a8b3-4da7-96d8-bc970ad628ad")
+		(property "Net Class" "RF_50Ω"
+			(at 103.4415 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 234.95 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 135.89 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "25e53f06-7460-40dc-a930-835e276cf748")
+		(property "Net Class" "RF_50Ω"
+			(at 136.5885 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 5.08 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 114.3 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9209df42-5ba0-4e9b-9e75-f7f6f3fa6036")
+		(property "Net Class" "RF_50Ω"
+			(at 114.9985 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -16.51 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 49.53 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a753fa44-8cc2-4589-a097-ec098d7ea592")
+		(property "Net Class" "RF_50Ω"
+			(at 50.2285 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -81.28 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 40.64 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f901a147-aca4-4813-a0b5-438df06cea65")
+		(property "Net Class" "RF_50Ω"
+			(at 39.9415 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 171.45 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3722,7 +3698,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 118.11 0)
+		(at 220.98 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3733,7 +3709,7 @@
 		(fields_autoplaced yes)
 		(uuid "07d862fc-cbba-40a4-b2ef-145fe432b384")
 		(property "Reference" "#PWR080"
-			(at 214.63 124.46 0)
+			(at 220.98 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3744,7 +3720,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 123.19 0)
+			(at 220.98 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3754,7 +3730,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 118.11 0)
+			(at 220.98 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3765,7 +3741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 118.11 0)
+			(at 220.98 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3776,7 +3752,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 118.11 0)
+			(at 220.98 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3800,7 +3776,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 52.07 67.31 180)
+		(at 31.75 67.31 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3811,7 +3787,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ce19791-be83-4bde-b6f7-1fd4bf616973")
 		(property "Reference" "R41"
-			(at 54.61 66.0399 0)
+			(at 34.29 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3821,8 +3797,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DNP"
-			(at 54.61 68.5799 0)
+		(property "Value" "RF_SHUNT_DNP"
+			(at 34.29 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3833,7 +3809,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 53.848 67.31 90)
+			(at 33.528 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3844,7 +3820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 67.31 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3855,7 +3831,7 @@
 			)
 		)
 		(property "Description" "Optional 0402 shunt resistor footprint for tunable 50Ω pi attenuator, DNP by default"
-			(at 52.07 67.31 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3865,8 +3841,8 @@
 				)
 			)
 		)
-		(property "Package" "0402"
-			(at 52.07 67.31 0)
+		(property "Package" "0402 (1005 Metric)"
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3876,8 +3852,8 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW0402 (TBD)"
-			(at 52.07 67.31 0)
+		(property "MPN" ""
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3887,8 +3863,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Vishay"
-			(at 52.07 67.31 0)
+		(property "Manufacturer" ""
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3899,7 +3875,29 @@
 			)
 		)
 		(property "Purpose" "Optional shunt leg for configurable RF input attenuation ahead of the ADL5513."
-			(at 52.07 67.31 0)
+			(at 31.75 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 31.75 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4081,190 +4079,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_Trim")
-		(at 214.63 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f5b3fab-f011-493d-a8bf-e5d8f78d2b56")
-		(property "Reference" "RV1"
-			(at 212.09 105.4099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 212.09 107.9499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3224W_Vertical"
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/3224.pdf"
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1 kOhms 0.25W, 1/4W J Lead Surface Mount Trimmer Potentiometer Cermet 12.0 Turn Top Adjustment"
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "3224W (SMD trim pot)"
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "3224W-1-102E"
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Bourns Inc."
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "Allows prototype adjustment of the ADL5513 TADJ calibration voltage."
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "POT"
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" "For prototype: Voltage divider to set TADJ pin for optimum performance depending on frequency. "
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "lcsc_id" "C50204"
-			(at 214.63 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "f3f479aa-c57e-4ee8-958e-973c0f10e1e3")
-		)
-		(pin "2"
-			(uuid "6d56b651-d0e4-4a51-a3ac-fc462329db9b")
-		)
-		(pin "1"
-			(uuid "585e7936-3770-4938-8cd6-52972cb4e842")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/2b870c27-11be-4d09-9c58-83e75b33e075"
-					(reference "RV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 138.43 44.45 180)
 		(unit 1)
@@ -4394,6 +4208,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 138.43 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 138.43 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a92effcc-c66c-40ba-8533-ffa75eb9cf6f")
 		)
@@ -4440,7 +4276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 196.85 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4485,6 +4321,28 @@
 			)
 		)
 		(property "Notes" ""
+			(at 191.77 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 191.77 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 191.77 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4637,6 +4495,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 151.13 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 151.13 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "81259749-54d1-44dd-a480-f82eea48bbc1")
 		)
@@ -4686,7 +4566,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 194.31 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4731,6 +4611,28 @@
 			)
 		)
 		(property "Notes" ""
+			(at 199.39 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 199.39 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 199.39 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4928,7 +4830,7 @@
 				)
 			)
 		)
-		(property "Purpose" "AC-couples ADL5513 RF input pins while preserving the broadband input match."
+		(property "Purpose" "AC-grounds ADL5513 INLO for the single-ended RF input configuration."
 			(at 130.81 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4952,6 +4854,28 @@
 		)
 		(property "lcsc_id" "C327054"
 			(at 130.81 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 130.81 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 130.81 69.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5096,6 +5020,28 @@
 			)
 		)
 		(property "lcsc_id" "C2941926"
+			(at 151.13 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 151.13 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 151.13 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5252,6 +5198,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 175.26 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 175.26 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "b6958e2b-99cb-49a1-959e-15007084f707")
 		)
@@ -5307,6 +5275,84 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/2b870c27-11be-4d09-9c58-83e75b33e075"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ad8c806-cf89-4b4c-b9e9-030e43c5d04a")
+		(property "Reference" "#PWR030"
+			(at 175.26 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21b3e3a7-0c13-41f0-b36c-4451a68c7eeb")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/2b870c27-11be-4d09-9c58-83e75b33e075"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5432,6 +5478,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 203.2 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 203.2 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4431b91d-5a71-4632-918d-879cd89c09da")
 		)
@@ -5449,7 +5517,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 62.23 90)
+		(at 45.72 62.23 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5459,7 +5527,7 @@
 		(dnp no)
 		(uuid "6e6eac10-0785-4e4f-8714-d9d0b3859a19")
 		(property "Reference" "R43"
-			(at 59.69 57.15 90)
+			(at 45.72 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5469,7 +5537,7 @@
 			)
 		)
 		(property "Value" "0Ω"
-			(at 59.69 59.69 90)
+			(at 45.72 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5479,7 +5547,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 59.69 64.008 90)
+			(at 45.72 64.008 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5490,7 +5558,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2GE0R00X"
-			(at 59.69 62.23 0)
+			(at 45.72 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5501,7 +5569,7 @@
 			)
 		)
 		(property "Description" "0 Ohms Jumper Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 59.69 62.23 0)
+			(at 45.72 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5512,7 +5580,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 59.69 62.23 0)
+			(at 45.72 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5523,7 +5591,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2GE0R00X"
-			(at 59.69 62.23 0)
+			(at 45.72 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5534,7 +5602,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Industry"
-			(at 59.69 62.23 0)
+			(at 45.72 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5545,7 +5613,7 @@
 			)
 		)
 		(property "Purpose" "Series resistor in tunable 50 ohm attenuator \"pi pad\" footprint."
-			(at 59.69 62.23 0)
+			(at 45.72 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5556,7 +5624,29 @@
 			)
 		)
 		(property "lcsc_id" "C242160"
-			(at 59.69 62.23 0)
+			(at 45.72 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 45.72 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 45.72 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5576,6 +5666,173 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/2b870c27-11be-4d09-9c58-83e75b33e075"
 					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 179.07 111.76 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "8787e800-1905-4b0c-ad93-9382c0af8196")
+		(property "Reference" "C61"
+			(at 172.72 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLPF_DNP"
+			(at 172.72 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 178.1048 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1HR50BA16-01A.pdf"
+			(at 179.07 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 179.07 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 179.07 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM1555C1H101FA16D"
+			(at 179.07 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 179.07 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Optional DNP ADL5513 CLPF capacitor footprint for video-bandwidth/rise-time experiments; leave unpopulated for fastest ADS-B pulse response."
+			(at 179.07 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 179.07 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C2941926"
+			(at 179.07 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 179.07 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 179.07 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "88513743-4dce-49d0-9b3c-b23b3ba8956a")
+		)
+		(pin "1"
+			(uuid "d45f04fd-bb0d-47a2-b967-926bf2c371b4")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/2b870c27-11be-4d09-9c58-83e75b33e075"
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -5711,6 +5968,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 138.43 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 138.43 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bdfb8886-7a69-4e6d-9fcb-d20c83964210")
 		)
@@ -5721,6 +6000,162 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/2b870c27-11be-4d09-9c58-83e75b33e075"
 					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 191.77 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b10fee2-7ada-4f49-b897-0d6f68043831")
+		(property "Reference" "R44"
+			(at 195.58 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 195.58 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 189.992 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2GE0R00X"
+			(at 191.77 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0 Ohms Jumper Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+			(at 191.77 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 191.77 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-2GE0R00X"
+			(at 191.77 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic Industry"
+			(at 191.77 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "0 ohm link tying VOUT to VSET to configure the ADL5513 for measurement/log-output mode."
+			(at 191.77 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C242160"
+			(at 191.77 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 191.77 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 191.77 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c87353fd-cf11-4ab2-8164-0aac38141f51")
+		)
+		(pin "2"
+			(uuid "ae578bd1-a3b9-4736-95c0-995a8f61740d")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/2b870c27-11be-4d09-9c58-83e75b33e075"
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -5824,7 +6259,7 @@
 				)
 			)
 		)
-		(property "Purpose" "AC-couples ADL5513 RF input pins while preserving the broadband input match."
+		(property "Purpose" "AC-couples the RF signal into ADL5513 INHI as part of the broadband input match."
 			(at 109.22 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5848,6 +6283,28 @@
 		)
 		(property "lcsc_id" "C327054"
 			(at 109.22 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 109.22 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 109.22 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5973,7 +6430,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "26.7kΩ"
+		(property "Value" "2.21kΩ"
 			(at 223.52 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5995,7 +6452,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+		(property "Datasheet" ""
 			(at 220.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6006,7 +6463,7 @@
 				)
 			)
 		)
-		(property "Description" "26.7 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
+		(property "Description" "2.21 kΩ, 1%, 100 ppm/°C, 0402"
 			(at 220.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6017,7 +6474,7 @@
 				)
 			)
 		)
-		(property "Package" "0402 (1005 Metric) "
+		(property "Package" "0402 (1005 Metric)"
 			(at 220.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6028,7 +6485,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ2RKF2672X"
+		(property "MPN" "ERJ2RKF2211X"
 			(at 220.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6050,7 +6507,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Upper resistor in the ADL5513 TADJ divider for 1090MHz detector calibration."
+		(property "Purpose" "Upper resistor in the ADL5513 TADJ divider"
 			(at 220.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6072,7 +6529,29 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C2077115"
+		(property "lcsc_id" "C416496"
+			(at 220.98 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 220.98 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 220.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6100,7 +6579,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 67.31 67.31 180)
+		(at 59.69 67.31 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6111,7 +6590,7 @@
 		(fields_autoplaced yes)
 		(uuid "b25dad4c-3b3d-4424-9240-ab3f25cb671b")
 		(property "Reference" "R42"
-			(at 69.85 66.0399 0)
+			(at 62.23 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6121,8 +6600,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DNP"
-			(at 69.85 68.5799 0)
+		(property "Value" "RF_SHUNT_DNP"
+			(at 62.23 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6133,7 +6612,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 69.088 67.31 90)
+			(at 61.468 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6144,7 +6623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 67.31 0)
+			(at 59.69 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6155,7 +6634,7 @@
 			)
 		)
 		(property "Description" "Optional 0402 shunt resistor footprint for tunable 50Ω pi attenuator, DNP by default"
-			(at 67.31 67.31 0)
+			(at 59.69 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6165,8 +6644,8 @@
 				)
 			)
 		)
-		(property "Package" "0402"
-			(at 67.31 67.31 0)
+		(property "Package" "0402 (1005 Metric)"
+			(at 59.69 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6176,8 +6655,8 @@
 				)
 			)
 		)
-		(property "MPN" "CRCW0402 (TBD)"
-			(at 67.31 67.31 0)
+		(property "MPN" ""
+			(at 59.69 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6187,8 +6666,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Vishay"
-			(at 67.31 67.31 0)
+		(property "Manufacturer" ""
+			(at 59.69 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6199,7 +6678,29 @@
 			)
 		)
 		(property "Purpose" "Optional shunt leg for configurable RF input attenuation ahead of the ADL5513."
-			(at 67.31 67.31 0)
+			(at 59.69 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 59.69 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 59.69 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6226,7 +6727,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 71.12 0)
+		(at 59.69 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6237,7 +6738,7 @@
 		(fields_autoplaced yes)
 		(uuid "b366a9de-8046-4504-997d-f0e9c74eac73")
 		(property "Reference" "#PWR0115"
-			(at 67.31 77.47 0)
+			(at 59.69 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6248,7 +6749,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 76.2 0)
+			(at 59.69 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6258,7 +6759,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 71.12 0)
+			(at 59.69 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6269,7 +6770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 71.12 0)
+			(at 59.69 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6280,7 +6781,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 71.12 0)
+			(at 59.69 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6382,7 +6883,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 114.3 0)
+		(at 220.98 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6393,7 +6894,7 @@
 		(fields_autoplaced yes)
 		(uuid "c78c89f7-4780-4dc1-a5c1-548b9e2179bf")
 		(property "Reference" "R27"
-			(at 217.17 113.0299 0)
+			(at 223.52 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6403,8 +6904,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.45kΩ"
-			(at 217.17 115.5699 0)
+		(property "Value" "768Ω"
+			(at 223.52 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6415,7 +6916,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 212.852 114.3 90)
+			(at 219.202 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6425,8 +6926,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
-			(at 214.63 114.3 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3025660.pdf"
+			(at 220.98 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6436,8 +6937,8 @@
 				)
 			)
 		)
-		(property "Description" "8.45 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
-			(at 214.63 114.3 0)
+		(property "Description" "768 Ω,   1%, 100 ppm/°C, 0402"
+			(at 220.98 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6448,7 +6949,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 214.63 114.3 0)
+			(at 220.98 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6458,8 +6959,8 @@
 				)
 			)
 		)
-		(property "MPN" "RT0402BRD078K45L"
-			(at 214.63 114.3 0)
+		(property "MPN" "ERJ2RKF7680X"
+			(at 220.98 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6469,8 +6970,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 214.63 114.3 0)
+		(property "Manufacturer" "PANASONIC"
+			(at 220.98 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6480,8 +6981,8 @@
 				)
 			)
 		)
-		(property "Purpose" "Lower resistor in the ADL5513 TADJ divider for 1090MHz detector calibration."
-			(at 214.63 114.3 0)
+		(property "Purpose" "Lower resistor in the ADL5513 TADJ divider"
+			(at 220.98 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6492,7 +6993,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 214.63 114.3 0)
+			(at 220.98 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6502,8 +7003,30 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C728566"
-			(at 214.63 114.3 0)
+		(property "lcsc_id" "C3025660"
+			(at 220.98 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 220.98 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 220.98 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6608,7 +7131,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 71.12 0)
+		(at 31.75 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6619,7 +7142,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6dc9bf8-83e3-4715-8275-cd12ef83877c")
 		(property "Reference" "#PWR0114"
-			(at 52.07 77.47 0)
+			(at 31.75 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6630,7 +7153,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 76.2 0)
+			(at 31.75 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6640,7 +7163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 71.12 0)
+			(at 31.75 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6651,7 +7174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 71.12 0)
+			(at 31.75 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6662,7 +7185,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 71.12 0)
+			(at 31.75 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6817,6 +7340,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 101.6 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 101.6 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9e35ab21-ec97-4834-8362-cf2ff1604ede")
 		)
@@ -6827,6 +7372,164 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/2b870c27-11be-4d09-9c58-83e75b33e075"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 191.77 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "e625f1ec-30a6-41cb-b2df-1144834ccc3a")
+		(property "Reference" "R45"
+			(at 193.548 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VSET_DIV_BTM_DNP"
+			(at 193.548 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 189.992 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2GE0R00X"
+			(at 191.77 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "ADL5513 slope adjustment, VSET to GND, populate if needed."
+			(at 191.77 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 191.77 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 191.77 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 191.77 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Optional DNP VSET-to-ground resistor for alternate ADL5513 VSET bias/control experiments; leave unpopulated when R44 ties VOUT to VSET."
+			(at 191.77 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" ""
+			(at 191.77 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 191.77 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 191.77 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef35b906-ab93-45bb-99db-97cf95ad979e")
+		)
+		(pin "2"
+			(uuid "c3c1ea99-e336-4956-843e-0fb7259900d0")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/2b870c27-11be-4d09-9c58-83e75b33e075"
+					(reference "R45")
 					(unit 1)
 				)
 			)

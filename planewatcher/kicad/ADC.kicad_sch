@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher")
-		(date "2026-05-18")
-		(rev "prototype 1.2")
+		(date "2026-06-30")
+		(rev "prototype 1.3")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
 		(comment 2 "Source: https://github.com/plane-watch/hardware.")
@@ -2195,16 +2195,16 @@
 		(uuid "ed84095b-3d98-47f7-90da-0ac836ae2e15")
 	)
 	(junction
-		(at 135.89 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01ae845e-1b54-464e-baf2-586ae9700705")
-	)
-	(junction
 		(at 45.72 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09b9d4dc-81f0-43bb-8934-91a50318253a")
+	)
+	(junction
+		(at 135.89 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f187b61-d048-4b67-a2d6-e7e71ca114bd")
 	)
 	(junction
 		(at 59.69 62.23)
@@ -2253,12 +2253,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7fcf287-4c78-4fd7-a16e-651f43b56884")
-	)
-	(junction
-		(at 128.27 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba9b6273-6272-4dd9-8760-7975a7b1c453")
 	)
 	(junction
 		(at 107.95 62.23)
@@ -2343,16 +2337,6 @@
 			(type default)
 		)
 		(uuid "0a18b53a-225e-4f46-953c-8f1db35eb834")
-	)
-	(wire
-		(pts
-			(xy 128.27 97.79) (xy 135.89 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c6ecc87-ac42-4baa-891b-bd44567b077c")
 	)
 	(wire
 		(pts
@@ -2826,6 +2810,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 97.79) (xy 148.59 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cce27958-43ca-44bb-87d1-a5c9f654dfd9")
+	)
+	(wire
+		(pts
 			(xy 64.77 90.17) (xy 69.85 90.17)
 		)
 		(stroke
@@ -2886,23 +2880,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 97.79) (xy 128.27 97.79)
+			(xy 121.92 97.79) (xy 135.89 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e40563f1-3bad-406c-81a4-331d580f2abc")
-	)
-	(wire
-		(pts
-			(xy 148.59 97.79) (xy 135.89 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e95a1401-77f6-4c85-969d-e047fa700309")
 	)
 	(wire
 		(pts
@@ -3050,17 +3034,6 @@
 			(justify left)
 		)
 		(uuid "5c278739-070f-4e6d-ba40-762cacd4233f")
-	)
-	(hierarchical_label "VREF"
-		(shape output)
-		(at 148.59 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5fd5fc5c-6a71-4acb-84a8-fde73daa36aa")
 	)
 	(hierarchical_label "D8"
 		(shape output)
@@ -3372,6 +3345,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 135.89 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 135.89 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b415e052-393c-456c-aab9-a9e6a592217e")
 		)
@@ -3509,6 +3504,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 121.92 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 121.92 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f9bd213b-88bb-4423-a717-15f135e90e94")
 		)
@@ -3634,6 +3651,28 @@
 		)
 		(property "lcsc_id" "C1734385"
 			(at 45.72 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 45.72 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 45.72 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3876,6 +3915,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 135.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 135.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "071cd519-dda9-43bf-9cc6-3016263d61bc")
 		)
@@ -4013,6 +4074,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 121.92 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 121.92 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "620f7704-d780-4c4f-906d-125ea7217606")
 		)
@@ -4030,7 +4113,8 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 128.27 97.79 0)
+		(at 148.59 97.79 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4038,10 +4122,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "74b20e00-9c46-4e50-a012-448c5a7a3325")
 		(property "Reference" "TP21"
-			(at 130.81 93.2179 0)
+			(at 151.13 102.3621 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4052,7 +4135,7 @@
 			)
 		)
 		(property "Value" "VREF"
-			(at 130.81 95.7579 0)
+			(at 151.13 99.8221 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4062,8 +4145,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 133.35 97.79 0)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 153.67 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4074,7 +4157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 97.79 0)
+			(at 153.67 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4085,7 +4168,7 @@
 			)
 		)
 		(property "Description" "PCB copper test pad, 1.0mm, no fitted component"
-			(at 128.27 97.79 0)
+			(at 148.59 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4096,7 +4179,29 @@
 			)
 		)
 		(property "Purpose" "Provides oscilloscope/DMM probe access to VREF."
-			(at 128.27 97.79 0)
+			(at 148.59 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 148.59 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 148.59 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4230,6 +4335,28 @@
 			)
 		)
 		(property "lcsc_id" "C161163"
+			(at 59.69 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 59.69 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 59.69 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4377,6 +4504,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 107.95 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 107.95 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d08ab7c6-9a93-4472-864c-9f91564bca16")
 		)
@@ -4514,6 +4663,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 121.92 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 121.92 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d1caa76c-b6b3-421e-b1d0-62d00f549b12")
 		)
@@ -4551,7 +4722,7 @@
 				)
 			)
 		)
-		(property "Value" "AD9203ARUZ"
+		(property "Value" "AD9203"
 			(at 83.82 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4639,6 +4810,28 @@
 			)
 		)
 		(property "lcsc_id" "C653239"
+			(at 83.82 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 83.82 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 83.82 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4854,6 +5047,28 @@
 			)
 		)
 		(property "lcsc_id" "C237435"
+			(at 45.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 45.72 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5154,6 +5369,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 152.4 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 152.4 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dcfca469-9749-4009-9371-d51d300588a2")
 		)
@@ -5444,6 +5681,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 58.42 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 58.42 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "5ae73232-8c35-4d1e-8184-eaa05daaba42")
 		)
@@ -5588,6 +5847,28 @@
 		)
 		(property "lcsc_id" "C1734385"
 			(at 45.72 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 45.72 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 45.72 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5819,6 +6100,28 @@
 		)
 		(property "lcsc_id" "C161163"
 			(at 152.4 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 152.4 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 152.4 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
