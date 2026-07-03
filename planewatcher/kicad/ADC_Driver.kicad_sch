@@ -2266,8 +2266,8 @@
 	)
 	(text_box "Set common-mode voltage to 3V3/2 = 1.65V"
 		(exclude_from_sim no)
-		(at 135.255 44.45 0)
-		(size 26.67 36.83)
+		(at 130.81 44.45 0)
+		(size 16.51 39.37)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2305,6 +2305,12 @@
 		(uuid "ba496d73-b75f-454a-aabb-b17b4728eeb4")
 	)
 	(junction
+		(at 179.07 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d9ee32e-4e13-4bd2-8569-ef420ae0d916")
+	)
+	(junction
 		(at 109.22 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2329,7 +2335,13 @@
 		(uuid "3c39d892-249a-49b5-8311-de4e01e573ce")
 	)
 	(junction
-		(at 138.43 58.42)
+		(at 154.94 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3df98d08-0dbd-4679-9daa-591cc35eb711")
+	)
+	(junction
+		(at 135.89 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46f1c125-5091-461c-b153-2107e8ee35ea")
@@ -2401,10 +2413,10 @@
 		(uuid "af3a9ae9-61bf-4c0b-aa62-77e775f0aded")
 	)
 	(junction
-		(at 151.13 58.42)
+		(at 167.64 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b4dd3197-ed41-40e5-ae56-70b01b09e5da")
+		(uuid "b13179e7-1017-485e-8964-691fe9395fab")
 	)
 	(junction
 		(at 171.45 115.57)
@@ -2425,6 +2437,18 @@
 		(uuid "c63b05e2-1911-4aaf-a88d-034e1d6aeda7")
 	)
 	(junction
+		(at 167.64 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d09311ba-ae69-4532-ade6-4136d0b2959f")
+	)
+	(junction
+		(at 152.4 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5284fd0-32d0-4128-ada6-5f7b4d27eb91")
+	)
+	(junction
 		(at 128.27 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2443,10 +2467,22 @@
 		(uuid "ec570d7f-7dbc-4d55-b8e8-084be5b9c603")
 	)
 	(junction
+		(at 154.94 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee68ad35-a97a-43ed-9ccc-9aa73e25631f")
+	)
+	(junction
 		(at 74.93 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f619b332-f967-4569-9d7d-c860f52e251a")
+	)
+	(junction
+		(at 179.07 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "facdbb79-1a4a-4f9a-bde5-631ee137c3d1")
 	)
 	(wire
 		(pts
@@ -2470,7 +2506,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 100.33) (xy 129.54 100.33)
+			(xy 133.35 100.33) (xy 128.27 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2490,7 +2526,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 58.42) (xy 151.13 58.42)
+			(xy 135.89 58.42) (xy 152.4 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2550,7 +2586,17 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 100.33) (xy 129.54 58.42)
+			(xy 167.64 73.66) (xy 154.94 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "255d5eff-3b5b-446a-aeb9-cb05a6fb6f3f")
+	)
+	(wire
+		(pts
+			(xy 128.27 100.33) (xy 128.27 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2610,6 +2656,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 66.04) (xy 152.4 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "483c6af6-ce99-4f53-876c-d30c2f2d5255")
+	)
+	(wire
+		(pts
 			(xy 102.87 107.95) (xy 133.35 107.95)
 		)
 		(stroke
@@ -2650,7 +2706,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 58.42) (xy 138.43 58.42)
+			(xy 128.27 58.42) (xy 135.89 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2727,6 +2783,16 @@
 			(type default)
 		)
 		(uuid "6bf84b47-149d-4eb9-bfdc-d95949f0551f")
+	)
+	(wire
+		(pts
+			(xy 179.07 66.04) (xy 191.77 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f5897ac-aa2c-4063-8bc1-6d96713d8682")
 	)
 	(wire
 		(pts
@@ -2920,13 +2986,23 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 48.26) (xy 138.43 50.8)
+			(xy 135.89 48.26) (xy 135.89 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aab08974-9894-4b9f-a5b7-2973b2edce0b")
+	)
+	(wire
+		(pts
+			(xy 179.07 73.66) (xy 191.77 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b17a514a-b46d-419d-9a37-427d13788e96")
 	)
 	(wire
 		(pts
@@ -2937,6 +3013,26 @@
 			(type default)
 		)
 		(uuid "b1a627c2-4949-48e1-96b2-4103a8f3158e")
+	)
+	(wire
+		(pts
+			(xy 179.07 73.66) (xy 167.64 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7bda578-e2ba-45ba-a12b-d88e0b4d9ed8")
+	)
+	(wire
+		(pts
+			(xy 167.64 66.04) (xy 154.94 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd04751d-07da-453a-9cb7-459838255213")
 	)
 	(wire
 		(pts
@@ -3040,7 +3136,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 48.26) (xy 138.43 48.26)
+			(xy 144.78 48.26) (xy 135.89 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3110,6 +3206,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 66.04) (xy 167.64 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a9fff1-55e7-4976-9745-54e7a0dee81c")
+	)
+	(wire
+		(pts
 			(xy 194.31 41.91) (xy 191.77 41.91)
 		)
 		(stroke
@@ -3127,6 +3233,16 @@
 			(type default)
 		)
 		(uuid "fe56216f-ea02-40b9-ad50-13e2dbb86b52")
+	)
+	(wire
+		(pts
+			(xy 152.4 66.04) (xy 152.4 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2e9bd2-abf6-42a1-affe-04f7f85097e7")
 	)
 	(wire
 		(pts
@@ -3149,7 +3265,7 @@
 		(uuid "d30d342a-b93f-4579-abeb-fa0ca11a0c20")
 	)
 	(label "AVDD"
-		(at 147.32 48.26 180)
+		(at 144.78 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3373,6 +3489,333 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 191.77 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "010b73e1-8f2d-4103-aeab-e4125e601da0")
+		(property "Reference" "C80"
+			(at 195.58 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10µF"
+			(at 195.58 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 192.7352 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106MA73-01A.pdf"
+			(at 191.77 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 191.77 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 191.77 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188Z71A106MA73D"
+			(at 191.77 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 191.77 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Local bulk bypass for the AD8138 VOCM common-mode bias node."
+			(at 191.77 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C237435"
+			(at 191.77 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 191.77 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 191.77 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7e470a20-3f1f-4ec6-bb2c-a93048ef81ce")
+		)
+		(pin "1"
+			(uuid "a46d2cfe-0601-42d1-bd24-899bcd95c3ba")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
+					(reference "C80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 154.94 69.85 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "049d491e-c890-4e78-a8b4-72a9c7250f2e")
+		(property "Reference" "C78"
+			(at 161.29 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100pF"
+			(at 161.29 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 153.9748 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1HR50BA16-01A.pdf"
+			(at 154.94 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 154.94 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 154.94 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM1555C1H101FA16D"
+			(at 154.94 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 154.94 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "RF-frequency bypass capacitor for the AD8138 VOCM common-mode bias node."
+			(at 154.94 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 154.94 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C2941926"
+			(at 154.94 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 154.94 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 154.94 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4ee16284-a2ca-4594-bf63-29f542dd0ea3")
+		)
+		(pin "1"
+			(uuid "ad73873e-b867-46ff-944b-13b6725b52f7")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
+					(reference "C78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 162.56 115.57 180)
 		(unit 1)
@@ -3572,7 +4015,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 66.04 0)
+		(at 154.94 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3580,10 +4023,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "13a5f4cc-80d7-44aa-9fca-32316f258b38")
 		(property "Reference" "#PWR081"
-			(at 151.13 72.39 0)
+			(at 154.94 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3594,7 +4036,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 71.12 0)
+			(at 154.94 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3604,7 +4046,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 66.04 0)
+			(at 154.94 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3615,7 +4057,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 66.04 0)
+			(at 154.94 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3626,7 +4068,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 66.04 0)
+			(at 154.94 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3643,6 +4085,163 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
 					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 69.85 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1dad55bd-134f-4713-9c47-bc0cc17d0613")
+		(property "Reference" "C79"
+			(at 173.99 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1nF"
+			(at 173.99 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 168.6052 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H102FA01-01.pdf"
+			(at 167.64 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1000 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 167.64 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 167.64 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM1555C1H102FA16D"
+			(at 167.64 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 167.64 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "RF-frequency bypass capacitor for the AD8138 VOCM common-mode bias node."
+			(at 167.64 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C126493"
+			(at 167.64 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 167.64 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 167.64 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cd920258-d16b-4cc5-a6ca-6096ff9fd784")
+		)
+		(pin "1"
+			(uuid "4df5f2a2-d59b-49b6-a094-0890e9e54a68")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -4732,7 +5331,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 151.13 62.23 0)
+		(at 179.07 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4743,7 +5342,7 @@
 		(fields_autoplaced yes)
 		(uuid "6143a258-44ef-4c89-801c-c9c0a19b538a")
 		(property "Reference" "C46"
-			(at 154.94 60.9599 0)
+			(at 182.88 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4754,7 +5353,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 154.94 63.4999 0)
+			(at 182.88 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4765,7 +5364,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 152.0952 66.04 0)
+			(at 180.0352 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4776,7 +5375,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
-			(at 151.13 62.23 0)
+			(at 179.07 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4787,7 +5386,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 151.13 62.23 0)
+			(at 179.07 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4798,7 +5397,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 151.13 62.23 0)
+			(at 179.07 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4809,7 +5408,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71A104KA55D"
-			(at 151.13 62.23 0)
+			(at 179.07 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4820,7 +5419,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 151.13 62.23 0)
+			(at 179.07 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4831,7 +5430,7 @@
 			)
 		)
 		(property "Purpose" "Local high-frequency decoupling for the AD8138 analog supply and VOCM network."
-			(at 151.13 62.23 0)
+			(at 179.07 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4842,7 +5441,7 @@
 			)
 		)
 		(property "lcsc_id" "C161163"
-			(at 151.13 62.23 0)
+			(at 179.07 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4853,7 +5452,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 151.13 62.23 0)
+			(at 179.07 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4864,7 +5463,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 151.13 62.23 0)
+			(at 179.07 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5484,7 +6083,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 66.04 0)
+		(at 135.89 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5495,7 +6094,7 @@
 		(fields_autoplaced yes)
 		(uuid "828bca6a-a4eb-4b9d-8622-55428f113dd8")
 		(property "Reference" "#PWR082"
-			(at 138.43 72.39 0)
+			(at 135.89 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5506,7 +6105,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 71.12 0)
+			(at 135.89 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5516,7 +6115,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 66.04 0)
+			(at 135.89 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5527,7 +6126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 66.04 0)
+			(at 135.89 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5538,7 +6137,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 66.04 0)
+			(at 135.89 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6567,7 +7166,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 151.13 58.42 0)
+		(at 152.4 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6578,7 +7177,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab17c3cc-42f9-4e0f-ad9b-8ddc2eac804a")
 		(property "Reference" "TP15"
-			(at 153.67 53.8479 0)
+			(at 154.94 53.8479 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6589,7 +7188,7 @@
 			)
 		)
 		(property "Value" "VOCM"
-			(at 153.67 56.3879 0)
+			(at 154.94 56.3879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6600,7 +7199,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 156.21 58.42 0)
+			(at 157.48 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6611,7 +7210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 58.42 0)
+			(at 157.48 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6622,7 +7221,7 @@
 			)
 		)
 		(property "Description" "PCB copper test pad, 1.0mm, no fitted component"
-			(at 151.13 58.42 0)
+			(at 152.4 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6633,7 +7232,7 @@
 			)
 		)
 		(property "Purpose" "Provides oscilloscope/DMM probe access to VOCM."
-			(at 151.13 58.42 0)
+			(at 152.4 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6644,7 +7243,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 151.13 58.42 0)
+			(at 152.4 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6655,7 +7254,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 151.13 58.42 0)
+			(at 152.4 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6679,7 +7278,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 138.43 62.23 0)
+		(at 135.89 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6690,7 +7289,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac7b0994-3b13-47e9-ac83-2b02d0ac1ab7")
 		(property "Reference" "R29"
-			(at 140.97 60.9599 0)
+			(at 138.43 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6701,7 +7300,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 140.97 63.4999 0)
+			(at 138.43 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6712,7 +7311,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 136.652 62.23 90)
+			(at 134.112 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6723,7 +7322,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-RE_105_ROHS_L.pdf"
-			(at 138.43 62.23 0)
+			(at 135.89 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6734,7 +7333,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
-			(at 138.43 62.23 0)
+			(at 135.89 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6745,7 +7344,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 138.43 62.23 0)
+			(at 135.89 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6756,7 +7355,7 @@
 			)
 		)
 		(property "MPN" "ERA-2AEB103X"
-			(at 138.43 62.23 0)
+			(at 135.89 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6767,7 +7366,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Industry"
-			(at 138.43 62.23 0)
+			(at 135.89 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6778,7 +7377,7 @@
 			)
 		)
 		(property "Purpose" "Biases the AD8138 VOCM/offset network."
-			(at 138.43 62.23 0)
+			(at 135.89 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6789,7 +7388,7 @@
 			)
 		)
 		(property "lcsc_id" "C191915"
-			(at 138.43 62.23 0)
+			(at 135.89 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6800,7 +7399,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 138.43 62.23 0)
+			(at 135.89 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6811,7 +7410,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 138.43 62.23 0)
+			(at 135.89 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7982,7 +8581,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 138.43 54.61 0)
+		(at 135.89 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7993,7 +8592,7 @@
 		(fields_autoplaced yes)
 		(uuid "e20fbc68-f73a-4f95-b85a-52efd3188828")
 		(property "Reference" "R28"
-			(at 140.97 53.3399 0)
+			(at 138.43 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8004,7 +8603,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 140.97 55.8799 0)
+			(at 138.43 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8015,7 +8614,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 136.652 54.61 90)
+			(at 134.112 54.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8026,7 +8625,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-RE_105_ROHS_L.pdf"
-			(at 138.43 54.61 0)
+			(at 135.89 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8037,7 +8636,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
-			(at 138.43 54.61 0)
+			(at 135.89 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8048,7 +8647,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 138.43 54.61 0)
+			(at 135.89 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8059,7 +8658,7 @@
 			)
 		)
 		(property "MPN" "ERA-2AEB103X"
-			(at 138.43 54.61 0)
+			(at 135.89 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8070,7 +8669,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Industry"
-			(at 138.43 54.61 0)
+			(at 135.89 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8081,7 +8680,7 @@
 			)
 		)
 		(property "Purpose" "Biases the AD8138 VOCM/offset network."
-			(at 138.43 54.61 0)
+			(at 135.89 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8092,7 +8691,7 @@
 			)
 		)
 		(property "lcsc_id" "C191915"
-			(at 138.43 54.61 0)
+			(at 135.89 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8103,7 +8702,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 138.43 54.61 0)
+			(at 135.89 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8114,7 +8713,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 138.43 54.61 0)
+			(at 135.89 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
