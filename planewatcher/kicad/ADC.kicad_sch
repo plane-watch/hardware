@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher")
-		(date "2026-06-30")
+		(date "2026-07-08")
 		(rev "prototype 1.3")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
@@ -15,129 +15,6 @@
 		(comment 4 "Copyright (C) 2026 plane.watch team and contributors.")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -275,6 +152,324 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -1374,6 +1569,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(polyline
 		(pts
@@ -2194,135 +2504,255 @@
 		)
 		(uuid "ed84095b-3d98-47f7-90da-0ac836ae2e15")
 	)
+	(text_box "Series damping/termination for FPGA digital I/O"
+		(exclude_from_sim no)
+		(at 92.71 43.18 0)
+		(size 30.48 57.15)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61c3450d-8b80-4c35-801e-505a5ecba8c8")
+	)
+	(text_box "Bypass/decoupling for digital supply. Ferrite bead ${/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/f77ae351-26f3-42d4-beb0-b884b17c3798/533e3aea-0b01-471e-8965-b1a7ec8870ac:REFERENCE} to suppress any high frequency noise entering digital supply."
+		(exclude_from_sim no)
+		(at 22.86 13.97 0)
+		(size 100.33 27.94)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67e65ed3-4107-434b-8343-81e556da72f1")
+	)
+	(text_box "Bypass/decoupling for analog supply. Ferrite bead ${/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/f77ae351-26f3-42d4-beb0-b884b17c3798/90bf33f2-24fe-4a1e-9477-6f6210e09237:REFERENCE} to suppress any high frequency noise entering quiet analog supply."
+		(exclude_from_sim no)
+		(at 175.26 13.97 0)
+		(size 107.95 27.94)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9c4982f-89d6-4fc1-b7fb-4e19bde8ae16")
+	)
+	(text_box "VREF decoupling"
+		(exclude_from_sim no)
+		(at 213.36 78.74 0)
+		(size 60.96 30.48)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "acfffd23-fa50-4e1c-9aea-13fd034d5c70")
+	)
+	(text_box "Top and Bottom Reference Decoupling (as-per datasheet)"
+		(exclude_from_sim no)
+		(at 213.36 44.45 0)
+		(size 69.85 31.75)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "de3fc98e-db64-43e9-a81e-f84209e496c7")
+	)
+	(text_box "Ability to change 1Vp-p to 2Vp-p.\n2Vp-p as-per schematic with ${/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/f77ae351-26f3-42d4-beb0-b884b17c3798/c2c460cc-af40-46f2-a17d-a1fcea9bb573:REFERENCE} DNP and ${/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/f77ae351-26f3-42d4-beb0-b884b17c3798/ce9a091b-3b33-4179-8729-9580c9c41900:REFERENCE} populated."
+		(exclude_from_sim no)
+		(at 167.64 72.39 0)
+		(size 39.37 36.83)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2f163a6-6b27-4fc3-b9f3-5a96bc74565c")
+	)
 	(junction
-		(at 189.23 24.13)
+		(at 189.23 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "054f1149-c744-4948-92f6-6b7fdb84b46e")
 	)
 	(junction
-		(at 232.41 81.28)
+		(at 180.34 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f187b61-d048-4b67-a2d6-e7e71ca114bd")
+		(uuid "0d8b8f01-fd4b-499f-852c-48ffd0049563")
 	)
 	(junction
-		(at 104.14 24.13)
+		(at 86.36 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "297f8a15-1d93-439d-9bb2-ab787b8ae723")
 	)
 	(junction
-		(at 186.69 66.04)
+		(at 58.42 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53009f93-28b2-4950-9b44-9234ff0a530f")
+	)
+	(junction
+		(at 219.71 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "531e37ca-e746-4b30-97c8-6e9e14330c02")
 	)
 	(junction
-		(at 203.2 24.13)
+		(at 203.2 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56782fe7-5620-4819-a705-06bde69ba53b")
 	)
 	(junction
-		(at 200.66 66.04)
+		(at 233.68 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6769b1e8-3ada-45c7-b7a0-02baf360ec97")
 	)
 	(junction
-		(at 162.56 85.09)
+		(at 165.1 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68f56702-f08d-4e3a-8996-5bc43bc38e6d")
 	)
 	(junction
-		(at 204.47 81.28)
+		(at 236.22 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f7d580b-1185-442a-a66a-0d022cc2f463")
 	)
 	(junction
-		(at 90.17 24.13)
+		(at 72.39 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "760a4eb1-67e8-4327-a11c-386b7ba2b2df")
 	)
 	(junction
-		(at 231.14 24.13)
+		(at 250.19 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "85cf34f3-fb76-4f0a-b8df-726ca28b2565")
+		(uuid "8977dc2c-4c97-4dad-806c-79c615336758")
 	)
 	(junction
-		(at 217.17 24.13)
+		(at 217.17 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9304b636-487a-48d5-8432-b8d83404ebc2")
 	)
 	(junction
-		(at 76.2 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7d92604-b74b-4414-8619-a180501e198e")
-	)
-	(junction
-		(at 162.56 77.47)
+		(at 165.1 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7fcf287-4c78-4fd7-a16e-651f43b56884")
 	)
 	(junction
-		(at 190.5 81.28)
+		(at 222.25 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad280a33-f1c1-498d-87d0-1497168cd649")
 	)
 	(junction
-		(at 186.69 58.42)
+		(at 219.71 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c979bdb5-850b-4a7f-be7f-e42f1a4d11f3")
 	)
 	(junction
-		(at 200.66 58.42)
+		(at 233.68 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cda82072-bbc2-4f6e-933b-1659ca7d86c0")
 	)
 	(junction
-		(at 220.98 66.04)
+		(at 254 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de2296e0-0b79-486f-95d9-96e305fa2f62")
 	)
 	(junction
-		(at 218.44 81.28)
+		(at 209.55 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e4b82c16-b2b5-4d9c-83ba-2b780f6b805c")
+		(uuid "e9d1df97-5ac8-4670-9a4c-fe1b4fb432b9")
 	)
 	(junction
-		(at 118.11 24.13)
+		(at 100.33 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e67038c6-d572-4e6b-a071-eac9b3ac8fd3")
+		(uuid "eb63fd6d-9f87-4c1a-a767-e3af37e4c671")
 	)
 	(junction
-		(at 162.56 88.9)
+		(at 165.1 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e71dd723-a21e-46b0-9709-20fc254d08d7")
+		(uuid "f0552650-3f9b-4faa-82d5-dfdfdfbc1be2")
 	)
 	(junction
-		(at 162.56 81.28)
+		(at 231.14 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e81e5a1d-f166-4832-82db-f052b6361978")
+		(uuid "fbaa107e-40f5-47c6-8e79-5141438b7c6d")
 	)
 	(wire
 		(pts
-			(xy 162.56 66.04) (xy 186.69 66.04)
+			(xy 162.56 66.04) (xy 219.71 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2352,6 +2782,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 88.9) (xy 165.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "086b9f04-2659-4d85-84f3-b055f6b8a516")
+	)
+	(wire
+		(pts
 			(xy 129.54 49.53) (xy 129.54 54.61)
 		)
 		(stroke
@@ -2362,7 +2802,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 24.13) (xy 189.23 24.13)
+			(xy 172.72 21.59) (xy 189.23 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2382,6 +2822,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 81.28) (xy 209.55 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "135230b1-c132-40e7-9912-0984fcda0499")
+	)
+	(wire
+		(pts
 			(xy 101.6 49.53) (xy 105.41 49.53)
 		)
 		(stroke
@@ -2392,7 +2842,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 24.13) (xy 172.72 39.37)
+			(xy 172.72 21.59) (xy 172.72 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2402,7 +2852,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 85.09) (xy 162.56 88.9)
+			(xy 162.56 77.47) (xy 165.1 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17b85b7e-66ef-4c7c-a108-c54cb93c5daf")
+	)
+	(wire
+		(pts
+			(xy 165.1 85.09) (xy 165.1 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2442,7 +2902,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 77.47) (xy 162.56 81.28)
+			(xy 165.1 77.47) (xy 165.1 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2492,6 +2952,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 21.59) (xy 264.16 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3016441f-af01-4ef5-856c-f6d70454c092")
+	)
+	(wire
+		(pts
 			(xy 102.87 92.71) (xy 102.87 80.01)
 		)
 		(stroke
@@ -2512,7 +2982,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 24.13) (xy 104.14 24.13)
+			(xy 72.39 21.59) (xy 86.36 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2522,13 +2992,33 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 24.13) (xy 118.11 24.13)
+			(xy 86.36 21.59) (xy 100.33 21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "397df1cc-1728-458e-b402-805b631b8da1")
+	)
+	(wire
+		(pts
+			(xy 125.73 39.37) (xy 134.62 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cad0b1e-0160-4f6d-9b91-3d0a5e0c1049")
+	)
+	(wire
+		(pts
+			(xy 180.34 81.28) (xy 180.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff2a275-8dcd-4f40-b891-d0a3b7c300cc")
 	)
 	(wire
 		(pts
@@ -2542,7 +3032,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 66.04) (xy 229.87 66.04)
+			(xy 254 66.04) (xy 262.89 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2570,16 +3060,6 @@
 		)
 		(uuid "500d38a2-46c2-4854-bee5-0debbfc00b44")
 	)
-	(wire
-		(pts
-			(xy 162.56 81.28) (xy 162.56 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50cb4578-d96e-4c02-bf3d-85d21e17e8f3")
-	)
 	(polyline
 		(pts
 			(xy 242.4534 174.5166) (xy 242.4534 174.5166)
@@ -2592,7 +3072,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 66.04) (xy 213.36 66.04)
+			(xy 233.68 66.04) (xy 246.38 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2602,7 +3082,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 24.13) (xy 217.17 24.13)
+			(xy 203.2 21.59) (xy 217.17 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2622,7 +3102,17 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 24.13) (xy 203.2 24.13)
+			(xy 165.1 92.71) (xy 165.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "570ca24f-16ef-4240-aa4e-9b0be0338a5f")
+	)
+	(wire
+		(pts
+			(xy 189.23 21.59) (xy 203.2 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2632,7 +3122,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 46.99) (xy 177.8 46.99)
+			(xy 162.56 46.99) (xy 175.26 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2652,13 +3142,23 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 58.42) (xy 200.66 58.42)
+			(xy 219.71 58.42) (xy 233.68 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "678473b9-7674-4dbe-8df6-777590712d2f")
+	)
+	(wire
+		(pts
+			(xy 163.83 69.85) (xy 162.56 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d7d824e-d0e5-483d-88b8-ce36438ae884")
 	)
 	(wire
 		(pts
@@ -2682,7 +3182,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 24.13) (xy 245.11 24.13)
+			(xy 231.14 21.59) (xy 247.65 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2692,13 +3192,33 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 62.23) (xy 173.99 62.23)
+			(xy 162.56 62.23) (xy 209.55 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7b42e3e9-2618-4764-a34c-3a4cf00d5bab")
+	)
+	(wire
+		(pts
+			(xy 100.33 21.59) (xy 125.73 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e89dc92-414a-4e62-9773-800a5bb8dc87")
+	)
+	(wire
+		(pts
+			(xy 48.26 21.59) (xy 58.42 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803be687-00e0-4600-b6e8-7433768e0f3b")
 	)
 	(wire
 		(pts
@@ -2722,7 +3242,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 58.42) (xy 213.36 58.42)
+			(xy 233.68 58.42) (xy 246.38 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2762,6 +3282,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 73.66) (xy 165.1 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "931c035f-5248-4b8d-adb5-3e4fcf541cb9")
+	)
+	(wire
+		(pts
 			(xy 101.6 57.15) (xy 105.41 57.15)
 		)
 		(stroke
@@ -2782,7 +3312,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 58.42) (xy 220.98 66.04)
+			(xy 254 58.42) (xy 254 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2792,7 +3322,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 73.66) (xy 162.56 77.47)
+			(xy 165.1 73.66) (xy 165.1 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2802,13 +3332,33 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 62.23) (xy 173.99 81.28)
+			(xy 209.55 62.23) (xy 209.55 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9fe4d60d-5ff9-4bcc-9021-be3d254dac1f")
+	)
+	(wire
+		(pts
+			(xy 209.55 81.28) (xy 250.19 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a30ef838-7c04-4cc4-8089-625390e37f2a")
+	)
+	(wire
+		(pts
+			(xy 162.56 85.09) (xy 165.1 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a74a38ee-9391-40fb-8229-8160e298188d")
 	)
 	(wire
 		(pts
@@ -2882,7 +3432,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 24.13) (xy 76.2 24.13)
+			(xy 33.02 21.59) (xy 40.64 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2892,7 +3442,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 24.13) (xy 90.17 24.13)
+			(xy 58.42 21.59) (xy 72.39 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2902,7 +3452,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 58.42) (xy 186.69 58.42)
+			(xy 162.56 58.42) (xy 219.71 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2932,23 +3482,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 24.13) (xy 134.62 39.37)
+			(xy 125.73 21.59) (xy 125.73 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c7e1dc79-0268-4208-87c0-1952e10f8654")
-	)
-	(wire
-		(pts
-			(xy 232.41 81.28) (xy 245.11 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cce27958-43ca-44bb-87d1-a5c9f654dfd9")
 	)
 	(wire
 		(pts
@@ -2982,17 +3522,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 81.28) (xy 218.44 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd8b20c4-a7f1-4150-af2d-37e5869c2f9c")
-	)
-	(wire
-		(pts
-			(xy 186.69 66.04) (xy 200.66 66.04)
+			(xy 219.71 66.04) (xy 233.68 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3012,6 +3542,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 81.28) (xy 182.88 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e26d57d6-ac15-49fa-82df-0611e9b31ccc")
+	)
+	(wire
+		(pts
 			(xy 172.72 39.37) (xy 162.56 39.37)
 		)
 		(stroke
@@ -3022,23 +3562,13 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 81.28) (xy 232.41 81.28)
+			(xy 250.19 81.28) (xy 264.16 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e40563f1-3bad-406c-81a4-331d580f2abc")
-	)
-	(wire
-		(pts
-			(xy 118.11 24.13) (xy 134.62 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e649185d-137e-4367-b904-7c26e07cfe8e")
 	)
 	(wire
 		(pts
@@ -3052,7 +3582,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 24.13) (xy 231.14 24.13)
+			(xy 217.17 21.59) (xy 231.14 21.59)
 		)
 		(stroke
 			(width 0)
@@ -3100,6 +3630,46 @@
 		)
 		(uuid "fcb6ec40-2ffe-467d-a86c-8100e4807eda")
 	)
+	(wire
+		(pts
+			(xy 162.56 81.28) (xy 180.34 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff80207b-af68-48d9-9bb5-b532359f09bc")
+	)
+	(label "ADC_AVDD"
+		(at 163.83 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a144cbe-3e0f-4433-9d5e-203282971578")
+	)
+	(label "ADC_DRVDD"
+		(at 119.38 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4bbe1fb9-82b7-47fb-a3f9-e96f685e9ed3")
+	)
+	(label "ADC_AVDD"
+		(at 177.8 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a12a9ab3-70e4-443d-9f47-d938df35df47")
+	)
 	(hierarchical_label "D2"
 		(shape output)
 		(at 101.6 54.61 180)
@@ -3146,7 +3716,7 @@
 	)
 	(hierarchical_label "AVDD"
 		(shape input)
-		(at 245.11 24.13 0)
+		(at 264.16 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3199,17 +3769,6 @@
 		)
 		(uuid "77ee2573-f819-407e-90d2-fc22ebf949f0")
 	)
-	(hierarchical_label "AVDD"
-		(shape input)
-		(at 162.56 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "876e9b9e-b0b4-425c-b126-f1820d0ab253")
-	)
 	(hierarchical_label "D4"
 		(shape output)
 		(at 101.6 64.77 180)
@@ -3234,7 +3793,7 @@
 	)
 	(hierarchical_label "DRVDD"
 		(shape input)
-		(at 72.39 24.13 180)
+		(at 33.02 21.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3366,7 +3925,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 88.9 0)
+		(at 264.16 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3377,7 +3936,7 @@
 		(fields_autoplaced yes)
 		(uuid "04dad702-f918-4acc-826e-e4c07fccda6c")
 		(property "Reference" "#PWR091"
-			(at 232.41 95.25 0)
+			(at 264.16 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3388,7 +3947,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 93.98 0)
+			(at 264.16 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3398,7 +3957,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 88.9 0)
+			(at 264.16 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3409,7 +3968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 88.9 0)
+			(at 264.16 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3420,7 +3979,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 88.9 0)
+			(at 264.16 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3444,7 +4003,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 232.41 85.09 0)
+		(at 264.16 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3455,7 +4014,7 @@
 		(fields_autoplaced yes)
 		(uuid "0619602b-ea30-4886-bbac-817b4ec28c37")
 		(property "Reference" "C58"
-			(at 236.22 83.8199 0)
+			(at 267.97 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3466,7 +4025,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 236.22 86.3599 0)
+			(at 267.97 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3477,7 +4036,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 233.3752 88.9 0)
+			(at 265.1252 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3488,7 +4047,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106MA73-01A.pdf"
-			(at 232.41 85.09 0)
+			(at 264.16 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3499,7 +4058,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 232.41 85.09 0)
+			(at 264.16 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3510,7 +4069,7 @@
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
-			(at 232.41 85.09 0)
+			(at 264.16 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3521,7 +4080,7 @@
 			)
 		)
 		(property "MPN" "GRM188Z71A106MA73D"
-			(at 232.41 85.09 0)
+			(at 264.16 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3532,7 +4091,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 232.41 85.09 0)
+			(at 264.16 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3543,7 +4102,7 @@
 			)
 		)
 		(property "Purpose" "Local bulk decoupling for AD9203 analog, digital, and reference supply rails."
-			(at 232.41 85.09 0)
+			(at 264.16 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3554,7 +4113,7 @@
 			)
 		)
 		(property "lcsc_id" "C237435"
-			(at 232.41 85.09 0)
+			(at 264.16 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3565,7 +4124,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 232.41 85.09 0)
+			(at 264.16 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3576,7 +4135,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 232.41 85.09 0)
+			(at 264.16 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3603,7 +4162,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 104.14 27.94 0)
+		(at 86.36 25.4 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3614,7 +4173,7 @@
 		(dnp no)
 		(uuid "0ff7f950-04da-4289-82df-0ddf12f76e71")
 		(property "Reference" "C68"
-			(at 110.49 26.67 0)
+			(at 92.71 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3624,7 +4183,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 110.49 29.21 0)
+			(at 92.71 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3634,7 +4193,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 105.1052 24.13 0)
+			(at 87.3252 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3645,7 +4204,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H102FA01-01.pdf"
-			(at 104.14 27.94 0)
+			(at 86.36 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3656,7 +4215,7 @@
 			)
 		)
 		(property "Description" "1000 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 104.14 27.94 0)
+			(at 86.36 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3667,7 +4226,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 104.14 27.94 0)
+			(at 86.36 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3678,7 +4237,7 @@
 			)
 		)
 		(property "MPN" "GCM1555C1H102FA16D"
-			(at 104.14 27.94 0)
+			(at 86.36 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3689,7 +4248,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 104.14 27.94 0)
+			(at 86.36 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3700,7 +4259,7 @@
 			)
 		)
 		(property "Purpose" "RF-frequency supply bypass capacitor for the AD9203 supply."
-			(at 104.14 27.94 0)
+			(at 86.36 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3711,7 +4270,7 @@
 			)
 		)
 		(property "lcsc_id" "C126493"
-			(at 104.14 27.94 0)
+			(at 86.36 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3722,7 +4281,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 104.14 27.94 90)
+			(at 86.36 25.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3733,7 +4292,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 104.14 27.94 90)
+			(at 86.36 25.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3760,7 +4319,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 218.44 85.09 0)
+		(at 250.19 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3771,7 +4330,7 @@
 		(fields_autoplaced yes)
 		(uuid "1df3fc33-3815-43ce-841a-31d8a8230385")
 		(property "Reference" "C57"
-			(at 222.25 83.8199 0)
+			(at 254 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3782,7 +4341,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 222.25 86.3599 0)
+			(at 254 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3793,7 +4352,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 219.4052 88.9 0)
+			(at 251.1552 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3804,7 +4363,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
-			(at 218.44 85.09 0)
+			(at 250.19 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3815,7 +4374,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 218.44 85.09 0)
+			(at 250.19 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3826,7 +4385,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 218.44 85.09 0)
+			(at 250.19 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3837,7 +4396,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71A104KA55D"
-			(at 218.44 85.09 0)
+			(at 250.19 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3848,7 +4407,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 218.44 85.09 0)
+			(at 250.19 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3859,7 +4418,7 @@
 			)
 		)
 		(property "Purpose" "Local high-frequency decoupling for AD9203 AVDD, DRVDD, and reference supply pins."
-			(at 218.44 85.09 0)
+			(at 250.19 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3870,7 +4429,7 @@
 			)
 		)
 		(property "lcsc_id" "C161163"
-			(at 218.44 85.09 0)
+			(at 250.19 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3881,7 +4440,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 218.44 85.09 0)
+			(at 250.19 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3892,7 +4451,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 218.44 85.09 0)
+			(at 250.19 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3919,7 +4478,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 88.9 0)
+		(at 222.25 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3930,7 +4489,7 @@
 		(fields_autoplaced yes)
 		(uuid "1eafdd3b-7aef-4cc9-9c45-ae98dccf3d0d")
 		(property "Reference" "#PWR0106"
-			(at 190.5 95.25 0)
+			(at 222.25 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3941,7 +4500,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 93.98 0)
+			(at 222.25 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3951,7 +4510,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 88.9 0)
+			(at 222.25 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3962,7 +4521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 88.9 0)
+			(at 222.25 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3973,7 +4532,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 88.9 0)
+			(at 222.25 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3997,7 +4556,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 203.2 27.94 0)
+		(at 203.2 25.4 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4008,7 +4567,7 @@
 		(dnp no)
 		(uuid "223fa4c8-8d16-458d-8256-1876703ad161")
 		(property "Reference" "C73"
-			(at 209.55 26.67 0)
+			(at 209.55 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4018,7 +4577,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 209.55 29.21 0)
+			(at 209.55 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4028,7 +4587,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 204.1652 24.13 0)
+			(at 204.1652 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4039,7 +4598,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H102FA01-01.pdf"
-			(at 203.2 27.94 0)
+			(at 203.2 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4050,7 +4609,7 @@
 			)
 		)
 		(property "Description" "1000 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 203.2 27.94 0)
+			(at 203.2 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4061,7 +4620,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 203.2 27.94 0)
+			(at 203.2 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4072,7 +4631,7 @@
 			)
 		)
 		(property "MPN" "GCM1555C1H102FA16D"
-			(at 203.2 27.94 0)
+			(at 203.2 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4083,7 +4642,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 203.2 27.94 0)
+			(at 203.2 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4094,7 +4653,7 @@
 			)
 		)
 		(property "Purpose" "RF-frequency supply bypass capacitor for the AD9203 supply."
-			(at 203.2 27.94 0)
+			(at 203.2 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4105,7 +4664,7 @@
 			)
 		)
 		(property "lcsc_id" "C126493"
-			(at 203.2 27.94 0)
+			(at 203.2 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4116,7 +4675,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 203.2 27.94 90)
+			(at 203.2 25.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4127,7 +4686,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 203.2 27.94 90)
+			(at 203.2 25.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4327,8 +4886,165 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 44.45 21.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "533e3aea-0b01-471e-8965-b1a7ec8870ac")
+		(property "Reference" "L6"
+			(at 44.45 16.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600Ω @ 100MHz"
+			(at 44.45 19.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 44.45 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=BLM21SP601SN1D"
+			(at 44.45 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead, 600Ω at 100MHz, 0805, low-DCR power rail EMI filter"
+			(at 44.45 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 44.45 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BLM21SP601SN1D"
+			(at 44.45 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 44.45 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Ferrite bead isolation between FPGA bank-33 3V3 and the AD9203 DRVDD rail; attenuates high-frequency digital supply noise at the ADC."
+			(at 44.45 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C3716677"
+			(at 44.45 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 44.45 21.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 44.45 21.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "593e011b-4f6c-43b5-b7c4-61227d4eded5")
+		)
+		(pin "2"
+			(uuid "cd9a6ca1-daaf-49a1-9095-aa3c7761e12a")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/f77ae351-26f3-42d4-beb0-b884b17c3798"
+					(reference "L6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 229.87 66.04 0)
+		(at 262.89 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4339,7 +5055,7 @@
 		(fields_autoplaced yes)
 		(uuid "56ed33f2-3100-4cd1-8935-416661314f75")
 		(property "Reference" "#PWR089"
-			(at 229.87 72.39 0)
+			(at 262.89 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4350,7 +5066,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 71.12 0)
+			(at 262.89 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4360,7 +5076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 66.04 0)
+			(at 262.89 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4371,7 +5087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 66.04 0)
+			(at 262.89 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4382,7 +5098,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 66.04 0)
+			(at 262.89 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4406,7 +5122,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 217.17 31.75 0)
+		(at 217.17 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4417,7 +5133,7 @@
 		(fields_autoplaced yes)
 		(uuid "6951573e-bb8c-4687-88aa-ce499c16722e")
 		(property "Reference" "#PWR0105"
-			(at 217.17 38.1 0)
+			(at 217.17 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4428,7 +5144,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 36.83 0)
+			(at 217.17 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4438,7 +5154,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 31.75 0)
+			(at 217.17 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4449,7 +5165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 31.75 0)
+			(at 217.17 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4460,7 +5176,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 31.75 0)
+			(at 217.17 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4483,8 +5199,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 180.34 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "739ea4ad-c02d-46bc-9153-ef170e70b1ef")
+		(property "Reference" "#PWR02"
+			(at 180.34 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e4dc928-9030-419c-868d-41c0f1749ff4")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/f77ae351-26f3-42d4-beb0-b884b17c3798"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 200.66 62.23 0)
+		(at 233.68 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4495,7 +5289,7 @@
 		(fields_autoplaced yes)
 		(uuid "73f29474-f898-4a2e-9f0d-6e7fb770ac7a")
 		(property "Reference" "C55"
-			(at 204.47 60.9599 0)
+			(at 237.49 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4506,7 +5300,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 204.47 63.4999 0)
+			(at 237.49 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4517,7 +5311,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 201.6252 66.04 0)
+			(at 234.6452 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4528,7 +5322,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106MA73-01A.pdf"
-			(at 200.66 62.23 0)
+			(at 233.68 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4539,7 +5333,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 200.66 62.23 0)
+			(at 233.68 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4550,7 +5344,7 @@
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
-			(at 200.66 62.23 0)
+			(at 233.68 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4561,7 +5355,7 @@
 			)
 		)
 		(property "MPN" "GRM188Z71A106MA73D"
-			(at 200.66 62.23 0)
+			(at 233.68 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4572,7 +5366,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 200.66 62.23 0)
+			(at 233.68 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4583,7 +5377,7 @@
 			)
 		)
 		(property "Purpose" "Local bulk decoupling for AD9203 analog, digital, and reference supply rails."
-			(at 200.66 62.23 0)
+			(at 233.68 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4594,7 +5388,7 @@
 			)
 		)
 		(property "lcsc_id" "C237435"
-			(at 200.66 62.23 0)
+			(at 233.68 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4605,7 +5399,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 200.66 62.23 0)
+			(at 233.68 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4616,7 +5410,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 200.66 62.23 0)
+			(at 233.68 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4643,7 +5437,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 186.69 62.23 0)
+		(at 219.71 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4654,7 +5448,7 @@
 		(fields_autoplaced yes)
 		(uuid "74a8fa59-6eb5-451d-a06b-3aa780a0f958")
 		(property "Reference" "C54"
-			(at 190.5 60.9599 0)
+			(at 223.52 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4665,7 +5459,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 190.5 63.4999 0)
+			(at 223.52 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4676,7 +5470,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 187.6552 66.04 0)
+			(at 220.6752 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4687,7 +5481,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
-			(at 186.69 62.23 0)
+			(at 219.71 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4698,7 +5492,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 186.69 62.23 0)
+			(at 219.71 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4709,7 +5503,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 186.69 62.23 0)
+			(at 219.71 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4720,7 +5514,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71A104KA55D"
-			(at 186.69 62.23 0)
+			(at 219.71 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4731,7 +5525,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 186.69 62.23 0)
+			(at 219.71 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4742,7 +5536,7 @@
 			)
 		)
 		(property "Purpose" "Local high-frequency decoupling for AD9203 AVDD, DRVDD, and reference supply pins."
-			(at 186.69 62.23 0)
+			(at 219.71 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4753,7 +5547,7 @@
 			)
 		)
 		(property "lcsc_id" "C161163"
-			(at 186.69 62.23 0)
+			(at 219.71 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4764,7 +5558,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 186.69 62.23 0)
+			(at 219.71 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4775,7 +5569,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 186.69 62.23 0)
+			(at 219.71 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4801,120 +5595,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 245.11 81.28 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "74b20e00-9c46-4e50-a012-448c5a7a3325")
-		(property "Reference" "TP21"
-			(at 247.65 85.8521 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VREF"
-			(at 247.65 83.3121 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 250.19 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "PCB copper test pad, 1.0mm, no fitted component"
-			(at 245.11 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "Provides oscilloscope/DMM probe access to VREF."
-			(at 245.11 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 245.11 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 245.11 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "817e4be3-2ae8-4d79-b443-ab66216e4ca2")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/f77ae351-26f3-42d4-beb0-b884b17c3798"
-					(reference "TP21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 177.8 46.99 0)
+		(at 175.26 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4924,7 +5606,7 @@
 		(dnp no)
 		(uuid "77bdc509-4d9e-4b90-8062-f7fb3b971958")
 		(property "Reference" "#PWR0101"
-			(at 177.8 53.34 0)
+			(at 175.26 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4935,7 +5617,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 50.8 0)
+			(at 175.26 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4945,7 +5627,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 46.99 0)
+			(at 175.26 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4956,7 +5638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 46.99 0)
+			(at 175.26 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4967,7 +5649,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 46.99 0)
+			(at 175.26 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4991,7 +5673,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 90.17 27.94 0)
+		(at 72.39 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5002,7 +5684,7 @@
 		(fields_autoplaced yes)
 		(uuid "806abf20-a09e-42c6-bf0a-36d7ae9eb6cc")
 		(property "Reference" "C50"
-			(at 93.98 26.6699 0)
+			(at 76.2 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5013,7 +5695,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 93.98 29.2099 0)
+			(at 76.2 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5024,7 +5706,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 91.1352 31.75 0)
+			(at 73.3552 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5035,7 +5717,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
-			(at 90.17 27.94 0)
+			(at 72.39 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5046,7 +5728,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 90.17 27.94 0)
+			(at 72.39 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5057,7 +5739,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 90.17 27.94 0)
+			(at 72.39 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5068,7 +5750,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71A104KA55D"
-			(at 90.17 27.94 0)
+			(at 72.39 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5079,7 +5761,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 90.17 27.94 0)
+			(at 72.39 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5090,7 +5772,7 @@
 			)
 		)
 		(property "Purpose" "Local high-frequency decoupling for AD9203 AVDD, DRVDD, and reference supply pins."
-			(at 90.17 27.94 0)
+			(at 72.39 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5101,7 +5783,7 @@
 			)
 		)
 		(property "lcsc_id" "C161163"
-			(at 90.17 27.94 0)
+			(at 72.39 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5112,7 +5794,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 90.17 27.94 0)
+			(at 72.39 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5123,7 +5805,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 90.17 27.94 0)
+			(at 72.39 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5150,7 +5832,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 217.17 27.94 0)
+		(at 217.17 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5161,7 +5843,7 @@
 		(fields_autoplaced yes)
 		(uuid "84a05878-ff31-4802-a282-4c1cf8b3bea0")
 		(property "Reference" "C51"
-			(at 220.98 26.6699 0)
+			(at 220.98 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5172,7 +5854,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 220.98 29.2099 0)
+			(at 220.98 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5183,7 +5865,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 218.1352 31.75 0)
+			(at 218.1352 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5194,7 +5876,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
-			(at 217.17 27.94 0)
+			(at 217.17 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5205,7 +5887,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 217.17 27.94 0)
+			(at 217.17 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5216,7 +5898,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 217.17 27.94 0)
+			(at 217.17 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5227,7 +5909,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71A104KA55D"
-			(at 217.17 27.94 0)
+			(at 217.17 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5238,7 +5920,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 217.17 27.94 0)
+			(at 217.17 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5249,7 +5931,7 @@
 			)
 		)
 		(property "Purpose" "Local high-frequency decoupling for AD9203 AVDD, DRVDD, and reference supply pins."
-			(at 217.17 27.94 0)
+			(at 217.17 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5260,7 +5942,7 @@
 			)
 		)
 		(property "lcsc_id" "C161163"
-			(at 217.17 27.94 0)
+			(at 217.17 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5271,7 +5953,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 217.17 27.94 0)
+			(at 217.17 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5282,7 +5964,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 217.17 27.94 0)
+			(at 217.17 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5309,7 +5991,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 231.14 27.94 0)
+		(at 231.14 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5320,7 +6002,7 @@
 		(fields_autoplaced yes)
 		(uuid "85e171cb-9752-4194-8c0a-c5bc89ca99b7")
 		(property "Reference" "C52"
-			(at 234.95 26.6699 0)
+			(at 234.95 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5331,7 +6013,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 234.95 29.2099 0)
+			(at 234.95 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5342,7 +6024,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 232.1052 31.75 0)
+			(at 232.1052 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5353,7 +6035,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106MA73-01A.pdf"
-			(at 231.14 27.94 0)
+			(at 231.14 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5364,7 +6046,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 231.14 27.94 0)
+			(at 231.14 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5375,7 +6057,7 @@
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
-			(at 231.14 27.94 0)
+			(at 231.14 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5386,7 +6068,7 @@
 			)
 		)
 		(property "MPN" "GRM188Z71A106MA73D"
-			(at 231.14 27.94 0)
+			(at 231.14 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5397,7 +6079,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 231.14 27.94 0)
+			(at 231.14 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5408,7 +6090,7 @@
 			)
 		)
 		(property "Purpose" "Local bulk decoupling for AD9203 analog, digital, and reference supply rails."
-			(at 231.14 27.94 0)
+			(at 231.14 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5419,7 +6101,7 @@
 			)
 		)
 		(property "lcsc_id" "C237435"
-			(at 231.14 27.94 0)
+			(at 231.14 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5430,7 +6112,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 231.14 27.94 0)
+			(at 231.14 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5441,7 +6123,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 231.14 27.94 0)
+			(at 231.14 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5468,7 +6150,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 31.75 0)
+		(at 86.36 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5479,7 +6161,7 @@
 		(fields_autoplaced yes)
 		(uuid "88ab8570-baf3-4c91-a02e-95099cff3f04")
 		(property "Reference" "#PWR099"
-			(at 104.14 38.1 0)
+			(at 86.36 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5490,7 +6172,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 36.83 0)
+			(at 86.36 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5500,7 +6182,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 31.75 0)
+			(at 86.36 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5511,7 +6193,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 31.75 0)
+			(at 86.36 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5522,7 +6204,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 31.75 0)
+			(at 86.36 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5546,7 +6228,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 189.23 27.94 0)
+		(at 189.23 25.4 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5557,7 +6239,7 @@
 		(dnp no)
 		(uuid "8cd301c3-bb8c-4658-9de6-249612fe0d0b")
 		(property "Reference" "C75"
-			(at 195.58 26.67 0)
+			(at 195.58 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5567,7 +6249,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 195.58 29.21 0)
+			(at 195.58 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5577,7 +6259,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 188.2648 31.75 0)
+			(at 188.2648 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5588,7 +6270,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1HR50BA16-01A.pdf"
-			(at 189.23 27.94 0)
+			(at 189.23 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5599,7 +6281,7 @@
 			)
 		)
 		(property "Description" "100 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 189.23 27.94 0)
+			(at 189.23 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5610,7 +6292,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 189.23 27.94 0)
+			(at 189.23 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5621,7 +6303,7 @@
 			)
 		)
 		(property "MPN" "GCM1555C1H101FA16D"
-			(at 189.23 27.94 0)
+			(at 189.23 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5632,7 +6314,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 189.23 27.94 0)
+			(at 189.23 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5643,7 +6325,7 @@
 			)
 		)
 		(property "Purpose" "RF-frequency supply bypass capacitor for the AD9203 supply."
-			(at 189.23 27.94 0)
+			(at 189.23 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5654,7 +6336,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 189.23 27.94 90)
+			(at 189.23 25.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5665,7 +6347,7 @@
 			)
 		)
 		(property "lcsc_id" "C2941926"
-			(at 189.23 27.94 0)
+			(at 189.23 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5676,7 +6358,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 189.23 27.94 90)
+			(at 189.23 25.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5687,7 +6369,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 189.23 27.94 90)
+			(at 189.23 25.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5707,6 +6389,163 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/f77ae351-26f3-42d4-beb0-b884b17c3798"
 					(reference "C75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 251.46 21.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90bf33f2-24fe-4a1e-9477-6f6210e09237")
+		(property "Reference" "L9"
+			(at 251.46 16.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600Ω @ 100MHz"
+			(at 251.46 19.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 251.46 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=BLM21SP601SN1D"
+			(at 251.46 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead, 600Ω at 100MHz, 0805, low-DCR power rail EMI filter"
+			(at 251.46 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 251.46 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BLM21SP601SN1D"
+			(at 251.46 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 251.46 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Ferrite bead isolation between the local 3V3 regulator output and the AD9203 AVDD rail; attenuates high-frequency supply noise at the ADC."
+			(at 251.46 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C3716677"
+			(at 251.46 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 251.46 21.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 251.46 21.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5d7243d-2049-4a07-a816-075c86236441")
+		)
+		(pin "2"
+			(uuid "a6577745-7a8a-436c-a6d3-3e658c7189a0")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/f77ae351-26f3-42d4-beb0-b884b17c3798"
+					(reference "L9")
 					(unit 1)
 				)
 			)
@@ -5949,7 +6788,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 190.5 85.09 0)
+		(at 222.25 85.09 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5960,7 +6799,7 @@
 		(dnp no)
 		(uuid "9ad72164-3cc4-4a13-89b0-714fc79258dc")
 		(property "Reference" "C76"
-			(at 196.85 83.82 0)
+			(at 228.6 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5970,7 +6809,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 196.85 86.36 0)
+			(at 228.6 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5980,7 +6819,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 189.5348 88.9 0)
+			(at 221.2848 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5991,7 +6830,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1HR50BA16-01A.pdf"
-			(at 190.5 85.09 0)
+			(at 222.25 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6002,7 +6841,7 @@
 			)
 		)
 		(property "Description" "100 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 190.5 85.09 0)
+			(at 222.25 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6013,7 +6852,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 190.5 85.09 0)
+			(at 222.25 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6024,7 +6863,7 @@
 			)
 		)
 		(property "MPN" "GCM1555C1H101FA16D"
-			(at 190.5 85.09 0)
+			(at 222.25 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6035,7 +6874,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 190.5 85.09 0)
+			(at 222.25 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6046,7 +6885,7 @@
 			)
 		)
 		(property "Purpose" "RF-frequency supply bypass capacitor for the AD9203 supply."
-			(at 190.5 85.09 0)
+			(at 222.25 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6057,7 +6896,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 190.5 85.09 90)
+			(at 222.25 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6068,7 +6907,7 @@
 			)
 		)
 		(property "lcsc_id" "C2941926"
-			(at 190.5 85.09 0)
+			(at 222.25 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6079,7 +6918,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 190.5 85.09 90)
+			(at 222.25 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6090,7 +6929,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 190.5 85.09 90)
+			(at 222.25 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6117,7 +6956,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 76.2 27.94 0)
+		(at 58.42 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6128,7 +6967,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2a94650-0d6f-4c50-b8d2-83549c2b88c2")
 		(property "Reference" "C49"
-			(at 80.01 26.6699 0)
+			(at 62.23 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6139,7 +6978,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 80.01 29.2099 0)
+			(at 62.23 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6150,7 +6989,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 77.1652 31.75 0)
+			(at 59.3852 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6161,7 +7000,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106MA73-01A.pdf"
-			(at 76.2 27.94 0)
+			(at 58.42 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6172,7 +7011,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 76.2 27.94 0)
+			(at 58.42 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6183,7 +7022,7 @@
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
-			(at 76.2 27.94 0)
+			(at 58.42 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6194,7 +7033,7 @@
 			)
 		)
 		(property "MPN" "GRM188Z71A106MA73D"
-			(at 76.2 27.94 0)
+			(at 58.42 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6205,7 +7044,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 76.2 27.94 0)
+			(at 58.42 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6216,7 +7055,7 @@
 			)
 		)
 		(property "Purpose" "Local bulk decoupling for AD9203 analog, digital, and reference supply rails."
-			(at 76.2 27.94 0)
+			(at 58.42 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6227,7 +7066,7 @@
 			)
 		)
 		(property "lcsc_id" "C237435"
-			(at 76.2 27.94 0)
+			(at 58.42 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6238,7 +7077,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 76.2 27.94 0)
+			(at 58.42 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6249,7 +7088,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 76.2 27.94 0)
+			(at 58.42 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6276,7 +7115,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 88.9 0)
+		(at 250.19 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6287,7 +7126,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8f90307-d987-48de-9b6f-78e41d6d9364")
 		(property "Reference" "#PWR090"
-			(at 218.44 95.25 0)
+			(at 250.19 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6298,7 +7137,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 93.98 0)
+			(at 250.19 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6308,7 +7147,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 88.9 0)
+			(at 250.19 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6319,7 +7158,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 88.9 0)
+			(at 250.19 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6330,7 +7169,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 88.9 0)
+			(at 250.19 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6354,7 +7193,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 204.47 85.09 0)
+		(at 236.22 85.09 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6365,7 +7204,7 @@
 		(dnp no)
 		(uuid "a9a8b423-88d7-45ec-a7f3-96bea0596f1d")
 		(property "Reference" "C77"
-			(at 210.82 83.82 0)
+			(at 242.57 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6375,7 +7214,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 210.82 86.36 0)
+			(at 242.57 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6385,7 +7224,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 205.4352 81.28 0)
+			(at 237.1852 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6396,7 +7235,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H102FA01-01.pdf"
-			(at 204.47 85.09 0)
+			(at 236.22 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6407,7 +7246,7 @@
 			)
 		)
 		(property "Description" "1000 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 204.47 85.09 0)
+			(at 236.22 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6418,7 +7257,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 204.47 85.09 0)
+			(at 236.22 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6429,7 +7268,7 @@
 			)
 		)
 		(property "MPN" "GCM1555C1H102FA16D"
-			(at 204.47 85.09 0)
+			(at 236.22 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6440,7 +7279,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 204.47 85.09 0)
+			(at 236.22 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6451,7 +7290,7 @@
 			)
 		)
 		(property "Purpose" "RF-frequency supply bypass capacitor for the AD9203 supply."
-			(at 204.47 85.09 0)
+			(at 236.22 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6462,7 +7301,7 @@
 			)
 		)
 		(property "lcsc_id" "C126493"
-			(at 204.47 85.09 0)
+			(at 236.22 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6473,7 +7312,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 204.47 85.09 90)
+			(at 236.22 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6484,7 +7323,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 204.47 85.09 90)
+			(at 236.22 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6510,8 +7349,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 231.14 31.75 0)
+		(lib_id "power:PWR_FLAG")
+		(at 231.14 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6520,9 +7359,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bf53ec56-28b3-4ba2-843b-ba6e05888837")
-		(property "Reference" "#PWR088"
-			(at 231.14 38.1 0)
+		(uuid "be67e023-1d2d-4688-9264-ae947d6b94b5")
+		(property "Reference" "#FLG09"
+			(at 231.14 19.685 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6532,8 +7371,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 231.14 36.83 0)
+		(property "Value" "PWR_FLAG"
+			(at 231.14 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6543,7 +7382,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 31.75 0)
+			(at 231.14 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6554,7 +7393,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 31.75 0)
+			(at 231.14 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 231.14 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56b14808-3657-4bf4-9a0c-ad7fbb1f311c")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/f77ae351-26f3-42d4-beb0-b884b17c3798"
+					(reference "#FLG09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf53ec56-28b3-4ba2-843b-ba6e05888837")
+		(property "Reference" "#PWR088"
+			(at 231.14 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6565,7 +7482,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 31.75 0)
+			(at 231.14 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6588,18 +7505,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 217.17 66.04 90)
+		(lib_id "Device:R")
+		(at 186.69 81.28 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c77251c8-feb9-4987-9cc6-9055a292b02a")
-		(property "Reference" "C56"
-			(at 217.17 71.12 90)
+		(in_pos_files no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c2c460cc-af40-46f2-a17d-a1fcea9bb573")
+		(property "Reference" "R4"
+			(at 186.69 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6608,8 +7526,8 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
-			(at 217.17 73.66 90)
+		(property "Value" "0Ω"
+			(at 186.69 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6618,8 +7536,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 220.98 65.0748 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 186.69 83.058 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6629,8 +7547,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
-			(at 217.17 66.04 0)
+		(property "Datasheet" ""
+			(at 186.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6640,8 +7558,30 @@
 				)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 217.17 66.04 0)
+		(property "Description" "0 Ohms Jumper Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+			(at 186.69 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-2GE0R00X"
+			(at 186.69 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic Industry"
+			(at 186.69 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6652,7 +7592,119 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 217.17 66.04 0)
+			(at 186.69 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "If populated and ${/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/f77ae351-26f3-42d4-beb0-b884b17c3798/ce9a091b-3b33-4179-8729-9580c9c41900:REFERENCE} DNP, this sets the ADC to 1Vp-p."
+			(at 186.69 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C242160"
+			(at 186.69 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aebc5d34-67cf-4b3f-a43d-51deda70fc6c")
+		)
+		(pin "2"
+			(uuid "657b0c1a-56f8-4e55-a4cf-47e09824072e")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/f77ae351-26f3-42d4-beb0-b884b17c3798"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 250.19 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c77251c8-feb9-4987-9cc6-9055a292b02a")
+		(property "Reference" "C56"
+			(at 250.19 71.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 250.19 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 254 65.0748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
+			(at 250.19 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 250.19 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 250.19 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6663,7 +7715,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71A104KA55D"
-			(at 217.17 66.04 0)
+			(at 250.19 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6674,7 +7726,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 217.17 66.04 0)
+			(at 250.19 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6685,7 +7737,7 @@
 			)
 		)
 		(property "Purpose" "Local high-frequency decoupling for AD9203 AVDD, DRVDD, and reference supply pins."
-			(at 217.17 66.04 0)
+			(at 250.19 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6696,7 +7748,7 @@
 			)
 		)
 		(property "lcsc_id" "C161163"
-			(at 217.17 66.04 0)
+			(at 250.19 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6707,7 +7759,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 217.17 66.04 90)
+			(at 250.19 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6718,7 +7770,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 217.17 66.04 90)
+			(at 250.19 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6745,7 +7797,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 31.75 0)
+		(at 72.39 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6756,7 +7808,7 @@
 		(fields_autoplaced yes)
 		(uuid "c88da1b5-6e14-471e-874b-79afb17e8812")
 		(property "Reference" "#PWR098"
-			(at 90.17 38.1 0)
+			(at 72.39 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6767,7 +7819,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 36.83 0)
+			(at 72.39 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6777,7 +7829,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 31.75 0)
+			(at 72.39 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6788,7 +7840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 31.75 0)
+			(at 72.39 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6799,7 +7851,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 31.75 0)
+			(at 72.39 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6816,6 +7868,143 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/f77ae351-26f3-42d4-beb0-b884b17c3798"
 					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 180.34 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce9a091b-3b33-4179-8729-9580c9c41900")
+		(property "Reference" "R5"
+			(at 182.88 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 182.88 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 178.562 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0 Ohms Jumper Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+			(at 180.34 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ-2GE0R00X"
+			(at 180.34 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic Industry"
+			(at 180.34 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 180.34 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "If populated and ${/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/f77ae351-26f3-42d4-beb0-b884b17c3798/c2c460cc-af40-46f2-a17d-a1fcea9bb573:REFERENCE} DNP, this sets the ADC to 2Vp-p (default)."
+			(at 180.34 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C242160"
+			(at 180.34 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a208773c-1338-4795-af22-f436e62710fc")
+		)
+		(pin "2"
+			(uuid "cd303464-60d0-41eb-b3dc-31b41788a56c")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/f77ae351-26f3-42d4-beb0-b884b17c3798"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6901,7 +8090,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 31.75 0)
+		(at 58.42 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6912,7 +8101,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1263ded-41e4-47e8-b53a-ad49821438d2")
 		(property "Reference" "#PWR087"
-			(at 76.2 38.1 0)
+			(at 58.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6923,7 +8112,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 36.83 0)
+			(at 58.42 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6933,7 +8122,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 31.75 0)
+			(at 58.42 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6944,7 +8133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 31.75 0)
+			(at 58.42 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6955,7 +8144,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 31.75 0)
+			(at 58.42 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7153,7 +8342,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 31.75 0)
+		(at 189.23 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7164,7 +8353,7 @@
 		(fields_autoplaced yes)
 		(uuid "d66c7a66-4246-4dd9-b213-8f055211bf09")
 		(property "Reference" "#PWR0102"
-			(at 189.23 38.1 0)
+			(at 189.23 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7175,7 +8364,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 36.83 0)
+			(at 189.23 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7185,7 +8374,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 31.75 0)
+			(at 189.23 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7196,7 +8385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 31.75 0)
+			(at 189.23 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7207,7 +8396,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 31.75 0)
+			(at 189.23 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7406,7 +8595,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 88.9 0)
+		(at 236.22 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7417,7 +8606,7 @@
 		(fields_autoplaced yes)
 		(uuid "d82de6ae-c175-4a50-96d8-d770d14bb17b")
 		(property "Reference" "#PWR0107"
-			(at 204.47 95.25 0)
+			(at 236.22 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7428,7 +8617,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 93.98 0)
+			(at 236.22 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7438,7 +8627,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 88.9 0)
+			(at 236.22 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7449,7 +8638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 88.9 0)
+			(at 236.22 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7460,7 +8649,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 88.9 0)
+			(at 236.22 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7484,7 +8673,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 31.75 0)
+		(at 100.33 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7495,7 +8684,7 @@
 		(fields_autoplaced yes)
 		(uuid "dba18ca8-d7a0-4734-bbe6-cf47a2307a9b")
 		(property "Reference" "#PWR0100"
-			(at 118.11 38.1 0)
+			(at 100.33 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7506,7 +8695,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 36.83 0)
+			(at 100.33 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7516,7 +8705,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 31.75 0)
+			(at 100.33 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7527,7 +8716,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 31.75 0)
+			(at 100.33 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7538,7 +8727,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 31.75 0)
+			(at 100.33 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7562,7 +8751,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 118.11 27.94 0)
+		(at 100.33 25.4 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7573,7 +8762,7 @@
 		(dnp no)
 		(uuid "e31e6b9c-6338-41f7-a9fd-4a8ad8c1d953")
 		(property "Reference" "C69"
-			(at 124.46 26.67 0)
+			(at 106.68 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7583,7 +8772,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 124.46 29.21 0)
+			(at 106.68 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7593,7 +8782,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 117.1448 31.75 0)
+			(at 99.3648 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7604,7 +8793,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1HR50BA16-01A.pdf"
-			(at 118.11 27.94 0)
+			(at 100.33 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7615,7 +8804,7 @@
 			)
 		)
 		(property "Description" "100 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 118.11 27.94 0)
+			(at 100.33 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7626,7 +8815,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 118.11 27.94 0)
+			(at 100.33 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7637,7 +8826,7 @@
 			)
 		)
 		(property "MPN" "GCM1555C1H101FA16D"
-			(at 118.11 27.94 0)
+			(at 100.33 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7648,7 +8837,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 118.11 27.94 0)
+			(at 100.33 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7659,7 +8848,7 @@
 			)
 		)
 		(property "Purpose" "RF-frequency supply bypass capacitor for the AD9203 supply."
-			(at 118.11 27.94 0)
+			(at 100.33 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7670,7 +8859,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 118.11 27.94 90)
+			(at 100.33 25.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7681,7 +8870,7 @@
 			)
 		)
 		(property "lcsc_id" "C2941926"
-			(at 118.11 27.94 0)
+			(at 100.33 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7692,7 +8881,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 118.11 27.94 90)
+			(at 100.33 25.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7703,7 +8892,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 118.11 27.94 90)
+			(at 100.33 25.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7730,7 +8919,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 31.75 0)
+		(at 203.2 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7741,7 +8930,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8febb95-3182-42aa-a0e6-0ee78bdc51ad")
 		(property "Reference" "#PWR0103"
-			(at 203.2 38.1 0)
+			(at 203.2 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7752,7 +8941,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 36.83 0)
+			(at 203.2 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7762,7 +8951,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 31.75 0)
+			(at 203.2 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7773,7 +8962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 31.75 0)
+			(at 203.2 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7784,7 +8973,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 31.75 0)
+			(at 203.2 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7807,8 +8996,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 162.56 88.9 0)
+		(lib_id "power:PWR_FLAG")
+		(at 58.42 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7817,9 +9006,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f83d3b20-f21f-48d6-903f-a1961b94c423")
-		(property "Reference" "#PWR092"
-			(at 162.56 95.25 0)
+		(uuid "ed50d09f-6906-4509-93ca-5af178d5397b")
+		(property "Reference" "#FLG02"
+			(at 58.42 19.685 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7829,8 +9018,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 162.56 93.98 0)
+		(property "Value" "PWR_FLAG"
+			(at 58.42 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7840,7 +9029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 88.9 0)
+			(at 58.42 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7851,7 +9040,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 88.9 0)
+			(at 58.42 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 58.42 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f26419a4-b5c7-45d1-96c7-c0768b9b8ce7")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/f77ae351-26f3-42d4-beb0-b884b17c3798"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f83d3b20-f21f-48d6-903f-a1961b94c423")
+		(property "Reference" "#PWR092"
+			(at 165.1 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7862,7 +9129,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 88.9 0)
+			(at 165.1 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7886,7 +9153,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 217.17 58.42 90)
+		(at 250.19 58.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7897,7 +9164,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc03b59d-c7fa-4f3d-aedb-3f302b8567c3")
 		(property "Reference" "C53"
-			(at 217.17 50.8 90)
+			(at 250.19 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7907,7 +9174,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 217.17 53.34 90)
+			(at 250.19 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7917,7 +9184,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 220.98 57.4548 0)
+			(at 254 57.4548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7928,7 +9195,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
-			(at 217.17 58.42 0)
+			(at 250.19 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7939,7 +9206,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 217.17 58.42 0)
+			(at 250.19 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7950,7 +9217,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 217.17 58.42 0)
+			(at 250.19 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7961,7 +9228,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71A104KA55D"
-			(at 217.17 58.42 0)
+			(at 250.19 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7972,7 +9239,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 217.17 58.42 0)
+			(at 250.19 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7983,7 +9250,7 @@
 			)
 		)
 		(property "Purpose" "Local high-frequency decoupling for AD9203 AVDD, DRVDD, and reference supply pins."
-			(at 217.17 58.42 0)
+			(at 250.19 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7994,7 +9261,7 @@
 			)
 		)
 		(property "lcsc_id" "C161163"
-			(at 217.17 58.42 0)
+			(at 250.19 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8005,7 +9272,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 217.17 58.42 90)
+			(at 250.19 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8016,7 +9283,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 217.17 58.42 90)
+			(at 250.19 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

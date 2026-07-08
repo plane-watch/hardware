@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher")
-		(date "2026-06-30")
+		(date "2026-07-08")
 		(rev "prototype 1.3")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
@@ -2187,7 +2187,7 @@
 	(text_box "AD8138 Gain/Feedback"
 		(exclude_from_sim no)
 		(at 88.9 80.01 0)
-		(size 35.56 53.34)
+		(size 35.56 29.21)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2206,7 +2206,7 @@
 	)
 	(text_box "Supply decoupling"
 		(exclude_from_sim no)
-		(at 48.895 124.46 0)
+		(at 70.485 114.3 0)
 		(size 38.1 24.13)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2246,7 +2246,7 @@
 	)
 	(text_box "Unity-gain buffer for log detector output"
 		(exclude_from_sim no)
-		(at 213.868 67.564 0)
+		(at 207.518 67.564 0)
 		(size 49.022 41.91)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2287,7 +2287,27 @@
 	(text_box "AD8138 Gain/Feedback"
 		(exclude_from_sim no)
 		(at 168.275 80.01 0)
-		(size 33.655 53.34)
+		(size 33.655 33.02)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba496d73-b75f-454a-aabb-b17b4728eeb4")
+	)
+	(text_box "Series output isolation/termination resistors between AD8138 output and AD9203 input; works with the shunt capacitors to tune ADC input filtering/settling."
+		(exclude_from_sim no)
+		(at 114.3 119.38 0)
+		(size 82.55 43.18)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2302,7 +2322,27 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ba496d73-b75f-454a-aabb-b17b4728eeb4")
+		(uuid "dc7be505-37fe-45d3-8a22-69d2e68be947")
+	)
+	(text_box "VOCM decoupling/bypassing"
+		(exclude_from_sim no)
+		(at 149.86 64.77 0)
+		(size 52.07 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3fee28b-aafa-4dfd-936b-c95bde781c1f")
 	)
 	(junction
 		(at 179.07 73.66)
@@ -2311,16 +2351,16 @@
 		(uuid "0d9ee32e-4e13-4bd2-8569-ef420ae0d916")
 	)
 	(junction
-		(at 109.22 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1889694d-af1a-4b19-ba72-97c852543a51")
-	)
-	(junction
 		(at 171.45 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "266c9b7c-9f7f-4264-bc0e-3e917eb65616")
+	)
+	(junction
+		(at 96.52 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2baddaba-c1ed-4505-bd63-01c2d135c49d")
 	)
 	(junction
 		(at 167.64 41.91)
@@ -2365,37 +2405,31 @@
 		(uuid "696617d5-0905-48ae-8f74-869b795c17fd")
 	)
 	(junction
-		(at 109.22 143.51)
+		(at 118.11 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a1ab78e-37f8-4377-9b9b-0b11412c21b1")
 	)
 	(junction
-		(at 133.35 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6fd167c1-3253-48bb-ab7e-1f70223dc710")
-	)
-	(junction
 		(at 109.22 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "95533a52-8727-46fb-a427-3101eec4048b")
+		(uuid "741ab652-c4b2-42eb-b28e-e7a1edcf47e4")
 	)
 	(junction
-		(at 227.33 74.93)
+		(at 220.98 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a776e6a2-f4da-4f3f-8a2f-e158841b3056")
 	)
 	(junction
-		(at 171.45 143.51)
+		(at 171.45 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa3ec157-82be-4ca5-9cb5-c5769e255053")
 	)
 	(junction
-		(at 60.96 127)
+		(at 82.55 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa53f6c6-ce65-47c5-8573-1bec2bd3f13f")
@@ -2407,7 +2441,7 @@
 		(uuid "ae873eb7-40b3-4590-89c7-208cb767ecb3")
 	)
 	(junction
-		(at 241.3 74.93)
+		(at 234.95 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af3a9ae9-61bf-4c0b-aa62-77e775f0aded")
@@ -2425,16 +2459,10 @@
 		(uuid "be741bb0-9201-43d4-a5a7-756eef4f6f44")
 	)
 	(junction
-		(at 215.9 92.71)
+		(at 209.55 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1d1ea29-2536-43f6-bf8e-25936a3933a8")
-	)
-	(junction
-		(at 204.47 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c63b05e2-1911-4aaf-a88d-034e1d6aeda7")
 	)
 	(junction
 		(at 167.64 66.04)
@@ -2461,22 +2489,22 @@
 		(uuid "e039a1a6-dfc6-4086-a278-67b416ae58d1")
 	)
 	(junction
-		(at 162.56 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec570d7f-7dbc-4d55-b8e8-084be5b9c603")
-	)
-	(junction
 		(at 154.94 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee68ad35-a97a-43ed-9ccc-9aa73e25631f")
 	)
 	(junction
-		(at 74.93 127)
+		(at 118.11 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f619b332-f967-4569-9d7d-c860f52e251a")
+		(uuid "f5232940-c04c-4b17-ba08-d1e212c67f6e")
+	)
+	(junction
+		(at 204.47 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f88229d6-5c1e-46f1-a3eb-88e76c8dd7ad")
 	)
 	(junction
 		(at 179.07 66.04)
@@ -2546,7 +2574,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 86.36) (xy 248.92 74.93)
+			(xy 242.57 86.36) (xy 242.57 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2556,7 +2584,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 144.78) (xy 157.48 143.51)
+			(xy 157.48 139.7) (xy 157.48 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2566,7 +2594,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 143.51) (xy 163.83 143.51)
+			(xy 157.48 138.43) (xy 163.83 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2626,7 +2654,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 92.71) (xy 240.03 92.71)
+			(xy 209.55 92.71) (xy 233.68 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2656,6 +2684,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 111.76) (xy 128.27 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41113394-1354-4777-b775-954c6a6ab897")
+	)
+	(wire
+		(pts
 			(xy 154.94 66.04) (xy 152.4 66.04)
 		)
 		(stroke
@@ -2666,7 +2704,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 107.95) (xy 133.35 107.95)
+			(xy 107.95 111.76) (xy 128.27 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2676,7 +2714,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 92.71) (xy 215.9 92.71)
+			(xy 204.47 92.71) (xy 209.55 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2686,7 +2724,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 90.17) (xy 260.35 90.17)
+			(xy 251.46 90.17) (xy 254 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2716,7 +2754,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 143.51) (xy 114.3 143.51)
+			(xy 118.11 138.43) (xy 123.19 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2726,7 +2764,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 105.41) (xy 109.22 115.57)
+			(xy 118.11 105.41) (xy 118.11 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2736,7 +2774,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 127) (xy 102.87 127)
+			(xy 96.52 116.84) (xy 107.95 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2766,7 +2804,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 74.93) (xy 227.33 74.93)
+			(xy 213.36 74.93) (xy 220.98 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2796,7 +2834,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 143.51) (xy 171.45 152.4)
+			(xy 171.45 138.43) (xy 171.45 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2806,7 +2844,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 115.57) (xy 109.22 120.65)
+			(xy 118.11 115.57) (xy 118.11 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2886,13 +2924,23 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 69.85) (xy 215.9 92.71)
+			(xy 209.55 69.85) (xy 209.55 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "86c4c884-9b6d-46f1-86de-1a0af07eeb4f")
+	)
+	(wire
+		(pts
+			(xy 118.11 115.57) (xy 133.35 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b3b275a-06d5-44b6-bf5c-84ecf7721968")
 	)
 	(wire
 		(pts
@@ -2906,7 +2954,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 69.85) (xy 215.9 69.85)
+			(xy 254 69.85) (xy 209.55 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2916,7 +2964,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 127) (xy 102.87 107.95)
+			(xy 107.95 116.84) (xy 107.95 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2936,7 +2984,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 143.51) (xy 128.27 143.51)
+			(xy 130.81 138.43) (xy 137.16 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2956,7 +3004,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 74.93) (xy 241.3 74.93)
+			(xy 220.98 74.93) (xy 234.95 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2976,7 +3024,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 90.17) (xy 260.35 69.85)
+			(xy 254 90.17) (xy 254 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3036,7 +3084,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 74.93) (xy 241.3 74.93)
+			(xy 242.57 74.93) (xy 234.95 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3046,7 +3094,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 127) (xy 74.93 127)
+			(xy 128.27 107.95) (xy 133.35 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf5f8ee-4810-4545-b7f7-a99e3c229874")
+	)
+	(wire
+		(pts
+			(xy 82.55 116.84) (xy 96.52 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3076,7 +3134,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 127) (xy 60.96 127)
+			(xy 63.5 116.84) (xy 82.55 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3086,7 +3144,17 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 96.52) (xy 266.7 96.52)
+			(xy 118.11 105.41) (xy 109.22 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d43935-86e2-4ae4-88e9-335eed468ca6")
+	)
+	(wire
+		(pts
+			(xy 251.46 96.52) (xy 260.35 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3096,7 +3164,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 128.27) (xy 109.22 143.51)
+			(xy 118.11 128.27) (xy 118.11 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3106,7 +3174,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 143.51) (xy 109.22 152.4)
+			(xy 118.11 138.43) (xy 118.11 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3226,7 +3294,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 128.27) (xy 171.45 143.51)
+			(xy 171.45 128.27) (xy 171.45 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3244,18 +3312,8 @@
 		)
 		(uuid "ff2e9bd2-abf6-42a1-affe-04f7f85097e7")
 	)
-	(wire
-		(pts
-			(xy 109.22 115.57) (xy 133.35 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffab9426-80ad-4700-a8c8-4336f7c0dc9a")
-	)
 	(label "AVDD"
-		(at 219.71 74.93 0)
+		(at 213.36 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3276,7 +3334,7 @@
 	)
 	(hierarchical_label "AVDD"
 		(shape input)
-		(at 41.91 127 180)
+		(at 63.5 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3287,7 +3345,7 @@
 	)
 	(hierarchical_label "-OUT"
 		(shape output)
-		(at 171.45 152.4 270)
+		(at 171.45 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3298,7 +3356,7 @@
 	)
 	(hierarchical_label "VLOG_IN"
 		(shape input)
-		(at 266.7 96.52 0)
+		(at 260.35 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3309,7 +3367,7 @@
 	)
 	(hierarchical_label "+OUT"
 		(shape output)
-		(at 109.22 152.4 270)
+		(at 118.11 147.32 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3320,7 +3378,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 109.22 124.46 0)
+		(at 118.11 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3331,7 +3389,7 @@
 		(fields_autoplaced yes)
 		(uuid "00c285e2-2176-450e-aa62-5e3813bf4ac6")
 		(property "Reference" "R30"
-			(at 111.76 123.1899 0)
+			(at 120.65 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3342,7 +3400,7 @@
 			)
 		)
 		(property "Value" "49.9Ω"
-			(at 111.76 125.7299 0)
+			(at 120.65 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3353,7 +3411,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 107.442 124.46 90)
+			(at 116.332 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3364,7 +3422,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RDM0000C331.pdf"
-			(at 109.22 124.46 0)
+			(at 118.11 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3375,7 +3433,7 @@
 			)
 		)
 		(property "Description" "49.9Ω 63mW 50V Thin Film Resistor ±25ppm/℃ ±0.1% 0402 Chip Resistor - Surface Mount RoHS"
-			(at 109.22 124.46 0)
+			(at 118.11 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3386,7 +3444,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 109.22 124.46 0)
+			(at 118.11 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3397,7 +3455,7 @@
 			)
 		)
 		(property "MPN" "RT0402BRD0749R9L"
-			(at 109.22 124.46 0)
+			(at 118.11 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3408,7 +3466,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 109.22 124.46 0)
+			(at 118.11 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3419,7 +3477,7 @@
 			)
 		)
 		(property "Purpose" "Series output isolation/termination resistor between AD8138 output and AD9203 input; works with the shunt capacitor to tune ADC input filtering/settling."
-			(at 109.22 124.46 0)
+			(at 118.11 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3430,7 +3488,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 109.22 124.46 0)
+			(at 118.11 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3441,7 +3499,7 @@
 			)
 		)
 		(property "lcsc_id" "C852809"
-			(at 109.22 124.46 0)
+			(at 118.11 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3452,7 +3510,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 109.22 124.46 0)
+			(at 118.11 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3463,7 +3521,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 109.22 124.46 0)
+			(at 118.11 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3816,128 +3874,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 162.56 115.57 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0ad488fd-9fd9-4528-9bd2-44a375c76339")
-		(property "Reference" "TP17"
-			(at 162.56 122.174 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-OUT"
-			(at 162.56 124.206 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 157.48 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "PCB copper test pad, 1.0mm, no fitted component"
-			(at 162.56 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "Provides oscilloscope/DMM probe access to -OUT."
-			(at 162.56 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 162.56 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 162.56 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 162.56 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b9de5da7-05a1-453d-80fc-074a983e06fb")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 227.33 82.55 0)
+		(at 220.98 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3948,7 +3886,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b5d1d2f-768b-4d90-a67f-8965e3767091")
 		(property "Reference" "#PWR045"
-			(at 227.33 88.9 0)
+			(at 220.98 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3959,7 +3897,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.33 87.63 0)
+			(at 220.98 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3969,7 +3907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 82.55 0)
+			(at 220.98 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3980,7 +3918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 82.55 0)
+			(at 220.98 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3991,7 +3929,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 82.55 0)
+			(at 220.98 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4710,7 +4648,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 134.62 0)
+		(at 82.55 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4721,7 +4659,7 @@
 		(fields_autoplaced yes)
 		(uuid "39451569-74c1-4a2e-abd6-ec2e6cbcfada")
 		(property "Reference" "#PWR085"
-			(at 60.96 140.97 0)
+			(at 82.55 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4732,7 +4670,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 139.7 0)
+			(at 82.55 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4742,7 +4680,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 134.62 0)
+			(at 82.55 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4753,7 +4691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 134.62 0)
+			(at 82.55 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4764,7 +4702,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 134.62 0)
+			(at 82.55 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5253,7 +5191,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 144.78 0)
+		(at 157.48 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5264,7 +5202,7 @@
 		(fields_autoplaced yes)
 		(uuid "55b030ea-2fc3-4930-9848-40e9f3c2d792")
 		(property "Reference" "#PWR010"
-			(at 157.48 151.13 0)
+			(at 157.48 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5275,7 +5213,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 149.86 0)
+			(at 157.48 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5285,7 +5223,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 144.78 0)
+			(at 157.48 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5296,7 +5234,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 144.78 0)
+			(at 157.48 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5307,7 +5245,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 144.78 0)
+			(at 157.48 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5659,126 +5597,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
 					(reference "RN1")
 					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 133.35 115.57 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6bd418de-2d11-4fc2-abf7-441fc2336a3d")
-		(property "Reference" "TP16"
-			(at 133.604 122.174 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+OUT"
-			(at 133.604 123.952 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 128.27 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "PCB copper test pad, 1.0mm, no fitted component"
-			(at 133.35 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "Provides oscilloscope/DMM probe access to +OUT."
-			(at 133.35 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 133.35 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 133.35 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 133.35 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "017804de-d474-4647-a194-1444cdd5cafa")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "TP16")
-					(unit 1)
 				)
 			)
 		)
@@ -6398,7 +6216,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 167.64 143.51 90)
+		(at 167.64 138.43 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6409,7 +6227,7 @@
 		(fields_autoplaced yes)
 		(uuid "95dce030-4b0d-40fe-86b3-4a4498985ce4")
 		(property "Reference" "C71"
-			(at 167.64 135.89 90)
+			(at 167.64 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6419,7 +6237,7 @@
 			)
 		)
 		(property "Value" "20pF"
-			(at 167.64 138.43 90)
+			(at 167.64 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6429,7 +6247,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 171.45 142.5448 0)
+			(at 171.45 137.4648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6440,7 +6258,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H200FB01-01.pdf"
-			(at 167.64 143.51 0)
+			(at 167.64 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6451,7 +6269,7 @@
 			)
 		)
 		(property "Description" "20 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 167.64 143.51 0)
+			(at 167.64 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6462,7 +6280,7 @@
 			)
 		)
 		(property "Purpose" "Shunt capacitor at the AD9203 differential input for ADC input filtering, settling, and anti-alias response tuning."
-			(at 167.64 143.51 0)
+			(at 167.64 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6473,7 +6291,7 @@
 			)
 		)
 		(property "MPN" "GJM1555C1H200FB01D"
-			(at 167.64 143.51 90)
+			(at 167.64 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6484,7 +6302,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 167.64 143.51 90)
+			(at 167.64 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6495,7 +6313,7 @@
 			)
 		)
 		(property "Notes" "Tuning capacitor footprint, C0G/NP0 0402 when fitted, DNP by default"
-			(at 167.64 143.51 90)
+			(at 167.64 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6506,7 +6324,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 167.64 143.51 90)
+			(at 167.64 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6517,7 +6335,7 @@
 			)
 		)
 		(property "lcsc_id" "C913479"
-			(at 167.64 143.51 90)
+			(at 167.64 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6528,7 +6346,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 167.64 143.51 90)
+			(at 167.64 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6539,7 +6357,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 167.64 143.51 90)
+			(at 167.64 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6566,7 +6384,7 @@
 	)
 	(symbol
 		(lib_id "planewatcher:OPA2320")
-		(at 250.19 77.47 0)
+		(at 243.84 77.47 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6577,7 +6395,7 @@
 		(dnp no)
 		(uuid "9ab2f124-a9d0-4637-b5cf-bf5b46eeee38")
 		(property "Reference" "U3"
-			(at 250.698 80.772 0)
+			(at 244.348 80.772 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6588,7 +6406,7 @@
 			)
 		)
 		(property "Value" "OPA2320"
-			(at 250.698 83.312 0)
+			(at 244.348 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6599,7 +6417,7 @@
 			)
 		)
 		(property "Footprint" "planewatcher:OPA2320 DRG0008A"
-			(at 250.19 77.47 0)
+			(at 243.84 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6610,7 +6428,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa320.pdf"
-			(at 250.19 77.47 0)
+			(at 243.84 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6621,7 +6439,7 @@
 			)
 		)
 		(property "Description" "Dual Channel, Precision, 20-MHz, 0.9-pA, Low-Noise, RRIO, CMOS Operational Amplifier Without Shutdown"
-			(at 250.19 77.47 0)
+			(at 243.84 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6632,7 +6450,7 @@
 			)
 		)
 		(property "MPN" "OPA2320AIDRGT"
-			(at 250.19 77.47 0)
+			(at 243.84 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6643,7 +6461,7 @@
 			)
 		)
 		(property "Manufacturer" "TI"
-			(at 250.19 77.47 0)
+			(at 243.84 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6654,7 +6472,7 @@
 			)
 		)
 		(property "Package" "SON-8-EP(3x3)"
-			(at 250.19 77.47 0)
+			(at 243.84 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6665,7 +6483,7 @@
 			)
 		)
 		(property "Purpose" "Dual high-precision, low-noise, RRIO CMOS operational amplifier. Non-shutdown OPA2320AIDRGT variant."
-			(at 250.19 77.47 0)
+			(at 243.84 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6676,7 +6494,7 @@
 			)
 		)
 		(property "lcsc_id" "C2057346"
-			(at 250.19 77.47 0)
+			(at 243.84 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6687,7 +6505,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 250.19 77.47 0)
+			(at 243.84 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6698,7 +6516,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 250.19 77.47 0)
+			(at 243.84 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6743,7 +6561,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 241.3 78.74 0)
+		(at 234.95 78.74 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6754,7 +6572,7 @@
 		(dnp no)
 		(uuid "9fd49554-b74a-4cda-89b0-228da500914a")
 		(property "Reference" "C65"
-			(at 235.458 77.724 0)
+			(at 229.108 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6764,7 +6582,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 235.458 80.264 0)
+			(at 229.108 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6774,7 +6592,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 240.3348 82.55 0)
+			(at 233.9848 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6785,7 +6603,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
-			(at 241.3 78.74 0)
+			(at 234.95 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6796,7 +6614,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 241.3 78.74 0)
+			(at 234.95 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6807,7 +6625,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 241.3 78.74 0)
+			(at 234.95 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6818,7 +6636,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71A104KA55D"
-			(at 241.3 78.74 0)
+			(at 234.95 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6829,7 +6647,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 241.3 78.74 0)
+			(at 234.95 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6840,7 +6658,7 @@
 			)
 		)
 		(property "Purpose" "Local high-frequency decoupling for the OPA2320 supply."
-			(at 241.3 78.74 0)
+			(at 234.95 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6851,7 +6669,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 241.3 78.74 90)
+			(at 234.95 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6862,7 +6680,7 @@
 			)
 		)
 		(property "lcsc_id" "C161163"
-			(at 241.3 78.74 0)
+			(at 234.95 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6873,7 +6691,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 241.3 78.74 0)
+			(at 234.95 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6884,7 +6702,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 241.3 78.74 0)
+			(at 234.95 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7088,7 +6906,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 134.62 0)
+		(at 96.52 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7099,7 +6917,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8b23842-5c73-470b-9887-9b79dea1d36d")
 		(property "Reference" "#PWR086"
-			(at 74.93 140.97 0)
+			(at 96.52 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7110,7 +6928,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 139.7 0)
+			(at 96.52 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7120,7 +6938,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 134.62 0)
+			(at 96.52 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7131,7 +6949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 134.62 0)
+			(at 96.52 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7142,7 +6960,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 134.62 0)
+			(at 96.52 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7502,6 +7320,39 @@
 				)
 			)
 		)
+		(property "MPN" "ERJ-2GE0R00X"
+			(at 167.64 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic Industry"
+			(at 167.64 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C242160"
+			(at 167.64 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8ed91985-894c-4627-b76d-bdb5e5dbb671")
 		)
@@ -7676,7 +7527,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 74.93 130.81 0)
+		(at 96.52 120.65 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7687,7 +7538,7 @@
 		(dnp no)
 		(uuid "b2c0af24-f065-48fb-83f3-a285b298bcda")
 		(property "Reference" "C48"
-			(at 69.088 129.794 0)
+			(at 90.678 119.634 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7697,7 +7548,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 69.088 132.334 0)
+			(at 90.678 122.174 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7707,7 +7558,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 73.9648 134.62 0)
+			(at 95.5548 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7718,7 +7569,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
-			(at 74.93 130.81 0)
+			(at 96.52 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7729,7 +7580,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 74.93 130.81 0)
+			(at 96.52 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7740,7 +7591,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 74.93 130.81 0)
+			(at 96.52 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7751,7 +7602,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71A104KA55D"
-			(at 74.93 130.81 0)
+			(at 96.52 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7762,7 +7613,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 74.93 130.81 0)
+			(at 96.52 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7773,7 +7624,7 @@
 			)
 		)
 		(property "Purpose" "Local high-frequency decoupling for the AD8138 analog supply and VOCM network."
-			(at 74.93 130.81 0)
+			(at 96.52 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7784,7 +7635,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 74.93 130.81 90)
+			(at 96.52 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7795,7 +7646,7 @@
 			)
 		)
 		(property "lcsc_id" "C161163"
-			(at 74.93 130.81 0)
+			(at 96.52 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7806,7 +7657,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 74.93 130.81 0)
+			(at 96.52 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7817,7 +7668,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 74.93 130.81 0)
+			(at 96.52 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7844,7 +7695,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 60.96 130.81 0)
+		(at 82.55 120.65 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7855,7 +7706,7 @@
 		(dnp no)
 		(uuid "b839d58a-6eec-4262-8317-438b04f892a9")
 		(property "Reference" "C47"
-			(at 54.864 129.794 0)
+			(at 76.454 119.634 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7865,7 +7716,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 54.864 132.334 0)
+			(at 76.454 122.174 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7875,7 +7726,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 59.9948 134.62 0)
+			(at 81.5848 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7886,7 +7737,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106MA73-01A.pdf"
-			(at 60.96 130.81 0)
+			(at 82.55 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7897,7 +7748,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 60.96 130.81 0)
+			(at 82.55 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7908,7 +7759,7 @@
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
-			(at 60.96 130.81 0)
+			(at 82.55 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7919,7 +7770,7 @@
 			)
 		)
 		(property "MPN" "GRM188Z71A106MA73D"
-			(at 60.96 130.81 0)
+			(at 82.55 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7930,7 +7781,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 60.96 130.81 0)
+			(at 82.55 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7941,7 +7792,7 @@
 			)
 		)
 		(property "Purpose" "Local bulk decoupling for the AD8138 analog supply."
-			(at 60.96 130.81 0)
+			(at 82.55 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7952,7 +7803,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 60.96 130.81 90)
+			(at 82.55 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7963,7 +7814,7 @@
 			)
 		)
 		(property "lcsc_id" "C237435"
-			(at 60.96 130.81 0)
+			(at 82.55 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7974,7 +7825,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 60.96 130.81 0)
+			(at 82.55 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7985,7 +7836,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 60.96 130.81 0)
+			(at 82.55 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8012,7 +7863,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 227.33 78.74 0)
+		(at 220.98 78.74 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8023,7 +7874,7 @@
 		(dnp no)
 		(uuid "be6c4dbd-09ab-4c71-b869-bcdf9ce07ffc")
 		(property "Reference" "C64"
-			(at 221.234 77.724 0)
+			(at 214.884 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8033,7 +7884,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 221.234 80.264 0)
+			(at 214.884 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8043,7 +7894,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 226.3648 82.55 0)
+			(at 220.0148 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8054,7 +7905,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106MA73-01A.pdf"
-			(at 227.33 78.74 0)
+			(at 220.98 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8065,7 +7916,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 227.33 78.74 0)
+			(at 220.98 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8076,7 +7927,7 @@
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
-			(at 227.33 78.74 0)
+			(at 220.98 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8087,7 +7938,7 @@
 			)
 		)
 		(property "MPN" "GRM188Z71A106MA73D"
-			(at 227.33 78.74 0)
+			(at 220.98 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8098,7 +7949,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 227.33 78.74 0)
+			(at 220.98 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8109,7 +7960,7 @@
 			)
 		)
 		(property "Purpose" "Local bulk decoupling for the OPA2320."
-			(at 227.33 78.74 0)
+			(at 220.98 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8120,7 +7971,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 227.33 78.74 90)
+			(at 220.98 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8131,7 +7982,7 @@
 			)
 		)
 		(property "lcsc_id" "C237435"
-			(at 227.33 78.74 0)
+			(at 220.98 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8142,7 +7993,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 227.33 78.74 0)
+			(at 220.98 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8153,7 +8004,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 227.33 78.74 0)
+			(at 220.98 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8180,7 +8031,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 99.06 0)
+		(at 242.57 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8191,7 +8042,7 @@
 		(fields_autoplaced yes)
 		(uuid "be91c3fa-f59d-4749-baaa-39dacf625b6b")
 		(property "Reference" "#PWR051"
-			(at 248.92 105.41 0)
+			(at 242.57 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8202,7 +8053,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 104.14 0)
+			(at 242.57 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8212,7 +8063,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 99.06 0)
+			(at 242.57 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8223,7 +8074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 99.06 0)
+			(at 242.57 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8234,7 +8085,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 99.06 0)
+			(at 242.57 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8336,7 +8187,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 118.11 143.51 90)
+		(at 127 138.43 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8347,7 +8198,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf98bac5-5d06-4809-bc7e-01b37a34ade9")
 		(property "Reference" "C72"
-			(at 118.11 135.89 90)
+			(at 127 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8357,7 +8208,7 @@
 			)
 		)
 		(property "Value" "20pF"
-			(at 118.11 138.43 90)
+			(at 127 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8367,7 +8218,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 121.92 142.5448 0)
+			(at 130.81 137.4648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8378,7 +8229,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GJM1555C1H200FB01-01.pdf"
-			(at 118.11 143.51 0)
+			(at 127 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8389,7 +8240,7 @@
 			)
 		)
 		(property "Description" "20 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 118.11 143.51 0)
+			(at 127 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8400,7 +8251,7 @@
 			)
 		)
 		(property "Purpose" "Shunt capacitor at the AD9203 differential input for ADC input filtering, settling, and anti-alias response tuning."
-			(at 118.11 143.51 0)
+			(at 127 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8411,7 +8262,7 @@
 			)
 		)
 		(property "MPN" "GJM1555C1H200FB01D"
-			(at 118.11 143.51 90)
+			(at 127 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8422,7 +8273,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 118.11 143.51 90)
+			(at 127 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8433,7 +8284,7 @@
 			)
 		)
 		(property "Notes" "Tuning capacitor footprint, C0G/NP0 0402 when fitted, DNP by default"
-			(at 118.11 143.51 90)
+			(at 127 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8444,7 +8295,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 118.11 143.51 90)
+			(at 127 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8455,7 +8306,7 @@
 			)
 		)
 		(property "lcsc_id" "C913479"
-			(at 118.11 143.51 90)
+			(at 127 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8466,7 +8317,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 118.11 143.51 90)
+			(at 127 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8477,7 +8328,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 118.11 143.51 90)
+			(at 127 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8740,7 +8591,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 82.55 0)
+		(at 234.95 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8751,7 +8602,7 @@
 		(fields_autoplaced yes)
 		(uuid "fab96420-eaae-4822-8933-0f444e40d36f")
 		(property "Reference" "#PWR050"
-			(at 241.3 88.9 0)
+			(at 234.95 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8762,7 +8613,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 87.63 0)
+			(at 234.95 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8772,7 +8623,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 82.55 0)
+			(at 234.95 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8783,7 +8634,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 82.55 0)
+			(at 234.95 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8794,7 +8645,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 82.55 0)
+			(at 234.95 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8818,7 +8669,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 143.51 0)
+		(at 137.16 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8829,7 +8680,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb0e007f-6732-4d49-b12c-72537c545171")
 		(property "Reference" "#PWR09"
-			(at 128.27 149.86 0)
+			(at 137.16 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8840,7 +8691,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 148.59 0)
+			(at 137.16 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8850,7 +8701,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 143.51 0)
+			(at 137.16 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8861,7 +8712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 143.51 0)
+			(at 137.16 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8872,7 +8723,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 143.51 0)
+			(at 137.16 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

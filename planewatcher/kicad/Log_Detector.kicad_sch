@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher")
-		(date "2026-06-30")
+		(date "2026-07-08")
 		(rev "prototype 1.3")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
@@ -1750,17 +1750,6 @@
 		)
 		(uuid "ee6803f0-86e2-4bdd-af20-61b96854f7d2")
 	)
-	(text "Datasheet says to operate in \nmeasurement mode, connect VOUT to VSET.\nFootprints added so we can experiment with slope adjustment."
-		(exclude_from_sim no)
-		(at 200.406 62.484 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "41158a45-effc-44be-abea-2406f3217c5a")
-	)
 	(text_box "Supply decoupling.\nDatasheet recommends 100pF and 0.1µF close to VPOS."
 		(exclude_from_sim no)
 		(at 120.65 26.67 0)
@@ -1820,6 +1809,26 @@
 			(justify left top)
 		)
 		(uuid "459982d2-0b53-4ad4-b65a-8ee4f078da32")
+	)
+	(text_box "Datasheet says to operate in measurement mode, \nconnect VOUT to VSET.\nFootprints added so we can experiment with slope adjustment."
+		(exclude_from_sim no)
+		(at 201.93 41.91 0)
+		(size 69.85 34.29)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right top)
+		)
+		(uuid "72b8ccda-758b-4b25-93c1-172c6d1568ed")
 	)
 	(text_box "Datasheet says INLO should be AC-coupled to ground."
 		(exclude_from_sim no)
@@ -1902,12 +1911,6 @@
 		(uuid "ff2c9a7e-6425-46ca-b3e1-0c6be62772e7")
 	)
 	(junction
-		(at 186.69 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1860919a-a4f7-450d-ab87-ee10c61232de")
-	)
-	(junction
 		(at 186.69 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1938,10 +1941,16 @@
 		(uuid "49a0e435-ef2c-4fb9-a1b8-131d69ced0ff")
 	)
 	(junction
-		(at 191.77 62.23)
+		(at 205.74 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ac022b3-8a72-47c0-8870-99c0c25e675f")
+	)
+	(junction
+		(at 186.69 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dfa5399-9e5b-4af2-a606-ede6a35f4ce6")
 	)
 	(junction
 		(at 220.98 100.33)
@@ -1962,13 +1971,13 @@
 		(uuid "5cbb4320-6f2a-49fc-9006-9c654c384a44")
 	)
 	(junction
-		(at 191.77 36.83)
+		(at 205.74 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "621b8fc5-9a99-43d4-87ae-057d472600ea")
 	)
 	(junction
-		(at 191.77 54.61)
+		(at 205.74 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69aed877-d59d-4c0e-a7b6-d9c2d4429e3b")
@@ -2010,7 +2019,7 @@
 		(uuid "c6a09e8d-beaf-4bd5-94c7-80c6d43551e4")
 	)
 	(junction
-		(at 191.77 69.85)
+		(at 205.74 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d290ad30-43b3-495e-8390-d829f9e92825")
@@ -2085,7 +2094,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 69.85) (xy 191.77 69.85)
+			(xy 186.69 69.85) (xy 205.74 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2195,7 +2204,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 36.83) (xy 191.77 36.83)
+			(xy 214.63 36.83) (xy 205.74 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2265,7 +2274,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 36.83) (xy 191.77 54.61)
+			(xy 205.74 36.83) (xy 205.74 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2275,7 +2284,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 62.23) (xy 191.77 62.23)
+			(xy 186.69 62.23) (xy 205.74 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2345,7 +2354,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 54.61) (xy 191.77 54.61)
+			(xy 186.69 54.61) (xy 205.74 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3397,7 +3406,7 @@
 	)
 	(hierarchical_label "VLOG_OUT"
 		(shape output)
-		(at 200.66 36.83 0)
+		(at 214.63 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4247,7 +4256,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 191.77 36.83 0)
+		(at 205.74 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4257,7 +4266,7 @@
 		(dnp no)
 		(uuid "338738de-f341-446a-83ea-ee7a1b3f77b6")
 		(property "Reference" "TP13"
-			(at 191.77 31.242 0)
+			(at 205.74 31.242 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4267,7 +4276,7 @@
 			)
 		)
 		(property "Value" "VLOG_OUT"
-			(at 191.77 28.956 0)
+			(at 205.74 28.956 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4277,7 +4286,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 196.85 36.83 0)
+			(at 210.82 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4288,7 +4297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 36.83 0)
+			(at 210.82 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4299,7 +4308,7 @@
 			)
 		)
 		(property "Description" "PCB copper test pad, 1.0mm, no fitted component"
-			(at 191.77 36.83 0)
+			(at 205.74 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4310,7 +4319,7 @@
 			)
 		)
 		(property "Purpose" "Provides oscilloscope/DMM probe access to VLOG_OUT."
-			(at 191.77 36.83 0)
+			(at 205.74 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4321,7 +4330,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 191.77 36.83 0)
+			(at 205.74 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4332,7 +4341,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 191.77 36.83 0)
+			(at 205.74 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4343,7 +4352,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 191.77 36.83 0)
+			(at 205.74 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4657,7 +4666,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.77 69.85 0)
+		(at 205.74 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4667,7 +4676,7 @@
 		(dnp no)
 		(uuid "45911638-9511-4a0b-915f-e743d05c0f76")
 		(property "Reference" "#PWR075"
-			(at 191.77 76.2 0)
+			(at 205.74 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4678,7 +4687,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 73.66 0)
+			(at 205.74 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4688,7 +4697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 69.85 0)
+			(at 205.74 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4699,7 +4708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 69.85 0)
+			(at 205.74 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4710,7 +4719,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 69.85 0)
+			(at 205.74 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6007,7 +6016,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 191.77 58.42 0)
+		(at 205.74 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6017,7 +6026,7 @@
 		(dnp no)
 		(uuid "8b10fee2-7ada-4f49-b897-0d6f68043831")
 		(property "Reference" "R44"
-			(at 195.58 57.15 0)
+			(at 209.55 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6027,7 +6036,7 @@
 			)
 		)
 		(property "Value" "0Ω"
-			(at 195.58 59.69 0)
+			(at 209.55 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6037,7 +6046,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 189.992 58.42 90)
+			(at 203.962 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6048,7 +6057,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2GE0R00X"
-			(at 191.77 58.42 0)
+			(at 205.74 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6059,7 +6068,7 @@
 			)
 		)
 		(property "Description" "0 Ohms Jumper Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 191.77 58.42 0)
+			(at 205.74 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6070,7 +6079,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 191.77 58.42 0)
+			(at 205.74 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6081,7 +6090,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2GE0R00X"
-			(at 191.77 58.42 0)
+			(at 205.74 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6092,7 +6101,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Industry"
-			(at 191.77 58.42 0)
+			(at 205.74 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6103,7 +6112,7 @@
 			)
 		)
 		(property "Purpose" "0 ohm link tying VOUT to VSET to configure the ADL5513 for measurement/log-output mode."
-			(at 191.77 58.42 0)
+			(at 205.74 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6114,7 +6123,7 @@
 			)
 		)
 		(property "lcsc_id" "C242160"
-			(at 191.77 58.42 0)
+			(at 205.74 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6125,7 +6134,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 191.77 58.42 0)
+			(at 205.74 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6136,7 +6145,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 191.77 58.42 0)
+			(at 205.74 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7379,7 +7388,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 191.77 66.04 0)
+		(at 205.74 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7389,7 +7398,7 @@
 		(dnp yes)
 		(uuid "e625f1ec-30a6-41cb-b2df-1144834ccc3a")
 		(property "Reference" "R45"
-			(at 193.548 64.77 0)
+			(at 207.518 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7400,7 +7409,7 @@
 			)
 		)
 		(property "Value" "VSET_DIV_BTM_DNP"
-			(at 193.548 67.31 0)
+			(at 207.518 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7411,7 +7420,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 189.992 66.04 90)
+			(at 203.962 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7422,7 +7431,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2GE0R00X"
-			(at 191.77 66.04 0)
+			(at 205.74 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7433,7 +7442,7 @@
 			)
 		)
 		(property "Description" "ADL5513 slope adjustment, VSET to GND, populate if needed."
-			(at 191.77 66.04 0)
+			(at 205.74 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7444,7 +7453,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 191.77 66.04 0)
+			(at 205.74 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7455,7 +7464,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 191.77 66.04 0)
+			(at 205.74 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7466,7 +7475,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 191.77 66.04 0)
+			(at 205.74 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7477,7 +7486,7 @@
 			)
 		)
 		(property "Purpose" "Optional DNP VSET-to-ground resistor for alternate ADL5513 VSET bias/control experiments; leave unpopulated when R44 ties VOUT to VSET."
-			(at 191.77 66.04 0)
+			(at 205.74 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7488,7 +7497,7 @@
 			)
 		)
 		(property "lcsc_id" ""
-			(at 191.77 66.04 0)
+			(at 205.74 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7499,7 +7508,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 191.77 66.04 0)
+			(at 205.74 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7510,7 +7519,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 191.77 66.04 0)
+			(at 205.74 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
