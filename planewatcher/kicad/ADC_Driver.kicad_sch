@@ -2387,6 +2387,12 @@
 		(uuid "46f1c125-5091-461c-b153-2107e8ee35ea")
 	)
 	(junction
+		(at 101.6 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4983c171-29ec-43d7-af8f-bc8160e316fd")
+	)
+	(junction
 		(at 99.06 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2397,12 +2403,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fffdb9e-a07f-455f-acd2-4b7b324a0a4d")
-	)
-	(junction
-		(at 101.6 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "696617d5-0905-48ae-8f74-869b795c17fd")
 	)
 	(junction
 		(at 118.11 138.43)
@@ -2661,6 +2661,16 @@
 			(type default)
 		)
 		(uuid "32ef9707-d600-490d-b9d9-d613c3e46454")
+	)
+	(wire
+		(pts
+			(xy 99.06 92.71) (xy 101.6 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f9a526-c13c-43a5-9fa6-010983b23a5c")
 	)
 	(wire
 		(pts
@@ -3234,7 +3244,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 92.71) (xy 93.98 92.71)
+			(xy 87.63 92.71) (xy 91.44 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5016,7 +5026,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 97.79 92.71 90)
+		(at 95.25 92.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5027,7 +5037,7 @@
 		(fields_autoplaced yes)
 		(uuid "536b0128-6b94-4fc4-9a62-c5c3bc20cf5e")
 		(property "Reference" "RN1"
-			(at 97.79 86.36 90)
+			(at 95.25 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5037,7 +5047,7 @@
 			)
 		)
 		(property "Value" "4x 499Ω 1%"
-			(at 97.79 88.9 90)
+			(at 95.25 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5047,7 +5057,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 97.79 94.742 90)
+			(at 95.25 94.742 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5058,7 +5068,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C620896.pdf"
-			(at 97.79 92.71 0)
+			(at 95.25 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5069,7 +5079,7 @@
 			)
 		)
 		(property "Description" "RES ARRAY 4 RES 499Ω 0402x4"
-			(at 97.79 92.71 0)
+			(at 95.25 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5080,7 +5090,7 @@
 			)
 		)
 		(property "MPN" "4D02WGF4990TCE"
-			(at 97.79 92.71 90)
+			(at 95.25 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5091,7 +5101,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 97.79 92.71 90)
+			(at 95.25 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5102,7 +5112,7 @@
 			)
 		)
 		(property "Package" "0402x4"
-			(at 97.79 92.71 90)
+			(at 95.25 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5113,7 +5123,7 @@
 			)
 		)
 		(property "Purpose" "Gain & Feedback network for AD8138 (1:1 gain)"
-			(at 97.79 92.71 90)
+			(at 95.25 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5124,7 +5134,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 97.79 92.71 90)
+			(at 95.25 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5135,7 +5145,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 97.79 92.71 90)
+			(at 95.25 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5146,7 +5156,7 @@
 			)
 		)
 		(property "lcsc_id" "C620896"
-			(at 97.79 92.71 90)
+			(at 95.25 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
