@@ -8,7 +8,7 @@ The goal of the project is to make a reasonably priced yet high-quality ADS-B re
 
 This repository contains the hardware design. The FPGA gateware and software live in the [plane-watch/plane-watcher](https://github.com/plane-watch/plane-watcher) repository.
 
-<img src="https://resources.oshwa.org/files/assets/oshw-logo-filled-black.svg" alt="Open Source Hardware Logo" width="100">
+<img src="https://resources.oshwa.org/files/assets/oshw-logo-filled-color.svg" alt="Open Source Hardware Logo" width="100">
 
 ## Status
 
