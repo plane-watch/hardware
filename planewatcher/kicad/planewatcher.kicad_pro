@@ -602,6 +602,9 @@
       ],
       "Net-(U9-INLO)": [
         "RF_50Ω"
+      ],
+      "Net-(Z1-Pad2)": [
+        "RF_50Ω"
       ]
     },
     "netclass_patterns": []

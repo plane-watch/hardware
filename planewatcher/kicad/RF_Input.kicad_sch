@@ -4478,7 +4478,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6d7eeb06-b3cd-4c1e-8f12-a69e915ffb24")
-		(property "Reference" "R40"
+		(property "Reference" "Z4"
 			(at 251.46 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4553,7 +4553,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/688449b3-e085-4d3d-9010-5bd7bcac8461"
-					(reference "R40")
+					(reference "Z4")
 					(unit 1)
 				)
 			)
@@ -5381,7 +5381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c17ec4c5-5fbb-4f93-b356-2add0450fe2b")
-		(property "Reference" "R37"
+		(property "Reference" "Z1"
 			(at 198.12 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5498,7 +5498,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/688449b3-e085-4d3d-9010-5bd7bcac8461"
-					(reference "R37")
+					(reference "Z1")
 					(unit 1)
 				)
 			)
@@ -5516,7 +5516,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c203b15b-4e55-4a98-9413-4aa357ca1ede")
-		(property "Reference" "R38"
+		(property "Reference" "Z2"
 			(at 209.55 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5591,7 +5591,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/688449b3-e085-4d3d-9010-5bd7bcac8461"
-					(reference "R38")
+					(reference "Z2")
 					(unit 1)
 				)
 			)
@@ -6577,7 +6577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed2c8876-41c7-49d9-b31d-d4c2e7d654f8")
-		(property "Reference" "R39"
+		(property "Reference" "Z3"
 			(at 240.03 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6694,7 +6694,7 @@
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/688449b3-e085-4d3d-9010-5bd7bcac8461"
-					(reference "R39")
+					(reference "Z3")
 					(unit 1)
 				)
 			)
