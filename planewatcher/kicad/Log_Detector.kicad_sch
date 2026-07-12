@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher")
-		(date "2026-07-08")
+		(date "2026-07-12")
 		(rev "prototype 1.3")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
@@ -3460,7 +3460,7 @@
 			(justify left bottom)
 		)
 		(uuid "1a91c457-a8b3-4da7-96d8-bc970ad628ad")
-		(property "Net Class" "RF_50Ω"
+		(property "Netclass" "RF_50Ω"
 			(at 103.4415 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3496,7 +3496,7 @@
 			(justify right bottom)
 		)
 		(uuid "25e53f06-7460-40dc-a930-835e276cf748")
-		(property "Net Class" "RF_50Ω"
+		(property "Netclass" "RF_50Ω"
 			(at 136.5885 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3532,7 +3532,7 @@
 			(justify left bottom)
 		)
 		(uuid "9209df42-5ba0-4e9b-9e75-f7f6f3fa6036")
-		(property "Net Class" "RF_50Ω"
+		(property "Netclass" "RF_50Ω"
 			(at 114.9985 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3568,7 +3568,7 @@
 			(justify left bottom)
 		)
 		(uuid "a753fa44-8cc2-4589-a097-ec098d7ea592")
-		(property "Net Class" "RF_50Ω"
+		(property "Netclass" "RF_50Ω"
 			(at 50.2285 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3603,7 +3603,7 @@
 			(justify left bottom)
 		)
 		(uuid "f901a147-aca4-4813-a0b5-438df06cea65")
-		(property "Net Class" "RF_50Ω"
+		(property "Netclass" "RF_50Ω"
 			(at 39.9415 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
