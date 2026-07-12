@@ -8,7 +8,7 @@
 		(at 0 -1.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "becab7e4-c506-4103-ab74-7b1bf8458764")
+		(uuid "18ec3c3f-0d6b-4347-8c41-b557c68d97e7")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "61695372-9c81-44c4-b7af-dd0f46455f08")
+		(uuid "606e9b7a-657e-488e-ac2f-bfa9099c2b69")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "691dad4c-550c-4eeb-9b66-389397289f5f")
+		(uuid "fc727850-fabb-4952-89b1-9cba0c2e8160")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4f1dd89f-2375-4664-9b81-55b7b684c54d")
+		(uuid "61e1ca11-1891-4c1a-9606-3b82f36fc662")
 		(effects
 			(font
 				(size 1 1)
@@ -65,7 +65,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "f779b8f2-725f-4ce2-a413-b9905d30a2f8")
+		(uuid "47a94d06-0305-4525-88f1-0437697e2bbf")
 	)
 	(fp_rect
 		(start -0.555 -0.33)
@@ -76,13 +76,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "6ba46c3d-c97f-4716-b081-1e2b3a45e8ef")
+		(uuid "39ed2b34-eef1-4d1d-a816-c9f80764f955")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "92d67f9c-f275-4668-9569-d9c5554ff262")
+		(uuid "6d09f678-95a2-47bf-b68b-37796c85ceed")
 		(effects
 			(font
 				(size 1 1)
@@ -94,13 +94,13 @@
 		(at -0.485 0 90)
 		(size 0.66 0.36)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "7414795f-7b28-4003-a147-4321ada8b0ab")
+		(uuid "df506b3e-4911-44af-8e05-abdb1ac6f0ff")
 	)
 	(pad "2" smd rect
 		(at 0.485 0 90)
 		(size 0.66 0.36)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "d3d810a4-99b9-41f4-965e-52ca08381fb0")
+		(uuid "9809a8e4-f9df-46f4-a3c6-34128cf57a6b")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0402_1005Metric.step"
