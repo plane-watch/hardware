@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher")
-		(date "2026-07-12")
+		(date "2026-07-19")
 		(rev "prototype 1.3")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
@@ -4467,16 +4467,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 78.74) (xy 241.3 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4389dd8e-6a1e-45df-94fd-59b019aaab5a")
-	)
-	(wire
-		(pts
 			(xy 140.97 91.44) (xy 143.51 91.44)
 		)
 		(stroke
@@ -4827,6 +4817,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 78.74) (xy 241.3 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72811500-74fa-48fc-82a5-13280d064679")
+	)
+	(wire
+		(pts
 			(xy 83.82 30.48) (xy 96.52 30.48)
 		)
 		(stroke
@@ -4964,16 +4964,6 @@
 			(type default)
 		)
 		(uuid "88eb8ab1-dc72-4c74-ad07-7cad63cb8f5e")
-	)
-	(wire
-		(pts
-			(xy 236.22 73.66) (xy 241.3 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b039a84-9173-4b09-97c4-34d4d78ef340")
 	)
 	(wire
 		(pts
@@ -5194,6 +5184,16 @@
 			(type default)
 		)
 		(uuid "a95386d1-0145-4f3e-87e3-95aebb353512")
+	)
+	(wire
+		(pts
+			(xy 236.22 73.66) (xy 241.3 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c4e989-4ce0-4691-96ec-344fe16b6eaf")
 	)
 	(wire
 		(pts
@@ -11894,7 +11894,7 @@
 			)
 		)
 		(pin "AINN" input
-			(at 241.3 78.74 180)
+			(at 241.3 73.66 180)
 			(uuid "af8d2fb1-8090-4dfe-83f5-3ac29b406082")
 			(effects
 				(font
@@ -11904,7 +11904,7 @@
 			)
 		)
 		(pin "AINP" input
-			(at 241.3 73.66 180)
+			(at 241.3 78.74 180)
 			(uuid "9f3faa9e-9b41-416e-959a-238f55e6be0f")
 			(effects
 				(font
