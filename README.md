@@ -48,6 +48,7 @@ In addition to fixing the issues above, proto 1.3 includes some functionality an
 - Selectable REFSENSE links allow the ADC input range to be configured for 1 Vpp or 2 Vpp.
 - PCB grounding and sensitive-node isolation have been revised with additional via stitching, shorter reference routing and copper keepouts.
 - Additional high-frequency bypassing has been added to keep the bias-tee supply side at RF ground.
+- Re-routed ADC input differential pair to remove vias/crossovers & remove skew. The ADC output will need to be negated in software.
 
 ## Hardware overview
 
