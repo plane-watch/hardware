@@ -825,7 +825,7 @@
         "uuid": "7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R6-7,C81-83,#PWR3,#PWR8,JP1,U5",
     "variants": []
   },
   "sheets": [
@@ -836,6 +836,10 @@
     [
       "e02d84ed-6468-4290-a59c-50ded41c0aba",
       "Power_3V3"
+    ],
+    [
+      "51edb038-216c-41f2-9cc3-d6f88328fe89",
+      "EEPROM"
     ],
     [
       "be54cab6-561b-439c-9db3-5433a1e68d46",

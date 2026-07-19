@@ -3721,6 +3721,26 @@
 		)
 		(uuid "c9bc36d1-7739-4783-ad0d-4c904eb8ad6a")
 	)
+	(text_box "Board EEPROM"
+		(exclude_from_sim no)
+		(at 176.53 128.27 0)
+		(size 44.45 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2a6ce2a4-faa4-4ca2-9f23-3a046eedd92f")
+	)
 	(text_box "FPGA W18: LT3045-1 Power Good input\nHIGH = power ok\nLOW = power fault / undervoltage"
 		(exclude_from_sim no)
 		(at 106.68 13.97 0)
@@ -3918,10 +3938,6 @@
 		(uuid "220a181e-d93f-43ea-9ca5-796420aca79f")
 	)
 	(no_connect
-		(at 83.82 148.59)
-		(uuid "28969e6d-11b8-4acf-8e2c-24ccadb0fa5c")
-	)
-	(no_connect
 		(at 22.86 176.53)
 		(uuid "29b3f73f-a643-4869-b809-a0af68dd21f1")
 	)
@@ -4008,10 +4024,6 @@
 	(no_connect
 		(at 127 151.13)
 		(uuid "ce7362a0-5465-4d70-9bef-709fe56717bb")
-	)
-	(no_connect
-		(at 127 148.59)
-		(uuid "db7e97f5-1af2-42cc-b7cc-bcc7f7e21d0b")
 	)
 	(no_connect
 		(at 127 176.53)
@@ -4104,6 +4116,16 @@
 			(type default)
 		)
 		(uuid "136c5081-b79b-411c-90ee-8acec41b0874")
+	)
+	(wire
+		(pts
+			(xy 208.28 142.24) (xy 219.71 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14384c06-081c-47b6-8560-49afffd6145b")
 	)
 	(wire
 		(pts
@@ -4947,6 +4969,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 140.97) (xy 195.58 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "866c497f-2bd6-486f-9270-6c8fe73bad5c")
+	)
+	(wire
+		(pts
 			(xy 157.48 38.1) (xy 175.26 38.1)
 		)
 		(stroke
@@ -4964,6 +4996,16 @@
 			(type default)
 		)
 		(uuid "88eb8ab1-dc72-4c74-ad07-7cad63cb8f5e")
+	)
+	(wire
+		(pts
+			(xy 208.28 139.7) (xy 219.71 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8925e6f9-a823-4a81-9e03-1eac6cdabc52")
 	)
 	(wire
 		(pts
@@ -5945,6 +5987,16 @@
 		)
 		(uuid "1f66f236-17c3-472d-9830-c62c4d211cd4")
 	)
+	(label "FPGA_3V3_BNK35"
+		(at 177.8 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "223ce4ed-5470-44a8-94a2-274387138377")
+	)
 	(label "FPGA_AA16"
 		(at 22.86 171.45 0)
 		(effects
@@ -6194,6 +6246,16 @@
 			(justify left bottom)
 		)
 		(uuid "5568fcfc-f8e8-402e-9381-6e58fbff80ba")
+	)
+	(label "FPGA_E15"
+		(at 219.71 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55b8e57f-ad77-435c-8672-ec7c7fdf0384")
 	)
 	(label "FPGA_C18"
 		(at 83.82 173.99 0)
@@ -6504,6 +6566,16 @@
 			(justify right bottom)
 		)
 		(uuid "974a8055-8a83-4e56-a634-c1b87c0f0d74")
+	)
+	(label "FPGA_D15"
+		(at 219.71 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "97d2d1d9-4d96-4af8-9473-e69c47fb3f56")
 	)
 	(label "FPGA_W17"
 		(at 139.7 163.83 0)
@@ -11242,6 +11314,82 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 137.16)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "51edb038-216c-41f2-9cc3-d6f88328fe89")
+		(property "Sheetname" "EEPROM"
+			(at 195.58 136.4484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "eeprom.kicad_sch"
+			(at 195.58 145.3646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 208.28 139.7 0)
+			(uuid "15a91a66-7d0e-44bc-8263-b7dc547ca361")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 208.28 142.24 0)
+			(uuid "04f60ced-cad9-405e-aa66-4c889407407c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_{CC}" input
+			(at 195.58 140.97 180)
+			(uuid "19088d31-f47d-4c2b-a05c-5612cc6a75e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(page "3")
 				)
 			)
 		)
