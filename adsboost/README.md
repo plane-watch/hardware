@@ -65,6 +65,15 @@ The board includes a [BZT52C6V2](https://www.diodes.com/part/view/BZT52C6V2/) 6.
 
 Do not exceed the LNA's 5.25 V recommended operating limit. Its 7 V absolute maximum rating is a damage threshold, not an acceptable supply voltage. A sustained excessive voltage can overheat or destroy the zener diode, series resistor and LNA. In particular, applying 12 V through a common masthead-amplifier bias supply is likely to damage the module.
 
+## Enclosure
+
+ADSBoost is designed to fit either of these 100 mm split aluminium enclosures from JLCMC:
+
+- [Aluminum Box (JLC) – 25 × 25 × 40 mm, Split (K1-2525-H6-L40), Natural](<https://jlcmc.com/product/b/U01/BR12070/aluminum-box-(jlc)-25*25*100mm-split>)
+- [Aluminum Box (JLC) – 25 × 25 × 40 mm, Split (K1-2525-H7-L40), Black](<https://jlcmc.com/product/b/U01/BR12071/aluminum-box-(jlc)-125*25*100-split>)
+
+Installation requires one **6.6 mm diameter hole in the centre of each end cap**, aligned with the RF connectors.
+
 ## License
 
 The hardware design files are licensed under the [CERN Open Hardware Licence Version 2 – Strongly Reciprocal (CERN-OHL-S-2.0)](LICENSE).

@@ -345,7 +345,5 @@ $RECYCLE.BIN/
 
 .history
 *.history_trim
-
 *.kicad_*.lck
-
 *.rpt
