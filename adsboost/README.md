@@ -1,6 +1,6 @@
 # ADSBoost
 
-[![3D render of the ADSBoost prototype revision 1.0 PCB](adsboost/assets/adsboost_proto_1.0_render.png)](adsboost/README.md)
+[![3D render of the ADSBoost prototype revision 1.0 PCB](assets/adsboost_proto_1.0_render.png)](adsboost/README.md)
 
 **ADSBoost** is an open source, receive-only LNA and SAW filter module for 1090 MHz ADS-B and Mode S reception. It is intended to be installed close to the antenna and powered through its RF output coax using a bias tee.
 
