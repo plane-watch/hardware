@@ -22,7 +22,7 @@
 | Supply voltage | See [Powering ADSBoost](#powering-adsboost) | DC is supplied through the RF output connector |
 | Supply current | Approximately 45-68 mA typical | Depends on supply voltage; allow at least 100 mA from the bias tee |
 
-The [Qorvo TQP3M9036](https://www.qorvo.com/products/p/TQP3M9036) LNA has approximately 18.4 dB typical gain and 0.42 dB minimum noise figure around 1090 MHz when operated from 5 V. The [TA2003A datasheet](https://www.taisaw.com/assets/PDF/TA2003A%20_Rev.1.0_.pdf) specifies 3.2 dB typical and 4.0 dB maximum insertion loss across 1087-1093 MHz.
+The [Qorvo TQP3M9036](<datasheets/TQP3M9036 Data Sheet.pdf>) LNA has approximately 18.4 dB typical gain and 0.42 dB minimum noise figure around 1090 MHz when operated from 5 V. The [TA2003A datasheet](<datasheets/TA2003A _Rev.1.0_.pdf>) specifies 3.2 dB typical and 4.0 dB maximum insertion loss across 1087-1093 MHz.
 
 The SAW filter also specifies the following out-of-band attenuation. These are component specifications rather than measured module limits.
 
@@ -45,7 +45,7 @@ Module input/output return loss, gain variation, compression point and linearity
 
 ADSBoost is powered through `J2` using a bias tee. The coax centre conductor must be positive and the shield must be ground. The bias tee should present the DC supply on its RF+DC port while preventing that DC from reaching the receiver's RF input.
 
-The TQP3M9036 datasheet specifies:
+The [TQP3M9036 datasheet](<datasheets/TQP3M9036 Data Sheet.pdf>) specifies:
 
 | LNA operating point | Device supply current |
 | --- | ---: |
