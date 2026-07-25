@@ -78,12 +78,20 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|132151602|99264200|3aa084f4-34c9-4e0d-a4b2-760f8bf25aa1|cc6c969a-9d1a-42c3-ba54-6b93e80efeb3",
-          "Can't be helped due to component footprint."
+          "clearance|131961602|99264200|3aa084f4-34c9-4e0d-a4b2-760f8bf25aa1|cc6c969a-9d1a-42c3-ba54-6b93e80efeb3",
+          "Can't fix due to footprint"
         ],
         [
-          "clearance|132151602|99384200|c639451a-91ad-4e93-b819-3c945c11fb5c|cc6c969a-9d1a-42c3-ba54-6b93e80efeb3",
-          "Can't be helped due to component footprint."
+          "clearance|131961602|99384200|cc6c969a-9d1a-42c3-ba54-6b93e80efeb3|d8959f22-4a46-4fcf-9f4a-bd6ef9ee95ff",
+          "Can't fix due to footprint"
+        ],
+        [
+          "lib_footprint_mismatch|137781602|102140000|0f5e89d0-a6ed-4728-8fca-734e15a528ca|00000000-0000-0000-0000-000000000000",
+          "Changed footprint deliberately - removed some silkscreen"
+        ],
+        [
+          "lib_footprint_mismatch|147687279|101900000|6ba8c102-5485-4f83-9b59-d8136578c9a5|00000000-0000-0000-0000-000000000000",
+          "Changed footprint deliberately - removed some silkscreen"
         ]
       ],
       "meta": {
@@ -553,6 +561,15 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "Net-(C3-Pad2)": [
+        "RF_50Ω"
+      ],
+      "Net-(C4-Pad1)": [
+        "RF_50Ω"
+      ],
+      "Net-(C5-Pad2)": [
+        "RF_50Ω"
+      ],
       "Net-(D4-A1)": [
         "RF_50Ω"
       ],
@@ -768,7 +785,7 @@
         "uuid": "298143b0-c26a-4dd7-8b1d-d5b5401e1176"
       }
     ],
-    "used_designators": "Z2,R2,#FLG1-2,#PWR9,#PWR12-14,D1,D3-4,L3,L12",
+    "used_designators": "Z2,Z8-10,Z13-18,R2,#FLG1-2,#PWR9,#PWR12-14,#PWR52-54,#PWR112-114,D1,D3-4,L3,L12",
     "variants": []
   },
   "sheets": [

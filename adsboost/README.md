@@ -34,6 +34,12 @@ The SAW filter also specifies the following out-of-band attenuation. These are c
 
 Module input/output return loss, gain variation, compression point and linearity remain to be measured on assembled hardware.
 
+## RF matching and tuning
+
+Three 0402 pi-pad matching networks are provided along the RF path: one at the LNA input, one between the LNA and SAW filter, and one after the SAW filter. They are fitted as straight-through links by default, with a 0 ohm series resistor and both shunt positions left unpopulated.
+
+After assembled boards have been measured with a VNA, the footprints can be populated with suitable resistor, capacitor or inductor values to refine the 1090 MHz matching and compensate for real-world PCB and component parasitics.
+
 ## Connections
 
 | Connector | Function |
