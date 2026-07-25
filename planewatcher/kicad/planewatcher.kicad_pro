@@ -555,9 +555,18 @@
       },
       {
         "clearance": 0.1,
-        "name": "RF_50Ω",
+        "name": "DIFFPAIR_100Ω",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.1,
+        "name": "RF_50Ω",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.34544,
         "tuning_profile": ""
@@ -568,6 +577,12 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/ADC/AINN": [
+        "DIFFPAIR_100Ω"
+      ],
+      "/ADC/AINP": [
+        "DIFFPAIR_100Ω"
+      ],
       "/GPS Module/RF_IN": [
         "RF_50Ω"
       ],
@@ -587,6 +602,18 @@
         "RF_50Ω"
       ],
       "/RF_Input/RF_IN": [
+        "RF_50Ω"
+      ],
+      "Net-(C32-Pad2)": [
+        "RF_50Ω"
+      ],
+      "Net-(C33-Pad1)": [
+        "RF_50Ω"
+      ],
+      "Net-(C38-Pad2)": [
+        "RF_50Ω"
+      ],
+      "Net-(C39-Pad1)": [
         "RF_50Ω"
       ],
       "Net-(C42-Pad1)": [
@@ -825,7 +852,7 @@
         "uuid": "7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
       }
     ],
-    "used_designators": "R6-7,C81-83,#PWR3,#PWR8,JP1,U5",
+    "used_designators": "Z9,Z12-23,#PWR3,#PWR8,#PWR52-54,#PWR112-114,#PWR116-119,C81-83,R6-13,JP1,U5",
     "variants": []
   },
   "sheets": [
@@ -883,6 +910,43 @@
     "meta": {
       "version": 0
     },
-    "tuning_profiles_impedance_geometric": []
+    "tuning_profiles_impedance_geometric": [
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5863900,
+            "diff_pair_gap": 0,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "F.Cu",
+            "width": 345440
+          }
+        ],
+        "profile_name": "RF_50Ω",
+        "target_impedance": 50.0,
+        "type": 0,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5719700,
+            "diff_pair_gap": 200000,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "F.Cu",
+            "width": 200000
+          }
+        ],
+        "profile_name": "DIFFPAIR_100Ω",
+        "target_impedance": 100.0,
+        "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      }
+    ]
   }
 }

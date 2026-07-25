@@ -2306,8 +2306,8 @@
 	)
 	(text_box "Series output isolation/termination resistors between AD8138 output and AD9203 input; works with the shunt capacitors to tune ADC input filtering/settling."
 		(exclude_from_sim no)
-		(at 114.3 119.38 0)
-		(size 82.55 43.18)
+		(at 111.76 119.38 0)
+		(size 83.82 43.18)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2405,28 +2405,28 @@
 		(uuid "5fffdb9e-a07f-455f-acd2-4b7b324a0a4d")
 	)
 	(junction
-		(at 118.11 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a1ab78e-37f8-4377-9b9b-0b11412c21b1")
-	)
-	(junction
 		(at 109.22 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "741ab652-c4b2-42eb-b28e-e7a1edcf47e4")
 	)
 	(junction
-		(at 220.98 74.93)
+		(at 118.11 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a776e6a2-f4da-4f3f-8a2f-e158841b3056")
+		(uuid "768e2ea5-6319-478a-b87c-a1f076fc32a3")
 	)
 	(junction
 		(at 171.45 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aa3ec157-82be-4ca5-9cb5-c5769e255053")
+		(uuid "8c74f93e-12ca-4754-9c5a-df95a062b85f")
+	)
+	(junction
+		(at 220.98 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a776e6a2-f4da-4f3f-8a2f-e158841b3056")
 	)
 	(junction
 		(at 82.55 116.84)
@@ -2844,7 +2844,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 138.43) (xy 171.45 147.32)
+			(xy 171.45 138.43) (xy 171.45 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3184,7 +3184,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 138.43) (xy 118.11 147.32)
+			(xy 118.11 138.43) (xy 118.11 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3355,7 +3355,7 @@
 	)
 	(hierarchical_label "-OUT"
 		(shape output)
-		(at 171.45 147.32 270)
+		(at 171.45 149.86 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3377,7 +3377,7 @@
 	)
 	(hierarchical_label "+OUT"
 		(shape output)
-		(at 118.11 147.32 270)
+		(at 118.11 149.86 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3385,6 +3385,76 @@
 			(justify right)
 		)
 		(uuid "9af29d80-3cac-4ec9-ad64-5862db6fce4b")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 118.11 147.32 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70c1afe5-7088-4f49-8a37-5dcc98c15597")
+		(property "Netclass" "DIFFPAIR_100Ω"
+			(at 115.57 146.6215 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -85.09 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 171.45 147.32 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c41bbc92-6627-49fb-8bfb-55952355ce9a")
+		(property "Netclass" "DIFFPAIR_100Ω"
+			(at 173.99 146.6215 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -31.75 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")

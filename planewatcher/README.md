@@ -37,7 +37,8 @@ In addition to fixing the issues above, proto 1.3 includes some functionality an
 - More unpopulated component footprints have been added to allow tweaking/refinement:
   - ADL5513 log-detector slope adjustment voltage divider.
   - AD8138 ADC driver feedback capacitors.
-  - Various RF matching/tweaking footprints along the RF path and ADC signal path.
+  - Five 0402 pi-pad matching networks along the RF path: one on each side of both LNA stages, and one at the ADL5513 RF input. These are fitted as straight-through links by default, with a 0 Ω series resistor and both shunt positions left unpopulated. After measuring the assembled board with a VNA, the footprints can be populated with suitable resistor, capacitor or inductor values to refine the 1,090 MHz matching and compensate for real-world PCB and component parasitics.
+  - Other tweaking footprints along the ADC signal path.
 - The ADL5513 log-detector output is buffered for more robust operation with weak signals, and to decouple from the AD8138 input network.
 - The buffered log-detector output is also fed into a first-order low-pass filter at approximately 0.072 Hz to produce a slow-moving analog baseline. This heavily attenuates short ADS-B pulse bursts, but sustained RF traffic can still affect the baseline. The baseline is buffered and applied to the AD8138 ADC driver input network, offsetting the detector output before digitisation and improving the usable ADC range for weak pulses.
 - RF_IN and GPS antenna connectors have been swapped from SMA to U.FL.

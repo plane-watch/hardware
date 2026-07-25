@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher")
-		(date "2026-07-19")
+		(date "2026-07-26")
 		(rev "prototype 1.3")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
@@ -3656,16 +3656,6 @@
 		)
 		(uuid "0a3ee24e-9f54-4ee1-96f1-719fb934631f")
 	)
-	(text "Populate ${/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/4bbf0e16-d854-4546-b8e0-a132db41420a:REFERENCE}, ${/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/af06ee55-eeb8-4321-b9b9-4807697ac59a:REFERENCE}, ${/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/53f3353c-4070-4ed7-96a0-543510282bca:REFERENCE} and ${/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/2824f21a-e450-473a-b07b-908470e937c5:REFERENCE} with C/L/R after VNA/S11 testing for SAW-port matching, tuning, or isolation."
-		(exclude_from_sim no)
-		(at 112.776 107.696 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0c876287-1990-486f-91c1-c41b4c9f3bb6")
-	)
 	(text "Shielded section"
 		(exclude_from_sim no)
 		(at 45.466 62.992 0)
@@ -3842,12 +3832,6 @@
 		(uuid "d94a0fa8-422d-43d7-8292-2c37edca0de3")
 	)
 	(junction
-		(at 154.94 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ad93983-c442-4be6-bade-6b7755e59a4b")
-	)
-	(junction
 		(at 96.52 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3858,12 +3842,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14e66aaa-a4ce-4a1d-a9ee-d81d384570ba")
-	)
-	(junction
-		(at 82.55 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "296f496d-1d84-410f-a9de-f7177555b455")
 	)
 	(junction
 		(at 134.62 27.94)
@@ -3890,12 +3868,6 @@
 		(uuid "c2f8bdb3-7dc1-45d3-a477-250b17a4ac4a")
 	)
 	(junction
-		(at 107.95 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd8550bd-4da6-4ebd-9aff-3366190bf67b")
-	)
-	(junction
 		(at 148.59 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3906,12 +3878,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de3a8cf1-da73-4890-8ed9-21951489828f")
-	)
-	(junction
-		(at 129.54 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb774c6d-d5ce-45f6-b448-9e10603fac27")
 	)
 	(no_connect
 		(at 127 168.91)
@@ -4509,7 +4475,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 78.74) (xy 87.63 78.74)
+			(xy 81.28 78.74) (xy 87.63 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4809,26 +4775,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 78.74) (xy 154.94 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "715906ea-e5a8-4077-8551-78cf4713f6a1")
-	)
-	(wire
-		(pts
-			(xy 107.95 78.74) (xy 107.95 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71bdf323-f2e8-4726-ad4b-9918c49b6099")
-	)
-	(wire
-		(pts
 			(xy 50.8 186.69) (xy 66.04 186.69)
 		)
 		(stroke
@@ -5079,16 +5025,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 78.74) (xy 82.55 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9722234d-1f97-4e88-9681-4b168b5b8d49")
-	)
-	(wire
-		(pts
 			(xy 139.7 157.48) (xy 153.67 157.48)
 		)
 		(stroke
@@ -5196,16 +5132,6 @@
 			(type default)
 		)
 		(uuid "a6c4a763-8d56-45d3-bde9-7307607eba53")
-	)
-	(wire
-		(pts
-			(xy 129.54 78.74) (xy 129.54 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8102304-edf9-48ff-be1d-3beb6d75a4a3")
 	)
 	(wire
 		(pts
@@ -5329,7 +5255,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 78.74) (xy 129.54 78.74)
+			(xy 128.27 78.74) (xy 134.62 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5516,16 +5442,6 @@
 			(type default)
 		)
 		(uuid "db4603a7-190c-40df-abd0-b2666a1d7fef")
-	)
-	(wire
-		(pts
-			(xy 82.55 78.74) (xy 82.55 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd07843d-0cb4-405a-9c6a-56e66bc12fb7")
 	)
 	(wire
 		(pts
@@ -5786,16 +5702,6 @@
 			(type default)
 		)
 		(uuid "fcb5efea-c803-42fc-8d38-15d75fd33de1")
-	)
-	(wire
-		(pts
-			(xy 129.54 78.74) (xy 134.62 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcd30a67-78c6-4ba7-a59c-0740031f3ee6")
 	)
 	(wire
 		(pts
@@ -7568,264 +7474,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 154.94 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "2824f21a-e450-473a-b07b-908470e937c5")
-		(property "Reference" "Z8"
-			(at 157.48 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RF_SHUNT_DNP"
-			(at 157.48 97.7899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 153.162 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Populate with C/L/R after VNA/S11 testing for SAW-port matching, tuning, or isolation."
-			(at 154.94 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "0402 (1005 Metric)"
-			(at 154.94 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "Populate with C/L/R after VNA/S11 testing for SAW-port matching, tuning, or isolation."
-			(at 154.94 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e7199cdb-9ed4-4c3f-9b86-13acf7182e01")
-		)
-		(pin "1"
-			(uuid "429ab78e-f8b2-40a9-ae7d-7e218b8a6058")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "Z8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.94 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "36465712-482d-4eb6-8d90-141706e6244b")
-		(property "Reference" "#PWR094"
-			(at 154.94 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bd7ce00c-dee2-43dd-8b2c-db58feaac921")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 107.95 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3d163eab-c878-4c35-bcef-3e517887707b")
-		(property "Reference" "#PWR057"
-			(at 107.95 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 107.95 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ddca2b2-9948-4cc5-8863-5b6fdf784bf8")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 134.62 24.13 0)
 		(unit 1)
 		(body_style 1)
@@ -7984,83 +7632,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 129.54 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4124fe99-6a78-4edf-9823-efa58186fc19")
-		(property "Reference" "#PWR083"
-			(at 129.54 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "670fad13-9411-4e18-b327-a8f85d62c5b2")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 19.05 140.97 0)
 		(unit 1)
@@ -8133,291 +7704,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "#FLG08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 82.55 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "491a3f63-c744-4787-9223-ec3c5810b9f6")
-		(property "Reference" "#PWR054"
-			(at 82.55 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ede4d65c-fc86-4f57-b32f-d727f2b15d7c")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 82.55 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "4bbf0e16-d854-4546-b8e0-a132db41420a")
-		(property "Reference" "Z5"
-			(at 85.09 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RF_SHUNT_DNP"
-			(at 85.09 97.7899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 80.772 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Populate with C/L/R after VNA/S11 testing for SAW-port matching, tuning, or isolation."
-			(at 82.55 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "0402 (1005 Metric)"
-			(at 82.55 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "Populate with C/L/R after VNA/S11 testing for SAW-port matching, tuning, or isolation."
-			(at 82.55 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1aff9815-3411-4863-969a-737d07e67243")
-		)
-		(pin "1"
-			(uuid "edb5577f-0e5e-45ac-9900-8ae3e164cdd5")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "Z5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 129.54 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "53f3353c-4070-4ed7-96a0-543510282bca")
-		(property "Reference" "Z7"
-			(at 132.08 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RF_SHUNT_DNP"
-			(at 132.08 97.7899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 127.762 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Populate with C/L/R after VNA/S11 testing for SAW-port matching, tuning, or isolation."
-			(at 129.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "0402 (1005 Metric)"
-			(at 129.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "Populate with C/L/R after VNA/S11 testing for SAW-port matching, tuning, or isolation."
-			(at 129.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2dd0fd3a-c5ac-48dd-9ef8-fe35b26f1d44")
-		)
-		(pin "1"
-			(uuid "7457b4d6-36ae-4e86-8aa4-dc7387cbc5a6")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "Z7")
 					(unit 1)
 				)
 			)
@@ -10192,110 +9478,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "FL2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 107.95 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "af06ee55-eeb8-4321-b9b9-4807697ac59a")
-		(property "Reference" "Z6"
-			(at 110.49 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RF_SHUNT_DNP"
-			(at 110.49 97.7899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 106.172 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Populate with C/L/R after VNA/S11 testing for SAW-port matching, tuning, or isolation."
-			(at 107.95 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "0402 (1005 Metric)"
-			(at 107.95 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "Populate with C/L/R after VNA/S11 testing for SAW-port matching, tuning, or isolation."
-			(at 107.95 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8f7fe71d-c036-4e10-b75b-cad4988733cb")
-		)
-		(pin "1"
-			(uuid "21b90d19-b991-46a4-8566-9f90e6cc884f")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "Z6")
 					(unit 1)
 				)
 			)
