@@ -3674,7 +3674,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Murata Electronics, GCM155R71A104KA55D"
 			(at 185.42 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3686,6 +3686,28 @@
 			)
 		)
 		(property "Purpose" "Supply decoupling capacitor that shunts mid-frequency noise and transients on the protected supply rail to ground."
+			(at 185.42 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 185.42 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C161163"
 			(at 185.42 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3767,7 +3789,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "VISHAY CRCW08051R00FKEAHP"
 			(at 252.73 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3779,6 +3801,28 @@
 			)
 		)
 		(property "Purpose" "Series supply isolation resistor that limits surge current into D1 and, with C1/C2/C6/C7, filters and damps the DC extracted from J2."
+			(at 252.73 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 252.73 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C313850"
 			(at 252.73 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4038,6 +4082,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 69.85 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "39a9b7c5-297e-461f-b07e-d3396d6641d2")
 		)
@@ -4107,7 +4162,7 @@
 				)
 			)
 		)
-		(property "Description" "50 - 2000 MHz Ultra Low Noise, High Linearity Low Noise Amplifier"
+		(property "Description" "Qorvo TQP3M9036"
 			(at 118.11 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4119,6 +4174,28 @@
 			)
 		)
 		(property "Purpose" "Low-noise amplifier that increases the level of the 1090 MHz ADS-B signal between the antenna input and the SAW filter."
+			(at 118.11 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 118.11 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C920261"
 			(at 118.11 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4300,7 +4377,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Murata Electronics, GRM155Z71A105KE01D"
 			(at 200.66 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4312,6 +4389,28 @@
 			)
 		)
 		(property "Purpose" "Bulk supply decoupling capacitor that stores local charge for U1 and suppresses low-frequency ripple and transients on the protected supply rail."
+			(at 200.66 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 200.66 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C528974"
 			(at 200.66 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4405,6 +4504,17 @@
 			)
 		)
 		(property "Purpose" "Second shunt element in pi pad"
+			(at 229.87 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 229.87 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4719,7 +4829,7 @@
 				)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "Amphenol 132289"
 			(at 27.94 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4731,6 +4841,28 @@
 			)
 		)
 		(property "Purpose" "50 ohm SMA antenna input for the 1090 MHz ADS-B signal."
+			(at 27.94 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 27.94 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C3172723"
 			(at 27.94 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4989,6 +5121,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 53.34 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6f74a504-d7de-4854-bb24-5ce332a81807")
 		)
@@ -5060,7 +5203,7 @@
 				)
 			)
 		)
-		(property "Description" "Zener diode"
+		(property "Description" "DIODES BZT52C6V2-7-F"
 			(at 213.36 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5073,6 +5216,28 @@
 		)
 		(property "Purpose" "6.2 V zener clamp that protects the supply rail and U1 from excessive coax-fed DC voltage and transients."
 			(at 213.36 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 213.36 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C397931"
+			(at 213.36 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5151,7 +5316,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Murata Electronics, GCM1555C1H101FA16D"
 			(at 243.84 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5164,6 +5329,28 @@
 		)
 		(property "Purpose" "RF output coupling and DC-blocking capacitor that passes the filtered 1090 MHz signal to J2 while preventing coax-fed DC from reaching FL1."
 			(at 243.84 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 243.84 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C2941926"
+			(at 243.84 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5266,6 +5453,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 166.37 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8d5593d8-833d-4277-ac19-986155a672d6")
 		)
@@ -5349,6 +5547,17 @@
 			)
 		)
 		(property "Purpose" "First shunt element in pi pad"
+			(at 217.17 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 217.17 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5520,6 +5729,17 @@
 		)
 		(property "Sim.Type" ""
 			(at 138.43 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 138.43 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5742,6 +5962,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 172.72 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "88e8ebb2-907e-4a08-93f4-b182bb32bd50")
 		)
@@ -5825,6 +6056,17 @@
 			)
 		)
 		(property "Purpose" "Second shunt element in pi pad"
+			(at 179.07 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 179.07 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5983,7 +6225,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Murata Electronics, GCM1555C1H101FA16D"
 			(at 154.94 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5995,6 +6237,28 @@
 			)
 		)
 		(property "Purpose" "High-frequency supply bypass capacitor that shunts residual RF energy on U1's supply rail to ground."
+			(at 154.94 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 154.94 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C2941926"
 			(at 154.94 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6218,6 +6482,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 223.52 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "15656d44-faed-4c6c-8c44-ba47ca57fd06")
 		)
@@ -6343,6 +6618,17 @@
 			)
 		)
 		(property "lcsc_id" "C242160"
+			(at 76.2 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 76.2 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -6500,7 +6786,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Murata Electronics, GCM1555C1H101FA16D"
 			(at 96.52 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -6513,6 +6799,28 @@
 		)
 		(property "Purpose" "RF input coupling and DC-blocking capacitor that passes the 1090 MHz signal from J1 to U1 while isolating their DC levels."
 			(at 96.52 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 96.52 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C2941926"
+			(at 96.52 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6770,6 +7078,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 198.12 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "E"
 			(uuid "8c4014e5-7f84-4bd2-a6a0-5ade40cbd889")
 		)
@@ -6931,7 +7250,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Murata Electronics, GCM1555C1H102FA16D"
 			(at 170.18 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6943,6 +7262,28 @@
 			)
 		)
 		(property "Purpose" "Supply decoupling capacitor that shunts high-frequency noise on the protected supply rail to ground."
+			(at 170.18 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 170.18 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C126493"
 			(at 170.18 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7180,7 +7521,7 @@
 				)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "Amphenol 132289"
 			(at 266.7 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7192,6 +7533,28 @@
 			)
 		)
 		(property "Purpose" "50 ohm SMA RF output and coaxial DC power input; carries the amplified, filtered signal outward and accepts bias power inward."
+			(at 266.7 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 266.7 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C3172723"
 			(at 266.7 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7372,6 +7735,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 252.73 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7868df55-fab9-4ef1-bcbb-cd4f886ec758")
 		)
@@ -7542,6 +7916,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 38.1 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "687087dd-a934-47b9-b6e7-0c5516def748")
 		)
@@ -7689,7 +8074,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Murata Electronics, GCM1555C1H101FA16D"
 			(at 152.4 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7702,6 +8087,28 @@
 		)
 		(property "Purpose" "RF interstage coupling and DC-blocking capacitor that passes U1's amplified 1090 MHz output to FL1 while retaining U1's DC bias."
 			(at 152.4 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 152.4 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "lcsc_id" "C2941926"
+			(at 152.4 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7950,6 +8357,17 @@
 			)
 		)
 		(property "Purpose" "Second shunt element in pi pad"
+			(at 82.55 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 82.55 101.6 0)
 			(hide yes)
 			(show_name no)
