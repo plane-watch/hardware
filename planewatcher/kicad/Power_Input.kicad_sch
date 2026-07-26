@@ -1840,7 +1840,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C3712135"
+		(property "LCSC" "C3712135"
 			(at 165.1 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1897,7 +1897,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "60f727cd-6e02-412f-b360-aa53a736b5c1")
 		(property "Reference" "TP20"
@@ -2344,7 +2344,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C207066"
+		(property "LCSC" "C207066"
 			(at 138.43 83.82 0)
 			(hide yes)
 			(show_name no)

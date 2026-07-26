@@ -3938,7 +3938,7 @@
 			(justify left bottom)
 		)
 		(uuid "ad0c9a91-1e2c-4556-aef7-a0e81a62922d")
-		(property "Netclass" "RF_50Ω"
+		(property "Net Class" "RF_50Ω"
 			(at 150.4315 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3974,7 +3974,7 @@
 			(justify left bottom)
 		)
 		(uuid "d2059a9a-82ce-4c4a-98d1-dbff714684b3")
-		(property "Netclass" "RF_50Ω"
+		(property "Net Class" "RF_50Ω"
 			(at 226.6315 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4118,7 +4118,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C237435"
+		(property "LCSC" "C237435"
 			(at 49.53 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -4353,7 +4353,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C4240446"
+		(property "LCSC" "C4240446"
 			(at 124.46 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -4589,7 +4589,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C4202009"
+		(property "LCSC" "C4202009"
 			(at 207.01 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -4746,7 +4746,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C3716677"
+		(property "LCSC" "C3716677"
 			(at 34.29 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -4914,7 +4914,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C161163"
+		(property "LCSC" "C161163"
 			(at 167.64 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5149,7 +5149,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C15195"
+		(property "LCSC" "C15195"
 			(at 139.7 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5308,7 +5308,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C88374"
+		(property "LCSC" "C88374"
 			(at 236.22 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5467,7 +5467,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C628550"
+		(property "LCSC" "C628550"
 			(at 154.94 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -5641,7 +5641,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C138002"
+		(property "LCSC" "C138002"
 			(at 154.94 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -5798,7 +5798,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C138002"
+		(property "LCSC" "C138002"
 			(at 38.1 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -5957,7 +5957,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C481918"
+		(property "LCSC" "C481918"
 			(at 138.43 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6125,7 +6125,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C913474"
+		(property "LCSC" "C913474"
 			(at 184.15 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6282,7 +6282,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C77379"
+		(property "LCSC" "C77379"
 			(at 208.28 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -6452,7 +6452,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C133346"
+		(property "LCSC" "C133346"
 			(at 116.84 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7244,7 +7244,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C161163"
+		(property "LCSC" "C161163"
 			(at 63.5 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7379,7 +7379,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b7b78d70-6b12-41c8-a874-89b0489c358e")
 		(property "Reference" "U1"
@@ -7470,7 +7470,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C2763452"
+		(property "LCSC" "C2763452"
 			(at 78.74 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7783,7 +7783,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C138002"
+		(property "LCSC" "C138002"
 			(at 38.1 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -7953,7 +7953,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C133346"
+		(property "LCSC" "C133346"
 			(at 214.63 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8180,7 +8180,7 @@
 				)
 			)
 		)
-		(property "Value" "PINK LED"
+		(property "Value" "XINGLIGHT XL-1608UPC-06"
 			(at 192.0875 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8267,7 +8267,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C2977076"
+		(property "LCSC" "C2977076"
 			(at 190.5 120.65 0)
 			(hide yes)
 			(show_name no)

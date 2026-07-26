@@ -2640,7 +2640,7 @@
 			(justify left bottom)
 		)
 		(uuid "424902a3-5384-4a47-9118-edc625167bb4")
-		(property "Netclass" "RF_50Ω"
+		(property "Net Class" "RF_50Ω"
 			(at 192.4685 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2774,7 +2774,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C161163"
+		(property "LCSC" "C161163"
 			(at 90.17 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2933,7 +2933,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C161163"
+		(property "LCSC" "C161163"
 			(at 135.89 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3170,7 +3170,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C106235"
+		(property "LCSC" "C106235"
 			(at 90.17 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -3329,7 +3329,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C482234"
+		(property "LCSC" "C482234"
 			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3575,7 +3575,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C2941926"
+		(property "LCSC" "C2941926"
 			(at 223.52 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3745,7 +3745,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C133346"
+		(property "LCSC" "C133346"
 			(at 191.77 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3904,7 +3904,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C191915"
+		(property "LCSC" "C191915"
 			(at 104.14 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3975,7 +3975,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "XINGLIGHT XL-1608SURC-06"
 			(at 92.71 126.6824 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4063,7 +4063,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C965799"
+		(property "LCSC" "C965799"
 			(at 90.17 127 90)
 			(hide yes)
 			(show_name no)
@@ -4231,7 +4231,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C1511768"
+		(property "LCSC" "C1511768"
 			(at 119.38 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4413,7 +4413,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C2941926"
+		(property "LCSC" "C2941926"
 			(at 161.29 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4650,7 +4650,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C481918"
+		(property "LCSC" "C481918"
 			(at 71.12 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5043,7 +5043,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C237435"
+		(property "LCSC" "C237435"
 			(at 148.59 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5367,7 +5367,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C3221883"
+		(property "LCSC" "C3221883"
 			(at 179.07 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5526,7 +5526,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C106235"
+		(property "LCSC" "C106235"
 			(at 58.42 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5597,7 +5597,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "XINGLIGHT XL-1608PGC-06"
 			(at 62.23 120.9674 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5685,7 +5685,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C7371905"
+		(property "LCSC" "C7371905"
 			(at 58.42 118.11 90)
 			(hide yes)
 			(show_name no)
