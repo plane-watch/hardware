@@ -3544,7 +3544,7 @@
 				)
 			)
 		)
-		(property "Description" "Murata Electronics, GRM155Z71A105KE01D"
+		(property "Description" "Murata Electronics, GCM188R71E105KA64D"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3581,7 +3581,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C528974"
+		(property "lcsc_id" "C85862"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

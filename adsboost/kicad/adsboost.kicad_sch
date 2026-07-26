@@ -4377,7 +4377,7 @@
 				)
 			)
 		)
-		(property "Description" "Murata Electronics, GRM155Z71A105KE01D"
+		(property "Description" "Murata Electronics, GCM188R71E105KA64D"
 			(at 200.66 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4410,7 +4410,7 @@
 				)
 			)
 		)
-		(property "lcsc_id" "C528974"
+		(property "lcsc_id" "C85862"
 			(at 200.66 64.77 0)
 			(hide yes)
 			(show_name no)
