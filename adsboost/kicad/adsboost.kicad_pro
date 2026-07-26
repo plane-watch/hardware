@@ -698,7 +698,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -740,7 +740,7 @@
           "group_by": false,
           "label": "lcsc_id",
           "name": "lcsc_id",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
