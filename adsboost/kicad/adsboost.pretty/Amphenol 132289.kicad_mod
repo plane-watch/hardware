@@ -1,0 +1,223 @@
+(footprint "Amphenol 132289"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMA PCB End Launch Straight Jack Bulkhead 50 Ohm 0.062 High Frequency")
+	(property "Value" "Untitled"
+		(at 0 8.32 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cf3c92f9-8567-4dbc-af5f-28eedc1f084f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 2.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87664841-c741-4f16-bebe-978f33d7702f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 2.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fcdc1f0-2fbd-4cea-92cf-3610eba377d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Reference" "REF**"
+		(at 0 6.99 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a71422cf-bb70-470a-a9d5-6f2a5182d803")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.3 0.1)
+		(end -5.3 5.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "30ca5d77-fa24-48f9-a2fe-ef2879c859e5")
+	)
+	(fp_line
+		(start -5.3 5.7)
+		(end 5.3 5.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1e8b1b40-e24f-42d2-8108-9dd20211d268")
+	)
+	(fp_line
+		(start 5.3 5.7)
+		(end 5.3 0.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "44e4b3ab-94ab-4ad4-bc60-317612ba806c")
+	)
+	(fp_poly
+		(pts
+			(xy -1 2.9) (xy -1.4 2.6) (xy -1.4 3.2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "213bffc2-448b-47d1-acb7-1c90067b7cdc")
+	)
+	(fp_poly
+		(pts
+			(xy 1 2.9) (xy 1.4 2.6) (xy 1.4 3.2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "dc1de09b-b07b-423e-b234-73b380dc0197")
+	)
+	(fp_rect
+		(start -5.135 -12.95)
+		(end 5.135 5.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0688032d-934d-4d81-8b60-86d2e862adce")
+	)
+	(fp_rect
+		(start -4.76 -1.65)
+		(end 4.76 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill hatch)
+		(layer "F.Fab")
+		(uuid "e8c99786-a89a-4901-b8fa-6dffde054346")
+	)
+	(fp_rect
+		(start -4.76 0)
+		(end -3.74 4.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill hatch)
+		(layer "F.Fab")
+		(uuid "a43054b3-be28-4088-8c4f-fa80fefa803c")
+	)
+	(fp_rect
+		(start -3.175 -12.7)
+		(end 3.175 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill reverse_hatch)
+		(layer "F.Fab")
+		(uuid "82497c6a-d8ac-43cc-8d62-c94d52682bcc")
+	)
+	(fp_rect
+		(start -0.38 0)
+		(end 0.38 4.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill hatch)
+		(layer "F.Fab")
+		(uuid "13d5bdb8-b0a7-4686-b202-4e96578c8d5f")
+	)
+	(fp_rect
+		(start 3.74 0)
+		(end 4.76 4.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill hatch)
+		(layer "F.Fab")
+		(uuid "c9b63bfa-f6af-43b1-921b-26762cfb5f24")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 9.82 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "097fce09-ddbe-4ece-b97a-c6363abc419a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 2.9)
+		(size 1.5 5.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6f7cc10a-014b-4f8c-bb54-5d9bece9d2f6")
+	)
+	(pad "2" smd rect
+		(at -4.25 3.05)
+		(size 1.6 4.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b0c4d459-09c0-48bc-8d78-7948b9cb2a7e")
+	)
+	(pad "2" smd rect
+		(at -4.25 3.05)
+		(size 1.6 4.9)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "44074bb5-c68b-4bd1-8e95-fdc526b105ba")
+	)
+	(pad "2" smd rect
+		(at 4.25 3.05)
+		(size 1.6 4.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "423f6f4c-1c2c-4e5c-9d7e-d2fcf56f6dfb")
+	)
+	(pad "2" smd rect
+		(at 4.25 3.05)
+		(size 1.6 4.9)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "8047a4eb-d96f-46e6-b8cc-265972ec1b4d")
+	)
+	(embedded_fonts no)
+)

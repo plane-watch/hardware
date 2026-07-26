@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "adsboost") (type "KiCad") (uri "${KIPRJMOD}/adsboost.kicad_sym") (options "") (descr ""))
+)
