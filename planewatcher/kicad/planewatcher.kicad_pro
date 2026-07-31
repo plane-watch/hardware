@@ -63,7 +63,7 @@
           "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -852,7 +852,7 @@
         "uuid": "7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
       }
     ],
-    "used_designators": "C81-82,#PWR57,#PWR83,#PWR94,U3,U12",
+    "used_designators": "C1,C10-14,C81-82,J4-5,#PWR16-19,#PWR57,#PWR83,#PWR94,#PWR115,#PWR120,#FLG4-5,#FLG7-8,U3,U12",
     "variants": []
   },
   "sheets": [
@@ -867,6 +867,10 @@
     [
       "51edb038-216c-41f2-9cc3-d6f88328fe89",
       "EEPROM"
+    ],
+    [
+      "4ac64956-5622-4878-a879-b2f4aa104ba3",
+      "FPGA Headers Bank 33"
     ],
     [
       "be54cab6-561b-439c-9db3-5433a1e68d46",
@@ -887,6 +891,10 @@
     [
       "f77ae351-26f3-42d4-beb0-b884b17c3798",
       "ADC"
+    ],
+    [
+      "07da4b58-f733-40b8-9fa1-841403cdb19a",
+      "FPGA Headers Bank 35"
     ],
     [
       "5ac3603d-bbeb-44f4-b422-6252fe26d95e",

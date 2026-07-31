@@ -378,1266 +378,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x20_Odd_Even"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 1.27 25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_02x20_Odd_Even"
-				(at 1.27 -27.94 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_02x20_Odd_Even_1_1"
-				(rectangle
-					(start -1.27 24.13)
-					(end 3.81 -26.67)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 22.987)
-					(end 0 22.733)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 20.447)
-					(end 0 20.193)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 17.907)
-					(end 0 17.653)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 15.367)
-					(end 0 15.113)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 12.827)
-					(end 0 12.573)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 10.287)
-					(end 0 10.033)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -12.573)
-					(end 0 -12.827)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -15.113)
-					(end 0 -15.367)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -17.653)
-					(end 0 -17.907)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -20.193)
-					(end 0 -20.447)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -22.733)
-					(end 0 -22.987)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -25.273)
-					(end 0 -25.527)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 22.987)
-					(end 2.54 22.733)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 20.447)
-					(end 2.54 20.193)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 17.907)
-					(end 2.54 17.653)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 15.367)
-					(end 2.54 15.113)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 12.827)
-					(end 2.54 12.573)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 10.287)
-					(end 2.54 10.033)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 7.747)
-					(end 2.54 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 5.207)
-					(end 2.54 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -7.493)
-					(end 2.54 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -10.033)
-					(end 2.54 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -12.573)
-					(end 2.54 -12.827)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -15.113)
-					(end 2.54 -15.367)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -17.653)
-					(end 2.54 -17.907)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -20.193)
-					(end 2.54 -20.447)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -22.733)
-					(end 2.54 -22.987)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -25.273)
-					(end 2.54 -25.527)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 22.86 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 22.86 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 20.32 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 20.32 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 17.78 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 17.78 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 15.24 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 15.24 180)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 12.7 0)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 12.7 180)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 10.16 0)
-					(length 3.81)
-					(name "Pin_11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 180)
-					(length 3.81)
-					(name "Pin_12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 180)
-					(length 3.81)
-					(name "Pin_14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 3.81)
-					(name "Pin_16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 3.81)
-					(name "Pin_24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -7.62 180)
-					(length 3.81)
-					(name "Pin_26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -10.16 180)
-					(length 3.81)
-					(name "Pin_28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 3.81)
-					(name "Pin_29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -12.7 180)
-					(length 3.81)
-					(name "Pin_30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -15.24 0)
-					(length 3.81)
-					(name "Pin_31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -15.24 180)
-					(length 3.81)
-					(name "Pin_32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -17.78 0)
-					(length 3.81)
-					(name "Pin_33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -17.78 180)
-					(length 3.81)
-					(name "Pin_34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -20.32 0)
-					(length 3.81)
-					(name "Pin_35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -20.32 180)
-					(length 3.81)
-					(name "Pin_36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -22.86 0)
-					(length 3.81)
-					(name "Pin_37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -22.86 180)
-					(length 3.81)
-					(name "Pin_38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -25.4 0)
-					(length 3.81)
-					(name "Pin_39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -25.4 180)
-					(length 3.81)
-					(name "Pin_40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2698,121 +1438,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(polyline
 		(pts
@@ -3646,16 +2271,6 @@
 		)
 		(uuid "d3e658fd-3c1b-4204-ae8e-c7d320a460a9")
 	)
-	(text "FPGA_GND"
-		(exclude_from_sim no)
-		(at 61.468 145.034 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0a3ee24e-9f54-4ee1-96f1-719fb934631f")
-	)
 	(text "Shielded section"
 		(exclude_from_sim no)
 		(at 45.466 62.992 0)
@@ -3666,16 +2281,6 @@
 			)
 		)
 		(uuid "3a8f47f1-bfc0-4c16-8a78-efb40ee3e081")
-	)
-	(text "FPGA_GND"
-		(exclude_from_sim no)
-		(at 27.686 145.034 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4fd0592a-7347-4b76-b706-6e89a9792915")
 	)
 	(text "Not pin compatible with earlier versions!"
 		(exclude_from_sim no)
@@ -3690,26 +2295,6 @@
 			)
 		)
 		(uuid "91788624-e127-4c78-9a0b-79d75f58947f")
-	)
-	(text "FPGA_GND"
-		(exclude_from_sim no)
-		(at 122.174 183.388 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a2d81394-f3f8-46e2-878f-f4250cd383a6")
-	)
-	(text "FPGA_GND"
-		(exclude_from_sim no)
-		(at 88.646 183.388 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c9bc36d1-7739-4783-ad0d-4c904eb8ad6a")
 	)
 	(text_box "Board EEPROM"
 		(exclude_from_sim no)
@@ -3879,150 +2464,6 @@
 		(color 0 0 0 0)
 		(uuid "de3a8cf1-da73-4890-8ed9-21951489828f")
 	)
-	(no_connect
-		(at 127 168.91)
-		(uuid "000634d7-e0aa-45a6-9fb2-f0985a88886e")
-	)
-	(no_connect
-		(at 83.82 161.29)
-		(uuid "05b08ad9-caf4-47af-8a5e-9e11c5538dfc")
-	)
-	(no_connect
-		(at 83.82 163.83)
-		(uuid "092c1016-1c3d-4ff8-a88b-5ea82b249d46")
-	)
-	(no_connect
-		(at 22.86 184.15)
-		(uuid "09c1f60e-b869-4329-a609-c1abaf11a60c")
-	)
-	(no_connect
-		(at 83.82 153.67)
-		(uuid "1b55db91-cf7c-456a-b385-fc913c3113c1")
-	)
-	(no_connect
-		(at 83.82 166.37)
-		(uuid "220a181e-d93f-43ea-9ca5-796420aca79f")
-	)
-	(no_connect
-		(at 22.86 176.53)
-		(uuid "29b3f73f-a643-4869-b809-a0af68dd21f1")
-	)
-	(no_connect
-		(at 22.86 181.61)
-		(uuid "2a3b9483-aba2-4810-a0bb-c0c4aec7c968")
-	)
-	(no_connect
-		(at 127 173.99)
-		(uuid "2bf5be39-adfd-4db2-ba60-b86876908ed0")
-	)
-	(no_connect
-		(at 83.82 156.21)
-		(uuid "340344aa-d56e-40ef-8b8e-e20695368290")
-	)
-	(no_connect
-		(at 83.82 179.07)
-		(uuid "3431fdf9-572a-4af2-b01e-c7970330c8ba")
-	)
-	(no_connect
-		(at 83.82 176.53)
-		(uuid "373b5c19-d4af-4750-b026-02fd834753dc")
-	)
-	(no_connect
-		(at 127 140.97)
-		(uuid "49960138-c4e5-4072-a9f8-e34508d48428")
-	)
-	(no_connect
-		(at 127 163.83)
-		(uuid "554b6ae9-e54f-49fd-964b-5e261e878c81")
-	)
-	(no_connect
-		(at 83.82 151.13)
-		(uuid "57b82fc8-8ae3-412f-9c04-427cf6fe794a")
-	)
-	(no_connect
-		(at 83.82 173.99)
-		(uuid "5a1349a3-21f6-4b25-b0bc-2d4a07839555")
-	)
-	(no_connect
-		(at 83.82 168.91)
-		(uuid "691720a2-a5ee-4924-ad65-8fde414607be")
-	)
-	(no_connect
-		(at 127 171.45)
-		(uuid "6975a826-e645-471f-8ff5-7163a9d26567")
-	)
-	(no_connect
-		(at 83.82 158.75)
-		(uuid "6c271f97-b533-43d1-8eb3-2283e63a3fc3")
-	)
-	(no_connect
-		(at 22.86 186.69)
-		(uuid "82e05baa-3b9e-4428-85cc-b9542df8a058")
-	)
-	(no_connect
-		(at 22.86 179.07)
-		(uuid "942279dd-5087-4ae7-9691-e0a6f2379817")
-	)
-	(no_connect
-		(at 127 179.07)
-		(uuid "9742e36c-0378-4a4d-be64-79b83152d32f")
-	)
-	(no_connect
-		(at 127 153.67)
-		(uuid "9bf05d37-9658-4377-9b4e-1a2f62d81a1d")
-	)
-	(no_connect
-		(at 127 161.29)
-		(uuid "b67e32ce-41b2-45e8-8e2f-82b918f57fec")
-	)
-	(no_connect
-		(at 83.82 171.45)
-		(uuid "b710a7bf-f09a-4111-b65d-5869395d1b8e")
-	)
-	(no_connect
-		(at 127 158.75)
-		(uuid "c9b36e7d-8750-4214-967c-b2cae5cf07b9")
-	)
-	(no_connect
-		(at 22.86 189.23)
-		(uuid "cc2adf30-15a8-44b1-8fca-2c189eac4e15")
-	)
-	(no_connect
-		(at 127 151.13)
-		(uuid "ce7362a0-5465-4d70-9bef-709fe56717bb")
-	)
-	(no_connect
-		(at 127 176.53)
-		(uuid "e4c1aa15-40d0-475a-9c4f-dd40d9d6642d")
-	)
-	(no_connect
-		(at 127 166.37)
-		(uuid "f3f4d080-7cd1-4bbd-8bb4-a85465b25ffe")
-	)
-	(no_connect
-		(at 127 156.21)
-		(uuid "fe8e3534-8f2d-40bc-9eb0-e0b1b769a070")
-	)
-	(wire
-		(pts
-			(xy 111.76 148.59) (xy 127 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01ede965-57fe-47e3-9025-920b452fcf20")
-	)
-	(wire
-		(pts
-			(xy 83.82 171.45) (xy 99.06 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "056815fa-35d0-46ab-a5a1-4225097db276")
-	)
 	(wire
 		(pts
 			(xy 17.78 31.75) (xy 35.56 31.75)
@@ -4035,56 +2476,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 146.05) (xy 99.06 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a5ab250-8539-4f90-ab35-06d8c55c2f23")
-	)
-	(wire
-		(pts
-			(xy 111.76 158.75) (xy 127 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aab979e-3cc9-4344-9d1e-1b14ecef7df0")
-	)
-	(wire
-		(pts
-			(xy 22.86 184.15) (xy 38.1 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c61b764-3203-4862-901a-28e2de556052")
-	)
-	(wire
-		(pts
-			(xy 111.76 143.51) (xy 127 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "108df51a-0374-4d9b-99e1-b3a4ee24fd5d")
-	)
-	(wire
-		(pts
-			(xy 83.82 181.61) (xy 99.06 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "136c5081-b79b-411c-90ee-8acec41b0874")
-	)
-	(wire
-		(pts
 			(xy 208.28 142.24) (xy 219.71 142.24)
 		)
 		(stroke
@@ -4092,16 +2483,6 @@
 			(type default)
 		)
 		(uuid "14384c06-081c-47b6-8560-49afffd6145b")
-	)
-	(wire
-		(pts
-			(xy 111.76 168.91) (xy 127 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1502e2a0-7d9b-41ae-8a94-62201817233c")
 	)
 	(wire
 		(pts
@@ -4135,56 +2516,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 140.97) (xy 68.58 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b1ad0f6-8a17-4bfa-a8e7-0f460f364e4b")
-	)
-	(wire
-		(pts
-			(xy 22.86 173.99) (xy 38.1 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c082eca-f4b7-4eac-a1ca-ba901e08cd51")
-	)
-	(wire
-		(pts
-			(xy 111.76 151.13) (xy 127 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dd16eae-fd05-4364-9e95-a7ddd7f11bf1")
-	)
-	(wire
-		(pts
-			(xy 50.8 158.75) (xy 66.04 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fc1312a-17e0-46f5-be82-f28fa3e7cf9b")
-	)
-	(wire
-		(pts
-			(xy 22.86 156.21) (xy 38.1 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fc2c077-5089-48ec-bfb5-a5d1c5b80f51")
-	)
-	(wire
-		(pts
 			(xy 261.62 102.87) (xy 280.67 102.87)
 		)
 		(stroke
@@ -4212,76 +2543,6 @@
 			(type default)
 		)
 		(uuid "2695e4be-ffc5-4773-8378-ce8e8bd9a30b")
-	)
-	(wire
-		(pts
-			(xy 19.05 146.05) (xy 38.1 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26fc6879-d44f-4398-ac9a-2da49338bd34")
-	)
-	(wire
-		(pts
-			(xy 128.27 184.15) (xy 111.76 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "272c9238-1c5d-4f1d-8692-bcfc124ee6d0")
-	)
-	(wire
-		(pts
-			(xy 22.86 189.23) (xy 38.1 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b1c7308-938c-41c5-8737-e0c369789829")
-	)
-	(wire
-		(pts
-			(xy 50.8 184.15) (xy 66.04 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cac2e34-f709-44ea-b723-bac8e6801963")
-	)
-	(wire
-		(pts
-			(xy 80.01 184.15) (xy 99.06 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e005815-54fd-45d4-92e9-a7c8b2916e3d")
-	)
-	(wire
-		(pts
-			(xy 22.86 161.29) (xy 38.1 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e9ebfc0-6c80-4778-9c43-087562036d39")
-	)
-	(wire
-		(pts
-			(xy 83.82 148.59) (xy 99.06 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30de9e44-d999-4dc6-a13a-e138ed11f788")
 	)
 	(wire
 		(pts
@@ -4315,46 +2576,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 171.45) (xy 130.81 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36def9ef-ca15-43ab-b220-743fc9430589")
-	)
-	(wire
-		(pts
-			(xy 50.8 148.59) (xy 66.04 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3739b3c6-d979-4107-b6d8-28e5d876c9d5")
-	)
-	(wire
-		(pts
-			(xy 22.86 158.75) (xy 38.1 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38d6f74a-7134-4ca0-8b90-91997af8054a")
-	)
-	(wire
-		(pts
-			(xy 22.86 153.67) (xy 38.1 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "392c9ad4-8834-4525-a069-88b90bcee348")
-	)
-	(wire
-		(pts
 			(xy 139.7 154.94) (xy 153.67 154.94)
 		)
 		(stroke
@@ -4382,26 +2603,6 @@
 			(type default)
 		)
 		(uuid "3ccb6e07-efb7-4fe8-9dec-92c34eb58364")
-	)
-	(wire
-		(pts
-			(xy 128.27 171.45) (xy 128.27 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d667fed-231d-40e9-8d24-75ec04e9d819")
-	)
-	(wire
-		(pts
-			(xy 83.82 156.21) (xy 99.06 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dcd3c82-e072-45ae-855e-660a0600b459")
 	)
 	(wire
 		(pts
@@ -4495,26 +2696,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 176.53) (xy 127 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b1d5983-ac42-4521-925c-b97440163d59")
-	)
-	(wire
-		(pts
-			(xy 22.86 151.13) (xy 38.1 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b67b98e-121d-421f-bf1a-3f958525414a")
-	)
-	(wire
-		(pts
 			(xy 115.57 20.32) (xy 134.62 20.32)
 		)
 		(stroke
@@ -4525,16 +2706,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 140.97) (xy 38.1 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c4f6dd8-d256-47fc-b128-c3d76cdd10aa")
-	)
-	(wire
-		(pts
 			(xy 166.37 59.69) (xy 166.37 73.66)
 		)
 		(stroke
@@ -4542,16 +2713,6 @@
 			(type default)
 		)
 		(uuid "4d7a384f-7ea0-49b6-aa83-a2d201729a1b")
-	)
-	(wire
-		(pts
-			(xy 111.76 156.21) (xy 127 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e30a3e6-81ad-4b71-8414-2d2b86f8da80")
 	)
 	(wire
 		(pts
@@ -4575,26 +2736,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 153.67) (xy 99.06 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "559107fc-1b5f-4238-b854-8e2359b08e90")
-	)
-	(wire
-		(pts
-			(xy 22.86 168.91) (xy 38.1 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56d906f8-88c1-4a6d-a21b-30e0e3b93843")
-	)
-	(wire
-		(pts
 			(xy 240.03 68.58) (xy 241.3 68.58)
 		)
 		(stroke
@@ -4612,56 +2753,6 @@
 			(type default)
 		)
 		(uuid "57f0600d-d7d2-4222-bb85-e6aa344f9b57")
-	)
-	(wire
-		(pts
-			(xy 22.86 166.37) (xy 38.1 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c749a0e-04b2-4e5a-92dc-956b5bba1565")
-	)
-	(wire
-		(pts
-			(xy 111.76 179.07) (xy 127 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f009946-1ead-4fb1-badf-76f85f772d00")
-	)
-	(wire
-		(pts
-			(xy 22.86 186.69) (xy 38.1 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f0d079d-2598-41a2-929c-ba0443bf28c5")
-	)
-	(wire
-		(pts
-			(xy 111.76 171.45) (xy 127 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60486f3b-ff04-43b6-a9f4-1a1da0612ba1")
-	)
-	(wire
-		(pts
-			(xy 111.76 173.99) (xy 127 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6404cff1-128d-431b-a560-709e045ae428")
 	)
 	(wire
 		(pts
@@ -4695,36 +2786,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 179.07) (xy 99.06 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6856c5c2-3fb4-4f72-bce3-56e262739441")
-	)
-	(wire
-		(pts
-			(xy 83.82 168.91) (xy 99.06 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68f27a1f-16db-40c5-b59d-ccef5cbefa05")
-	)
-	(wire
-		(pts
-			(xy 50.8 173.99) (xy 66.04 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69673161-ab8d-4362-9600-f8b1ad9024ce")
-	)
-	(wire
-		(pts
 			(xy 261.62 90.17) (xy 280.67 90.17)
 		)
 		(stroke
@@ -4732,16 +2793,6 @@
 			(type default)
 		)
 		(uuid "6a305d80-dbea-4487-a7a7-5bbac2051ca4")
-	)
-	(wire
-		(pts
-			(xy 50.8 163.83) (xy 66.04 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d3ccea5-905f-4fd0-b4e7-52093af37326")
 	)
 	(wire
 		(pts
@@ -4762,26 +2813,6 @@
 			(type default)
 		)
 		(uuid "6f04f384-c61e-4638-ae6f-48b3b806baae")
-	)
-	(wire
-		(pts
-			(xy 77.47 171.45) (xy 80.01 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f9845d9-f642-4b68-a1e5-c5b821ae4ec3")
-	)
-	(wire
-		(pts
-			(xy 50.8 186.69) (xy 66.04 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7211915d-9a33-4084-8bfa-57c41cc03c55")
 	)
 	(wire
 		(pts
@@ -4845,16 +2876,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 179.07) (xy 66.04 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d42eb6c-0944-4da7-8b6c-1aba91ef5df6")
-	)
-	(wire
-		(pts
 			(xy 38.1 93.98) (xy 33.02 93.98)
 		)
 		(stroke
@@ -4865,16 +2886,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 156.21) (xy 66.04 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7defc484-39b2-483f-98aa-b97b40c6019b")
-	)
-	(wire
-		(pts
 			(xy 83.82 34.29) (xy 96.52 34.29)
 		)
 		(stroke
@@ -4882,36 +2893,6 @@
 			(type default)
 		)
 		(uuid "7fa9884f-dfa9-4153-a004-f1a5e61ad56a")
-	)
-	(wire
-		(pts
-			(xy 50.8 161.29) (xy 66.04 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fe28b32-4daf-4dce-9cc4-743114380041")
-	)
-	(wire
-		(pts
-			(xy 83.82 176.53) (xy 99.06 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "808a0a48-420e-4971-b474-f1b744cd4975")
-	)
-	(wire
-		(pts
-			(xy 50.8 181.61) (xy 66.04 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "850372ac-9b32-46b4-970d-b6105165ceb4")
 	)
 	(wire
 		(pts
@@ -4955,16 +2936,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 148.59) (xy 38.1 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b48bf8f-1581-4fc3-a131-3464bf71e2ef")
-	)
-	(wire
-		(pts
 			(xy 161.29 22.86) (xy 161.29 25.4)
 		)
 		(stroke
@@ -4985,26 +2956,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 171.45) (xy 66.04 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92785284-bbcf-4365-adcd-b1fdc1d1db49")
-	)
-	(wire
-		(pts
-			(xy 22.86 171.45) (xy 38.1 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "940bfefe-6d62-4629-9657-9b15f893ad95")
-	)
-	(wire
-		(pts
 			(xy 139.7 175.26) (xy 153.67 175.26)
 		)
 		(stroke
@@ -5012,16 +2963,6 @@
 			(type default)
 		)
 		(uuid "943d814e-7049-4d6f-a0f2-9836417410a9")
-	)
-	(wire
-		(pts
-			(xy 111.76 181.61) (xy 127 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94ae2297-4612-4f9c-9039-7b26f5c728e8")
 	)
 	(wire
 		(pts
@@ -5065,16 +3006,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 176.53) (xy 66.04 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c82f580-ee43-4a52-89ba-a76ba6ae2dae")
-	)
-	(wire
-		(pts
 			(xy 240.03 59.69) (xy 240.03 68.58)
 		)
 		(stroke
@@ -5082,16 +3013,6 @@
 			(type default)
 		)
 		(uuid "9f34f836-95db-445e-9170-47253bbb2b82")
-	)
-	(wire
-		(pts
-			(xy 111.76 161.29) (xy 127 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fc84496-1e42-4efa-b531-fccfef70d345")
 	)
 	(wire
 		(pts
@@ -5135,16 +3056,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 153.67) (xy 66.04 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8ffcc73-5b91-473b-b3e0-ec8392ab7163")
-	)
-	(wire
-		(pts
 			(xy 110.49 59.69) (xy 110.49 73.66)
 		)
 		(stroke
@@ -5175,26 +3086,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 151.13) (xy 99.06 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad09fead-ffa3-4a58-8dc1-5084b25c019a")
-	)
-	(wire
-		(pts
-			(xy 50.8 146.05) (xy 73.66 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad5c2867-8570-4f6d-847e-880ad17ed471")
-	)
-	(wire
-		(pts
 			(xy 187.96 22.86) (xy 176.53 22.86)
 		)
 		(stroke
@@ -5215,36 +3106,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 158.75) (xy 99.06 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3fffc9e-42f8-4d24-b1fe-1fd7b84622a1")
-	)
-	(wire
-		(pts
-			(xy 22.86 179.07) (xy 38.1 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdcc2a16-2da1-43cf-b333-dce6673619c2")
-	)
-	(wire
-		(pts
-			(xy 111.76 163.83) (xy 127 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdee4719-47a5-48b8-8b51-c53c901037d9")
-	)
-	(wire
-		(pts
 			(xy 21.59 78.74) (xy 38.1 78.74)
 		)
 		(stroke
@@ -5262,26 +3123,6 @@
 			(type default)
 		)
 		(uuid "c0d02ccc-2658-41bf-9896-e7a156bcac20")
-	)
-	(wire
-		(pts
-			(xy 83.82 173.99) (xy 99.06 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c40bbdad-2a90-41aa-bf7e-6c8d8a3f3df7")
-	)
-	(wire
-		(pts
-			(xy 111.76 146.05) (xy 127 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c62d0844-0780-4fc7-827f-11abeb749372")
 	)
 	(wire
 		(pts
@@ -5325,16 +3166,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 143.51) (xy 73.66 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb20b5dc-960d-49b7-82a9-5d96c9186867")
-	)
-	(wire
-		(pts
 			(xy 115.57 27.94) (xy 134.62 27.94)
 		)
 		(stroke
@@ -5342,16 +3173,6 @@
 			(type default)
 		)
 		(uuid "ce08cb09-1597-4126-9bec-82b55c783589")
-	)
-	(wire
-		(pts
-			(xy 73.66 189.23) (xy 99.06 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce63943d-a0d2-48c9-976e-d8f6dca8b242")
 	)
 	(wire
 		(pts
@@ -5375,26 +3196,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 176.53) (xy 38.1 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1db8e95-cde0-479e-86cb-add14e7309e1")
-	)
-	(wire
-		(pts
-			(xy 111.76 189.23) (xy 129.54 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5fa0c66-8ade-4d6b-9862-c82121278fd0")
-	)
-	(wire
-		(pts
 			(xy 38.1 82.55) (xy 21.59 82.55)
 		)
 		(stroke
@@ -5402,16 +3203,6 @@
 			(type default)
 		)
 		(uuid "d84dca08-1656-414f-9cf6-ae92907d5002")
-	)
-	(wire
-		(pts
-			(xy 50.8 189.23) (xy 66.04 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8e65bd6-723a-42e4-a80d-b16aeabea4a9")
 	)
 	(wire
 		(pts
@@ -5425,26 +3216,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 140.97) (xy 127 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db2d8a7a-1909-4b0c-a062-6b12e9a4d55a")
-	)
-	(wire
-		(pts
-			(xy 50.8 168.91) (xy 66.04 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db4603a7-190c-40df-abd0-b2666a1d7fef")
-	)
-	(wire
-		(pts
 			(xy 63.5 59.69) (xy 63.5 73.66)
 		)
 		(stroke
@@ -5455,16 +3226,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 186.69) (xy 129.54 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0cd8b8a-e050-4283-b970-27decfbe13b0")
-	)
-	(wire
-		(pts
 			(xy 199.39 36.83) (xy 210.82 36.83)
 		)
 		(stroke
@@ -5472,46 +3233,6 @@
 			(type default)
 		)
 		(uuid "e3f5000a-686d-420c-9c3a-ca1fb112cafb")
-	)
-	(wire
-		(pts
-			(xy 83.82 163.83) (xy 99.06 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e49105ae-c34e-4024-a13b-9b2531c27bf4")
-	)
-	(wire
-		(pts
-			(xy 83.82 143.51) (xy 99.06 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e54ef090-de0c-4e6f-aae0-dec4af660ef7")
-	)
-	(wire
-		(pts
-			(xy 80.01 171.45) (xy 80.01 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5b8d464-c086-4d03-b2b7-f8e8e04c3747")
-	)
-	(wire
-		(pts
-			(xy 20.32 143.51) (xy 38.1 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e614ec60-25d9-4299-9548-4e656d2d7f8c")
 	)
 	(wire
 		(pts
@@ -5535,26 +3256,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 166.37) (xy 66.04 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebb37e1b-d3ee-4240-8e64-665f7cbaa002")
-	)
-	(wire
-		(pts
-			(xy 73.66 186.69) (xy 99.06 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebe0605c-6c4e-4377-a2a9-ae673beb7365")
-	)
-	(wire
-		(pts
 			(xy 64.77 73.66) (xy 63.5 73.66)
 		)
 		(stroke
@@ -5572,16 +3273,6 @@
 			(type default)
 		)
 		(uuid "f0431c78-afd3-4c0a-abaf-6a51749926a4")
-	)
-	(wire
-		(pts
-			(xy 111.76 153.67) (xy 127 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f21a15cc-e37c-4ffc-be3c-635188dd7b2d")
 	)
 	(wire
 		(pts
@@ -5615,46 +3306,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 166.37) (xy 99.06 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7ced64d-5649-4c33-b82d-b6cea7c6e9b0")
-	)
-	(wire
-		(pts
-			(xy 83.82 161.29) (xy 99.06 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7d55325-8e84-4a7c-a1d9-ab4eef1c1346")
-	)
-	(wire
-		(pts
-			(xy 83.82 140.97) (xy 99.06 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f84c7c41-5c28-4860-8888-d9b103801484")
-	)
-	(wire
-		(pts
-			(xy 22.86 181.61) (xy 38.1 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f866aea8-9e13-47fc-8d00-c32db1b0ba74")
-	)
-	(wire
-		(pts
 			(xy 107.95 78.74) (xy 111.76 78.74)
 		)
 		(stroke
@@ -5662,16 +3313,6 @@
 			(type default)
 		)
 		(uuid "f94c58b8-ba89-43fd-907d-a064c0bcfdb5")
-	)
-	(wire
-		(pts
-			(xy 22.86 163.83) (xy 38.1 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9b2d4e6-d769-4017-868e-6597753b9a58")
 	)
 	(wire
 		(pts
@@ -5693,45 +3334,15 @@
 		)
 		(uuid "fbcedc08-7a5f-4afc-ac1f-2d4aba09ff82")
 	)
-	(wire
-		(pts
-			(xy 50.8 151.13) (xy 66.04 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcb5efea-c803-42fc-8d38-15d75fd33de1")
-	)
-	(wire
-		(pts
-			(xy 111.76 166.37) (xy 127 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd58f1b1-b375-4b01-b98f-c04fbd3db5fe")
-	)
-	(label "FPGA_G19"
-		(at 127 171.45 180)
+	(label "FPGA_AA18"
+		(at 30.48 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "0123fa8e-01b5-4825-83b2-0859537c5fa8")
-	)
-	(label "FPGA_3V3_BNK33"
-		(at 68.58 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "04742619-9988-4eee-a140-827fe897f9e6")
+		(uuid "03007ecb-c8ff-4f66-aa1a-93ee1853c985")
 	)
 	(label "FPGA_Y21"
 		(at 280.67 95.25 180)
@@ -5743,16 +3354,6 @@
 		)
 		(uuid "048f89ff-4b1d-4896-bb45-405a7cd8e0e1")
 	)
-	(label "FPGA_F18"
-		(at 83.82 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "04d031f6-1b01-42d3-8b53-ed7df0a3fe34")
-	)
 	(label "FPGA_C19"
 		(at 210.82 41.91 180)
 		(effects
@@ -5762,26 +3363,6 @@
 			(justify right bottom)
 		)
 		(uuid "07eb8f14-3388-4c24-b0b4-958d16a66513")
-	)
-	(label "FPGA_V15"
-		(at 66.04 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0a3cc114-e834-4762-91ca-46eea768c6d7")
-	)
-	(label "FPGA_AA21"
-		(at 22.86 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ad322a9-076a-4ce9-9dbb-704762461ced")
 	)
 	(label "FPGA_D18"
 		(at 210.82 34.29 180)
@@ -5813,26 +3394,6 @@
 		)
 		(uuid "0d81fb73-2a6a-4465-beb7-52ca515e1419")
 	)
-	(label "FPGA_AB21"
-		(at 66.04 179.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0d9d2693-e0ee-4998-b3c3-d8567ee13f43")
-	)
-	(label "FPGA_W18"
-		(at 66.04 158.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0e24843a-85f0-4179-8596-77a44cedac29")
-	)
 	(label "FPGA_AA13"
 		(at 139.7 157.48 0)
 		(effects
@@ -5842,6 +3403,16 @@
 			(justify left bottom)
 		)
 		(uuid "16050b10-486f-4c94-8e68-d76f3b9d28b2")
+	)
+	(label "FPGA_D15"
+		(at 87.63 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "178b8ba5-0a3c-44be-8e43-f017c4c935ac")
 	)
 	(label "4V5"
 		(at 157.48 38.1 0)
@@ -5863,16 +3434,6 @@
 		)
 		(uuid "18f11692-db45-48f7-9830-24a87690f3d5")
 	)
-	(label "FPGA_T22"
-		(at 22.86 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "19ef6fe2-01ff-48f8-9b26-96bdcfe5e147")
-	)
 	(label "FPGA_W16"
 		(at 139.7 175.26 0)
 		(effects
@@ -5883,15 +3444,15 @@
 		)
 		(uuid "1dddc761-af75-49ed-b69e-d2f98e23a3bb")
 	)
-	(label "FPGA_AA19"
-		(at 66.04 173.99 180)
+	(label "FPGA_AB17"
+		(at 58.42 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "1f66f236-17c3-472d-9830-c62c4d211cd4")
+		(uuid "21f9fa62-396d-4912-83d0-b782805b45fd")
 	)
 	(label "FPGA_3V3_BNK35"
 		(at 177.8 140.97 0)
@@ -5903,26 +3464,6 @@
 		)
 		(uuid "223ce4ed-5470-44a8-94a2-274387138377")
 	)
-	(label "FPGA_AA16"
-		(at 22.86 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "227224c7-46ec-4161-b37b-ed85061e03ac")
-	)
-	(label "FPGA_AA18"
-		(at 22.86 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "23c9cc5a-f8bf-4758-b16f-c6849cba439f")
-	)
 	(label "FPGA_VCC_BNK35"
 		(at 25.4 109.22 90)
 		(effects
@@ -5932,46 +3473,6 @@
 			(justify left bottom)
 		)
 		(uuid "25eb29d7-6577-4556-a9a3-02ae6ece14f3")
-	)
-	(label "FPGA_AA13"
-		(at 22.86 163.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "27d41874-dd89-41d1-a586-64ebe9ab52bd")
-	)
-	(label "FPGA_AB16"
-		(at 66.04 171.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "29f449ec-e38e-4ed5-83fe-efe42bfa1eaa")
-	)
-	(label "FPGA_V14"
-		(at 22.86 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2be91193-0080-4807-a941-43f2fbc903e6")
-	)
-	(label "FPGA_Y19"
-		(at 22.86 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c127a4a-0fc9-4126-bc33-7947cfb2d265")
 	)
 	(label "FPGA_H19"
 		(at 29.21 109.22 90)
@@ -6003,25 +3504,45 @@
 		)
 		(uuid "2ed745e4-df19-428e-a6cf-679418ff19cd")
 	)
-	(label "FPGA_W22"
-		(at 66.04 186.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "395cb999-79bf-4387-b024-1f9f03f6aa63")
-	)
-	(label "FPGA_AA22"
-		(at 22.86 181.61 0)
+	(label "FPGA_W13"
+		(at 58.42 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "39c7f07f-9234-4a31-a2f7-7dd6f7b9d7f8")
+		(uuid "30548c3f-02fd-4f21-a0a9-2fb40099ef7d")
+	)
+	(label "FPGA_VCC_BNK35"
+		(at 87.63 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3348e961-3a23-4890-b1bd-b9548ddbcf84")
+	)
+	(label "FPGA_Y13"
+		(at 58.42 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35f4fedb-5555-449d-ae71-e52506cf7739")
+	)
+	(label "FPGA_3V3_BNK35"
+		(at 87.63 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "37f3a9b8-4d33-4a62-a2c3-1a5dd9858156")
 	)
 	(label "FPGA_W22"
 		(at 280.67 99.06 180)
@@ -6033,26 +3554,6 @@
 		)
 		(uuid "3abd3427-2309-4788-9a10-67d4ac1889c4")
 	)
-	(label "FPGA_G16"
-		(at 83.82 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3bf483a9-5d81-4b97-b58e-04481e1e8332")
-	)
-	(label "FPGA_C15"
-		(at 83.82 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d270a02-2b65-4d8d-970d-eae115191f7d")
-	)
 	(label "FPGA_AB19"
 		(at 280.67 87.63 180)
 		(effects
@@ -6063,25 +3564,25 @@
 		)
 		(uuid "3dc3adca-85af-4c02-85b7-a6d19c11eebb")
 	)
-	(label "FPGA_D15"
-		(at 127 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "40d7e0d0-a797-456d-bf04-5581fac9e96e")
-	)
-	(label "FPGA_Y20"
-		(at 22.86 184.15 0)
+	(label "FPGA_W18"
+		(at 58.42 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "43d0fb29-47d8-41b3-9043-948bfd13988b")
+		(uuid "3dc6de73-0535-498e-b308-6fe40feedb1f")
+	)
+	(label "FPGA_U22"
+		(at 30.48 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "43f5e940-c11c-4397-9d72-4db47dbaefb6")
 	)
 	(label "FPGA_AB17"
 		(at 139.7 166.37 0)
@@ -6093,65 +3594,45 @@
 		)
 		(uuid "450b977d-f57e-43d7-9355-ea20fff64fe3")
 	)
-	(label "FPGA_AB17"
-		(at 22.86 156.21 0)
+	(label "FPGA_AA19"
+		(at 58.42 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "458e1c39-8769-42fd-80df-e725936c36e8")
+		(uuid "4639f693-c5b4-429e-aca0-638c4aa96c54")
 	)
-	(label "FPGA_Y18"
-		(at 66.04 168.91 180)
+	(label "FPGA_3V3_BNK33"
+		(at 30.48 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "4a5e3b0e-80f6-4cfb-a610-67623786c364")
+		(uuid "547bbf4c-fbf1-4c6d-9b1d-ff858665f3c2")
 	)
-	(label "FPGA_AB15"
-		(at 22.86 166.37 0)
+	(label "FPGA_Y18"
+		(at 58.42 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4c37558f-08bd-4d2d-aaa7-07a76080c5ad")
+		(uuid "547e7ee6-48a7-492a-9d0b-745d3e37d286")
 	)
-	(label "FPGA_AB20"
-		(at 22.86 176.53 0)
+	(label "FPGA_Y14"
+		(at 58.42 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4d406fc8-d273-4423-aa03-41d7da6f6309")
-	)
-	(label "FPGA_VCC_BNK33"
-		(at 20.32 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4fbd1eaa-8753-491a-8fdb-f688f06a4963")
-	)
-	(label "FPGA_Y16"
-		(at 22.86 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5568fcfc-f8e8-402e-9381-6e58fbff80ba")
+		(uuid "559dbed2-b91f-4067-9350-267b8c22a246")
 	)
 	(label "FPGA_E15"
 		(at 219.71 142.24 180)
@@ -6163,15 +3644,15 @@
 		)
 		(uuid "55b8e57f-ad77-435c-8672-ec7c7fdf0384")
 	)
-	(label "FPGA_C18"
-		(at 83.82 173.99 0)
+	(label "FPGA_AA13"
+		(at 30.48 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "575aeb2f-729d-4a04-adbe-2602cfcaa530")
+		(uuid "60a14ce2-4a2a-4d67-bf16-bea0cf7686eb")
 	)
 	(label "PWR_GOOD"
 		(at 115.57 27.94 0)
@@ -6183,35 +3664,25 @@
 		)
 		(uuid "6128a0cb-02d7-4473-ad6c-9378e2b4fa07")
 	)
-	(label "FPGA_D18"
-		(at 127 146.05 180)
+	(label "FPGA_E15"
+		(at 87.63 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "626e64da-17a6-4145-bc48-acd09e38b8a7")
+		(uuid "67b305bb-7be2-4f87-a48f-de034e92f49c")
 	)
-	(label "FPGA_G17"
-		(at 83.82 176.53 0)
+	(label "FPGA_AB19"
+		(at 30.48 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "6a308dc8-3339-4a8e-b4cf-bdb336490314")
-	)
-	(label "FPGA_D16"
-		(at 83.82 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6cf146b1-2221-4304-8b70-b7b8f3b00bf1")
+		(uuid "705010c0-0251-4965-be94-571ca7628f21")
 	)
 	(label "FPGA_AB22"
 		(at 280.67 92.71 180)
@@ -6223,16 +3694,6 @@
 		)
 		(uuid "7063d856-5a71-4e83-a0da-94f4bc36beca")
 	)
-	(label "FPGA_E20"
-		(at 127 168.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "714499e3-537f-44e3-a6fe-9c52d249d485")
-	)
 	(label "FPGA_3V3_BNK33"
 		(at 115.57 20.32 0)
 		(effects
@@ -6242,16 +3703,6 @@
 			(justify left bottom)
 		)
 		(uuid "750806c4-4fb5-45db-b00d-0c73a92d4ee2")
-	)
-	(label "FPGA_3V3_BNK33"
-		(at 20.32 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "756f005e-b9c7-45b2-871b-e011c3872505")
 	)
 	(label "FPGA_V15"
 		(at 139.7 186.69 0)
@@ -6263,75 +3714,65 @@
 		)
 		(uuid "75cd259b-0683-4f85-9f66-d2d6efdd0250")
 	)
-	(label "FPGA_G15"
-		(at 127 140.97 180)
+	(label "FPGA_AA16"
+		(at 30.48 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "763578ee-582c-42b8-8072-fbfcd4f80fef")
+		(uuid "775802cc-519f-4572-8350-fa6af6c1e42e")
 	)
-	(label "FPGA_Y14"
-		(at 66.04 151.13 180)
+	(label "FPGA_AB15"
+		(at 30.48 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "785cb2c8-db47-4326-a595-eff81b6a7327")
+		(uuid "777ca17e-de8a-4ab2-bcbf-39e21ade472a")
 	)
-	(label "FPGA_W13"
-		(at 22.86 161.29 0)
+	(label "FPGA_W22"
+		(at 58.42 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "78cafeca-3272-4666-8c60-b31d8db1a0b3")
+		(uuid "77b89885-01f1-47cd-83d4-6c723983eb32")
 	)
-	(label "FPGA_H20"
-		(at 83.82 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7bc26c12-086c-42c2-a87a-9c07d257cf31")
-	)
-	(label "FPGA_A17"
-		(at 127 158.75 180)
+	(label "FPGA_AB14"
+		(at 30.48 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "83e8f48c-4def-406f-ad6e-1cf9bea10a6a")
+		(uuid "7a175c91-328b-4e91-8211-d11e704f80a8")
 	)
-	(label "FPGA_E15"
-		(at 83.82 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "84884723-0170-4d68-9ed1-76fff72c0da6")
-	)
-	(label "FPGA_AB22"
-		(at 66.04 181.61 180)
+	(label "FPGA_W16"
+		(at 30.48 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "8488d995-a723-4d69-af7f-f9f77e32fe52")
+		(uuid "7bfe676e-b65e-494b-a46c-3d5189fa8c10")
+	)
+	(label "FPGA_AA14"
+		(at 30.48 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e8f34bb-146a-42d6-b054-8654c814d736")
 	)
 	(label "FPGA_AB16"
 		(at 280.67 82.55 180)
@@ -6343,55 +3784,15 @@
 		)
 		(uuid "85139b0e-ed5b-42a3-8e7d-1513657c7433")
 	)
-	(label "FPGA_VCC_BNK35"
-		(at 129.54 189.23 180)
+	(label "FPGA_V14"
+		(at 30.48 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "86330c2e-2b7c-46c1-8ec7-014854f537bb")
-	)
-	(label "FPGA_D17"
-		(at 127 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "866f02e9-71ba-4b38-a604-b99ca6ed5b3d")
-	)
-	(label "FPGA_B22"
-		(at 127 163.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "86e9f081-a377-45a9-88df-65e84a4723d1")
-	)
-	(label "FPGA_W16"
-		(at 66.04 153.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "87df3ab7-de53-43af-8c6b-b921124b041a")
-	)
-	(label "FPGA_B21"
-		(at 83.82 163.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8b2893a9-6c64-4cc4-a589-5538e375c42b")
+		(uuid "87ce3c21-4b21-48ac-b67e-14a91d62b9f7")
 	)
 	(label "FPGA_AA17"
 		(at 139.7 177.8 0)
@@ -6413,26 +3814,6 @@
 		)
 		(uuid "8d6eefc2-fd56-4382-b64b-ce88be395cd9")
 	)
-	(label "FPGA_H19"
-		(at 127 181.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8df6d8f8-48e5-4400-b68a-b5d7242149e2")
-	)
-	(label "FPGA_C22"
-		(at 83.82 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8fb1b36e-f37d-44e6-a5b6-825b215fd1d1")
-	)
 	(label "FPGA_H20"
 		(at 33.02 109.22 90)
 		(effects
@@ -6443,15 +3824,15 @@
 		)
 		(uuid "9138e6c6-a0a0-42ba-ad41-026803d2f033")
 	)
-	(label "FPGA_B17"
-		(at 127 161.29 180)
+	(label "FPGA_VCC_BNK33"
+		(at 30.48 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "9403dea0-3c9a-4578-8216-83e8cbab5883")
+		(uuid "92f4a9fb-3ed4-4fee-8761-89426623074e")
 	)
 	(label "FPGA_VCC_BNK33"
 		(at 17.78 31.75 0)
@@ -6462,16 +3843,6 @@
 			(justify left bottom)
 		)
 		(uuid "957a3bcc-7f99-4c17-8bf1-aa284e52c982")
-	)
-	(label "FPGA_Y13"
-		(at 66.04 163.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "974a8055-8a83-4e56-a634-c1b87c0f0d74")
 	)
 	(label "FPGA_D15"
 		(at 219.71 139.7 180)
@@ -6493,16 +3864,6 @@
 		)
 		(uuid "97e88917-bab7-4811-8d2c-ca19ce97966c")
 	)
-	(label "FPGA_U22"
-		(at 66.04 189.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9801c97d-661f-4111-b75c-e4ef32ac9539")
-	)
 	(label "FPGA_3V3_BNK33"
 		(at 280.67 68.58 180)
 		(effects
@@ -6523,45 +3884,15 @@
 		)
 		(uuid "99f63fdc-dd5f-409e-b393-7bec437ac895")
 	)
-	(label "FPGA_F17"
-		(at 127 176.53 180)
+	(label "FPGA_C19"
+		(at 87.63 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "9c23d2f0-64c1-4a91-8ee9-f866510b8aac")
-	)
-	(label "FPGA_B15"
-		(at 127 153.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a1665085-1a64-406e-a9cc-8912b9952532")
-	)
-	(label "FPGA_F19"
-		(at 83.82 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a699d556-eaf5-45f0-9cf3-a75806b8706c")
-	)
-	(label "FPGA_C20"
-		(at 83.82 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a6f0badc-c1e0-4bde-a929-f314c86f8d2b")
+		(uuid "9a2cbe2e-fc9c-4a01-be37-943187a66200")
 	)
 	(label "FPGA_3V3_BNK35"
 		(at 157.48 34.29 0)
@@ -6573,15 +3904,25 @@
 		)
 		(uuid "b1663a25-2b16-4fc2-8f13-bcb4ec3f9161")
 	)
-	(label "FPGA_V22"
-		(at 22.86 186.69 0)
+	(label "FPGA_Y21"
+		(at 58.42 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b70dc68b-b5c5-43ab-88e7-fa48bfd1402e")
+		(uuid "b2d19427-dfbf-4809-876b-7d1bd5091365")
+	)
+	(label "FPGA_V13"
+		(at 58.42 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5714c36-6ef6-4fd5-bf61-163f22c4f079")
 	)
 	(label "FPGA_AA18"
 		(at 139.7 151.13 0)
@@ -6592,6 +3933,36 @@
 			(justify left bottom)
 		)
 		(uuid "b7232b0b-0507-41ce-824f-b8af36f83194")
+	)
+	(label "FPGA_AB21"
+		(at 58.42 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9035077-f5c7-4c1a-8fdd-8da0123f0512")
+	)
+	(label "FPGA_H19"
+		(at 87.63 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b92a477d-b63c-4bd8-91d3-3ccd7315a559")
+	)
+	(label "FPGA_F16"
+		(at 87.63 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "babce1ba-46c2-4b6f-bd15-21a5611c7657")
 	)
 	(label "FPGA_Y13"
 		(at 280.67 74.93 180)
@@ -6623,16 +3994,6 @@
 		)
 		(uuid "c463b7c4-4648-4103-8360-6e7260d22a16")
 	)
-	(label "FPGA_3V3_BNK35"
-		(at 129.54 186.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c49da616-72d1-4c4e-9eb2-98bf47dede05")
-	)
 	(label "FPGA_AA16"
 		(at 139.7 148.59 0)
 		(effects
@@ -6642,6 +4003,16 @@
 			(justify left bottom)
 		)
 		(uuid "c53dcf05-bb02-463f-9d0a-4471ba8fa76c")
+	)
+	(label "FPGA_Y16"
+		(at 58.42 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5a0c0bc-ee1c-483e-b0e3-0ddeaadb675f")
 	)
 	(label "FPGA_AB15"
 		(at 139.7 154.94 0)
@@ -6653,16 +4024,6 @@
 		)
 		(uuid "c9e53bcb-9b8a-456b-ba3a-00d54ce1ef4a")
 	)
-	(label "FPGA_E18"
-		(at 127 179.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cabde313-32d6-4ef7-b1bd-f5c5412f97c6")
-	)
 	(label "FPGA_3V3_BNK35"
 		(at 21.59 109.22 90)
 		(effects
@@ -6673,65 +4034,45 @@
 		)
 		(uuid "cb9ef63e-aafb-4218-8822-6ad0bd109de9")
 	)
-	(label "FPGA_VCC_BNK35"
-		(at 81.28 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d04c0fd5-aaa2-4f63-8e29-fb40e3e60c3e")
-	)
-	(label "FPGA_F16"
-		(at 83.82 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4566b29-3286-4e1e-ba93-95ac0240482a")
-	)
-	(label "FPGA_W17"
-		(at 22.86 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d49eaace-e411-4bb6-8e40-8796090d208d")
-	)
-	(label "FPGA_3V3_BNK35"
-		(at 81.28 186.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d72cf1f6-27f1-4829-8535-54508a3eeeee")
-	)
-	(label "FPGA_D20"
-		(at 127 156.21 180)
+	(label "FPGA_Y19"
+		(at 30.48 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "d7863cfc-a530-4033-b56b-73f9904b9cef")
+		(uuid "cbe9deb6-1ed1-499e-8378-6554c22ff86f")
+	)
+	(label "FPGA_E16"
+		(at 87.63 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2176d35-8631-4463-805c-869d09aade78")
 	)
 	(label "FPGA_AA17"
-		(at 66.04 156.21 180)
+		(at 30.48 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "d9326af7-9561-484a-88cc-2199346e2241")
+		(uuid "d7bf661a-e0e0-4ca5-a9c5-cf5368c443e4")
+	)
+	(label "FPGA_AB22"
+		(at 58.42 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7f3b488-ffeb-4f37-975c-4e35f7afcae8")
 	)
 	(label "FPGA_3V3_BNK33"
 		(at 135.89 142.24 0)
@@ -6743,26 +4084,6 @@
 		)
 		(uuid "d935f0df-cc9d-464a-bf9f-849f8f602939")
 	)
-	(label "FPGA_C17"
-		(at 127 173.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d9ec16b6-01ca-46ab-9759-f549f73fc160")
-	)
-	(label "FPGA_VCC_BNK33"
-		(at 68.58 140.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "deca0e46-53b9-4f46-af14-61812a8d1e52")
-	)
 	(label "FPGA_AB21"
 		(at 280.67 90.17 180)
 		(effects
@@ -6772,6 +4093,26 @@
 			(justify right bottom)
 		)
 		(uuid "df1ab064-f316-41b8-9543-3075022de7ee")
+	)
+	(label "FPGA_G16"
+		(at 87.63 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0037342-3178-4086-a08b-951fe77fd4c3")
+	)
+	(label "FPGA_W17"
+		(at 58.42 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0bdc69a-d3bf-4b73-b7c2-6c07e56c8e99")
 	)
 	(label "FPGA_W13"
 		(at 139.7 160.02 0)
@@ -6793,65 +4134,35 @@
 		)
 		(uuid "e7e4ca6b-ea88-4574-957f-b82b9f69a214")
 	)
-	(label "FPGA_AB19"
-		(at 66.04 176.53 180)
+	(label "FPGA_V15"
+		(at 30.48 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "ef0a1ef5-8bd5-4c54-a2b8-4699bc3303e9")
+		(uuid "e9de9ab8-6ad3-4fb3-a64e-7832dd3545ef")
 	)
-	(label "FPGA_AA14"
-		(at 22.86 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "efbc35d0-d720-4f46-a330-fb8aa404f694")
-	)
-	(label "FPGA_AB14"
-		(at 66.04 166.37 180)
+	(label "FPGA_AB16"
+		(at 30.48 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "effaed87-a427-426b-a075-15cb7ca3cb96")
+		(uuid "ea746fd2-e040-4bc5-8b9e-6d672fb996d6")
 	)
-	(label "FPGA_Y21"
-		(at 66.04 184.15 180)
+	(label "FPGA_D18"
+		(at 87.63 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "f0dabbe9-273d-4111-a474-de88cdc1abca")
-	)
-	(label "FPGA_C19"
-		(at 83.82 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f50e50c6-25c4-498a-bf8a-3219928ac7b5")
-	)
-	(label "FPGA_A16"
-		(at 83.82 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f52a16ed-e802-4234-b001-d543f5d5be9e")
+		(uuid "ed670924-7d4b-4f44-83ee-cfb7d69cc588")
 	)
 	(label "FPGA_V14"
 		(at 139.7 184.15 0)
@@ -6863,26 +4174,6 @@
 		)
 		(uuid "f5cfc695-4d83-46aa-bbe8-e627ddc3a281")
 	)
-	(label "FPGA_B16"
-		(at 83.82 161.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f786e4d0-0c67-4484-b13f-33fd23218cba")
-	)
-	(label "FPGA_E16"
-		(at 127 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f7c51d1b-b715-47d2-8834-da9819deedaf")
-	)
 	(label "FPGA_W18"
 		(at 115.57 35.56 0)
 		(effects
@@ -6892,16 +4183,6 @@
 			(justify left bottom)
 		)
 		(uuid "f819905a-0cbc-4a7e-8e3e-f9e1466646e5")
-	)
-	(label "FPGA_D22"
-		(at 127 166.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f8ed5269-2ee9-4193-96ec-c4f23439f00f")
 	)
 	(label "FPGA_AB14"
 		(at 280.67 77.47 180)
@@ -6923,25 +4204,15 @@
 		)
 		(uuid "fa5d1cae-bf2b-488f-a163-1c03256b25f8")
 	)
-	(label "FPGA_V13"
-		(at 66.04 161.29 180)
+	(label "FPGA_H20"
+		(at 87.63 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "fc33d8c7-e1e4-4aab-93ee-e45cdc738332")
-	)
-	(label "FPGA_E19"
-		(at 83.82 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd74be10-0c99-4f06-b31c-6d6d9cf8d394")
+		(uuid "fba2900f-8422-488f-8a04-dbc38c730656")
 	)
 	(label "FPGA_Y19"
 		(at 139.7 146.05 0)
@@ -6952,366 +4223,6 @@
 			(justify left bottom)
 		)
 		(uuid "febe9420-7312-46b6-9d65-83fb21ed36f9")
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x20_Odd_Even")
-		(at 106.68 166.37 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "0471bc32-9f7f-4f95-b9c3-dbe90ea8fe70")
-		(property "Reference" "J5"
-			(at 105.41 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FPGA BANK 35 V1.2/V1.3"
-			(at 105.41 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical"
-			(at 106.68 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2x20 vertical 2.54mm through-hole pin header"
-			(at 106.68 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "Pin header 2x20 2.54mm"
-			(at 106.68 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TSW-120-07-L-D"
-			(at 106.68 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samtec"
-			(at 106.68 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "Breaks out FPGA bank 35 I/O and power pins to the carrier/FPGA interface."
-			(at 106.68 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 106.68 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5968215"
-			(at 106.68 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 106.68 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 106.68 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "23"
-			(uuid "584e6fac-27b1-4364-946a-c7082b18ced2")
-		)
-		(pin "10"
-			(uuid "ccc34a3e-005f-4b49-bf8e-d88340cc46e0")
-		)
-		(pin "8"
-			(uuid "6e643339-13e5-41fe-b0ac-1095cc37d525")
-		)
-		(pin "21"
-			(uuid "103bdfa2-a133-47b3-8c22-df89cc65a1ff")
-		)
-		(pin "24"
-			(uuid "19926a48-7a75-474c-8633-b1174fcc4296")
-		)
-		(pin "4"
-			(uuid "6abc0383-84ef-4c1a-a8be-f66d453478e4")
-		)
-		(pin "11"
-			(uuid "5e00a07f-6602-4e0e-957d-682da1d86c25")
-		)
-		(pin "2"
-			(uuid "a35e62dc-d68b-4126-aaf3-5fa00c286b50")
-		)
-		(pin "3"
-			(uuid "a4afc099-e568-4e73-9119-b56701d6d43a")
-		)
-		(pin "22"
-			(uuid "e505b8dc-9519-4063-8eb2-8e713e1f338e")
-		)
-		(pin "5"
-			(uuid "54e449bc-ad8b-4774-9bf2-6a0b2d541bee")
-		)
-		(pin "6"
-			(uuid "36b9e1b7-5f05-49a5-a90a-40529538d95b")
-		)
-		(pin "15"
-			(uuid "07457f0c-6676-4a36-8824-e6c9384e43cf")
-		)
-		(pin "14"
-			(uuid "00a66c88-800e-4a9c-90ed-a67197ee5c6b")
-		)
-		(pin "20"
-			(uuid "4efa94d3-b1bc-42fa-ad73-f89f875527a0")
-		)
-		(pin "26"
-			(uuid "1b2e8ab7-3eaf-4c83-9af8-dfa21c4de73b")
-		)
-		(pin "9"
-			(uuid "6ca4c07e-f956-4194-8a21-1155c023fd6b")
-		)
-		(pin "25"
-			(uuid "86c20c70-7c34-4fa1-a97b-41166ee483fe")
-		)
-		(pin "19"
-			(uuid "77dddeb1-b62a-46a3-a406-472809afd65a")
-		)
-		(pin "27"
-			(uuid "ea01178b-96e0-4257-a53b-62a5644789b8")
-		)
-		(pin "28"
-			(uuid "3d259669-9d9e-451b-8106-86abb7694535")
-		)
-		(pin "29"
-			(uuid "6e73e885-ff9f-4a59-ba19-2fd0efa88465")
-		)
-		(pin "30"
-			(uuid "7e8c1c60-3580-4445-910d-7fe2e563eecf")
-		)
-		(pin "31"
-			(uuid "37eca496-9731-42c0-b5ee-c63bb6232e10")
-		)
-		(pin "32"
-			(uuid "d6c6ee15-5fab-458c-8a2d-0ad144731a7f")
-		)
-		(pin "33"
-			(uuid "58526483-b6a2-4b72-9b94-46761d24dce3")
-		)
-		(pin "34"
-			(uuid "a26e6326-6def-4829-b560-773863fbe97e")
-		)
-		(pin "35"
-			(uuid "79a50103-c4d4-4730-934b-6f227828d23d")
-		)
-		(pin "36"
-			(uuid "a6b8c8c7-e93c-4b9a-b4fb-aaf186553bb1")
-		)
-		(pin "37"
-			(uuid "0010913f-4665-4613-89f2-f0452ba51122")
-		)
-		(pin "38"
-			(uuid "7d77644c-7b2f-4437-a89a-fa2497bd477f")
-		)
-		(pin "39"
-			(uuid "7545cdb4-cefc-4c99-bf96-1f46a41db991")
-		)
-		(pin "40"
-			(uuid "a47a7702-0d50-4550-8c75-af41a0044399")
-		)
-		(pin "13"
-			(uuid "b4c26833-3d1a-4234-890f-d78fae281bd7")
-		)
-		(pin "12"
-			(uuid "c9549142-4d7f-445c-9430-328b447a938f")
-		)
-		(pin "7"
-			(uuid "8005d7c0-9520-4cbd-a279-0868e658fa96")
-		)
-		(pin "1"
-			(uuid "d26f5382-28b3-4e68-b136-60743bef1363")
-		)
-		(pin "18"
-			(uuid "406a5f76-c56a-434d-9ea7-5c42f64ec6fb")
-		)
-		(pin "17"
-			(uuid "2ff9c3bc-f9bb-490a-a414-8d7d7a26e013")
-		)
-		(pin "16"
-			(uuid "b0b29842-b20b-4124-b692-c2e1df068090")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 73.66 189.23 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "093ba46a-cb42-4101-addc-7a64cb8322a1")
-		(property "Reference" "#FLG07"
-			(at 73.66 191.135 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 73.66 194.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 73.66 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c45566bb-d22f-4cb1-b1a0-7b9e214fe235")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#FLG07")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -7632,84 +4543,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 19.05 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "447a2faf-463a-4060-933c-ce7873d1b6db")
-		(property "Reference" "#FLG08"
-			(at 19.05 139.065 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 19.05 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 19.05 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "864a888a-7cff-40eb-86dc-1c8c776b9ce1")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#FLG08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 101.6 91.44 0)
 		(unit 1)
@@ -7787,84 +4620,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 130.81 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e28003d-2b6a-4ee1-9c86-f534267b46d6")
-		(property "Reference" "#PWR019"
-			(at 130.81 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 176.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "53c3fb90-5e86-4d3f-abbf-571105a1e9b5")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3VADC")
 		(at 110.49 59.69 0)
 		(unit 1)
@@ -7936,84 +4691,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 73.66 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b1d9706-b158-4561-a298-5b04edddb28c")
-		(property "Reference" "#FLG04"
-			(at 73.66 141.605 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 73.66 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 73.66 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "417b3ba0-f8ec-449b-8c28-fd2eccf31db3")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -8266,84 +4943,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 77.47 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80ce4eeb-fc6c-4b21-929f-176e07ac7afa")
-		(property "Reference" "#PWR018"
-			(at 77.47 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.47 176.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7b1615ca-1867-4311-aaff-4bb358967673")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3VADC")
 		(at 240.03 59.69 0)
 		(unit 1)
@@ -8561,366 +5160,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x20_Odd_Even")
-		(at 45.72 166.37 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "8bf3fc60-6a23-4635-89d8-675e527dd459")
-		(property "Reference" "J4"
-			(at 44.45 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FPGA BANK 33"
-			(at 44.45 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical"
-			(at 45.72 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2x20 vertical 2.54mm through-hole pin header"
-			(at 45.72 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "Pin header 2x20 2.54mm"
-			(at 45.72 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TSW-120-07-L-D"
-			(at 45.72 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samtec"
-			(at 45.72 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "Breaks out FPGA bank 33 I/O and power pins to the carrier/FPGA interface."
-			(at 45.72 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 45.72 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5968215"
-			(at 45.72 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 45.72 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 45.72 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "23"
-			(uuid "8c6c55bd-dca7-4cde-a313-25ec8cf16a0e")
-		)
-		(pin "10"
-			(uuid "76b6b17f-7b51-4587-95d6-e967bbebb509")
-		)
-		(pin "8"
-			(uuid "3636c999-a2dd-45fd-a475-1ac42865cbca")
-		)
-		(pin "21"
-			(uuid "0aa0f16c-5758-4819-9f80-c1bf036fd1f9")
-		)
-		(pin "24"
-			(uuid "3327f947-739a-4d41-8ec2-32490d60368d")
-		)
-		(pin "4"
-			(uuid "c487a9b6-4b91-4294-aa76-5b4b16f8645b")
-		)
-		(pin "11"
-			(uuid "14d1c8d8-421c-4fa1-8669-4fe2be7623f3")
-		)
-		(pin "2"
-			(uuid "996d617a-cc51-4f2d-b3c0-fd24d90f8866")
-		)
-		(pin "3"
-			(uuid "bae45ce9-9399-4051-96b8-9c6c1f6ac14c")
-		)
-		(pin "22"
-			(uuid "5c642ab2-1dcb-437f-98b9-887ce10f845c")
-		)
-		(pin "5"
-			(uuid "7556906f-40a0-4382-aff7-5e532e0e2309")
-		)
-		(pin "6"
-			(uuid "3d2d5984-3bdf-4086-bc0b-0d4de603f406")
-		)
-		(pin "15"
-			(uuid "83bd8780-767a-49b1-ad04-28b6621a586d")
-		)
-		(pin "14"
-			(uuid "7aa1ae1b-ae63-4012-8d07-df72dd8e859e")
-		)
-		(pin "20"
-			(uuid "ab6f9486-34b4-4866-90a4-e3ddc3f7ad90")
-		)
-		(pin "26"
-			(uuid "32c3f4bb-7283-4076-86b3-5276b725e1f8")
-		)
-		(pin "9"
-			(uuid "671391f8-81e1-43ed-a206-45431ba13779")
-		)
-		(pin "25"
-			(uuid "154d8196-08fe-40b7-81a4-fb70885a3b81")
-		)
-		(pin "19"
-			(uuid "ee5b631d-3214-42c2-b449-3f6af54d7a9c")
-		)
-		(pin "27"
-			(uuid "4e85851d-bf08-494c-a78f-da56fcb0bb89")
-		)
-		(pin "28"
-			(uuid "8edf0fed-8996-47f7-8d36-d6332de45816")
-		)
-		(pin "29"
-			(uuid "8cf103b2-42fb-497d-ac92-81cbfff31d66")
-		)
-		(pin "30"
-			(uuid "346d0e15-5fc1-45cb-80c2-a4c63948caee")
-		)
-		(pin "31"
-			(uuid "f2c9cb57-7936-4d7e-99a8-e6fdb6c2adaf")
-		)
-		(pin "32"
-			(uuid "e943d7db-cab9-4417-beeb-a5e641cd2fa9")
-		)
-		(pin "33"
-			(uuid "5d2cc3b0-2948-43ca-9856-522e167691c5")
-		)
-		(pin "34"
-			(uuid "960db919-6465-4015-a32a-de03ed01e4e8")
-		)
-		(pin "35"
-			(uuid "11f163ae-5a77-4e65-9032-9939ec41937b")
-		)
-		(pin "36"
-			(uuid "941cf90c-2e9d-454a-9ce5-13c8032ea80b")
-		)
-		(pin "37"
-			(uuid "c6a2efa7-7764-4fcc-bc54-b80644df4971")
-		)
-		(pin "38"
-			(uuid "20ab68a7-baa0-41f5-b387-ab2164c77abe")
-		)
-		(pin "39"
-			(uuid "fe937347-48cd-4340-806e-7a4322ed0ca5")
-		)
-		(pin "40"
-			(uuid "b6856996-dcbe-45ca-87ee-d0140dd2d052")
-		)
-		(pin "13"
-			(uuid "ad633e57-5c85-42ba-a5d7-6ec8520c5f45")
-		)
-		(pin "12"
-			(uuid "e4dcf552-eee5-4f4a-bcc2-766d32d5acf6")
-		)
-		(pin "7"
-			(uuid "0e710114-18c0-4bca-8764-969e60588d28")
-		)
-		(pin "1"
-			(uuid "4a2eb286-eb6b-48f8-8db0-abb6dd83f538")
-		)
-		(pin "18"
-			(uuid "1db23124-44b6-48e9-bc26-8c3585c1dfa1")
-		)
-		(pin "17"
-			(uuid "7d4b0b96-0476-4ddf-96bc-8dca43847ce4")
-		)
-		(pin "16"
-			(uuid "803024b1-2992-4fcc-80e2-53df3f4d2860")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 19.05 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90c862e9-628f-4166-8b88-88c85e6373a9")
-		(property "Reference" "#PWR016"
-			(at 19.05 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 19.05 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "241b0c3d-415d-4e53-a495-d0a7324dce8b")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9153,84 +5392,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 73.66 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a6d6fa4-ffad-46cd-8e12-4f753651b578")
-		(property "Reference" "#PWR017"
-			(at 73.66 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 73.66 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4ee16751-f180-4739-ae78-2bc297214785")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9884,84 +6045,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 73.66 186.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e63444ea-6f61-4e9b-ac38-87d4a4f52a34")
-		(property "Reference" "#FLG05"
-			(at 73.66 184.785 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 73.66 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 73.66 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8259f947-ba9c-4875-98a4-5a60c0268cdc")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
-					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
 		(at 173.99 22.86 0)
 		(mirror y)
@@ -10218,6 +6301,162 @@
 			"b5d46cb9-4d81-4842-bf86-b37f80f8f3ab" "c8966e89-196f-4bd0-a9ac-e6de9ae111cc"
 			"caa787dc-7bb1-45d7-a322-e5e79ac8103d" "d202ef0f-4c94-4c7f-a859-5b8480c5d6bc"
 			"d30f04d0-402e-4cdb-a957-8554eb96ea44" "d3e658fd-3c1b-4204-ae8e-c7d320a460a9"
+		)
+	)
+	(sheet
+		(at 87.63 138.43)
+		(size 27.94 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "07da4b58-f733-40b8-9fa1-841403cdb19a")
+		(property "Sheetname" "FPGA Headers Bank 35"
+			(at 87.63 137.7184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga_headers_bank_35.kicad_sch"
+			(at 87.63 183.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FPGA_3V3_BNK35" output
+			(at 87.63 143.51 180)
+			(uuid "b0991064-d7f3-4a13-85d2-851a17fdd5db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_C19" bidirectional
+			(at 87.63 147.32 180)
+			(uuid "8b2744f3-a380-4dc3-9bbd-f8a67fdb0e09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_D15" bidirectional
+			(at 87.63 149.86 180)
+			(uuid "4d074236-bc68-4a77-985f-80e53cadfbc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_D18" bidirectional
+			(at 87.63 152.4 180)
+			(uuid "8098732b-f877-4ad8-bb8a-ab375bbf5eb5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_E15" bidirectional
+			(at 87.63 154.94 180)
+			(uuid "225f99d9-b282-4568-95a4-8eeb8c9148c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_E16" bidirectional
+			(at 87.63 157.48 180)
+			(uuid "b6a46cbd-93f7-4fd1-ae65-bea9a3590d3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_F16" bidirectional
+			(at 87.63 160.02 180)
+			(uuid "3f6f128d-d063-4712-9072-3364b2a84d11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_G16" bidirectional
+			(at 87.63 162.56 180)
+			(uuid "eac4c5b0-8e63-455a-a11f-2b4e38ddaef1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_H19" bidirectional
+			(at 87.63 165.1 180)
+			(uuid "d8ec6b23-c05f-4e2a-b00c-6681ec5c8beb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_H20" bidirectional
+			(at 87.63 167.64 180)
+			(uuid "b26bd5b2-6aa7-4dec-ad46-c79aac15b9bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_VCC_BNK35" output
+			(at 87.63 140.97 180)
+			(uuid "efd1aadf-1195-4b7b-8ef8-2cdd2a79037f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(page "10")
+				)
+			)
 		)
 	)
 	(sheet
@@ -10496,6 +6735,352 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 138.43)
+		(size 27.94 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4ac64956-5622-4878-a879-b2f4aa104ba3")
+		(property "Sheetname" "FPGA Headers Bank 33"
+			(at 30.48 137.7184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga_headers_bank_33.kicad_sch"
+			(at 30.48 183.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FPGA_W13" bidirectional
+			(at 58.42 177.8 0)
+			(uuid "abf05731-8138-48d5-9741-168159c8fdd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_W17" bidirectional
+			(at 58.42 175.26 0)
+			(uuid "99cde0fc-b9d6-42c1-9d9f-169f8fe74a0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_AB17" bidirectional
+			(at 58.42 172.72 0)
+			(uuid "fc6dc696-0467-4066-8f41-5fda2c0c3ec2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_Y16" bidirectional
+			(at 58.42 180.34 0)
+			(uuid "91c9b556-12d8-4ed7-bfc7-ee25f5ec6fc0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_VCC_BNK33" output
+			(at 30.48 140.97 180)
+			(uuid "6e112260-0c1d-4c44-b132-6c34d109e2db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_3V3_BNK33" output
+			(at 30.48 143.51 180)
+			(uuid "b708d3ab-2ae2-4275-aa45-abe54c265276")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_AA14" bidirectional
+			(at 30.48 177.8 180)
+			(uuid "267ee640-1e46-4400-9c19-e5bce2c9da93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_V14" bidirectional
+			(at 30.48 175.26 180)
+			(uuid "bf21a711-f853-48cf-9563-ef3a9470f361")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_AA13" bidirectional
+			(at 30.48 172.72 180)
+			(uuid "2e113235-ab2f-4389-aacb-99944b3f6b50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_AA18" bidirectional
+			(at 30.48 170.18 180)
+			(uuid "17f53d9d-fb86-4483-910b-b96b09d5ce60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_AB15" bidirectional
+			(at 30.48 167.64 180)
+			(uuid "1dae683e-8dfa-4640-9497-44cddc8359fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_Y19" bidirectional
+			(at 30.48 165.1 180)
+			(uuid "7b044557-8e42-4616-8143-db5f108c811b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_AA16" bidirectional
+			(at 30.48 162.56 180)
+			(uuid "885cdce9-d168-4bbd-9f47-3d4532c696d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_V15" bidirectional
+			(at 30.48 160.02 180)
+			(uuid "400cd5e8-a82a-4dff-998a-59e45638dfe2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_Y14" bidirectional
+			(at 58.42 165.1 0)
+			(uuid "65be9368-5ace-4469-b787-391c2e27ceb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_W16" bidirectional
+			(at 30.48 157.48 180)
+			(uuid "05300a2a-4f83-4d07-a0e1-9f2301d2f204")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_AA17" bidirectional
+			(at 30.48 149.86 180)
+			(uuid "3a4f2025-4873-474a-887d-3eb2900e3c1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_W18" bidirectional
+			(at 58.42 167.64 0)
+			(uuid "85578059-793d-4bb9-93b5-cfabfb39dd81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_V13" bidirectional
+			(at 58.42 162.56 0)
+			(uuid "fccc7495-7b63-42d6-a865-e93a59cf9a50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_Y13" bidirectional
+			(at 58.42 154.94 0)
+			(uuid "fc8915c7-9bfe-4dae-9fa2-9b2d949e3410")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_AB14" bidirectional
+			(at 30.48 154.94 180)
+			(uuid "6dfefa58-1294-4e57-a0a8-cbca72f3b6f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_Y18" bidirectional
+			(at 58.42 149.86 0)
+			(uuid "4d9502b6-a220-4553-963c-636a01b2e1fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_AB16" bidirectional
+			(at 30.48 152.4 180)
+			(uuid "84f876ae-39f0-4b25-bb11-a6d3ee200000")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_AA19" bidirectional
+			(at 58.42 152.4 0)
+			(uuid "45ed898a-a456-43ca-8dd3-372d64b8b5c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_AB19" bidirectional
+			(at 30.48 147.32 180)
+			(uuid "69f45f4d-8a9a-44ba-b116-96d12e174469")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FPGA_AB21" bidirectional
+			(at 58.42 170.18 0)
+			(uuid "e38ac721-980b-4c7d-a3d9-1c5070c1d919")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_AB22" bidirectional
+			(at 58.42 157.48 0)
+			(uuid "2da2bb6a-3552-4813-843a-97aa0d059acd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_Y21" bidirectional
+			(at 58.42 147.32 0)
+			(uuid "59b90274-7b84-4b35-9a74-af4717e00da7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_W22" bidirectional
+			(at 58.42 160.02 0)
+			(uuid "905fd6dd-c254-49c6-b28c-d73fb0d3fa9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_U22" bidirectional
+			(at 30.48 180.34 180)
+			(uuid "7efe6b65-6f89-41fb-81a3-37743ef2a462")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
+					(page "4")
 				)
 			)
 		)
