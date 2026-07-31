@@ -2640,7 +2640,7 @@
 			(justify left bottom)
 		)
 		(uuid "424902a3-5384-4a47-9118-edc625167bb4")
-		(property "Net Class" "RF_50Ω"
+		(property "Netclass" "RF_50Ω"
 			(at 192.4685 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)

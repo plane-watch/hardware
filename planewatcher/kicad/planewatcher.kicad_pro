@@ -804,7 +804,7 @@
           "show": false
         }
       ],
-      "filter_string": "rn5",
+      "filter_string": "",
       "group_symbols": false,
       "include_excluded_from_bom": true,
       "name": "",
@@ -852,7 +852,7 @@
         "uuid": "7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C81-82,#PWR57,#PWR83,#PWR94,U3,U12",
     "variants": []
   },
   "sheets": [
