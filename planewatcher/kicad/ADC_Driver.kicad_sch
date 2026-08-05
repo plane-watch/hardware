@@ -4653,7 +4653,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 89.408 43.434 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5930,7 +5930,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 182.88 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7278,7 +7278,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 229.108 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8390,7 +8390,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 90.678 122.174 0)
 			(show_name no)
 			(do_not_autoplace no)

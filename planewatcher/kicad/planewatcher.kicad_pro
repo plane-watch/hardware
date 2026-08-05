@@ -696,7 +696,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -720,7 +720,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "LCSC",
           "name": "LCSC",
           "show": true
@@ -753,7 +753,7 @@
           "group_by": false,
           "label": "Purpose",
           "name": "Purpose",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -762,10 +762,10 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -805,7 +805,7 @@
         }
       ],
       "filter_string": "",
-      "group_symbols": false,
+      "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,

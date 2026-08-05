@@ -4816,7 +4816,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 161.798 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7146,7 +7146,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 57.658 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
