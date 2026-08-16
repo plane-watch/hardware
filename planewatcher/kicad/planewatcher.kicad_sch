@@ -4705,7 +4705,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "75c5c2c1-4018-41d2-8dd2-26bc798308f0")
 		(property "Reference" "FL1"
@@ -5484,7 +5484,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "aefc10a1-0aa4-452c-9c26-8fb7e0fa0dd0")
 		(property "Reference" "FL2"
