@@ -19425,7 +19425,7 @@
 				(pins "B" "A" "C" "D" "F" "E")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2 -2)
@@ -46483,7 +46483,7 @@
 				(pins "B" "A" "C" "D" "F" "E")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2 -2)
