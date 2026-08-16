@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher")
-		(date "2026-07-19")
+		(date "2026-07-31")
 		(rev "prototype 1.3")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
@@ -994,7 +994,257 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "planewatcher:OPA2320"
+		(symbol "planewatcher:ADA4807-1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 11.176 -5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ADA4807-1"
+				(at 11.176 -7.874 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "3.1 nV/√Hz, 1 mA, 180 MHz, Rail-to-Rail Input/Output Amplifier"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ADA4807-1_0_1"
+				(rectangle
+					(start -10.16 -5.08)
+					(end 10.16 -25.4)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -8.89) (xy -7.62 -13.97) (xy -5.08 -13.97)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -21.59) (xy -7.62 -16.51) (xy -5.08 -16.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -11.43) (xy 1.27 -15.24) (xy -5.08 -19.05) (xy -5.08 -11.43)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -15.24) (xy 7.62 -15.24) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ADA4807-1_1_1"
+				(text "+"
+					(at -4.064 -13.716 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "-"
+					(at -4.064 -16.764 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 -2.54 270)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 270)
+					(length 2.54)
+					(name "-V_{S}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 270)
+					(length 2.54)
+					(name "+IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -27.94 90)
+					(length 2.54)
+					(name "-IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -27.94 90)
+					(length 2.54)
+					(name "~{DISABLE}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -27.94 90)
+					(length 2.54)
+					(name "+V_{S}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "planewatcher:OPA320"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1011,7 +1261,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "OPA2320"
+			(property "Value" "OPA320"
 				(at 4.064 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1044,7 +1294,7 @@
 					)
 				)
 			)
-			(property "Description" "Dual Channel, Precision, 20-MHz, 0.9-pA, Low-Noise, RRIO, CMOS Operational Amplifier Without Shutdown"
+			(property "Description" "Precision, zero-crossover, 20-MHz, 0.9-pA Ib, RRIO, CMOS operational amplifier"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1055,17 +1305,7 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "OPA2320_0_1"
+			(symbol "OPA320_0_1"
 				(polyline
 					(pts
 						(xy -5.08 -7.62) (xy 7.62 -15.24) (xy -5.08 -22.86) (xy -5.08 -7.62)
@@ -1079,11 +1319,11 @@
 					)
 				)
 			)
-			(symbol "OPA2320_1_1"
+			(symbol "OPA320_1_1"
 				(pin output line
 					(at 10.16 -15.24 180)
 					(length 2.54)
-					(name "OUTA"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1098,10 +1338,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 -12.7 0)
+				(pin power_in line
+					(at 1.27 -21.59 90)
 					(length 2.54)
-					(name "-INA"
+					(name "V-"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1119,7 +1359,7 @@
 				(pin input line
 					(at -7.62 -19.05 0)
 					(length 2.54)
-					(name "+INA"
+					(name "+IN"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1134,10 +1374,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 1.27 -21.59 90)
+				(pin input line
+					(at -7.62 -12.7 0)
 					(length 2.54)
-					(name "V-"
+					(name "-IN"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1162,63 +1402,7 @@
 							)
 						)
 					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA2320_2_1"
-				(pin input line
-					(at -7.62 -19.05 0)
-					(length 2.54)
-					(name "+INB"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -12.7 0)
-					(length 2.54)
-					(name "-INB"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -15.24 180)
-					(length 2.54)
-					(name "OUTB"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2166,8 +2350,8 @@
 	)
 	(text_box "Unity-gain buffer for low-pass filter output"
 		(exclude_from_sim no)
-		(at 91.44 48.26 0)
-		(size 33.02 27.94)
+		(at 71.12 34.29 0)
+		(size 53.34 43.18)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2247,7 +2431,7 @@
 	(text_box "Unity-gain buffer for log detector output"
 		(exclude_from_sim no)
 		(at 207.518 67.564 0)
-		(size 49.022 41.91)
+		(size 75.692 63.246)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2351,6 +2535,12 @@
 		(uuid "0d9ee32e-4e13-4bd2-8569-ef420ae0d916")
 	)
 	(junction
+		(at 99.06 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16ba5f6c-32e8-41a2-816c-126e497db3da")
+	)
+	(junction
 		(at 171.45 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2369,10 +2559,22 @@
 		(uuid "2da18146-5f92-4257-9b40-7b473662429c")
 	)
 	(junction
+		(at 234.95 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33eaecd7-d5d3-48d5-874b-2cab294aadb2")
+	)
+	(junction
 		(at 109.22 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c39d892-249a-49b5-8311-de4e01e573ce")
+	)
+	(junction
+		(at 210.82 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3df978e5-b6bf-4ef5-af30-f5285d9a7995")
 	)
 	(junction
 		(at 154.94 73.66)
@@ -2393,16 +2595,16 @@
 		(uuid "4983c171-29ec-43d7-af8f-bc8160e316fd")
 	)
 	(junction
-		(at 99.06 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f1bf55e-148e-47f5-8349-0c1554204a56")
-	)
-	(junction
 		(at 171.45 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fffdb9e-a07f-455f-acd2-4b7b324a0a4d")
+	)
+	(junction
+		(at 259.08 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70b7a656-5946-4433-b9af-85ea963ffa93")
 	)
 	(junction
 		(at 109.22 105.41)
@@ -2415,6 +2617,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "768e2ea5-6319-478a-b87c-a1f076fc32a3")
+	)
+	(junction
+		(at 81.28 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b2b20f8-6778-443f-a701-9530e01d96e1")
+	)
+	(junction
+		(at 95.25 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87084d76-500f-4d36-b93b-cb24948e763c")
 	)
 	(junction
 		(at 171.45 138.43)
@@ -2441,12 +2655,6 @@
 		(uuid "ae873eb7-40b3-4590-89c7-208cb767ecb3")
 	)
 	(junction
-		(at 234.95 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af3a9ae9-61bf-4c0b-aa62-77e775f0aded")
-	)
-	(junction
 		(at 167.64 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2457,12 +2665,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be741bb0-9201-43d4-a5a7-756eef4f6f44")
-	)
-	(junction
-		(at 209.55 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1d1ea29-2536-43f6-bf8e-25936a3933a8")
 	)
 	(junction
 		(at 167.64 66.04)
@@ -2514,7 +2716,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 41.91) (xy 128.27 41.91)
+			(xy 119.38 41.91) (xy 128.27 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2534,6 +2736,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 92.71) (xy 259.08 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "040d71fb-fb96-4ed7-9db3-0bfd4c3fd30f")
+	)
+	(wire
+		(pts
 			(xy 133.35 100.33) (xy 128.27 100.33)
 		)
 		(stroke
@@ -2541,16 +2753,6 @@
 			(type default)
 		)
 		(uuid "0839c228-091e-4159-9484-8f62739e46a3")
-	)
-	(wire
-		(pts
-			(xy 119.38 52.07) (xy 99.06 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c445467-8089-4eec-aa7c-22e45a98f0ef")
 	)
 	(wire
 		(pts
@@ -2574,7 +2776,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 86.36) (xy 242.57 74.93)
+			(xy 262.89 74.93) (xy 262.89 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2654,16 +2856,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 92.71) (xy 233.68 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32ef9707-d600-490d-b9d9-d613c3e46454")
-	)
-	(wire
-		(pts
 			(xy 99.06 92.71) (xy 101.6 92.71)
 		)
 		(stroke
@@ -2724,7 +2916,17 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 92.71) (xy 209.55 92.71)
+			(xy 116.84 50.8) (xy 99.06 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "496aec5d-a5a1-4e55-9dcd-f26446eebae0")
+	)
+	(wire
+		(pts
+			(xy 204.47 92.71) (xy 210.82 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2734,13 +2936,13 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 90.17) (xy 254 90.17)
+			(xy 107.95 54.61) (xy 107.95 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4bce9493-5613-4cde-b638-c47cde572cb5")
+		(uuid "4b2483c5-e34c-4fed-87e0-36db0f6f13c7")
 	)
 	(wire
 		(pts
@@ -2764,6 +2966,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 113.03) (xy 210.82 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56be342e-12a1-40c4-8e49-8cfaf634c1c3")
+	)
+	(wire
+		(pts
 			(xy 118.11 138.43) (xy 123.19 138.43)
 		)
 		(stroke
@@ -2781,6 +2993,16 @@
 			(type default)
 		)
 		(uuid "5be89337-0a95-4e3a-b138-20cd2515cdae")
+	)
+	(wire
+		(pts
+			(xy 116.84 58.42) (xy 116.84 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bfb3dce-bf0f-463c-852b-3b842367a39d")
 	)
 	(wire
 		(pts
@@ -2804,16 +3026,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 60.96) (xy 87.63 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "619cbbcd-e6f7-4234-b228-db836a8180a4")
-	)
-	(wire
-		(pts
 			(xy 213.36 74.93) (xy 220.98 74.93)
 		)
 		(stroke
@@ -2824,7 +3036,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 64.77) (xy 121.92 64.77)
+			(xy 116.84 64.77) (xy 119.38 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2864,6 +3076,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 92.71) (xy 259.08 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e1d9ba-0dce-41eb-bdcd-a9519ea05926")
+	)
+	(wire
+		(pts
 			(xy 204.47 41.91) (xy 204.47 92.71)
 		)
 		(stroke
@@ -2874,16 +3096,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 58.42) (xy 119.38 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a3355af-c11d-44fd-9fc1-d27de4f79b25")
-	)
-	(wire
-		(pts
 			(xy 171.45 102.87) (xy 171.45 105.41)
 		)
 		(stroke
@@ -2891,6 +3103,16 @@
 			(type default)
 		)
 		(uuid "7cb2ba7b-6142-4656-b0ce-2255f566e5ac")
+	)
+	(wire
+		(pts
+			(xy 210.82 92.71) (xy 233.68 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d49dc9a-2c81-49dc-a5bd-ec05c6669ab5")
 	)
 	(wire
 		(pts
@@ -2914,7 +3136,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 64.77) (xy 121.92 41.91)
+			(xy 119.38 64.77) (xy 119.38 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2934,13 +3156,23 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 69.85) (xy 209.55 92.71)
+			(xy 99.06 50.8) (xy 99.06 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86c4c884-9b6d-46f1-86de-1a0af07eeb4f")
+		(uuid "854e175b-af69-4d56-b067-413d20926222")
+	)
+	(wire
+		(pts
+			(xy 81.28 38.1) (xy 95.25 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87744db2-cdc2-4733-97c9-05d7719ada04")
 	)
 	(wire
 		(pts
@@ -2961,16 +3193,6 @@
 			(type default)
 		)
 		(uuid "8c3dab38-7852-4f2d-b784-626a28d0cc2a")
-	)
-	(wire
-		(pts
-			(xy 254 69.85) (xy 209.55 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d401463-d356-4753-8076-35b2a9c69288")
 	)
 	(wire
 		(pts
@@ -3034,13 +3256,13 @@
 	)
 	(wire
 		(pts
-			(xy 254 90.17) (xy 254 69.85)
+			(xy 87.63 60.96) (xy 99.06 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5dfddca-8806-40ca-9adb-eee0f370a372")
+		(uuid "a26ba500-ccf2-4a8c-87a4-00f3055c029a")
 	)
 	(wire
 		(pts
@@ -3074,6 +3296,26 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 38.1) (xy 95.25 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b61049e4-437c-4b52-9067-89d23a975608")
+	)
+	(wire
+		(pts
+			(xy 210.82 113.03) (xy 210.82 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b62db349-9efd-4022-8003-a9169daf4d19")
+	)
+	(wire
+		(pts
 			(xy 179.07 73.66) (xy 167.64 73.66)
 		)
 		(stroke
@@ -3094,7 +3336,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 74.93) (xy 234.95 74.93)
+			(xy 262.89 74.93) (xy 234.95 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3164,16 +3406,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 96.52) (xy 260.35 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db34b873-7317-48ba-bd8e-8e39520816de")
-	)
-	(wire
-		(pts
 			(xy 118.11 128.27) (xy 118.11 138.43)
 		)
 		(stroke
@@ -3224,23 +3456,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 52.07) (xy 99.06 60.96)
+			(xy 73.66 38.1) (xy 81.28 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e82474ae-7eca-4e67-ba6f-fa7b7f64bb60")
-	)
-	(wire
-		(pts
-			(xy 101.6 60.96) (xy 99.06 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee4cb725-ac18-48bc-b847-5970876e3c09")
+		(uuid "ed11393b-569a-4e2c-9d7e-9f719c7a78c1")
 	)
 	(wire
 		(pts
@@ -3261,6 +3483,16 @@
 			(type default)
 		)
 		(uuid "f1f2166d-b1b3-4a08-99b6-340d8d8a2242")
+	)
+	(wire
+		(pts
+			(xy 228.6 100.33) (xy 233.68 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a1fc49-59da-4b53-8d7c-27f0ec3cc20b")
 	)
 	(wire
 		(pts
@@ -3294,6 +3526,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 107.95) (xy 259.08 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc7d3cf4-3286-4d62-9fa5-bed984ebca41")
+	)
+	(wire
+		(pts
 			(xy 194.31 41.91) (xy 191.77 41.91)
 		)
 		(stroke
@@ -3321,6 +3563,16 @@
 			(type default)
 		)
 		(uuid "ff2e9bd2-abf6-42a1-affe-04f7f85097e7")
+	)
+	(label "AVDD"
+		(at 73.66 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28dd238c-35ca-40b2-90b9-8f72edc092ed")
 	)
 	(label "AVDD"
 		(at 213.36 74.93 0)
@@ -3366,12 +3618,12 @@
 	)
 	(hierarchical_label "VLOG_IN"
 		(shape input)
-		(at 260.35 96.52 0)
+		(at 233.68 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8a34d7d8-5900-4b0c-9d93-1f1b099f1bec")
 	)
@@ -3398,7 +3650,7 @@
 			(justify left bottom)
 		)
 		(uuid "70c1afe5-7088-4f49-8a37-5dcc98c15597")
-		(property "Net Class" "DIFFPAIR_100Ω"
+		(property "Netclass" "DIFFPAIR_100Ω"
 			(at 115.57 146.6215 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3433,7 +3685,7 @@
 			(justify right bottom)
 		)
 		(uuid "c41bbc92-6627-49fb-8bfb-55952355ce9a")
-		(property "Net Class" "DIFFPAIR_100Ω"
+		(property "Netclass" "DIFFPAIR_100Ω"
 			(at 173.99 146.6215 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4380,6 +4632,174 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 95.25 41.91 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2a7fce22-727e-4791-bce0-4e4d8cf7217c")
+		(property "Reference" "C82"
+			(at 89.408 40.894 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1µF"
+			(at 89.408 43.434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 94.2848 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71A104KA55-01.pdf"
+			(at 95.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 95.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 95.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71A104KA55D"
+			(at 95.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 95.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Local high-frequency decoupling for the OPA320 supply."
+			(at 95.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 95.25 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C161163"
+			(at 95.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 95.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 95.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d9490d9-aa40-4976-beb5-31f837885465")
+		)
+		(pin "2"
+			(uuid "f9def3f6-577d-4865-86be-94498845a643")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
+					(reference "C82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Pack04_Split")
 		(at 109.22 99.06 0)
 		(unit 2)
@@ -4805,19 +5225,19 @@
 		)
 	)
 	(symbol
-		(lib_id "planewatcher:OPA2320")
-		(at 111.76 45.72 0)
-		(mirror y)
-		(unit 2)
+		(lib_id "planewatcher:ADA4807-1")
+		(at 231.14 100.33 90)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4b8562d4-5d8f-4a7f-a88f-ae839035c430")
-		(property "Reference" "U3"
-			(at 106.172 66.04 0)
+		(fields_autoplaced yes)
+		(uuid "3b945471-9247-49a0-bf23-d81a4fafa3dc")
+		(property "Reference" "U12"
+			(at 246.38 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4826,8 +5246,8 @@
 				)
 			)
 		)
-		(property "Value" "OPA2320"
-			(at 106.172 68.58 0)
+		(property "Value" "ADA4807-1"
+			(at 246.38 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4836,8 +5256,8 @@
 				)
 			)
 		)
-		(property "Footprint" "planewatcher:OPA2320 DRG0008A"
-			(at 111.76 45.72 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 231.14 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4847,8 +5267,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa320.pdf"
-			(at 111.76 45.72 0)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf"
+			(at 231.14 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4858,8 +5278,8 @@
 				)
 			)
 		)
-		(property "Description" "Dual Channel, Precision, 20-MHz, 0.9-pA, Low-Noise, RRIO, CMOS Operational Amplifier Without Shutdown"
-			(at 111.76 45.72 0)
+		(property "Description" "3.1 nV/√Hz, 1 mA, 180 MHz, Rail-to-Rail Input/Output Amplifier"
+			(at 231.14 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4869,8 +5289,8 @@
 				)
 			)
 		)
-		(property "MPN" "OPA2320AIDRGT"
-			(at 111.76 45.72 0)
+		(property "LCSC" "C2058411"
+			(at 231.14 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4880,8 +5300,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
-			(at 111.76 45.72 0)
+		(property "MPN" "ADA4807-1ARJZ"
+			(at 231.14 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4891,8 +5311,8 @@
 				)
 			)
 		)
-		(property "Package" "SON-8-EP(3x3)"
-			(at 111.76 45.72 0)
+		(property "Manufacturer" "Analog Devices"
+			(at 231.14 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4902,8 +5322,8 @@
 				)
 			)
 		)
-		(property "Purpose" "Dual high-precision, low-noise, RRIO CMOS operational amplifier. Non-shutdown OPA2320AIDRGT variant."
-			(at 111.76 45.72 0)
+		(property "Package" "SOT-23-6"
+			(at 231.14 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4913,8 +5333,166 @@
 				)
 			)
 		)
-		(property "LCSC" "C2057346"
-			(at 111.76 45.72 0)
+		(property "Purpose" "Buffers output of log detector"
+			(at 231.14 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "36598349-fe1b-4558-8f66-6be60400eeda")
+		)
+		(pin "4"
+			(uuid "2740c166-e53a-45be-856c-53c911b75e5a")
+		)
+		(pin "2"
+			(uuid "9cbce4e6-5b7a-494c-964a-3a862d3b001a")
+		)
+		(pin "3"
+			(uuid "9c6859e2-b312-4c07-a121-d61e9179d61f")
+		)
+		(pin "1"
+			(uuid "290ae0a3-7d3a-4850-845a-a2e0c0e4e29f")
+		)
+		(pin "6"
+			(uuid "89ea2cf7-3107-4b3b-8017-70a1518a2522")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 81.28 41.91 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a76fbc2-37a9-46b1-b9f2-2f5f307cc148")
+		(property "Reference" "C81"
+			(at 75.184 40.894 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10µF"
+			(at 75.184 43.434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 80.3148 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106MA73-01A.pdf"
+			(at 81.28 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 81.28 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 81.28 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM188Z71A106MA73D"
+			(at 81.28 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 81.28 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Local bulk decoupling for the OPA320."
+			(at 81.28 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 81.28 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C237435"
+			(at 81.28 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4925,7 +5503,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 111.76 45.72 0)
+			(at 81.28 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4936,7 +5514,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 111.76 45.72 0)
+			(at 81.28 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4946,35 +5524,17 @@
 				)
 			)
 		)
-		(pin "7"
-			(uuid "9305a6e2-15b9-4498-8717-2f5c1b1b2631")
-		)
-		(pin "6"
-			(uuid "7882537d-c0da-4c7a-80ca-9c4cdcd083b3")
-		)
 		(pin "1"
-			(uuid "94a6c403-b14a-4082-8bcb-b7aea34df2a2")
-		)
-		(pin "8"
-			(uuid "ba0a85bd-2784-4e8c-beb5-5652e4894af2")
-		)
-		(pin "4"
-			(uuid "cf7fcb09-5b62-41dc-a518-821b7e619348")
+			(uuid "b4718fe8-aaee-4188-a741-28d9856dc61b")
 		)
 		(pin "2"
-			(uuid "3d0346fc-7114-4f7a-ba1c-18d88255d776")
-		)
-		(pin "5"
-			(uuid "aba8fcd0-5d7b-48eb-a679-d5ee876fb421")
-		)
-		(pin "3"
-			(uuid "ffcb965e-6aca-436c-b0af-e531232d1ac0")
+			(uuid "91a30b1b-73aa-46f1-a160-4864b8b0dded")
 		)
 		(instances
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "U3")
-					(unit 2)
+					(reference "C81")
+					(unit 1)
 				)
 			)
 		)
@@ -5370,7 +5930,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 182.88 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5868,6 +6428,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 81.28 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76b95c09-a8cd-45c0-85b8-ae6adc29b042")
+		(property "Reference" "#PWR057"
+			(at 81.28 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "630b5707-b412-4d27-b17c-32ac6301e2c6")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 128.27 41.91 0)
 		(unit 1)
@@ -5974,6 +6612,162 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e7c09f2-71ce-4c5d-8dba-d2d222eedcd1")
+		(property "Reference" "#PWR083"
+			(at 95.25 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c01e69d0-0796-4239-aeee-a78e0204d258")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "803c3442-4998-4d43-bab7-58512e103c3e")
+		(property "Reference" "#PWR094"
+			(at 107.95 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92d1d4bf-e640-4ee6-b6eb-5b2951231e4d")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -6463,183 +7257,6 @@
 		)
 	)
 	(symbol
-		(lib_id "planewatcher:OPA2320")
-		(at 243.84 77.47 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9ab2f124-a9d0-4637-b5cf-bf5b46eeee38")
-		(property "Reference" "U3"
-			(at 244.348 80.772 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "OPA2320"
-			(at 244.348 83.312 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "planewatcher:OPA2320 DRG0008A"
-			(at 243.84 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa320.pdf"
-			(at 243.84 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual Channel, Precision, 20-MHz, 0.9-pA, Low-Noise, RRIO, CMOS Operational Amplifier Without Shutdown"
-			(at 243.84 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "OPA2320AIDRGT"
-			(at 243.84 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TI"
-			(at 243.84 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "SON-8-EP(3x3)"
-			(at 243.84 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "Dual high-precision, low-noise, RRIO CMOS operational amplifier. Non-shutdown OPA2320AIDRGT variant."
-			(at 243.84 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2057346"
-			(at 243.84 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 243.84 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 243.84 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "9305a6e2-15b9-4498-8717-2f5c1b1b2632")
-		)
-		(pin "6"
-			(uuid "7882537d-c0da-4c7a-80ca-9c4cdcd083b4")
-		)
-		(pin "1"
-			(uuid "94a6c403-b14a-4082-8bcb-b7aea34df2a3")
-		)
-		(pin "8"
-			(uuid "ba0a85bd-2784-4e8c-beb5-5652e4894af3")
-		)
-		(pin "4"
-			(uuid "cf7fcb09-5b62-41dc-a518-821b7e619349")
-		)
-		(pin "2"
-			(uuid "3d0346fc-7114-4f7a-ba1c-18d88255d777")
-		)
-		(pin "5"
-			(uuid "aba8fcd0-5d7b-48eb-a679-d5ee876fb422")
-		)
-		(pin "3"
-			(uuid "ffcb965e-6aca-436c-b0af-e531232d1ac1")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 234.95 78.74 0)
 		(mirror y)
@@ -6661,7 +7278,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 229.108 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6737,7 +7354,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Local high-frequency decoupling for the OPA2320 supply."
+		(property "Purpose" "Local high-frequency decoupling for the ADA4807-1 supply."
 			(at 234.95 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6802,6 +7419,152 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
 					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "planewatcher:OPA320")
+		(at 109.22 45.72 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a38cecee-1844-4fdd-be2b-51ddab4ad579")
+		(property "Reference" "U3"
+			(at 104.14 64.516 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA320"
+			(at 104.14 67.056 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 109.22 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/opa320.pdf"
+			(at 109.22 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Precision, zero-crossover, 20-MHz, 0.9-pA Ib, RRIO, CMOS operational amplifier"
+			(at 109.22 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C92494"
+			(at 109.22 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "OPA320AIDBVR"
+			(at 109.22 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 109.22 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "SOT-23-5"
+			(at 109.22 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" "Buffers output of slow-moving low-pass filter for noise floor."
+			(at 109.22 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "cd613d36-0229-476d-82c8-394650b3d9ff")
+		)
+		(pin "4"
+			(uuid "7c9090cd-dd07-4bb5-9c3a-0ad4125f54f1")
+		)
+		(pin "1"
+			(uuid "182b13fe-363b-4d3f-89a7-005fa986395d")
+		)
+		(pin "2"
+			(uuid "58a02afc-c521-4c05-9214-21cd8beeeff8")
+		)
+		(pin "3"
+			(uuid "2a388a84-e1fd-4cda-b527-97cf5012d189")
+		)
+		(instances
+			(project "planewatcher"
+				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/cbd39e42-d959-46e0-ad78-463479feebd1"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7627,7 +8390,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 90.678 122.174 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8039,7 +8802,7 @@
 				)
 			)
 		)
-		(property "Purpose" "Local bulk decoupling for the OPA2320."
+		(property "Purpose" "Local bulk decoupling for ADA4807-1."
 			(at 220.98 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8111,7 +8874,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 99.06 0)
+		(at 228.6 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8119,10 +8882,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "be91c3fa-f59d-4749-baaa-39dacf625b6b")
 		(property "Reference" "#PWR051"
-			(at 242.57 105.41 0)
+			(at 228.6 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8133,7 +8895,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 104.14 0)
+			(at 228.6 104.394 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8143,7 +8905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 99.06 0)
+			(at 228.6 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8154,7 +8916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 99.06 0)
+			(at 228.6 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8165,7 +8927,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 99.06 0)
+			(at 228.6 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -3938,7 +3938,7 @@
 			(justify left bottom)
 		)
 		(uuid "ad0c9a91-1e2c-4556-aef7-a0e81a62922d")
-		(property "Net Class" "RF_50Ω"
+		(property "Netclass" "RF_50Ω"
 			(at 150.4315 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3974,7 +3974,7 @@
 			(justify left bottom)
 		)
 		(uuid "d2059a9a-82ce-4c4a-98d1-dbff714684b3")
-		(property "Net Class" "RF_50Ω"
+		(property "Netclass" "RF_50Ω"
 			(at 226.6315 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4816,7 +4816,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 161.798 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7146,7 +7146,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 57.658 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)

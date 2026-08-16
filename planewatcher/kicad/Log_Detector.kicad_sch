@@ -1971,12 +1971,6 @@
 		(uuid "5cbb4320-6f2a-49fc-9006-9c654c384a44")
 	)
 	(junction
-		(at 205.74 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "621b8fc5-9a99-43d4-87ae-057d472600ea")
-	)
-	(junction
 		(at 205.74 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3499,7 +3493,7 @@
 			(justify left bottom)
 		)
 		(uuid "3a34b69c-7b93-4a59-952c-708c0ec7f64f")
-		(property "Net Class" "RF_50Ω"
+		(property "Netclass" "RF_50Ω"
 			(at 37.5285 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3949,7 +3943,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 132.08 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4090,126 +4084,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/2b870c27-11be-4d09-9c58-83e75b33e075"
 					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 205.74 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "338738de-f341-446a-83ea-ee7a1b3f77b6")
-		(property "Reference" "TP13"
-			(at 205.74 31.242 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VLOG_OUT"
-			(at 205.74 28.956 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 210.82 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "PCB copper test pad, 1.0mm, no fitted component"
-			(at 205.74 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "Provides oscilloscope/DMM probe access to VLOG_OUT."
-			(at 205.74 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
-			(at 205.74 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 205.74 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 205.74 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b16749b2-6506-4015-85d3-72abe0c70751")
-		)
-		(instances
-			(project "planewatcher"
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/2b870c27-11be-4d09-9c58-83e75b33e075"
-					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -5646,7 +5520,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1µF"
 			(at 132.08 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -39,8 +39,8 @@ In addition to fixing the issues above, proto 1.3 includes some functionality an
   - AD8138 ADC driver feedback capacitors.
   - Five 0402 pi-pad matching networks along the RF path: one on each side of both LNA stages, and one at the ADL5513 RF input. These are fitted as straight-through links by default, with a 0 Ω series resistor and both shunt positions left unpopulated. After measuring the assembled board with a VNA, the footprints can be populated with suitable resistor, capacitor or inductor values to refine the 1,090 MHz matching and compensate for real-world PCB and component parasitics.
   - Other tweaking footprints along the ADC signal path.
-- The ADL5513 log-detector output is buffered for more robust operation with weak signals, and to decouple from the AD8138 input network.
-- The buffered log-detector output is also fed into a first-order low-pass filter at approximately 0.072 Hz to produce a slow-moving analog baseline. This heavily attenuates short ADS-B pulse bursts, but sustained RF traffic can still affect the baseline. The baseline is buffered and applied to the AD8138 ADC driver input network, offsetting the detector output before digitisation and improving the usable ADC range for weak pulses.
+- The ADL5513 log-detector output is buffered by a high-speed ADA4807-1 op-amp for more robust operation with weak signals, and to decouple it from the AD8138 input network.
+- The buffered log-detector output is also fed into a first-order low-pass filter at approximately 0.072 Hz to produce a slow-moving analog baseline. This heavily attenuates short ADS-B pulse bursts, but sustained RF traffic can still affect the baseline. The baseline is buffered by an OPA320 and applied to the AD8138 ADC driver input network, offsetting the detector output before digitisation and improving the usable ADC range for weak pulses.
 - RF_IN and GPS antenna connectors have been swapped from SMA to U.FL.
 - A software-controlled bias tee has been added. This can supply around 4.5 V to the RF_IN connector, current-limited to approximately 300 mA. LEDs have been added to show whether bias tee is enabled/disabled, and to show if overcurrent disable has been activated.
 - A GNSS-disciplined 1PPS timing output has been added. This is a buffered copy of the LEA-M8T TIMEPULSE signal, provided on a 50 Ω source-terminated U.FL connector. The centre pin carries an active-high pulse and the shell is connected to ground. The output is approximately 0 to 4.5 V into a high-impedance load, or approximately 0 to 2.2 V into a 50 Ω terminated load. The rising edge should be treated as the timing reference.
@@ -60,6 +60,7 @@ The proto 1.3 design has the following main components and interfaces:
 | RF input | 1,090 MHz ADS-B, U.FL connector |
 | RF front end | Two LNA and SAW filter stages |
 | Log detector | ADL5513 |
+| Baseband buffers | ADA4807-1 fast-path buffer and OPA320 slow-baseline buffer |
 | ADC driver | AD8138 |
 | ADC | AD9203, 10-bit, up to 40 MSPS |
 | GNSS timing | LEA-M8T with FPGA and external 1PPS outputs |
@@ -87,12 +88,12 @@ The amplified and filtered RF signal is fed into an ADL5513 log detector, which 
 
 ### ADC Driver
 
-The ADL5513 log-detector output is buffered with a precision op-amp to isolate it from the ADC driver input network and provide a robust baseband signal.
+The ADL5513 log-detector output is buffered with a high-speed ADA4807-1 op-amp to isolate it from the ADC driver input network and provide a robust baseband signal.
 
 The ADC uses a differential input. To drive it, the buffered baseband signal is split:
 
 - Through the gain/input resistor network into the AD8138 positive input summing node.
-- Into a first-order low-pass filter at approximately 0.072 Hz, producing a slow-moving analog baseline with short ADS-B pulse bursts heavily attenuated. This baseline is then buffered to decouple it from the ADC driver input network and applied through the gain/input resistor network into the AD8138 negative input summing node.
+- Into a first-order low-pass filter at approximately 0.072 Hz, producing a slow-moving analog baseline with short ADS-B pulse bursts heavily attenuated. This baseline is then buffered by an OPA320 to decouple it from the ADC driver input network and applied through the gain/input resistor network into the AD8138 negative input summing node.
 
 The AD8138 produces a differential output proportional to the difference between the instantaneous log-detector output and the slow noise-floor estimate.
 
