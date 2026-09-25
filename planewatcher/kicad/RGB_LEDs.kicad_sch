@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher")
-		(date "2026-07-19")
-		(rev "prototype 1.3")
+		(date "2026-09-25")
+		(rev "1.4")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
 		(comment 2 "Source: https://github.com/plane-watch/hardware.")
@@ -2251,6 +2251,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/0fe3afdd-b158-44fe-a21c-fff7a77122bf"
 					(reference "LED5")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -2413,6 +2416,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/0fe3afdd-b158-44fe-a21c-fff7a77122bf"
 					(reference "LED3")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -2575,6 +2581,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/0fe3afdd-b158-44fe-a21c-fff7a77122bf"
 					(reference "LED4")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -2737,6 +2746,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/0fe3afdd-b158-44fe-a21c-fff7a77122bf"
 					(reference "LED1")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -2914,6 +2926,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/0fe3afdd-b158-44fe-a21c-fff7a77122bf"
 					(reference "RN5")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -3091,6 +3106,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/0fe3afdd-b158-44fe-a21c-fff7a77122bf"
 					(reference "RN6")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -3253,6 +3271,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/0fe3afdd-b158-44fe-a21c-fff7a77122bf"
 					(reference "LED2")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)

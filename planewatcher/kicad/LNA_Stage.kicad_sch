@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher")
-		(date "2026-07-19")
-		(rev "prototype 1.3")
+		(date "2026-09-25")
+		(rev "1.4")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
 		(comment 2 "Source: https://github.com/plane-watch/hardware.")
@@ -2365,10 +2365,16 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "Z17")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
 					(reference "Z19")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -2619,10 +2625,16 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "C28")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
 					(reference "C34")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -3119,10 +3131,16 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "C32")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
 					(reference "C38")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -3373,10 +3391,16 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "C33")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
 					(reference "C39")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -3512,10 +3536,16 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "Z12")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
 					(reference "Z20")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -3651,10 +3681,16 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "Z8")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
 					(reference "R9")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -3812,10 +3848,16 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "C29")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
 					(reference "C35")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -3843,7 +3885,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "68nH"
 			(at 80.01 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3854,7 +3896,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 79.248 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -3876,7 +3918,7 @@
 				)
 			)
 		)
-		(property "Description" "First shunt element in pi pad"
+		(property "Description" "First shunt element in pi pad, populated after initial testing of proto 1.3"
 			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3898,6 +3940,39 @@
 				)
 			)
 		)
+		(property "LCSC" "C3221883"
+			(at 77.47 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402DC-68NXJRW"
+			(at 77.47 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Coilcraft"
+			(at 77.47 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "15144c12-e51d-4ec4-a2b9-739c8e6e0ce5")
 		)
@@ -3909,10 +3984,18 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "Z13")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+						(dnp no)
+						(in_bom yes)
+					)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
 					(reference "Z14")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -4070,10 +4153,16 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "C30")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
 					(reference "C36")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -4167,10 +4256,16 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "Z18")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
 					(reference "Z21")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -4360,10 +4455,16 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "U7")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
 					(reference "U8")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -4539,10 +4640,16 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "Z15")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
 					(reference "Z16")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -4711,10 +4818,16 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "C31")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
 					(reference "C37")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -5049,10 +5162,16 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "L7")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
 					(reference "L8")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)

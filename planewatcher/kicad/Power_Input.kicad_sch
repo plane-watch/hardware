@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher")
-		(date "2026-07-19")
-		(rev "prototype 1.3")
+		(date "2026-09-25")
+		(rev "1.4")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
 		(comment 2 "Source: https://github.com/plane-watch/hardware.")
@@ -1884,6 +1884,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/5ac3603d-bbeb-44f4-b422-6252fe26d95e"
 					(reference "D2")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -1996,6 +1999,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/5ac3603d-bbeb-44f4-b422-6252fe26d95e"
 					(reference "TP20")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -2388,6 +2394,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/5ac3603d-bbeb-44f4-b422-6252fe26d95e"
 					(reference "F1")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)

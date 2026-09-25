@@ -5,6 +5,11 @@
 	(uuid "cb4d550b-1c9f-4337-af9a-c197751468e7")
 	(paper "A4")
 	(title_block
+		(title "Plane Watcher")
+		(date "2026-09-25")
+		(rev "1.4")
+		(company "plane.watch")
+		(comment 1 "No warranty; see LICENSE.")
 		(comment 2 "Source: https://github.com/plane-watch/hardware.")
 		(comment 3 "Licensed under CERN-OHL-S-2.0.")
 		(comment 4 "Copyright (C) 2026 plane.watch team and contributors.")
@@ -3225,6 +3230,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/4ac64956-5622-4878-a879-b2f4aa104ba3"
 					(reference "C1")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -3507,6 +3515,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/4ac64956-5622-4878-a879-b2f4aa104ba3"
 					(reference "J4")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -3798,6 +3809,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/4ac64956-5622-4878-a879-b2f4aa104ba3"
 					(reference "C12")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -3933,6 +3947,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/4ac64956-5622-4878-a879-b2f4aa104ba3"
 					(reference "C13")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -4068,6 +4085,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/4ac64956-5622-4878-a879-b2f4aa104ba3"
 					(reference "C14")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -4437,6 +4457,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/4ac64956-5622-4878-a879-b2f4aa104ba3"
 					(reference "C10")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -4572,6 +4595,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/4ac64956-5622-4878-a879-b2f4aa104ba3"
 					(reference "C11")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)

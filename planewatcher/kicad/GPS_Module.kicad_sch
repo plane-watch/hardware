@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher")
-		(date "2026-07-19")
-		(rev "prototype 1.3")
+		(date "2026-09-25")
+		(rev "1.4")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
 		(comment 2 "Source: https://github.com/plane-watch/hardware.")
@@ -4162,6 +4162,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/84812100-48e5-47cc-a358-d48bbae76aaf"
 					(reference "C59")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -4397,6 +4400,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/84812100-48e5-47cc-a358-d48bbae76aaf"
 					(reference "R20")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -4633,6 +4639,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/84812100-48e5-47cc-a358-d48bbae76aaf"
 					(reference "R32")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -4790,6 +4799,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/84812100-48e5-47cc-a358-d48bbae76aaf"
 					(reference "L10")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -4958,6 +4970,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/84812100-48e5-47cc-a358-d48bbae76aaf"
 					(reference "C62")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -5193,6 +5208,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/84812100-48e5-47cc-a358-d48bbae76aaf"
 					(reference "C74")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -5352,6 +5370,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/84812100-48e5-47cc-a358-d48bbae76aaf"
 					(reference "J1")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -5529,6 +5550,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/84812100-48e5-47cc-a358-d48bbae76aaf"
 					(reference "U4")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -5685,6 +5709,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/84812100-48e5-47cc-a358-d48bbae76aaf"
 					(reference "R21")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -5842,6 +5869,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/84812100-48e5-47cc-a358-d48bbae76aaf"
 					(reference "R23")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -6001,6 +6031,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/84812100-48e5-47cc-a358-d48bbae76aaf"
 					(reference "R47")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -6169,6 +6202,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/84812100-48e5-47cc-a358-d48bbae76aaf"
 					(reference "C63")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -6326,6 +6362,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/84812100-48e5-47cc-a358-d48bbae76aaf"
 					(reference "R33")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -6496,6 +6535,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/84812100-48e5-47cc-a358-d48bbae76aaf"
 					(reference "D4")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -7288,6 +7330,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/84812100-48e5-47cc-a358-d48bbae76aaf"
 					(reference "C60")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -7592,6 +7637,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/84812100-48e5-47cc-a358-d48bbae76aaf"
 					(reference "U1")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -7827,6 +7875,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/84812100-48e5-47cc-a358-d48bbae76aaf"
 					(reference "R24")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -7997,6 +8048,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/84812100-48e5-47cc-a358-d48bbae76aaf"
 					(reference "D5")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
@@ -8322,6 +8376,9 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/84812100-48e5-47cc-a358-d48bbae76aaf"
 					(reference "LED6")
 					(unit 1)
+					(variant
+						(name "revision_1.4")
+					)
 				)
 			)
 		)
