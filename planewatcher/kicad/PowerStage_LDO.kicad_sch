@@ -4610,7 +4610,7 @@
 				)
 			)
 		)
-		(property "Footprint" "planewatcher:U_LT3045IMSE-1#PBF"
+		(property "Footprint" "planewatcher:U_LT3045IMSE-1_PBF"
 			(at 166.37 76.2 0)
 			(hide yes)
 			(show_name no)

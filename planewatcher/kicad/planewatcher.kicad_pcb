@@ -13169,13 +13169,13 @@
 			)
 		)
 	)
-	(footprint "planewatcher:U_LT3045IMSE-1#PBF"
+	(footprint "planewatcher:U_LT3045IMSE-1_PBF"
 		(layer "F.Cu")
 		(uuid "426bbd47-bfe2-4f67-87b9-6bd34930543a")
 		(at 164.7487 82.533841 180)
 		(descr "Footprint for LT3045IMSE-1#PBF, MSOP-12 with exposed pad, solder paste windowing")
 		(property "Reference" "U6"
-			(at -0.0095 -3.005 0)
+			(at 0.0187 -2.846159 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4d1d1716-3b15-456a-b5ee-0b30a0e73657")
@@ -13225,38 +13225,12 @@
 				)
 			)
 		)
-		(property "Purpose" "Post-regulates the buck output to the low-noise analog/RF/digital rail."
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1618fb17-ff2a-46b4-88ec-07b045cd55da")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Notes" "From datasheet: \"For optimal transient performance and load regulation, Kelvin connect OUTS directly to the output capacitor and the load. Also, tie the GND connections of the output capacitor and the SET pin capacitor directly together .\""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4ef01d3e-a260-4873-b1b8-9fd8e8e76026")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Package" "MSOP-12E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ec002fdb-e275-4cbe-966c-ba159c58d05e")
+			(uuid "28ae2ebf-0340-4c2c-99c0-149f1ebc76a3")
 			(effects
 				(font
 					(size 1 1)
@@ -13269,7 +13243,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0b6ec53-69e6-485c-82d5-03cccd40775c")
+			(uuid "13aab348-8aad-41f4-a158-a0f4a0b9b8db")
 			(effects
 				(font
 					(size 1 1)
@@ -13282,7 +13256,33 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad388275-8c67-4c32-a73f-60330d52cb1f")
+			(uuid "7b1a0a40-cfa3-4aff-aca0-b28e86dc4751")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Purpose" "Post-regulates the buck output to the low-noise analog/RF/digital rail."
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2b2d494-5571-4e91-974c-2d785ef4401f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Notes" "From datasheet: \"For optimal transient performance and load regulation, Kelvin connect OUTS directly to the output capacitor and the load. Also, tie the GND connections of the output capacitor and the SET pin capacitor directly together .\""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13e1e1bf-1679-4da4-8bc2-915e32df065b")
 			(effects
 				(font
 					(size 1 1)
@@ -13295,7 +13295,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b9a9632-4c64-40c1-a591-3802cecdedb3")
+			(uuid "bdc9f820-667a-4c5b-9a5b-f6b43e9a1692")
 			(effects
 				(font
 					(size 1 1)
@@ -13308,7 +13308,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e7a4bc7c-dd95-4fec-93df-b4a7a273d4c6")
+			(uuid "e8b89e93-b77d-406d-a35b-ffaf42fe8da3")
 			(effects
 				(font
 					(size 1 1)
@@ -13321,7 +13321,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "35a1d382-3df1-4b2f-985c-f49cf4858194")
+			(uuid "cf2ca8e7-cc6f-4e1d-a682-d62c3c1d287e")
 			(effects
 				(font
 					(size 1 1)
@@ -13641,17 +13641,6 @@
 			(uuid "3231c0ff-ba82-4d63-a676-46b73b060d5e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/MSOP-12-1EP_3x4.039mm_P0.65mm_EP1.651x2.845mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "planewatcher:L_Coilcraft_0402DC_1005Metric"
 		(layer "F.Cu")

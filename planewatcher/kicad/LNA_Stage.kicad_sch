@@ -2366,10 +2366,6 @@
 					(reference "Z17")
 					(unit 1)
 				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "Z19")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2446,10 +2442,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "#PWR059")
-					(unit 1)
-				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -2620,10 +2612,6 @@
 					(reference "C28")
 					(unit 1)
 				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "C34")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2700,10 +2688,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "#PWR065")
-					(unit 1)
-				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -2784,10 +2768,6 @@
 					(reference "#PWR064")
 					(unit 1)
 				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "#PWR071")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2866,10 +2846,6 @@
 					(reference "#PWR0117")
 					(unit 1)
 				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "#PWR0119")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2946,10 +2922,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "#PWR061")
-					(unit 1)
-				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -3120,10 +3092,6 @@
 					(reference "C32")
 					(unit 1)
 				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "C38")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3200,10 +3168,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "#PWR0116")
-					(unit 1)
-				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -3374,10 +3338,6 @@
 					(reference "C33")
 					(unit 1)
 				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "C39")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3513,10 +3473,6 @@
 					(reference "Z12")
 					(unit 1)
 				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "Z20")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3650,10 +3606,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "Z8")
-					(unit 1)
-				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3813,10 +3765,6 @@
 					(reference "C29")
 					(unit 1)
 				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "C35")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3941,10 +3889,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "Z13")
-					(unit 1)
-				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "Z14")
 					(unit 1)
 				)
 			)
@@ -4104,10 +4048,6 @@
 					(reference "C30")
 					(unit 1)
 				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "C36")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -4199,10 +4139,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "Z18")
-					(unit 1)
-				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "Z21")
 					(unit 1)
 				)
 			)
@@ -4394,10 +4330,6 @@
 					(reference "U7")
 					(unit 1)
 				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "U8")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -4474,10 +4406,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "#PWR060")
-					(unit 1)
-				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -4571,10 +4499,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "Z15")
-					(unit 1)
-				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "Z16")
 					(unit 1)
 				)
 			)
@@ -4745,10 +4669,6 @@
 					(reference "C31")
 					(unit 1)
 				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "C37")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -4827,10 +4747,6 @@
 					(reference "#PWR062")
 					(unit 1)
 				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "#PWR069")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -4907,10 +4823,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "#PWR0112")
-					(unit 1)
-				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -5083,10 +4995,6 @@
 					(reference "L7")
 					(unit 1)
 				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "L8")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -5165,10 +5073,6 @@
 					(reference "#PWR052")
 					(unit 1)
 				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "#PWR053")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -5245,10 +5149,6 @@
 			(project "planewatcher"
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46"
 					(reference "#PWR063")
-					(unit 1)
-				)
-				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/ddba7db9-116b-4903-8726-853149ab65d1"
-					(reference "#PWR070")
 					(unit 1)
 				)
 			)
