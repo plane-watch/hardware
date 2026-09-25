@@ -4379,9 +4379,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "R2")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -4541,9 +4538,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "R1")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -4867,9 +4861,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "FL1")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -5170,9 +5161,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "J3")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -5652,9 +5640,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "FL2")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -5900,9 +5885,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "J2")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -6226,9 +6208,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10"
 					(reference "J6")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -7667,7 +7646,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LNA_Stage.kicad_sch"
+		(property "Sheetfile" "LNA_Stage_2.kicad_sch"
 			(at 111.76 81.8646 0)
 			(show_name no)
 			(do_not_autoplace no)

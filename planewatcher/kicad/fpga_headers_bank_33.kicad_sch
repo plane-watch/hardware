@@ -1333,7 +1333,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1383,7 +1383,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -3230,9 +3230,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/4ac64956-5622-4878-a879-b2f4aa104ba3"
 					(reference "C1")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -3515,9 +3512,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/4ac64956-5622-4878-a879-b2f4aa104ba3"
 					(reference "J4")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -3809,9 +3803,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/4ac64956-5622-4878-a879-b2f4aa104ba3"
 					(reference "C12")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -3947,9 +3938,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/4ac64956-5622-4878-a879-b2f4aa104ba3"
 					(reference "C13")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -4085,9 +4073,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/4ac64956-5622-4878-a879-b2f4aa104ba3"
 					(reference "C14")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -4457,9 +4442,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/4ac64956-5622-4878-a879-b2f4aa104ba3"
 					(reference "C10")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -4595,9 +4577,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/4ac64956-5622-4878-a879-b2f4aa104ba3"
 					(reference "C11")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)

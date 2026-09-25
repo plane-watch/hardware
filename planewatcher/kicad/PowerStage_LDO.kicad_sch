@@ -2865,9 +2865,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba"
 					(reference "L5")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -3105,9 +3102,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba"
 					(reference "C21")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -3444,9 +3438,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba"
 					(reference "C27")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -3762,9 +3753,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba"
 					(reference "C3")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -3924,9 +3912,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba"
 					(reference "R22")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -4084,9 +4069,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba"
 					(reference "R18")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -4402,9 +4384,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba"
 					(reference "C2")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -4517,9 +4496,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba"
 					(reference "TP1")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -4799,9 +4775,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba"
 					(reference "U6")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -4961,9 +4934,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba"
 					(reference "C19")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -5134,9 +5104,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba"
 					(reference "C26")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -5296,9 +5263,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba"
 					(reference "C22")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -5456,9 +5420,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba"
 					(reference "R19")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)

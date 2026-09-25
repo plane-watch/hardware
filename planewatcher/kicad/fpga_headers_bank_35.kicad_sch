@@ -3056,9 +3056,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/07da4b58-f733-40b8-9fa1-841403cdb19a"
 					(reference "J5")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)

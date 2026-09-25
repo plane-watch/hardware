@@ -1017,9 +1017,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/51edb038-216c-41f2-9cc3-d6f88328fe89"
 					(reference "U5")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -1266,9 +1263,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/51edb038-216c-41f2-9cc3-d6f88328fe89"
 					(reference "C83")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -1406,9 +1400,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/51edb038-216c-41f2-9cc3-d6f88328fe89"
 					(reference "R6")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -1624,9 +1615,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/51edb038-216c-41f2-9cc3-d6f88328fe89"
 					(reference "R7")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)

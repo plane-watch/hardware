@@ -2288,7 +2288,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "06b02bf4-5b87-48a0-bbac-bbde49b74789")
-		(property "Reference" "Z17"
+		(property "Reference" "Z19"
 			(at 194.31 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2385,7 +2385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3860340f-9e1e-4ae2-afb5-c31babdf5d44")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR066"
 			(at 173.99 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -2467,7 +2467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39bf5ac9-4c3a-4f74-afcf-c1d76ed8256f")
-		(property "Reference" "C28"
+		(property "Reference" "C34"
 			(at 167.64 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2639,7 +2639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ad360d5-5f75-435b-a838-be24500b624a")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR072"
 			(at 132.08 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -2721,7 +2721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49c057a4-ed4b-4833-a68b-adb720de2ff8")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR071"
 			(at 153.67 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -2803,7 +2803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c1c431e-39bd-479e-b809-08a5a3f28f61")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0119"
 			(at 204.47 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -2885,7 +2885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60d56b03-e6d8-4bea-8b53-ea28f2349fb3")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR068"
 			(at 173.99 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2967,7 +2967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60e822d7-ece9-4dd1-bc02-628bfa154ff7")
-		(property "Reference" "C32"
+		(property "Reference" "C38"
 			(at 110.49 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3139,7 +3139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71c96559-056b-4a33-a29f-03c2c4440460")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0118"
 			(at 191.77 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -3221,7 +3221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b426216-7f10-4afa-a3fd-7f133d39bb81")
-		(property "Reference" "C33"
+		(property "Reference" "C39"
 			(at 167.64 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3393,7 +3393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d290147-0597-4f4a-9b58-de53ff6afecb")
-		(property "Reference" "Z12"
+		(property "Reference" "Z20"
 			(at 198.12 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3532,7 +3532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81525dbc-6960-464b-9b82-02900a26ea3d")
-		(property "Reference" "Z8"
+		(property "Reference" "R9"
 			(at 83.82 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3671,7 +3671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9312f183-ac73-4d2e-80c3-a98b22078428")
-		(property "Reference" "C29"
+		(property "Reference" "C35"
 			(at 167.64 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3826,13 +3826,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9edbfe7c-c1e3-43ce-82d9-521a4853e503")
-		(property "Reference" "Z13"
+		(property "Reference" "Z14"
 			(at 80.01 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3843,7 +3843,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "68nH"
+		(property "Value" "TBD"
 			(at 80.01 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3876,7 +3876,7 @@
 				)
 			)
 		)
-		(property "Description" "First shunt element in pi pad, populated after initial testing of proto 1.3"
+		(property "Description" "First shunt element in pi pad"
 			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3898,7 +3898,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3221883"
+		(property "LCSC" ""
 			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3909,7 +3909,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402DC-68NXJRW"
+		(property "MPN" ""
 			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3920,7 +3920,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Coilcraft"
+		(property "Manufacturer" ""
 			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3962,7 +3962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4519b88-be4b-4fb2-85d1-5e93c55130a0")
-		(property "Reference" "C30"
+		(property "Reference" "C36"
 			(at 167.64 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4123,7 +4123,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ca19c81f-d5a2-4a59-9d36-c134439be14d")
-		(property "Reference" "Z18"
+		(property "Reference" "Z21"
 			(at 207.01 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4220,7 +4220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbafbcc0-c444-4f39-9f49-bea54835fc61")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 139.065 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4413,7 +4413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbfdd4b3-f904-4ff5-b66e-549d7b08f56a")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR067"
 			(at 173.99 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4495,7 +4495,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cefc5bf2-cbbe-4d71-84cd-d92707629746")
-		(property "Reference" "Z15"
+		(property "Reference" "Z16"
 			(at 92.71 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4592,7 +4592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbd21805-fa60-4664-b965-628eae480fd8")
-		(property "Reference" "C31"
+		(property "Reference" "C37"
 			(at 167.64 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4764,7 +4764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e66feffe-e9dc-49a8-a281-553b305bf2d1")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR069"
 			(at 173.99 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4846,7 +4846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec3703e6-87bc-4a83-bebb-feb28b510119")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0113"
 			(at 90.17 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4928,7 +4928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efe35ba9-fd04-44fd-9ed8-29b176900d1a")
-		(property "Reference" "L7"
+		(property "Reference" "L8"
 			(at 154.94 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5102,7 +5102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fad0541d-52fa-4671-9f9e-2759f9731aa3")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 77.47 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5184,7 +5184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "feedbbc1-c5b2-4095-94cd-7d2dba06646f")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR070"
 			(at 124.46 132.08 0)
 			(hide yes)
 			(show_name no)

@@ -854,12 +854,7 @@
       }
     ],
     "used_designators": "C1,C10-14,C81-82,J4-5,#PWR16-19,#PWR57,#PWR83,#PWR94,#PWR115,#PWR120,#FLG4-5,#FLG7-8,U3,U12",
-    "variants": [
-      {
-        "description": "Populates Z13 with 68nH inductor after testing of prototype 1.3.",
-        "name": "revision_1.4"
-      }
-    ]
+    "variants": []
   },
   "sheets": [
     [

@@ -1884,9 +1884,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/5ac3603d-bbeb-44f4-b422-6252fe26d95e"
 					(reference "D2")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -1999,9 +1996,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/5ac3603d-bbeb-44f4-b422-6252fe26d95e"
 					(reference "TP20")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
@@ -2394,9 +2388,6 @@
 				(path "/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/5ac3603d-bbeb-44f4-b422-6252fe26d95e"
 					(reference "F1")
 					(unit 1)
-					(variant
-						(name "revision_1.4")
-					)
 				)
 			)
 		)
