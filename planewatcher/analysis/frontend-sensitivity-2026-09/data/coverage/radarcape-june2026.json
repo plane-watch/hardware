@@ -1,0 +1,1449 @@
+{
+ "source": "ADSB",
+ "start": "2026-06-01T11",
+ "end": "2026-06-30T11",
+ "hourly_files": 282,
+ "missing": 414,
+ "bins": [
+  {
+   "bearing_deg": 0,
+   "max_range_km": 280.8
+  },
+  {
+   "bearing_deg": 1,
+   "max_range_km": 278.6
+  },
+  {
+   "bearing_deg": 2,
+   "max_range_km": 270.7
+  },
+  {
+   "bearing_deg": 3,
+   "max_range_km": 300.9
+  },
+  {
+   "bearing_deg": 4,
+   "max_range_km": 306.6
+  },
+  {
+   "bearing_deg": 5,
+   "max_range_km": 275.8
+  },
+  {
+   "bearing_deg": 6,
+   "max_range_km": 307.0
+  },
+  {
+   "bearing_deg": 7,
+   "max_range_km": 311.4
+  },
+  {
+   "bearing_deg": 8,
+   "max_range_km": 239.3
+  },
+  {
+   "bearing_deg": 9,
+   "max_range_km": 301.0
+  },
+  {
+   "bearing_deg": 10,
+   "max_range_km": 250.6
+  },
+  {
+   "bearing_deg": 11,
+   "max_range_km": 358.7
+  },
+  {
+   "bearing_deg": 12,
+   "max_range_km": 358.7
+  },
+  {
+   "bearing_deg": 13,
+   "max_range_km": 358.2
+  },
+  {
+   "bearing_deg": 14,
+   "max_range_km": 357.7
+  },
+  {
+   "bearing_deg": 15,
+   "max_range_km": 357.6
+  },
+  {
+   "bearing_deg": 16,
+   "max_range_km": 357.4
+  },
+  {
+   "bearing_deg": 17,
+   "max_range_km": 357.4
+  },
+  {
+   "bearing_deg": 18,
+   "max_range_km": 329.3
+  },
+  {
+   "bearing_deg": 19,
+   "max_range_km": 364.6
+  },
+  {
+   "bearing_deg": 20,
+   "max_range_km": 332.9
+  },
+  {
+   "bearing_deg": 21,
+   "max_range_km": 256.4
+  },
+  {
+   "bearing_deg": 22,
+   "max_range_km": 258.3
+  },
+  {
+   "bearing_deg": 23,
+   "max_range_km": 245.6
+  },
+  {
+   "bearing_deg": 24,
+   "max_range_km": 226.1
+  },
+  {
+   "bearing_deg": 25,
+   "max_range_km": 265.1
+  },
+  {
+   "bearing_deg": 26,
+   "max_range_km": 215.9
+  },
+  {
+   "bearing_deg": 27,
+   "max_range_km": 228.6
+  },
+  {
+   "bearing_deg": 28,
+   "max_range_km": 283.4
+  },
+  {
+   "bearing_deg": 29,
+   "max_range_km": 265.2
+  },
+  {
+   "bearing_deg": 30,
+   "max_range_km": 257.0
+  },
+  {
+   "bearing_deg": 31,
+   "max_range_km": 298.8
+  },
+  {
+   "bearing_deg": 32,
+   "max_range_km": 323.3
+  },
+  {
+   "bearing_deg": 33,
+   "max_range_km": 316.0
+  },
+  {
+   "bearing_deg": 34,
+   "max_range_km": 344.4
+  },
+  {
+   "bearing_deg": 35,
+   "max_range_km": 308.1
+  },
+  {
+   "bearing_deg": 36,
+   "max_range_km": 316.8
+  },
+  {
+   "bearing_deg": 37,
+   "max_range_km": 315.9
+  },
+  {
+   "bearing_deg": 38,
+   "max_range_km": 277.4
+  },
+  {
+   "bearing_deg": 39,
+   "max_range_km": 262.7
+  },
+  {
+   "bearing_deg": 40,
+   "max_range_km": 262.0
+  },
+  {
+   "bearing_deg": 41,
+   "max_range_km": 240.9
+  },
+  {
+   "bearing_deg": 42,
+   "max_range_km": 237.8
+  },
+  {
+   "bearing_deg": 43,
+   "max_range_km": 219.1
+  },
+  {
+   "bearing_deg": 44,
+   "max_range_km": 219.4
+  },
+  {
+   "bearing_deg": 45,
+   "max_range_km": 236.2
+  },
+  {
+   "bearing_deg": 46,
+   "max_range_km": 247.7
+  },
+  {
+   "bearing_deg": 47,
+   "max_range_km": 253.8
+  },
+  {
+   "bearing_deg": 48,
+   "max_range_km": 258.3
+  },
+  {
+   "bearing_deg": 49,
+   "max_range_km": 256.8
+  },
+  {
+   "bearing_deg": 50,
+   "max_range_km": 272.9
+  },
+  {
+   "bearing_deg": 51,
+   "max_range_km": 250.9
+  },
+  {
+   "bearing_deg": 52,
+   "max_range_km": 238.3
+  },
+  {
+   "bearing_deg": 53,
+   "max_range_km": 208.9
+  },
+  {
+   "bearing_deg": 54,
+   "max_range_km": 221.0
+  },
+  {
+   "bearing_deg": 55,
+   "max_range_km": 220.7
+  },
+  {
+   "bearing_deg": 56,
+   "max_range_km": 212.3
+  },
+  {
+   "bearing_deg": 57,
+   "max_range_km": 215.3
+  },
+  {
+   "bearing_deg": 58,
+   "max_range_km": 164.2
+  },
+  {
+   "bearing_deg": 59,
+   "max_range_km": 163.9
+  },
+  {
+   "bearing_deg": 60,
+   "max_range_km": 163.8
+  },
+  {
+   "bearing_deg": 61,
+   "max_range_km": 189.8
+  },
+  {
+   "bearing_deg": 62,
+   "max_range_km": 133.2
+  },
+  {
+   "bearing_deg": 63,
+   "max_range_km": 144.3
+  },
+  {
+   "bearing_deg": 64,
+   "max_range_km": 157.3
+  },
+  {
+   "bearing_deg": 65,
+   "max_range_km": 180.5
+  },
+  {
+   "bearing_deg": 66,
+   "max_range_km": 138.0
+  },
+  {
+   "bearing_deg": 67,
+   "max_range_km": 120.7
+  },
+  {
+   "bearing_deg": 68,
+   "max_range_km": 105.5
+  },
+  {
+   "bearing_deg": 69,
+   "max_range_km": 124.6
+  },
+  {
+   "bearing_deg": 70,
+   "max_range_km": 126.2
+  },
+  {
+   "bearing_deg": 71,
+   "max_range_km": 102.1
+  },
+  {
+   "bearing_deg": 72,
+   "max_range_km": 125.5
+  },
+  {
+   "bearing_deg": 73,
+   "max_range_km": 143.8
+  },
+  {
+   "bearing_deg": 74,
+   "max_range_km": 189.7
+  },
+  {
+   "bearing_deg": 75,
+   "max_range_km": 188.5
+  },
+  {
+   "bearing_deg": 76,
+   "max_range_km": 163.6
+  },
+  {
+   "bearing_deg": 77,
+   "max_range_km": 117.6
+  },
+  {
+   "bearing_deg": 78,
+   "max_range_km": 106.6
+  },
+  {
+   "bearing_deg": 79,
+   "max_range_km": 162.2
+  },
+  {
+   "bearing_deg": 80,
+   "max_range_km": 109.7
+  },
+  {
+   "bearing_deg": 81,
+   "max_range_km": 107.1
+  },
+  {
+   "bearing_deg": 82,
+   "max_range_km": 136.9
+  },
+  {
+   "bearing_deg": 83,
+   "max_range_km": 144.1
+  },
+  {
+   "bearing_deg": 84,
+   "max_range_km": 147.4
+  },
+  {
+   "bearing_deg": 85,
+   "max_range_km": 158.2
+  },
+  {
+   "bearing_deg": 86,
+   "max_range_km": 160.3
+  },
+  {
+   "bearing_deg": 87,
+   "max_range_km": 174.4
+  },
+  {
+   "bearing_deg": 88,
+   "max_range_km": 186.2
+  },
+  {
+   "bearing_deg": 89,
+   "max_range_km": 188.9
+  },
+  {
+   "bearing_deg": 90,
+   "max_range_km": 202.3
+  },
+  {
+   "bearing_deg": 91,
+   "max_range_km": 178.7
+  },
+  {
+   "bearing_deg": 92,
+   "max_range_km": 183.0
+  },
+  {
+   "bearing_deg": 93,
+   "max_range_km": 141.0
+  },
+  {
+   "bearing_deg": 94,
+   "max_range_km": 161.7
+  },
+  {
+   "bearing_deg": 95,
+   "max_range_km": 170.9
+  },
+  {
+   "bearing_deg": 96,
+   "max_range_km": 176.6
+  },
+  {
+   "bearing_deg": 97,
+   "max_range_km": 156.7
+  },
+  {
+   "bearing_deg": 98,
+   "max_range_km": 211.7
+  },
+  {
+   "bearing_deg": 99,
+   "max_range_km": 206.9
+  },
+  {
+   "bearing_deg": 100,
+   "max_range_km": 192.8
+  },
+  {
+   "bearing_deg": 101,
+   "max_range_km": 202.3
+  },
+  {
+   "bearing_deg": 102,
+   "max_range_km": 141.4
+  },
+  {
+   "bearing_deg": 103,
+   "max_range_km": 177.7
+  },
+  {
+   "bearing_deg": 104,
+   "max_range_km": 177.5
+  },
+  {
+   "bearing_deg": 105,
+   "max_range_km": 147.0
+  },
+  {
+   "bearing_deg": 106,
+   "max_range_km": 181.8
+  },
+  {
+   "bearing_deg": 107,
+   "max_range_km": 182.4
+  },
+  {
+   "bearing_deg": 108,
+   "max_range_km": 168.9
+  },
+  {
+   "bearing_deg": 109,
+   "max_range_km": 137.9
+  },
+  {
+   "bearing_deg": 110,
+   "max_range_km": 113.1
+  },
+  {
+   "bearing_deg": 111,
+   "max_range_km": 127.5
+  },
+  {
+   "bearing_deg": 112,
+   "max_range_km": 166.7
+  },
+  {
+   "bearing_deg": 113,
+   "max_range_km": 201.0
+  },
+  {
+   "bearing_deg": 114,
+   "max_range_km": 121.7
+  },
+  {
+   "bearing_deg": 115,
+   "max_range_km": 182.7
+  },
+  {
+   "bearing_deg": 116,
+   "max_range_km": 223.3
+  },
+  {
+   "bearing_deg": 117,
+   "max_range_km": 224.2
+  },
+  {
+   "bearing_deg": 118,
+   "max_range_km": 186.5
+  },
+  {
+   "bearing_deg": 119,
+   "max_range_km": 164.1
+  },
+  {
+   "bearing_deg": 120,
+   "max_range_km": 174.0
+  },
+  {
+   "bearing_deg": 121,
+   "max_range_km": 186.8
+  },
+  {
+   "bearing_deg": 122,
+   "max_range_km": 171.2
+  },
+  {
+   "bearing_deg": 123,
+   "max_range_km": 209.8
+  },
+  {
+   "bearing_deg": 124,
+   "max_range_km": 212.1
+  },
+  {
+   "bearing_deg": 125,
+   "max_range_km": 209.7
+  },
+  {
+   "bearing_deg": 126,
+   "max_range_km": 172.2
+  },
+  {
+   "bearing_deg": 127,
+   "max_range_km": 154.7
+  },
+  {
+   "bearing_deg": 128,
+   "max_range_km": 135.8
+  },
+  {
+   "bearing_deg": 129,
+   "max_range_km": 124.6
+  },
+  {
+   "bearing_deg": 130,
+   "max_range_km": 115.4
+  },
+  {
+   "bearing_deg": 131,
+   "max_range_km": 107.9
+  },
+  {
+   "bearing_deg": 132,
+   "max_range_km": 96.5
+  },
+  {
+   "bearing_deg": 133,
+   "max_range_km": 94.3
+  },
+  {
+   "bearing_deg": 134,
+   "max_range_km": 95.4
+  },
+  {
+   "bearing_deg": 135,
+   "max_range_km": 95.6
+  },
+  {
+   "bearing_deg": 136,
+   "max_range_km": 99.0
+  },
+  {
+   "bearing_deg": 137,
+   "max_range_km": 86.4
+  },
+  {
+   "bearing_deg": 138,
+   "max_range_km": 88.5
+  },
+  {
+   "bearing_deg": 139,
+   "max_range_km": 105.5
+  },
+  {
+   "bearing_deg": 140,
+   "max_range_km": 107.5
+  },
+  {
+   "bearing_deg": 141,
+   "max_range_km": 109.1
+  },
+  {
+   "bearing_deg": 142,
+   "max_range_km": 99.8
+  },
+  {
+   "bearing_deg": 143,
+   "max_range_km": 113.5
+  },
+  {
+   "bearing_deg": 144,
+   "max_range_km": 117.7
+  },
+  {
+   "bearing_deg": 145,
+   "max_range_km": 106.9
+  },
+  {
+   "bearing_deg": 146,
+   "max_range_km": 124.4
+  },
+  {
+   "bearing_deg": 147,
+   "max_range_km": 96.9
+  },
+  {
+   "bearing_deg": 148,
+   "max_range_km": 134.3
+  },
+  {
+   "bearing_deg": 149,
+   "max_range_km": 130.5
+  },
+  {
+   "bearing_deg": 150,
+   "max_range_km": 137.8
+  },
+  {
+   "bearing_deg": 151,
+   "max_range_km": 164.5
+  },
+  {
+   "bearing_deg": 152,
+   "max_range_km": 165.0
+  },
+  {
+   "bearing_deg": 153,
+   "max_range_km": 169.8
+  },
+  {
+   "bearing_deg": 154,
+   "max_range_km": 161.1
+  },
+  {
+   "bearing_deg": 155,
+   "max_range_km": 157.8
+  },
+  {
+   "bearing_deg": 156,
+   "max_range_km": 154.1
+  },
+  {
+   "bearing_deg": 157,
+   "max_range_km": 152.2
+  },
+  {
+   "bearing_deg": 158,
+   "max_range_km": 135.9
+  },
+  {
+   "bearing_deg": 159,
+   "max_range_km": 142.0
+  },
+  {
+   "bearing_deg": 160,
+   "max_range_km": 131.9
+  },
+  {
+   "bearing_deg": 161,
+   "max_range_km": 138.0
+  },
+  {
+   "bearing_deg": 162,
+   "max_range_km": 127.5
+  },
+  {
+   "bearing_deg": 163,
+   "max_range_km": 134.6
+  },
+  {
+   "bearing_deg": 164,
+   "max_range_km": 133.1
+  },
+  {
+   "bearing_deg": 165,
+   "max_range_km": 130.5
+  },
+  {
+   "bearing_deg": 166,
+   "max_range_km": 130.2
+  },
+  {
+   "bearing_deg": 167,
+   "max_range_km": 128.8
+  },
+  {
+   "bearing_deg": 168,
+   "max_range_km": 111.1
+  },
+  {
+   "bearing_deg": 169,
+   "max_range_km": 117.4
+  },
+  {
+   "bearing_deg": 170,
+   "max_range_km": 116.2
+  },
+  {
+   "bearing_deg": 171,
+   "max_range_km": 115.9
+  },
+  {
+   "bearing_deg": 172,
+   "max_range_km": 133.3
+  },
+  {
+   "bearing_deg": 173,
+   "max_range_km": 133.2
+  },
+  {
+   "bearing_deg": 174,
+   "max_range_km": 136.8
+  },
+  {
+   "bearing_deg": 175,
+   "max_range_km": 136.8
+  },
+  {
+   "bearing_deg": 176,
+   "max_range_km": 118.7
+  },
+  {
+   "bearing_deg": 177,
+   "max_range_km": 118.0
+  },
+  {
+   "bearing_deg": 178,
+   "max_range_km": 117.1
+  },
+  {
+   "bearing_deg": 179,
+   "max_range_km": 116.3
+  },
+  {
+   "bearing_deg": 180,
+   "max_range_km": 119.4
+  },
+  {
+   "bearing_deg": 181,
+   "max_range_km": 121.0
+  },
+  {
+   "bearing_deg": 182,
+   "max_range_km": 122.1
+  },
+  {
+   "bearing_deg": 183,
+   "max_range_km": 136.2
+  },
+  {
+   "bearing_deg": 184,
+   "max_range_km": 166.0
+  },
+  {
+   "bearing_deg": 185,
+   "max_range_km": 165.3
+  },
+  {
+   "bearing_deg": 186,
+   "max_range_km": 136.6
+  },
+  {
+   "bearing_deg": 187,
+   "max_range_km": 136.7
+  },
+  {
+   "bearing_deg": 188,
+   "max_range_km": 160.4
+  },
+  {
+   "bearing_deg": 189,
+   "max_range_km": 116.0
+  },
+  {
+   "bearing_deg": 190,
+   "max_range_km": 127.7
+  },
+  {
+   "bearing_deg": 191,
+   "max_range_km": 121.3
+  },
+  {
+   "bearing_deg": 192,
+   "max_range_km": 115.0
+  },
+  {
+   "bearing_deg": 193,
+   "max_range_km": 116.6
+  },
+  {
+   "bearing_deg": 194,
+   "max_range_km": 128.2
+  },
+  {
+   "bearing_deg": 195,
+   "max_range_km": 108.6
+  },
+  {
+   "bearing_deg": 196,
+   "max_range_km": 111.5
+  },
+  {
+   "bearing_deg": 197,
+   "max_range_km": 115.2
+  },
+  {
+   "bearing_deg": 198,
+   "max_range_km": 108.2
+  },
+  {
+   "bearing_deg": 199,
+   "max_range_km": 102.0
+  },
+  {
+   "bearing_deg": 200,
+   "max_range_km": 108.1
+  },
+  {
+   "bearing_deg": 201,
+   "max_range_km": 108.5
+  },
+  {
+   "bearing_deg": 202,
+   "max_range_km": 110.5
+  },
+  {
+   "bearing_deg": 203,
+   "max_range_km": 113.6
+  },
+  {
+   "bearing_deg": 204,
+   "max_range_km": 137.1
+  },
+  {
+   "bearing_deg": 205,
+   "max_range_km": 129.8
+  },
+  {
+   "bearing_deg": 206,
+   "max_range_km": 150.0
+  },
+  {
+   "bearing_deg": 207,
+   "max_range_km": 147.5
+  },
+  {
+   "bearing_deg": 208,
+   "max_range_km": 147.2
+  },
+  {
+   "bearing_deg": 209,
+   "max_range_km": 147.0
+  },
+  {
+   "bearing_deg": 210,
+   "max_range_km": 119.7
+  },
+  {
+   "bearing_deg": 211,
+   "max_range_km": 120.1
+  },
+  {
+   "bearing_deg": 212,
+   "max_range_km": 146.8
+  },
+  {
+   "bearing_deg": 213,
+   "max_range_km": 121.0
+  },
+  {
+   "bearing_deg": 214,
+   "max_range_km": 121.5
+  },
+  {
+   "bearing_deg": 215,
+   "max_range_km": 122.1
+  },
+  {
+   "bearing_deg": 216,
+   "max_range_km": 147.0
+  },
+  {
+   "bearing_deg": 217,
+   "max_range_km": 147.0
+  },
+  {
+   "bearing_deg": 218,
+   "max_range_km": 147.0
+  },
+  {
+   "bearing_deg": 219,
+   "max_range_km": 146.9
+  },
+  {
+   "bearing_deg": 220,
+   "max_range_km": 146.8
+  },
+  {
+   "bearing_deg": 221,
+   "max_range_km": 332.7
+  },
+  {
+   "bearing_deg": 222,
+   "max_range_km": 242.1
+  },
+  {
+   "bearing_deg": 223,
+   "max_range_km": 243.0
+  },
+  {
+   "bearing_deg": 224,
+   "max_range_km": 243.9
+  },
+  {
+   "bearing_deg": 225,
+   "max_range_km": 244.3
+  },
+  {
+   "bearing_deg": 226,
+   "max_range_km": 147.6
+  },
+  {
+   "bearing_deg": 227,
+   "max_range_km": 147.8
+  },
+  {
+   "bearing_deg": 228,
+   "max_range_km": 148.1
+  },
+  {
+   "bearing_deg": 229,
+   "max_range_km": 148.5
+  },
+  {
+   "bearing_deg": 230,
+   "max_range_km": 149.0
+  },
+  {
+   "bearing_deg": 231,
+   "max_range_km": 149.5
+  },
+  {
+   "bearing_deg": 232,
+   "max_range_km": 149.8
+  },
+  {
+   "bearing_deg": 233,
+   "max_range_km": 150.5
+  },
+  {
+   "bearing_deg": 234,
+   "max_range_km": 151.1
+  },
+  {
+   "bearing_deg": 235,
+   "max_range_km": 151.8
+  },
+  {
+   "bearing_deg": 236,
+   "max_range_km": 152.5
+  },
+  {
+   "bearing_deg": 237,
+   "max_range_km": 153.2
+  },
+  {
+   "bearing_deg": 238,
+   "max_range_km": 154.2
+  },
+  {
+   "bearing_deg": 239,
+   "max_range_km": 155.0
+  },
+  {
+   "bearing_deg": 240,
+   "max_range_km": 156.0
+  },
+  {
+   "bearing_deg": 241,
+   "max_range_km": 157.0
+  },
+  {
+   "bearing_deg": 242,
+   "max_range_km": 158.9
+  },
+  {
+   "bearing_deg": 243,
+   "max_range_km": 161.5
+  },
+  {
+   "bearing_deg": 244,
+   "max_range_km": 164.3
+  },
+  {
+   "bearing_deg": 245,
+   "max_range_km": 167.1
+  },
+  {
+   "bearing_deg": 246,
+   "max_range_km": 170.0
+  },
+  {
+   "bearing_deg": 247,
+   "max_range_km": 171.1
+  },
+  {
+   "bearing_deg": 248,
+   "max_range_km": 174.0
+  },
+  {
+   "bearing_deg": 249,
+   "max_range_km": 165.5
+  },
+  {
+   "bearing_deg": 250,
+   "max_range_km": 168.2
+  },
+  {
+   "bearing_deg": 251,
+   "max_range_km": 188.0
+  },
+  {
+   "bearing_deg": 252,
+   "max_range_km": 189.5
+  },
+  {
+   "bearing_deg": 253,
+   "max_range_km": 194.6
+  },
+  {
+   "bearing_deg": 254,
+   "max_range_km": 198.0
+  },
+  {
+   "bearing_deg": 255,
+   "max_range_km": 203.2
+  },
+  {
+   "bearing_deg": 256,
+   "max_range_km": 194.0
+  },
+  {
+   "bearing_deg": 257,
+   "max_range_km": 197.9
+  },
+  {
+   "bearing_deg": 258,
+   "max_range_km": 82.9
+  },
+  {
+   "bearing_deg": 259,
+   "max_range_km": 211.0
+  },
+  {
+   "bearing_deg": 260,
+   "max_range_km": 212.5
+  },
+  {
+   "bearing_deg": 261,
+   "max_range_km": 98.9
+  },
+  {
+   "bearing_deg": 262,
+   "max_range_km": 115.3
+  },
+  {
+   "bearing_deg": 263,
+   "max_range_km": 138.4
+  },
+  {
+   "bearing_deg": 264,
+   "max_range_km": 172.9
+  },
+  {
+   "bearing_deg": 265,
+   "max_range_km": 218.8
+  },
+  {
+   "bearing_deg": 266,
+   "max_range_km": 205.4
+  },
+  {
+   "bearing_deg": 267,
+   "max_range_km": 73.0
+  },
+  {
+   "bearing_deg": 268,
+   "max_range_km": 64.9
+  },
+  {
+   "bearing_deg": 269,
+   "max_range_km": 197.7
+  },
+  {
+   "bearing_deg": 270,
+   "max_range_km": 168.3
+  },
+  {
+   "bearing_deg": 271,
+   "max_range_km": 164.1
+  },
+  {
+   "bearing_deg": 272,
+   "max_range_km": 146.2
+  },
+  {
+   "bearing_deg": 273,
+   "max_range_km": 180.4
+  },
+  {
+   "bearing_deg": 274,
+   "max_range_km": 180.1
+  },
+  {
+   "bearing_deg": 275,
+   "max_range_km": 185.8
+  },
+  {
+   "bearing_deg": 276,
+   "max_range_km": 195.3
+  },
+  {
+   "bearing_deg": 277,
+   "max_range_km": 181.3
+  },
+  {
+   "bearing_deg": 278,
+   "max_range_km": 171.2
+  },
+  {
+   "bearing_deg": 279,
+   "max_range_km": 173.0
+  },
+  {
+   "bearing_deg": 280,
+   "max_range_km": 209.9
+  },
+  {
+   "bearing_deg": 281,
+   "max_range_km": 141.0
+  },
+  {
+   "bearing_deg": 282,
+   "max_range_km": 133.4
+  },
+  {
+   "bearing_deg": 283,
+   "max_range_km": 122.9
+  },
+  {
+   "bearing_deg": 284,
+   "max_range_km": 126.5
+  },
+  {
+   "bearing_deg": 285,
+   "max_range_km": 138.8
+  },
+  {
+   "bearing_deg": 286,
+   "max_range_km": 154.0
+  },
+  {
+   "bearing_deg": 287,
+   "max_range_km": 173.5
+  },
+  {
+   "bearing_deg": 288,
+   "max_range_km": 174.0
+  },
+  {
+   "bearing_deg": 289,
+   "max_range_km": 143.6
+  },
+  {
+   "bearing_deg": 290,
+   "max_range_km": 158.2
+  },
+  {
+   "bearing_deg": 291,
+   "max_range_km": 114.7
+  },
+  {
+   "bearing_deg": 292,
+   "max_range_km": 127.7
+  },
+  {
+   "bearing_deg": 293,
+   "max_range_km": 130.9
+  },
+  {
+   "bearing_deg": 294,
+   "max_range_km": 115.4
+  },
+  {
+   "bearing_deg": 295,
+   "max_range_km": 134.8
+  },
+  {
+   "bearing_deg": 296,
+   "max_range_km": 161.5
+  },
+  {
+   "bearing_deg": 297,
+   "max_range_km": 177.8
+  },
+  {
+   "bearing_deg": 298,
+   "max_range_km": 134.6
+  },
+  {
+   "bearing_deg": 299,
+   "max_range_km": 95.8
+  },
+  {
+   "bearing_deg": 300,
+   "max_range_km": 98.1
+  },
+  {
+   "bearing_deg": 301,
+   "max_range_km": 98.3
+  },
+  {
+   "bearing_deg": 302,
+   "max_range_km": 187.5
+  },
+  {
+   "bearing_deg": 303,
+   "max_range_km": 194.8
+  },
+  {
+   "bearing_deg": 304,
+   "max_range_km": 169.2
+  },
+  {
+   "bearing_deg": 305,
+   "max_range_km": 120.8
+  },
+  {
+   "bearing_deg": 306,
+   "max_range_km": 137.2
+  },
+  {
+   "bearing_deg": 307,
+   "max_range_km": 122.8
+  },
+  {
+   "bearing_deg": 308,
+   "max_range_km": 157.7
+  },
+  {
+   "bearing_deg": 309,
+   "max_range_km": 141.9
+  },
+  {
+   "bearing_deg": 310,
+   "max_range_km": 107.8
+  },
+  {
+   "bearing_deg": 311,
+   "max_range_km": 106.4
+  },
+  {
+   "bearing_deg": 312,
+   "max_range_km": 115.3
+  },
+  {
+   "bearing_deg": 313,
+   "max_range_km": 124.2
+  },
+  {
+   "bearing_deg": 314,
+   "max_range_km": 203.7
+  },
+  {
+   "bearing_deg": 315,
+   "max_range_km": 197.1
+  },
+  {
+   "bearing_deg": 316,
+   "max_range_km": 190.9
+  },
+  {
+   "bearing_deg": 317,
+   "max_range_km": 184.4
+  },
+  {
+   "bearing_deg": 318,
+   "max_range_km": 175.0
+  },
+  {
+   "bearing_deg": 319,
+   "max_range_km": 167.1
+  },
+  {
+   "bearing_deg": 320,
+   "max_range_km": 128.9
+  },
+  {
+   "bearing_deg": 321,
+   "max_range_km": 131.6
+  },
+  {
+   "bearing_deg": 322,
+   "max_range_km": 136.6
+  },
+  {
+   "bearing_deg": 323,
+   "max_range_km": 142.4
+  },
+  {
+   "bearing_deg": 324,
+   "max_range_km": 148.8
+  },
+  {
+   "bearing_deg": 325,
+   "max_range_km": 171.2
+  },
+  {
+   "bearing_deg": 326,
+   "max_range_km": 259.3
+  },
+  {
+   "bearing_deg": 327,
+   "max_range_km": 228.0
+  },
+  {
+   "bearing_deg": 328,
+   "max_range_km": 237.7
+  },
+  {
+   "bearing_deg": 329,
+   "max_range_km": 197.6
+  },
+  {
+   "bearing_deg": 330,
+   "max_range_km": 270.1
+  },
+  {
+   "bearing_deg": 331,
+   "max_range_km": 274.4
+  },
+  {
+   "bearing_deg": 332,
+   "max_range_km": 255.6
+  },
+  {
+   "bearing_deg": 333,
+   "max_range_km": 216.2
+  },
+  {
+   "bearing_deg": 334,
+   "max_range_km": 242.8
+  },
+  {
+   "bearing_deg": 335,
+   "max_range_km": 245.5
+  },
+  {
+   "bearing_deg": 336,
+   "max_range_km": 283.8
+  },
+  {
+   "bearing_deg": 337,
+   "max_range_km": 233.2
+  },
+  {
+   "bearing_deg": 338,
+   "max_range_km": 208.5
+  },
+  {
+   "bearing_deg": 339,
+   "max_range_km": 257.9
+  },
+  {
+   "bearing_deg": 340,
+   "max_range_km": 255.2
+  },
+  {
+   "bearing_deg": 341,
+   "max_range_km": 221.1
+  },
+  {
+   "bearing_deg": 342,
+   "max_range_km": 215.1
+  },
+  {
+   "bearing_deg": 343,
+   "max_range_km": 193.8
+  },
+  {
+   "bearing_deg": 344,
+   "max_range_km": 237.1
+  },
+  {
+   "bearing_deg": 345,
+   "max_range_km": 163.3
+  },
+  {
+   "bearing_deg": 346,
+   "max_range_km": 170.2
+  },
+  {
+   "bearing_deg": 347,
+   "max_range_km": 183.3
+  },
+  {
+   "bearing_deg": 348,
+   "max_range_km": 179.1
+  },
+  {
+   "bearing_deg": 349,
+   "max_range_km": 181.3
+  },
+  {
+   "bearing_deg": 350,
+   "max_range_km": 189.8
+  },
+  {
+   "bearing_deg": 351,
+   "max_range_km": 196.6
+  },
+  {
+   "bearing_deg": 352,
+   "max_range_km": 208.3
+  },
+  {
+   "bearing_deg": 353,
+   "max_range_km": 223.8
+  },
+  {
+   "bearing_deg": 354,
+   "max_range_km": 239.8
+  },
+  {
+   "bearing_deg": 355,
+   "max_range_km": 255.9
+  },
+  {
+   "bearing_deg": 356,
+   "max_range_km": 276.5
+  },
+  {
+   "bearing_deg": 357,
+   "max_range_km": 284.0
+  },
+  {
+   "bearing_deg": 358,
+   "max_range_km": 275.2
+  },
+  {
+   "bearing_deg": 359,
+   "max_range_km": 237.3
+  }
+ ]
+}
