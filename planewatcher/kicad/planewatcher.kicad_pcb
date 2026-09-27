@@ -52005,8 +52005,8 @@
 			)
 		)
 	)
-	(gr_text "revision: 1.4"
-		(at 110.23 89.7 90)
+	(gr_text "board rev: ${REVISION}"
+		(at 110.312125 90.37 90)
 		(layer "F.SilkS")
 		(uuid "6c87b36e-f0fd-49e2-8265-c48f2ad5d241")
 		(effects
