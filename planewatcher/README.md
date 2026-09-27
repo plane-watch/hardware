@@ -1,6 +1,6 @@
 # plane watcher
 
-![Render of Plane Watcher PCB, prototype revision 1.3](assets/planewatcher_proto_1.3_render.png)
+![Render of Plane Watcher PCB, prototype revision 1.4](assets/planewatcher_proto_1.4_render.png)
 
 The **plane watcher** is our attempt at creating an open source, hardware-based ADS-B receiver and decoder. It is a hat/cape/shield for a [HelloFPGA Smart ZYNQ SL](http://www.hellofpga.com/index.php/2023/05/10/smart-zynq-sl/) board.
 
@@ -12,9 +12,9 @@ This repository contains the hardware design. The FPGA gateware and software liv
 
 ## Status
 
-Proto 1.2 is the latest fabricated and tested revision. Proto 1.3 is still being refined and has not yet been fabricated or validated.
+Prototype board revision 1.3 is the latest fabricated and tested revision. Production board revision 1.4 is still being refined and has not yet been fabricated or validated.
 
-### Proto 1.2
+### Prototype Board Revision 1.2
 
 The first fabricated prototype worked, but had a few issues:
 
@@ -30,7 +30,7 @@ Regardless of the issues, we observed a reception range of approximately 320 km.
 
 ![Polar range diagram from proto 1.2](assets/planewatcher_proto_1.2_polar_coverage_alt.png)
 
-### Proto 1.3
+### Prototype Board Revision 1.3
 
 In addition to fixing the issues above, proto 1.3 includes some functionality and layout changes:
 
@@ -38,10 +38,11 @@ In addition to fixing the issues above, proto 1.3 includes some functionality an
   - ADL5513 log-detector slope adjustment voltage divider.
   - AD8138 ADC driver feedback capacitors.
   - Five 0402 pi-pad matching networks along the RF path: one on each side of both LNA stages, and one at the ADL5513 RF input. These are fitted as straight-through links by default, with a 0 Ω series resistor and both shunt positions left unpopulated. After measuring the assembled board with a VNA, the footprints can be populated with suitable resistor, capacitor or inductor values to refine the 1,090 MHz matching and compensate for real-world PCB and component parasitics.
+    - The first footprint was populated with additional shunt inductance to greatly improve RF performance.
   - Other tweaking footprints along the ADC signal path.
 - The ADL5513 log-detector output is buffered by a high-speed ADA4807-1 op-amp for more robust operation with weak signals, and to decouple it from the AD8138 input network.
 - The buffered log-detector output is also fed into a first-order low-pass filter at approximately 0.072 Hz to produce a slow-moving analog baseline. This heavily attenuates short ADS-B pulse bursts, but sustained RF traffic can still affect the baseline. The baseline is buffered by an OPA320 and applied to the AD8138 ADC driver input network, offsetting the detector output before digitisation and improving the usable ADC range for weak pulses.
-- RF_IN and GPS antenna connectors have been swapped from SMA to U.FL.
+- RF_IN and GPS antenna connectors have been swapped from SMA to U.FL allowing them to be fitted by the manufacturer, making hand assembly easier.
 - A software-controlled bias tee has been added. This can supply around 4.5 V to the RF_IN connector, current-limited to approximately 300 mA. LEDs have been added to show whether bias tee is enabled/disabled, and to show if overcurrent disable has been activated.
 - A GNSS-disciplined 1PPS timing output has been added. This is a buffered copy of the LEA-M8T TIMEPULSE signal, provided on a 50 Ω source-terminated U.FL connector. The centre pin carries an active-high pulse and the shell is connected to ground. The output is approximately 0 to 4.5 V into a high-impedance load, or approximately 0 to 2.2 V into a 50 Ω terminated load. The rising edge should be treated as the timing reference.
 - Some discrete resistors have been replaced with resistor arrays to reduce the BoM and make hand assembly easier.
@@ -51,9 +52,17 @@ In addition to fixing the issues above, proto 1.3 includes some functionality an
 - Additional high-frequency bypassing has been added to keep the bias-tee supply side at RF ground.
 - Re-routed ADC input differential pair to remove vias/crossovers & remove skew. The ADC output will need to be negated in software.
 
+Compared to proto 1.2 (blue), the range for proto 1.3 (red) has improved by approximately 70km:
+
+![Polar range diagram comparing prototype boards 1.2 and 1.3](assets/coverage_compare_1.2_vs_1.3.png)
+
+Proto 1.3 (red) performance is roughly on-par with a commercial [Jetvision Radarcape](https://radarcape.com) unit (blue):
+
+![Polar range diagram comparing prototype board 1.3 and a Jetvision Radarcape](assets/coverage_compare_1.3_vs_radarcape.png)
+
 ## Hardware overview
 
-The proto 1.3 design has the following main components and interfaces:
+The design has the following main components and interfaces:
 
 | Function | Implementation |
 | --- | --- |
