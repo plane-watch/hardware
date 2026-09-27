@@ -2567,7 +2567,7 @@
 	(text_box "VREF decoupling"
 		(exclude_from_sim no)
 		(at 213.36 78.74 0)
-		(size 60.96 30.48)
+		(size 60.96 20.32)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2587,7 +2587,7 @@
 	(text_box "Top and Bottom Reference Decoupling (as-per datasheet)"
 		(exclude_from_sim no)
 		(at 213.36 44.45 0)
-		(size 69.85 31.75)
+		(size 60.96 31.75)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

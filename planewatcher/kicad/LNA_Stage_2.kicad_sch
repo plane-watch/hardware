@@ -1710,10 +1710,10 @@
 		)
 		(uuid "ee6138fa-d9b8-41ef-9367-0a222f078c88")
 	)
-	(text_box "Pi pad for RF matching"
+	(text_box "Pi pad for RF matching\n\nDNP pads & 0ΩR allow for future population of L/C/R components to improve impedance (Z) matching."
 		(exclude_from_sim no)
 		(at 69.85 95.25 0)
-		(size 27.94 30.48)
+		(size 27.94 41.91)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1730,10 +1730,30 @@
 		)
 		(uuid "00eba49a-ad42-4613-8530-4f8a560aff85")
 	)
-	(text_box "Pi pad for RF matching"
+	(text_box "RF block,\nDC pass"
+		(exclude_from_sim no)
+		(at 142.24 87.63 0)
+		(size 19.05 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "152cfe6b-0a56-433f-8d2a-978523cf14d2")
+	)
+	(text_box "Pi pad for RF matching\n\nDNP pads & 0ΩR allow for future population of L/C/R components to improve impedance (Z) matching."
 		(exclude_from_sim no)
 		(at 184.15 95.25 0)
-		(size 27.94 30.48)
+		(size 27.94 41.91)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1750,9 +1770,69 @@
 		)
 		(uuid "32718940-624d-4c32-855d-bfd3a8e5e062")
 	)
+	(text_box "DC block,\nRF pass"
+		(exclude_from_sim no)
+		(at 105.41 95.25 0)
+		(size 11.43 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "a5cfbb3c-a3d0-4065-8068-f6d9c3b18507")
+	)
+	(text_box "DC block,\nRF pass"
+		(exclude_from_sim no)
+		(at 162.56 95.25 0)
+		(size 11.43 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "a8c3c361-9d9b-474f-ab5c-907fa107a165")
+	)
+	(text_box "Shutdown tied to \nGND for always-on."
+		(exclude_from_sim no)
+		(at 153.67 120.65 0)
+		(size 26.67 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b83ca4b0-dde9-4c6e-8be7-356c197cc133")
+	)
 	(text_box "RF_IN and RF_OUT are 50Ω controlled-impedance RF traces.\nKeep short. No stubs. Reference solid GND plane."
 		(exclude_from_sim no)
-		(at 104.14 76.2 0)
+		(at 57.15 80.01 0)
 		(size 34.29 11.43)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1769,6 +1849,26 @@
 			(justify left)
 		)
 		(uuid "bf584145-497c-4f13-8c45-c0cfc3a7f030")
+	)
+	(text_box "Supply decoupling\n& bypassing."
+		(exclude_from_sim no)
+		(at 162.56 35.56 0)
+		(size 33.02 55.88)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5042f52-a6b2-4f5a-b78e-36c2fbe1ed91")
 	)
 	(junction
 		(at 139.7 133.35)
@@ -2047,6 +2147,16 @@
 			(type default)
 		)
 		(uuid "7c950558-5102-4df9-af93-4e31423c352a")
+	)
+	(wire
+		(pts
+			(xy 157.48 125.73) (xy 153.67 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb28b23-9fa7-4888-8704-acd76f7751ca")
 	)
 	(wire
 		(pts
@@ -2695,7 +2805,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 125.73 0)
+		(at 157.48 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2706,7 +2816,7 @@
 		(fields_autoplaced yes)
 		(uuid "49c057a4-ed4b-4833-a68b-adb720de2ff8")
 		(property "Reference" "#PWR071"
-			(at 153.67 132.08 0)
+			(at 157.48 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2717,7 +2827,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 130.81 0)
+			(at 157.48 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2727,7 +2837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 125.73 0)
+			(at 157.48 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2738,7 +2848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 125.73 0)
+			(at 157.48 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2749,7 +2859,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 125.73 0)
+			(at 157.48 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

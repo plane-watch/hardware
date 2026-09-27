@@ -1682,10 +1682,10 @@
 		)
 		(uuid "8e9f9f3a-5221-4a96-8f65-9dab18a33633")
 	)
-	(text_box "The 10 nF capacitors provide distributed, low-impedance high-frequency return paths from the board ground to spare FPGA pins driven low, reducing return-loop area and associated noise."
+	(text_box "On the first prototype (1.2), we had some issues with noise triggering low bits on the ADC output. These caps were added in an effort to try and squash that noise.\n\n\"The 10 nF capacitors provide distributed, low-impedance high-frequency return paths from the board ground to spare FPGA pins driven low, reducing return-loop area and associated noise.\""
 		(exclude_from_sim no)
 		(at 92.71 81.28 0)
-		(size 50.8 87.63)
+		(size 50.8 99.06)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

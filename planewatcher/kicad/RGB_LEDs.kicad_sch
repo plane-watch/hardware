@@ -1205,6 +1205,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "RELAXEN UND WATSCHEN DER BLINKENLIGHTS :-)"
+		(exclude_from_sim no)
+		(at 52.07 144.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1d6ce3f9-20ce-414d-af80-ad3ccc9df675")
+	)
 	(junction
 		(at 33.02 80.01)
 		(diameter 0)
