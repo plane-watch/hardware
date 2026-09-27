@@ -1710,7 +1710,7 @@
 		)
 		(uuid "ee6138fa-d9b8-41ef-9367-0a222f078c88")
 	)
-	(text_box "Pi pad for RF matching.\n\nTesting of prototype 1.3 showed population of 68nH at Z13 improves RF performance significantly.\n\nDNP pads & 0ΩR allow for future population of L/C/R components to improve impedance (Z) matching."
+	(text_box "Pi pad for RF matching.\n\nTesting of prototype 1.3 showed population of 68nH at ${/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/be54cab6-561b-439c-9db3-5433a1e68d46/9edbfe7c-c1e3-43ce-82d9-521a4853e503:REFERENCE} improves RF performance significantly.\n\nDNP pads & 0ΩR allow for future population of L/C/R components to improve impedance (Z) matching."
 		(exclude_from_sim no)
 		(at 69.85 95.25 0)
 		(size 27.94 50.8)
