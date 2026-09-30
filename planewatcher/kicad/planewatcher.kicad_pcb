@@ -13641,6 +13641,17 @@
 			(uuid "3231c0ff-ba82-4d63-a676-46b73b060d5e")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-12-1EP_4x4mm_P0.65mm_EP2.64x3.54mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "planewatcher:L_Coilcraft_0402DC_1005Metric"
 		(layer "F.Cu")
