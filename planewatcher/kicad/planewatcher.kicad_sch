@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher")
-		(date "2026-07-26")
-		(rev "prototype 1.3")
+		(date "2026-09-25")
+		(rev "1.4")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
 		(comment 2 "Source: https://github.com/plane-watch/hardware.")
@@ -7646,7 +7646,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LNA_Stage.kicad_sch"
+		(property "Sheetfile" "LNA_Stage_2.kicad_sch"
 			(at 111.76 81.8646 0)
 			(show_name no)
 			(do_not_autoplace no)

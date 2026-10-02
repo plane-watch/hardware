@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher")
-		(date "2026-07-19")
-		(rev "prototype 1.3")
+		(date "2026-09-25")
+		(rev "1.4")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
 		(comment 2 "Source: https://github.com/plane-watch/hardware.")
@@ -1810,10 +1810,10 @@
 		)
 		(uuid "459982d2-0b53-4ad4-b65a-8ee4f078da32")
 	)
-	(text_box "Datasheet says to operate in measurement mode, \nconnect VOUT to VSET.\nFootprints added so we can experiment with slope adjustment."
+	(text_box "Datasheet says to operate\nin measurement mode, \nconnect VOUT to VSET.\n\nFootprints added to allow \nexperimentation with \nslope adjustment."
 		(exclude_from_sim no)
 		(at 201.93 41.91 0)
-		(size 69.85 34.29)
+		(size 57.15 34.29)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1826,7 +1826,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right top)
+			(justify right)
 		)
 		(uuid "72b8ccda-758b-4b25-93c1-172c6d1568ed")
 	)
@@ -1870,10 +1870,10 @@
 		)
 		(uuid "8b0f3214-4571-43f6-85d1-002ec0ae6c1d")
 	)
-	(text_box "Pi pad for RF matching"
+	(text_box "Pi pad for RF matching\n\nDNP pads & 0ΩR allow for future population of L/C/R components to improve impedance (Z) matching."
 		(exclude_from_sim no)
 		(at 48.26 53.34 0)
-		(size 27.94 30.48)
+		(size 27.94 41.91)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

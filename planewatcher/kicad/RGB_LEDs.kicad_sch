@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher")
-		(date "2026-07-19")
-		(rev "prototype 1.3")
+		(date "2026-09-25")
+		(rev "1.4")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
 		(comment 2 "Source: https://github.com/plane-watch/hardware.")
@@ -1204,6 +1204,16 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "RELAXEN UND WATSCHEN DER BLINKENLIGHTS :-)"
+		(exclude_from_sim no)
+		(at 52.07 144.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1d6ce3f9-20ce-414d-af80-ad3ccc9df675")
 	)
 	(junction
 		(at 33.02 80.01)

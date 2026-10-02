@@ -5,6 +5,11 @@
 	(uuid "cb4d550b-1c9f-4337-af9a-c197751468e7")
 	(paper "A4")
 	(title_block
+		(title "Plane Watcher")
+		(date "2026-09-25")
+		(rev "1.4")
+		(company "plane.watch")
+		(comment 1 "No warranty; see LICENSE.")
 		(comment 2 "Source: https://github.com/plane-watch/hardware.")
 		(comment 3 "Licensed under CERN-OHL-S-2.0.")
 		(comment 4 "Copyright (C) 2026 plane.watch team and contributors.")
@@ -1328,7 +1333,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1378,7 +1383,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -1677,10 +1682,10 @@
 		)
 		(uuid "8e9f9f3a-5221-4a96-8f65-9dab18a33633")
 	)
-	(text_box "The 10 nF capacitors provide distributed, low-impedance high-frequency return paths from the board ground to spare FPGA pins driven low, reducing return-loop area and associated noise."
+	(text_box "On the first prototype (1.2), we had some issues with noise triggering low bits on the ADC output. These caps were added in an effort to try and squash that noise.\n\n\"The 10 nF capacitors provide distributed, low-impedance high-frequency return paths from the board ground to spare FPGA pins driven low, reducing return-loop area and associated noise.\"\n\n${/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/4ac64956-5622-4878-a879-b2f4aa104ba3/fb80349a-242b-4340-8ced-35f8d399c0c6:REFERENCE} & ${/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/4ac64956-5622-4878-a879-b2f4aa104ba3/85d1a0b0-4517-40c3-8efa-7d4173d4c154:REFERENCE} are 0603 to allow track routing under the component."
 		(exclude_from_sim no)
 		(at 92.71 81.28 0)
-		(size 50.8 87.63)
+		(size 50.8 102.87)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

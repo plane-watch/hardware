@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher")
-		(date "2026-07-19")
-		(rev "prototype 1.3")
+		(date "2026-09-25")
+		(rev "1.4")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
 		(comment 2 "Source: https://github.com/plane-watch/hardware.")
@@ -1985,8 +1985,8 @@
 	)
 	(text_box "Bias tee enable LED + weak pulldown for startup stability."
 		(exclude_from_sim no)
-		(at 52.07 99.06 0)
-		(size 30.48 36.83)
+		(at 30.48 99.06 0)
+		(size 50.8 36.83)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2003,10 +2003,10 @@
 		)
 		(uuid "13957d40-2e8b-4a67-853d-419f2b5805d8")
 	)
-	(text_box "Bias tee current limited power switch"
+	(text_box "Bias tee current limited power switch."
 		(exclude_from_sim no)
 		(at 83.82 69.85 0)
-		(size 73.66 45.72)
+		(size 87.63 45.72)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2022,26 +2022,6 @@
 			(justify left top)
 		)
 		(uuid "2ee80b26-82c8-473b-8872-6eb1dc72a476")
-	)
-	(text_box "DC block, RF short"
-		(exclude_from_sim no)
-		(at 158.75 74.93 0)
-		(size 12.7 33.02)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "46f5041b-b17f-46a7-b00c-17ddbbeef58f")
 	)
 	(text_box "DC Blocking Cap"
 		(exclude_from_sim no)
@@ -2066,7 +2046,7 @@
 	(text_box "Bias tee over current LED + pullup."
 		(exclude_from_sim no)
 		(at 83.82 116.84 0)
-		(size 39.37 30.48)
+		(size 63.5 30.48)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2142,7 +2122,7 @@
 		(uuid "2b013652-8145-4e67-8069-746774983455")
 	)
 	(junction
-		(at 104.14 142.24)
+		(at 125.73 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b6d1c89-bc2e-4110-9ca8-ed18a38df976")
@@ -2158,6 +2138,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9744458e-67d6-42a3-865e-5733e49224ae")
+	)
+	(junction
+		(at 125.73 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a0bd993-cbe6-48e9-91c1-4e49913b486c")
 	)
 	(junction
 		(at 214.63 83.82)
@@ -2205,7 +2191,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 106.68) (xy 58.42 102.87)
+			(xy 34.29 106.68) (xy 34.29 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2232,6 +2218,16 @@
 			(type default)
 		)
 		(uuid "3b5232c7-5152-4339-bc71-dac2ad20cb12")
+	)
+	(wire
+		(pts
+			(xy 125.73 119.38) (xy 104.14 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401a46dd-0ede-4691-b6d9-b2293b50e245")
 	)
 	(wire
 		(pts
@@ -2265,7 +2261,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 119.38) (xy 129.54 119.38)
+			(xy 125.73 119.38) (xy 134.62 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2355,7 +2351,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 142.24) (xy 104.14 142.24)
+			(xy 90.17 142.24) (xy 125.73 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2385,7 +2381,17 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 142.24) (xy 129.54 142.24)
+			(xy 125.73 134.62) (xy 125.73 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ed7a12-743b-477c-b521-600f1ef84e40")
+	)
+	(wire
+		(pts
+			(xy 125.73 142.24) (xy 134.62 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2435,16 +2441,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 134.62) (xy 104.14 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1b66b0e-f5bb-4d6a-9358-8fc9191d309c")
-	)
-	(wire
-		(pts
 			(xy 212.09 60.96) (xy 214.63 60.96)
 		)
 		(stroke
@@ -2465,7 +2461,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 119.38) (xy 104.14 127)
+			(xy 125.73 119.38) (xy 125.73 127)
 		)
 		(stroke
 			(width 0)
@@ -2505,7 +2501,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 102.87) (xy 80.01 102.87)
+			(xy 34.29 102.87) (xy 80.01 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2589,7 +2585,7 @@
 	)
 	(hierarchical_label "FAULT"
 		(shape output)
-		(at 129.54 119.38 0)
+		(at 134.62 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2600,7 +2596,7 @@
 	)
 	(hierarchical_label "LOGIC_VCC"
 		(shape input)
-		(at 129.54 142.24 0)
+		(at 134.62 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3795,7 +3791,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 104.14 130.81 0)
+		(at 125.73 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3806,7 +3802,7 @@
 		(fields_autoplaced yes)
 		(uuid "64f1476c-0381-4e12-92b3-1104adfdee17")
 		(property "Reference" "R36"
-			(at 106.68 129.5399 0)
+			(at 128.27 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3817,7 +3813,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 106.68 132.0799 0)
+			(at 128.27 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3828,7 +3824,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 102.362 130.81 90)
+			(at 123.952 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3839,7 +3835,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-RE_105_ROHS_L.pdf"
-			(at 104.14 130.81 0)
+			(at 125.73 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3850,7 +3846,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
-			(at 104.14 130.81 0)
+			(at 125.73 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3861,7 +3857,7 @@
 			)
 		)
 		(property "Purpose" "Pull-up resistor for the open-drain FAULT output to LOGIC_VCC. Gives a valid logic-high when no fault is present."
-			(at 104.14 130.81 0)
+			(at 125.73 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3872,7 +3868,7 @@
 			)
 		)
 		(property "MPN" "ERA-2AEB103X"
-			(at 104.14 130.81 0)
+			(at 125.73 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3883,7 +3879,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Industry"
-			(at 104.14 130.81 0)
+			(at 125.73 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3894,7 +3890,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 104.14 130.81 0)
+			(at 125.73 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3905,7 +3901,7 @@
 			)
 		)
 		(property "LCSC" "C191915"
-			(at 104.14 130.81 0)
+			(at 125.73 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3916,7 +3912,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 104.14 130.81 0)
+			(at 125.73 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3927,7 +3923,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 104.14 130.81 0)
+			(at 125.73 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4856,7 +4852,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 121.92 0)
+		(at 34.29 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4867,7 +4863,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdf5fe94-af98-4fc8-a10b-9e1c987199b5")
 		(property "Reference" "#PWR036"
-			(at 58.42 128.27 0)
+			(at 34.29 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4878,7 +4874,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 127 0)
+			(at 34.29 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4888,7 +4884,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 121.92 0)
+			(at 34.29 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4899,7 +4895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 121.92 0)
+			(at 34.29 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4910,7 +4906,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 121.92 0)
+			(at 34.29 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5417,7 +5413,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.42 110.49 0)
+		(at 34.29 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5428,7 +5424,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfca7db9-0124-427d-85c8-adcb0f872455")
 		(property "Reference" "R35"
-			(at 60.96 109.2199 0)
+			(at 36.83 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5439,7 +5435,7 @@
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 60.96 111.7599 0)
+			(at 36.83 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5450,7 +5446,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 56.642 110.49 90)
+			(at 32.512 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5461,7 +5457,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 58.42 110.49 0)
+			(at 34.29 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5472,7 +5468,7 @@
 			)
 		)
 		(property "Description" "1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 58.42 110.49 0)
+			(at 34.29 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5483,7 +5479,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-071KL"
-			(at 58.42 110.49 0)
+			(at 34.29 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5494,7 +5490,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 58.42 110.49 0)
+			(at 34.29 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5505,7 +5501,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 58.42 110.49 0)
+			(at 34.29 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5516,7 +5512,7 @@
 			)
 		)
 		(property "Purpose" "Current-limit resistor for bias tee enable LED."
-			(at 58.42 110.49 0)
+			(at 34.29 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5527,7 +5523,7 @@
 			)
 		)
 		(property "LCSC" "C106235"
-			(at 58.42 110.49 0)
+			(at 34.29 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5538,7 +5534,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 58.42 110.49 0)
+			(at 34.29 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5549,7 +5545,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 58.42 110.49 0)
+			(at 34.29 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5576,7 +5572,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 58.42 118.11 90)
+		(at 34.29 118.11 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5587,7 +5583,7 @@
 		(fields_autoplaced yes)
 		(uuid "e39b6013-63f6-414b-a3a6-19e07d318d1b")
 		(property "Reference" "LED7"
-			(at 62.23 118.4274 90)
+			(at 38.1 118.4274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5598,7 +5594,7 @@
 			)
 		)
 		(property "Value" "XINGLIGHT XL-1608PGC-06"
-			(at 62.23 120.9674 90)
+			(at 38.1 120.9674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5609,7 +5605,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 58.42 118.11 0)
+			(at 34.29 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5620,7 +5616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 118.11 0)
+			(at 34.29 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5631,7 +5627,7 @@
 			)
 		)
 		(property "Description" "Green LED"
-			(at 58.42 118.11 0)
+			(at 34.29 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5642,7 +5638,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 58.42 118.11 0)
+			(at 34.29 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5653,7 +5649,7 @@
 			)
 		)
 		(property "Purpose" "Bias tee enabled indicator."
-			(at 58.42 118.11 90)
+			(at 34.29 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5664,7 +5660,7 @@
 			)
 		)
 		(property "MPN" "XL-1608PGC-06"
-			(at 58.42 118.11 90)
+			(at 34.29 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5675,7 +5671,7 @@
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT"
-			(at 58.42 118.11 90)
+			(at 34.29 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5686,7 +5682,7 @@
 			)
 		)
 		(property "LCSC" "C7371905"
-			(at 58.42 118.11 90)
+			(at 34.29 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5697,7 +5693,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 58.42 118.11 90)
+			(at 34.29 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5708,7 +5704,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 58.42 118.11 90)
+			(at 34.29 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5719,7 +5715,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 58.42 118.11 90)
+			(at 34.29 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

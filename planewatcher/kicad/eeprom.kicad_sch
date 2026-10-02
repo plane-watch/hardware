@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher")
-		(date "2026-07-19")
-		(rev "prototype 1.3")
+		(date "2026-09-25")
+		(rev "1.4")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
 		(comment 2 "Source: https://github.com/plane-watch/hardware.")
@@ -631,6 +631,46 @@
 			(justify left top)
 		)
 		(uuid "af9cc3b4-5afe-4f59-ac97-52d0a4c0036e")
+	)
+	(text_box "Write Protect (WP, pin 5) tied to ground to enable writing."
+		(exclude_from_sim no)
+		(at 114.3 93.98 0)
+		(size 24.13 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c98dcfc4-1110-4546-aeba-a7819025b3d7")
+	)
+	(text_box "Every prototype 1.3 (and later boards) store the hardware identity in this Microchip 24LC16B EEPROM.\n\nThe EEPROM data is written once at assembly time and read back at boot-time to set board details such as MAC address, serial number, credentials, etc.\n"
+		(exclude_from_sim no)
+		(at 115.57 124.46 0)
+		(size 62.23 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "da2a344e-ba02-4285-8042-205c3b2187d2")
 	)
 	(junction
 		(at 147.32 105.41)

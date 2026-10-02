@@ -9,7 +9,7 @@ Open hardware designs from Plane Watch for receiving and decoding aircraft surve
 | Project | Preview Image | Description |
 | ------- | ------------- | ----------- |
 | [ADSBoost](adsboost/README.md) | [![3D render of the ADSBoost prototype revision 1.0 PCB](adsboost/assets/adsboost_proto_1.0_render.png)](adsboost/README.md) | A receive-only, bias-tee-powered low-noise amplifier and SAW filter module for 1,090 MHz ADS-B and Mode S reception. ADSBoost is designed to be installed close to the antenna; the current prototype is awaiting assembly and performance testing. |
-| [Plane Watcher](planewatcher/README.md) | [![3D render of the Plane Watcher prototype revision 1.3 PCB](planewatcher/assets/planewatcher_proto_1.3_render.png)](planewatcher/README.md) | An open source, hardware-based ADS-B receiver and decoder for the HelloFPGA Smart ZYNQ SL. Plane Watcher combines a dual-stage RF front end, log detector, ADC and GNSS timing to support FPGA message decoding and accurate MLAT timestamping. |
+| [Plane Watcher](planewatcher/README.md) | [![3D render of the Plane Watcher prototype revision 1.4 PCB](planewatcher/assets/planewatcher_proto_1.4_render.png)](planewatcher/README.md) | An open source, hardware-based ADS-B receiver and decoder for the HelloFPGA Smart ZYNQ SL. Plane Watcher combines a dual-stage RF front end, log detector, ADC and GNSS timing to support FPGA message decoding and accurate MLAT timestamping. |
 
 ## License
 

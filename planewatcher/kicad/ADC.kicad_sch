@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher")
-		(date "2026-07-19")
-		(rev "prototype 1.3")
+		(date "2026-09-25")
+		(rev "1.4")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
 		(comment 2 "Source: https://github.com/plane-watch/hardware.")
@@ -2567,7 +2567,7 @@
 	(text_box "VREF decoupling"
 		(exclude_from_sim no)
 		(at 213.36 78.74 0)
-		(size 60.96 30.48)
+		(size 60.96 20.32)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2587,7 +2587,7 @@
 	(text_box "Top and Bottom Reference Decoupling (as-per datasheet)"
 		(exclude_from_sim no)
 		(at 213.36 44.45 0)
-		(size 69.85 31.75)
+		(size 60.96 31.75)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

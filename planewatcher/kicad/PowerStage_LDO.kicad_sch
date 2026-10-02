@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Plane Watcher")
-		(date "2026-07-19")
-		(rev "prototype 1.3")
+		(date "2026-09-25")
+		(rev "1.4")
 		(company "plane.watch")
 		(comment 1 "No warranty; see LICENSE.")
 		(comment 2 "Source: https://github.com/plane-watch/hardware.")
@@ -1973,7 +1973,7 @@
 		)
 		(uuid "f3a2cff8-b47c-4e41-9321-1aebee0f429e")
 	)
-	(text_box "${/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba/d0620f5f-b1cf-4df8-a6ae-ece97448600e:REFERENCE} marked DNP to adhere to USB capacitance limit (although FPGA board waaaaay exceeds the limit anyway..."
+	(text_box "${/7a4a4324-e8b8-4d06-b75a-28095d4e9f10/e02d84ed-6468-4290-a59c-50ded41c0aba/d0620f5f-b1cf-4df8-a6ae-ece97448600e:REFERENCE} marked DNP to adhere to USB capacitance limit (although FPGA board waaaaay exceeds the limit anyway...)"
 		(exclude_from_sim no)
 		(at 43.18 81.28 0)
 		(size 29.21 29.21)
@@ -4610,7 +4610,7 @@
 				)
 			)
 		)
-		(property "Footprint" "planewatcher:U_LT3045IMSE-1#PBF"
+		(property "Footprint" "planewatcher:U_LT3045IMSE-1_PBF"
 			(at 166.37 76.2 0)
 			(hide yes)
 			(show_name no)

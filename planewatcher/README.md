@@ -1,6 +1,6 @@
 # plane watcher
 
-![Render of Plane Watcher PCB, prototype revision 1.3](assets/planewatcher_proto_1.3_render.png)
+![Render of Plane Watcher PCB, prototype revision 1.4](assets/planewatcher_proto_1.4_render.png)
 
 The **plane watcher** is our attempt at creating an open source, hardware-based ADS-B receiver and decoder. It is a hat/cape/shield for a [HelloFPGA Smart ZYNQ SL](http://www.hellofpga.com/index.php/2023/05/10/smart-zynq-sl/) board.
 
@@ -12,13 +12,13 @@ This repository contains the hardware design. The FPGA gateware and software liv
 
 ## Status
 
-Proto 1.2 is the latest fabricated and tested revision. Proto 1.3 is still being refined and has not yet been fabricated or validated.
+Prototype board revision 1.3 is the latest fabricated and tested revision. Production board revision 1.4 is still being refined and has not yet been fabricated or validated.
 
-### Proto 1.2
+### Prototype Board Revision 1.2
 
 The first fabricated prototype worked, but had a few issues:
 
-- The SMA connector for the 1,090 MHz RF input fouled on the RJ45 Ethernet connector of the FPGA board. For proto 1.3, the RF and GPS antenna connectors have been swapped to U.FL. We will use pigtails to panel-mount SMA connectors.
+- The SMA connector for the 1090 MHz RF input fouled on the RJ45 Ethernet connector of the FPGA board. For proto 1.3, the RF and GPS antenna connectors have been swapped to U.FL. We will use pigtails to panel-mount SMA connectors.
 - The ADL5513 log-detector output was not strong enough to drive the AD8138 ADC driver gain/feedback network directly. Increasing the gain/feedback resistor values from 499 Ω to 4.7 kΩ fixed this on the prototype. In proto 1.3, the ADL5513 output is also buffered.
 - We did not have component footprints to tweak the ADL5513 output slope. These have been added to proto 1.3 to allow further refinement if required.
 - The 1PPS LED was way too bright on the prototype, so this has been dimmed for proto 1.3.
@@ -30,20 +30,21 @@ Regardless of the issues, we observed a reception range of approximately 320 km.
 
 ![Polar range diagram from proto 1.2](assets/planewatcher_proto_1.2_polar_coverage_alt.png)
 
-### Proto 1.3
+### Prototype Board Revision 1.3
 
 In addition to fixing the issues above, proto 1.3 includes some functionality and layout changes:
 
 - More unpopulated component footprints have been added to allow tweaking/refinement:
   - ADL5513 log-detector slope adjustment voltage divider.
   - AD8138 ADC driver feedback capacitors.
-  - Five 0402 pi-pad matching networks along the RF path: one on each side of both LNA stages, and one at the ADL5513 RF input. These are fitted as straight-through links by default, with a 0 Ω series resistor and both shunt positions left unpopulated. After measuring the assembled board with a VNA, the footprints can be populated with suitable resistor, capacitor or inductor values to refine the 1,090 MHz matching and compensate for real-world PCB and component parasitics.
+  - Five 0402 pi-pad matching networks along the RF path: one on each side of both LNA stages, and one at the ADL5513 RF input. These enable us refine the 1090 MHz matching and compensate for real-world PCB and component parasitics.
+    - The first footprint was populated with additional shunt inductance to greatly improve RF performance.
   - Other tweaking footprints along the ADC signal path.
 - The ADL5513 log-detector output is buffered by a high-speed ADA4807-1 op-amp for more robust operation with weak signals, and to decouple it from the AD8138 input network.
 - The buffered log-detector output is also fed into a first-order low-pass filter at approximately 0.072 Hz to produce a slow-moving analog baseline. This heavily attenuates short ADS-B pulse bursts, but sustained RF traffic can still affect the baseline. The baseline is buffered by an OPA320 and applied to the AD8138 ADC driver input network, offsetting the detector output before digitisation and improving the usable ADC range for weak pulses.
-- RF_IN and GPS antenna connectors have been swapped from SMA to U.FL.
+- RF_IN and GPS antenna connectors have been swapped from SMA to U.FL allowing them to be fitted by the manufacturer, making hand assembly easier.
 - A software-controlled bias tee has been added. This can supply around 4.5 V to the RF_IN connector, current-limited to approximately 300 mA. LEDs have been added to show whether bias tee is enabled/disabled, and to show if overcurrent disable has been activated.
-- A GNSS-disciplined 1PPS timing output has been added. This is a buffered copy of the LEA-M8T TIMEPULSE signal, provided on a 50 Ω source-terminated U.FL connector. The centre pin carries an active-high pulse and the shell is connected to ground. The output is approximately 0 to 4.5 V into a high-impedance load, or approximately 0 to 2.2 V into a 50 Ω terminated load. The rising edge should be treated as the timing reference.
+- A GNSS-disciplined 1PPS timing output has been added. This is a buffered copy of the LEA-M8T TIMEPULSE signal, provided on a 50 Ω source-terminated U.FL connector. The centre pin carries an active-high pulse and the shell is connected to ground. The output is approximately 0 to 4.5 V into a high-impedance load, or approximately 0 to 2 V into a 50 Ω terminated load. The rising edge should be treated as the timing reference.
 - Some discrete resistors have been replaced with resistor arrays to reduce the BoM and make hand assembly easier.
 - The ADC supply, reference and VOCM networks have been reworked in an attempt to reduce noise, including additional bypassing, ferrite isolation and improved grounding.
 - Selectable REFSENSE links allow the ADC input range to be configured for 1 Vpp or 2 Vpp.
@@ -51,22 +52,56 @@ In addition to fixing the issues above, proto 1.3 includes some functionality an
 - Additional high-frequency bypassing has been added to keep the bias-tee supply side at RF ground.
 - Re-routed ADC input differential pair to remove vias/crossovers & remove skew. The ADC output will need to be negated in software.
 
+Compared to proto 1.2 (blue), the range for proto 1.3 (red) has improved by approximately 70km:
+
+![Polar range diagram comparing prototype boards 1.2 and 1.3](assets/coverage_compare_1.2_vs_1.3.png)
+
+Proto 1.3 (red) performance is roughly on-par with a commercial [Jetvision Radarcape](https://radarcape.com) unit (blue):
+
+![Polar range diagram comparing prototype board 1.3 and a Jetvision Radarcape](assets/coverage_compare_1.3_vs_radarcape.png)
+
 ## Hardware overview
 
-The proto 1.3 design has the following main components and interfaces:
+The design has the following main components and interfaces:
 
 | Function | Implementation |
 | --- | --- |
-| RF input | 1,090 MHz ADS-B, U.FL connector |
+| RF input | 1090 MHz ADS-B, U.FL connector |
 | RF front end | Two LNA and SAW filter stages |
 | Log detector | ADL5513 |
 | Baseband buffers | ADA4807-1 fast-path buffer and OPA320 slow-baseline buffer |
 | ADC driver | AD8138 |
 | ADC | AD9203, 10-bit, up to 40 MSPS |
 | GNSS timing | LEA-M8T with FPGA and external 1PPS outputs |
-| Bias tee | Software-controlled, approximately 4.5 V at 300 mA maximum |
-| Local power | LT3045-1 low-noise 3.3 V RF/analog supply |
+| Bias tee | Software-controlled, approximately 4.5 V at approximately 300 mA with over-current protection |
+| Local power | LT3045 low-noise 3.3 V RF/analog supply |
 | FPGA carrier | HelloFPGA Smart ZYNQ SL |
+
+## Connections
+
+| Reference | Connection                 | Connector / pinout                                     | Function                                                                                                                    | Voltage and current                                                                                                                                                                                                                                         |
+|-----------|----------------------------|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **J1**    | **1PPS output**            | U.FL; centre = signal, shell = ground                  | Buffered, non-inverting GNSS TIMEPULSE output. Configure for active-high 1PPS with the rising edge as the timing reference. | With a nominal 4.5 V supply: approximately **0–4.5 V into high impedance**, or **0–2.0 V into 50 Ω**, delivering approximately **40 mA while high**. Includes a 49.9 Ω series resistor; total source resistance is approximately 65 Ω including the driver. |
+| **J2**    | **1090 MHz RF input**      | U.FL; centre = RF and optional DC bias, shell = ground | Antenna input for the ADS-B receiver; nominal 50 Ω RF interface.                                                            | Software-controlled bias tee supplies approximately **4.5 V** when enabled. Current-limit threshold is approximately **320 mA**. Sustained overload causes latched shutdown.                                                                                |
+| **J6**    | **GNSS antenna input**     | U.FL; centre = RF and DC bias, shell = ground          | Antenna input to the LEA-M8T GNSS receiver; nominal 50 Ω RF interface.                                                      | Active-antenna power is provided through the LEA-M8T antenna-supply circuit.                                                                                                                                                                                |
+| **J4**    | **FPGA bank 33 interface** | 40-pin header                                          | Carries the ADC sample clock, 10-bit ADC data, overrange indication, RGB LED controls and regulator power-good signal.      | Receives nominal **3.3 V** on pins **37–38** and approximately **4.5 V FPGA_VCC** on pins **39–40**; ground on pins **35–36**. The 4.5 V input feeds the local regulator (for RF and ADC analog side) and 1PPS driver.                                      |
+| **J5**    | **FPGA bank 35 interface** | 40-pin header                                          | Carries GNSS serial/control/timing signals, EEPROM I²C, and bias-tee enable/fault signals.                                  | Receives approximately **4.5 V FPGA_VCC** on pins **1–2** and nominal **3.3 V** on pins **3–4**; ground on pins **5–6**. Supplies the bias tee, GNSS and EEPROM circuits. Available current depends on the carrier board.                                   |
+
+
+## Blinkenlights
+
+The board currently has 8 LEDs, which are used as follows:
+
+| LED  | Type                            | Purpose                                                                                                             |
+|------|---------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| LED1 | RGB, software controlled        | **System status:**</br>red (FIFO-full latched) > amber (decoder disabled) > green heartbeat (PL alive and clocking) |
+| LED2 | RGB, software controlled        | **DF17 activity**</br>green flash per DF17 extended squitter                                                        |
+| LED3 | RGB, software controlled        | **DF11/valid**</br>blue flash per DF11 / accepted message                                                           |
+| LED4 | RGB, software controlled        | **Decode health**</br>red when invalid DFs outpace accepted messages, else green while messages flow                |
+| LED5 | RGB, software controlled        | reserved for PS override (app/feeder status)                                                                        |
+| LED6 | "Pink" (looks white), hardwired | 1PPS from GNSS module (when locked)                                                                                 |
+| LED7 | Green, hardwired                | Lit when bias-tee enabled                                                                                           |
+| LED8 | Red, hardwired                  | Bias-tee over-current shutdown or thermal shutdown                                                                  |
 
 ## Design
 
@@ -74,9 +109,12 @@ The design consists of the following parts:
 
 ### RF Input
 
-The signal from the antenna is amplified and filtered using two stages of LNA amplification and SAW filters centred on 1,090 MHz.
+The signal from the antenna is amplified and filtered using two stages of LNA amplification and SAW filters centred on 1090 MHz.
 
-A switchable bias tee power supply can apply approximately 4.5 V at up to 300 mA to the RF_IN connector.
+A switchable bias tee power supply can apply approximately 4.5 V at up to approximately 300 mA to the RF_IN connector.
+
+LED7 (green) indicates bias-tee is enabled.
+LED8 (red) indicates an overcurrent shutdown of bias-tee.
 
 ### Log Detector
 
@@ -88,7 +126,7 @@ The amplified and filtered RF signal is fed into an ADL5513 log detector, which 
 
 ### ADC Driver
 
-The ADL5513 log-detector output is buffered with a high-speed ADA4807-1 op-amp to isolate it from the ADC driver input network and provide a robust baseband signal.
+The ADL5513 log-detector output is buffered with a high-speed ADA4807-1 op-amp to isolate it from the ADC driver input network and provide a robust baseband signal. Without the buffer, the output of the log detector is too weak for the gain/feedback network surrounding the AD8138.
 
 The ADC uses a differential input. To drive it, the buffered baseband signal is split:
 
@@ -99,27 +137,37 @@ The AD8138 produces a differential output proportional to the difference between
 
 ### ADC
 
-The differential output of the ADC driver is fed into an AD9203 10-bit, 40 MSPS ADC. The ADC input range can be configured for 1 Vpp or 2 Vpp using selectable REFSENSE links. After prototyping we will either hard-set this, or make it software controllable. The FPGA supplies the sample clock and receives the digitised output.
+The differential output of the ADC driver is fed into an AD9203 10-bit, 40 MSPS ADC. The ADC input range can be configured for 1 Vpp or 2 Vpp using selectable REFSENSE links. By default, 2 Vpp is used to give the largest dynamic range. The FPGA supplies the sample clock and receives the digitised output.
 
 ### GNSS Timing
 
-The LEA-M8T GNSS timing receiver provides its TIMEPULSE signal to the FPGA for timestamping. Proto 1.3 also buffers this signal for an external, source-terminated 1PPS output and a status LED.
+The LEA-M8T GNSS timing receiver provides its TIMEPULSE signal to the FPGA for timestamping. Proto 1.3 also buffers this signal for an external, source-terminated 1PPS output and a status LED (LED6).
+
+### EEPROM
+
+The board contains a 16K I²C EEPROM. The EEPROM data is written once at assembly time and read back at boot-time to set board details such as MAC address, serial number, credentials, etc.
 
 ### Power
 
-The board is powered from the approximately 4.5 V FPGA_VCC rail provided by the carrier board (5V from the USB-C connector, through a Schottky diode). The input has resettable overcurrent and transient protection. A ferrite-filtered LT3045-1 linear regulator generates the local low-noise 3.3 V RF/analog supply, with additional ferrite isolation and local bypassing around the ADC.
+The power supplies are split in an attempt to reduce noise on the RF & ADC supply.
+
+#### RF & ADC
+
+The RF and analog ADC sections are powered from the approximately 4.5 V FPGA_VCC rail provided by the carrier board (5V from the USB-C connector, through a Schottky diode). The input has resettable overcurrent and transient protection. A ferrite-filtered LT3045-1 linear regulator generates the local low-noise 3.3 V RF/analog supply, with additional ferrite isolation and local bypassing around the ADC.
+
+The ADC digital power is fed directly from the FPGA board 3V3 rail.
+
+#### Bias-Tee, GNSS & EEPROM
+
+These are powered directly from the FPGA board:
+
+- Bias-Tee current is supplied by the approximately 4.5 V FPGA_VCC rail
+- The GNSS module is powered directly from the FPGA board 3V3 rail. The 1PPS output is powered from the approximately 4.5 V FPGA_VCC rail via a MOSFET driver.
+- The EEPROM is powered directly from the FPGA board 3V3 rail.
 
 ### FPGA
 
 The FPGA gateware samples the ADC output, detects and timestamps ADS-B pulses, and converts them into usable messages. The gateware and supporting software are developed in the [plane-watch/plane-watcher](https://github.com/plane-watch/plane-watcher) repository.
-
-## Repository contents
-
-- [KiCad project](planewatcher/kicad/planewatcher.kicad_pro)
-- [Top-level schematic](planewatcher/kicad/planewatcher.kicad_sch)
-- [PCB layout](planewatcher/kicad/planewatcher.kicad_pcb)
-
-The editable design files use KiCad 10. Release-ready manufacturing outputs are not currently included while the proto 1.3 design is still being refined.
 
 ## Attributions
 

@@ -5,6 +5,11 @@
 	(uuid "3d90f2f8-ceaf-4d04-94d3-60bc916521f3")
 	(paper "A4")
 	(title_block
+		(title "Plane Watcher")
+		(date "2026-09-25")
+		(rev "1.4")
+		(company "plane.watch")
+		(comment 1 "No warranty; see LICENSE.")
 		(comment 2 "Source: https://github.com/plane-watch/hardware.")
 		(comment 3 "Licensed under CERN-OHL-S-2.0.")
 		(comment 4 "Copyright (C) 2026 plane.watch team and contributors.")
