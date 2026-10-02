@@ -3740,7 +3740,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 120.65) (xy 210.82 120.65)
+			(xy 236.22 120.65) (xy 231.14 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3750,7 +3750,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 120.65) (xy 203.2 120.65)
+			(xy 194.31 120.65) (xy 223.52 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4481,7 +4481,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 207.01 120.65 270)
+		(at 227.33 120.65 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4493,7 +4493,7 @@
 		(fields_autoplaced yes)
 		(uuid "16f93e7a-f6ba-4b66-937d-06f9ea4fdcac")
 		(property "Reference" "R32"
-			(at 207.01 114.3 90)
+			(at 227.33 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4503,7 +4503,7 @@
 			)
 		)
 		(property "Value" "2.2kΩ"
-			(at 207.01 116.84 90)
+			(at 227.33 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4513,7 +4513,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 207.01 122.428 90)
+			(at 227.33 122.428 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4524,7 +4524,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C4202009.pdf"
-			(at 207.01 120.65 0)
+			(at 227.33 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4535,7 +4535,7 @@
 			)
 		)
 		(property "Description" "RES 2.2kΩ ±5% 0.063W 0402"
-			(at 207.01 120.65 0)
+			(at 227.33 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4546,7 +4546,7 @@
 			)
 		)
 		(property "MPN" "CRCW04022K20JNED"
-			(at 207.01 120.65 90)
+			(at 227.33 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4557,7 +4557,7 @@
 			)
 		)
 		(property "Manufacturer" "VISHAY"
-			(at 207.01 120.65 90)
+			(at 227.33 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4568,7 +4568,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 207.01 120.65 90)
+			(at 227.33 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4579,7 +4579,7 @@
 			)
 		)
 		(property "Purpose" "LED current-limiting resistor. Sets the 1PPS indicator brightness and keeps LED current low."
-			(at 207.01 120.65 90)
+			(at 227.33 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4590,7 +4590,7 @@
 			)
 		)
 		(property "LCSC" "C4202009"
-			(at 207.01 120.65 90)
+			(at 227.33 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4601,7 +4601,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 207.01 120.65 90)
+			(at 227.33 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4612,7 +4612,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 207.01 120.65 90)
+			(at 227.33 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6580,7 +6580,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 120.65 0)
+		(at 236.22 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6591,7 +6591,7 @@
 		(fields_autoplaced yes)
 		(uuid "8247a952-7200-470c-9cdb-a22c57a9f204")
 		(property "Reference" "#PWR025"
-			(at 215.9 127 0)
+			(at 236.22 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6602,7 +6602,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 125.73 0)
+			(at 236.22 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6612,7 +6612,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 120.65 0)
+			(at 236.22 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6623,7 +6623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 120.65 0)
+			(at 236.22 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6634,7 +6634,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 120.65 0)
+			(at 236.22 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
